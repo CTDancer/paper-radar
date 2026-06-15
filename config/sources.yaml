@@ -1,0 +1,100 @@
+{
+  "max_results_per_source": 80,
+  "request_timeout_seconds": 12,
+  "max_failures_per_source": 3,
+  "sources": {
+    "arxiv": {
+      "enabled": true,
+      "query_groups": ["ml_core", "optimization", "transferable_insights"],
+      "broad_discovery": {
+        "enabled": true,
+        "secondary": true,
+        "max_results": 40,
+        "categories": ["cs.LG", "cs.AI", "stat.ML", "cs.CV", "q-bio.QM"]
+      }
+    },
+    "openalex": {
+      "enabled": true,
+      "max_failures": 2,
+      "query_groups": ["ml_core", "optimization", "ai_drug_discovery", "molecular_glue_tpd", "transferable_insights"]
+    },
+    "semantic_scholar": {
+      "enabled": true,
+      "max_failures": 1,
+      "query_groups": ["ml_core", "optimization", "ai_drug_discovery", "molecular_glue_tpd", "transferable_insights"]
+    },
+    "pubmed": {
+      "enabled": true,
+      "query_groups": ["ai_drug_discovery", "molecular_glue_tpd"]
+    },
+    "europe_pmc": {
+      "enabled": true,
+      "max_failures": 2,
+      "query_groups": ["ai_drug_discovery", "molecular_glue_tpd"]
+    },
+    "openreview": {
+      "enabled": true,
+      "max_failures": 2,
+      "query_groups": ["ml_core", "optimization", "transferable_insights"]
+    },
+    "biorxiv": {
+      "enabled": true,
+      "max_failures": 2,
+      "query_groups": ["ai_drug_discovery", "molecular_glue_tpd", "transferable_insights"]
+    },
+    "chemrxiv": {
+      "enabled": true,
+      "max_failures": 3,
+      "query_groups": ["ai_drug_discovery", "molecular_glue_tpd", "optimization"]
+    },
+    "crossref": {
+      "enabled": true,
+      "max_failures": 2,
+      "query_groups": ["ml_core", "optimization", "ai_drug_discovery", "molecular_glue_tpd"]
+    },
+    "unpaywall": {
+      "enabled": true,
+      "mode": "enrichment"
+    },
+    "papers_with_code": {
+      "enabled": true,
+      "mode": "enrichment",
+      "max_failures": 2
+    },
+    "dblp": {
+      "enabled": true,
+      "mode": "enrichment"
+    }
+  },
+  "query_groups": {
+    "ml_core": [
+      "flow matching diffusion generative modeling",
+      "discrete diffusion discrete flow matching generative model",
+      "rectified flow stochastic interpolants score-based generative model",
+      "GFlowNet generative flow network trajectory balance"
+    ],
+    "optimization": [
+      "Bayesian optimization multi-objective optimization",
+      "black-box optimization combinatorial optimization active learning",
+      "reinforcement learning optimization Pareto search",
+      "expensive objective adaptive sampling surrogate model"
+    ],
+    "ai_drug_discovery": [
+      "AI drug discovery molecular design generative model",
+      "protein ligand binding affinity prediction machine learning",
+      "synthesizable molecular generation reaction-based design",
+      "structure-based drug design benchmark dataset method"
+    ],
+    "molecular_glue_tpd": [
+      "molecular glue targeted protein degradation PROTAC ternary complex",
+      "cooperativity prediction ternary complex modeling degrader design",
+      "molecular glue design machine learning protein protein interaction"
+    ],
+    "transferable_insights": [
+      "new training objective sampler guidance method generative model",
+      "probabilistic inference stochastic process statistical physics sampling",
+      "graph algorithm discrete structure combinatorial generation",
+      "physics-inspired modeling optimization generative model"
+    ]
+  }
+}

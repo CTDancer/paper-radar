@@ -1,0 +1,24 @@
+{
+  "style":
+    {
+      "format": "clear paragraphs",
+      "plain_language_methods": true,
+      "methods_explain_complete_approach": true,
+      "not_too_long": false,
+      "avoid_excessive_formulas": true,
+      "avoid_excessive_numerical_results": true,
+      "emphasize_novelty_and_insight": true,
+      "include_limitations": true,
+      "include_personal_relevance": true,
+      "be_conservative_when_unclear": true,
+    },
+  "sections":
+    [
+      "Motivation and problem",
+      "Methods",
+      "Experiments",
+      "Innovation",
+      "Potential weaknesses",
+      "Insights",
+    ],
+}

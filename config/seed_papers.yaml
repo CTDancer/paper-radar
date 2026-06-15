@@ -1,0 +1,7 @@
+{
+  "seed_papers": [
+    {"title": "Flow Matching for Generative Modeling", "tags": ["flow matching", "generative modeling"]},
+    {"title": "Generative Flow Networks for Combinatorial Optimization", "tags": ["GFlowNet", "optimization"]},
+    {"title": "Diffusion Models for Molecular Design", "tags": ["diffusion", "molecular design"]}
+  ]
+}

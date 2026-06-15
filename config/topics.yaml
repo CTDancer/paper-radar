@@ -1,0 +1,292 @@
+topic_groups:
+  generative_modeling_core:
+    weight: 3.0
+    terms:
+      - generative model
+      - generative models
+      - generative modeling
+      - deep generative
+      - score-based
+      - latent variable model
+  discrete_generative_modeling:
+    weight: 3.4
+    terms:
+      - discrete diffusion
+      - discrete flow
+      - discrete flow matching
+      - categorical diffusion
+      - masked diffusion
+      - autoregressive generation
+      - language model generation
+  continuous_generative_modeling:
+    weight: 3.0
+    terms:
+      - continuous normalizing flow
+      - neural ode
+      - transport map
+      - flow-based model
+      - stochastic interpolant
+  flow_matching_and_diffusion:
+    weight: 3.5
+    terms:
+      - diffusion model
+      - flow matching
+      - rectified flow
+      - schrodinger bridge
+      - score matching
+      - optimal transport
+      - bridge matching
+      - consistency model
+  distributional_optimization:
+    weight: 3.0
+    terms:
+      - distributional optimization
+      - distribution matching
+      - exploration strategy
+      - pareto frontier
+      - search distribution
+  optimization_methods:
+    weight: 3.0
+    terms:
+      - black-box optimization
+      - bayesian optimization
+      - reinforcement learning for optimization
+      - evolutionary search
+      - combinatorial optimization
+      - discrete optimization
+  multi_objective_optimization:
+    weight: 3.0
+    terms:
+      - multi-objective
+      - multiobjective
+      - pareto optimization
+      - pareto front
+      - pareto coverage
+      - preference-conditioned
+  ai_drug_discovery:
+    weight: 3.2
+    terms:
+      - drug discovery
+      - drug design
+      - therapeutic design
+      - virtual screening
+      - de novo design
+      - molecular design
+  small_molecule_design:
+    weight: 3.0
+    terms:
+      - small molecule
+      - molecular generation
+      - molecule generation
+      - molecular property
+      - ligand design
+      - compound design
+  peptide_design:
+    weight: 2.8
+    terms:
+      - peptide design
+      - macrocycle
+      - peptide binder
+  protein_design:
+    weight: 2.7
+    terms:
+      - protein design
+      - protein generation
+      - binder design
+      - structure prediction
+      - sequence design
+  protein_ligand_affinity:
+    weight: 2.8
+    terms:
+      - protein-ligand
+      - binding affinity
+      - affinity prediction
+      - docking
+      - binding pose
+  structure_based_drug_design:
+    weight: 2.5
+    terms:
+      - structure-based drug design
+      - molecular docking
+      - pocket
+      - binding site
+      - 3d molecule
+  molecular_glue_and_tpd:
+    weight: 2.8
+    terms:
+      - molecular glue
+      - targeted protein degradation
+      - protac
+      - ternary complex
+      - cooperativity
+      - degrader
+  synthesizable_molecular_generation:
+    weight: 2.8
+    terms:
+      - synthesizable
+      - synthesis-aware
+      - reaction-based
+      - retrosynthesis
+      - reaction template
+      - building block
+  enamine_real_and_reaction_based_design:
+    weight: 2.8
+    terms:
+      - enamine real
+      - REAL space
+      - reaction-based design
+      - make-on-demand
+      - enumerated library
+  gflownet_related_methods:
+    weight: 2.4
+    terms:
+      - gflownet
+      - generative flow network
+      - trajectory balance
+      - flow network
+      - active learning
+  stochastic_processes_probability_statistical_physics:
+    weight: 3.0
+    terms:
+      - stochastic process
+      - stochastic processes
+      - stochastic dynamics
+      - stochastic differential equation
+      - SDE
+      - Markov process
+      - Markov chain
+      - Langevin dynamics
+      - Fokker-Planck
+      - diffusion process
+      - annealed sampling
+      - annealing
+      - Doob transform
+      - path measure
+      - nonequilibrium dynamics
+      - statistical physics
+      - energy landscape
+      - sampling dynamics
+      - probabilistic inference
+  black_box_combinatorial_and_expensive_optimization:
+    weight: 3.1
+    terms:
+      - black-box optimization
+      - expensive objective
+      - expensive evaluation
+      - combinatorial search
+      - combinatorial optimization
+      - discrete search
+      - finite support
+      - constrained optimization
+      - constraint satisfaction
+      - acquisition function
+      - Bayesian optimization
+      - active learning
+      - surrogate model
+      - adaptive sampling
+      - batch optimization
+      - tree search
+      - local search
+      - Pareto optimization
+  medicinal_and_synthetic_chemistry:
+    weight: 2.4
+    terms:
+      - medicinal chemistry
+      - synthetic chemistry
+      - structure-activity relationship
+      - SAR
+      - scaffold hopping
+      - ligand efficiency
+      - lead optimization
+      - hit-to-lead
+      - selectivity
+      - drug-like
+      - ADMET
+      - synthetic accessibility
+      - synthetic route
+      - reaction scope
+      - building block compatibility
+      - late-stage functionalization
+      - make-on-demand
+  computational_chemistry_biophysics_structural_biology:
+    weight: 2.6
+    terms:
+      - computational chemistry
+      - biophysics
+      - structural biology
+      - binding free energy
+      - free energy perturbation
+      - FEP
+      - molecular dynamics
+      - enhanced sampling
+      - induced fit
+      - conformational ensemble
+      - allostery
+      - protein-protein interface
+      - interface hotspot
+      - water network
+      - ternary complex
+      - cooperative binding
+      - protein-ligand interaction
+      - transient complex
+      - weak interaction
+  graph_algorithms_and_discrete_structures:
+    weight: 2.5
+    terms:
+      - graph algorithm
+      - graph algorithms
+      - graph search
+      - hypergraph
+      - factor graph
+      - constraint satisfaction
+      - finite state automaton
+      - automata
+      - lifted representation
+      - state abstraction
+      - non-product support
+      - dynamic programming
+      - combinatorial structure
+      - discrete state space
+      - reachability
+      - graph connectivity
+      - wildcard
+      - partial assignment
+  transferable_insights:
+    weight: 2.0
+    terms:
+      - new training objective
+      - guidance method
+      - reinforcement learning
+      - causal modeling
+      - probabilistic inference
+      - physics-inspired modeling
+low_priority_terms:
+  - dna
+  - rna
+  - mrna
+  - crispr
+  - genome
+  - nucleotide
+  - oligonucleotide
+transfer_terms:
+  - generative
+  - optimization
+  - flow matching
+  - diffusion
+  - search
+  - sampler
+  - objective
+  - transferable
+  - drug discovery
+  - stochastic process
+  - statistical physics
+  - black-box optimization
+  - combinatorial optimization
+  - medicinal chemistry
+  - synthetic chemistry
+  - computational chemistry
+  - biophysics
+  - structural biology
+  - graph algorithm
+  - discrete structure
+  - probabilistic inference

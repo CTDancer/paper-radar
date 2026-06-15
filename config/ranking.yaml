@@ -1,0 +1,28 @@
+{
+  "weights": {
+    "direct_relevance": 3.0,
+    "novelty": 1.4,
+    "methodological_insight": 1.6,
+    "transferable_insight": 1.3,
+    "drug_discovery_relevance": 2.4,
+    "generative_modeling_relevance": 2.3,
+    "optimization_relevance": 2.1,
+    "current_project_relevance": 2.5,
+    "source_credibility": 0.7,
+    "code_availability": 0.5,
+    "recency": 0.8,
+    "citation_signal": 0.3
+  },
+  "penalties": {
+    "review_paper": 8.0,
+    "weak_relevance": 4.0,
+    "dna_rna_unless_transferable": 3.0,
+    "routine_application": 12.0,
+    "missing_or_vague_abstract": 3.0
+  },
+  "stage_1_pool_size": 50,
+  "minimum_filter_score": 7.0,
+  "backfill_minimum_score": 3.5,
+  "allow_seen_backfill": true,
+  "force_top_k_when_possible": true
+}
