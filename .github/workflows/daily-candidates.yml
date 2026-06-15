@@ -1,0 +1,66 @@
+name: Daily Paper Radar Candidates
+
+on:
+  schedule:
+    # 07:45 Asia/Shanghai. This gives Codex automation time to read
+    # the committed candidate packet at 08:15.
+    - cron: "45 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-candidates:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Paper Radar
+        run: python -m pip install -e .
+
+      - name: Generate candidate packet
+        run: python -m paper_radar.cli daily-candidates --lookback-days 3 --top-k 30
+
+      - name: Validate candidate packet
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          date = os.popen("date +%F").read().strip()
+          path = Path("data/candidates") / f"{date}.json"
+          if not path.exists():
+              raise SystemExit(f"Missing expected candidate JSON: {path}")
+          payload = json.loads(path.read_text(encoding="utf-8"))
+          stats = payload.get("stats", {})
+          raw = int(stats.get("raw_candidates", 0))
+          if raw <= 0:
+              raise SystemExit(f"Candidate generation produced raw_candidates={raw}")
+          count = len(payload.get("candidates", []))
+          print(f"Validated {path}: raw_candidates={raw}, candidates={count}")
+          PY
+
+      - name: Commit generated candidate artifacts
+        run: |
+          set -euo pipefail
+          date="$(date +%F)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "data/candidates/${date}.json"
+          git add -f "reports/${date}.candidates.md"
+          if git diff --cached --quiet; then
+            echo "No candidate artifact changes to commit."
+          else
+            git commit -m "Add daily paper radar candidates for ${date}"
+            git push
+          fi
