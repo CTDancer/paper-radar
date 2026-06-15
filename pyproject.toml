@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-radar"
+version = "0.1.0"
+description = "Daily research paper discovery, ranking, summarization, and Markdown reporting."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyyaml>=6"]
+llm = ["openai>=1.0"]
+
+[project.scripts]
+paper-radar = "paper_radar.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["paper_radar*"]
