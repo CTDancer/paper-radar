@@ -2,9 +2,10 @@ name: Daily Paper Radar Candidates
 
 on:
   schedule:
-    # 07:45 Asia/Shanghai. This gives Codex automation time to read
-    # the committed candidate packet at 08:15.
-    - cron: "45 23 * * *"
+    # Multiple early Asia/Shanghai attempts. GitHub scheduled workflows can be
+    # delayed, so do not rely on a single slot immediately before Codex runs.
+    # These are 05:15, 06:15, and 07:15 Asia/Shanghai.
+    - cron: "15 21,22,23 * * *"
   workflow_dispatch:
 
 permissions:
