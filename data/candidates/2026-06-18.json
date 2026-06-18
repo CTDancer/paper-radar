@@ -2,8 +2,8 @@
   "date": "2026-06-18",
   "stats": {
     "raw_candidates": 346,
-    "deduplicated_candidates": 230,
-    "filtered_candidates": 230,
+    "deduplicated_candidates": 237,
+    "filtered_candidates": 237,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -305,38 +305,38 @@
     },
     {
       "rank": 7,
-      "title": "Feynman Kac Reweighted Schrödinger Bridge Matching for Surface-Based Tau PET Harmonization",
+      "title": "Pareto Q-Learning with Reward Machines",
       "authors": [
-        "Jianwei Zhang",
-        "Xinyu Nie",
-        "Jiaxin Yue",
-        "Yonggang Shi"
+        "Arnaud Lequen",
+        "Clément Legrand-Lixon",
+        "Léo Saulières"
       ],
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.17420v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17420v1",
+      "link": "http://arxiv.org/abs/2606.19134v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19134v1",
       "doi": "",
-      "arxiv_id": "2606.17420v1",
+      "arxiv_id": "2606.19134v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Tau PET imaging is central to tracking Alzheimer's disease progression, but systematic differences between scanners, protocols, and radiotracers across sites introduce nonbiological variability that inflates biomarker variance, reduces sensitivity to disease effects, and can bias downstream clinical assessments. Harmonization methods aim to remove these site-induced shifts while preserving biologically meaningful signal, yet existing approaches struggle when source and target cohorts differ in subgroup composition, risking conflation of site effects with biological variation such as tau-positivity status. We propose the Feynman Kac Reweighted Schröodinger Bridge Matching (FKRSBM) model to address this problem. Rather than routing data through a Gaussian noise prior as in diffusion-based methods, FKRSBM learns a direct stochastic transport process between source and target distributions via entropy-regularized optimal transport. To enforce biologically consistent transport, FKRSBM incorporates a subgroup-aware endpoint proposal derived from a Feynman Kac reweighting of the reference bridge measure, implemented entirely through stratified importance sampling at the data level and requiring no changes to the underlying bridge-matching solver or network architecture. For surface-based neuroimaging, FKRSBM employs a spherical convolutional backbone operating on cortical meshes to perform vertex-level harmonization. We evaluate the method on tau PET SUVR maps, harmonizing PI-2620 data from the HABS-HD cohort into the AV-1451 domain of ADNI. Compared against ComBat, CycleGAN, a diffusion-based method (DF), and unregularized Diffusion Schröodinger Bridge Matching (DSBM), FKRSBM achieves superior distributional alignment, reduced tau-positivity sign mismatch, stronger APOE subgroup alignment, and improved downstream disease classification performance.",
+      "abstract": "We present Pareto Q-Learning with Reward Machines (PQLRM), a multi-objective reinforcement learning algorithm for tasks whose reward structure is specified by a set of reward machines (RMs). PQLRM combines Pareto Q-Learning (PQL), which maintains sets of vector-valued Q-estimates to approximate the Pareto front, with enhancements from Q-Learning with Reward Machines (QRM), which exploits the factored automaton structure of the reward signal. This yields a multi-policy algorithm that remains sample-efficient under non-Markovian, RM-encoded rewards. Experimental trials show that PQLRM converges faster than a naive PQL baseline applied to the cross-product MDP and can synthesize Pareto-optimal policies that QRM cannot.",
       "venue": "",
       "code_url": "",
       "topic_tags": [
-        "flow_matching_and_diffusion"
+        "multi_objective_optimization",
+        "transferable_insights"
       ],
-      "deterministic_score": 16.981,
+      "deterministic_score": 18.131,
       "score_breakdown": {
         "paper_type": "method",
-        "direct_relevance": 9.45,
+        "direct_relevance": 10.8,
         "novelty": 1.8199999999999996,
         "methodological_insight": 1.024,
         "transferable_insight": 1.0270000000000001,
         "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
         "source_credibility": 0.5599999999999999,
         "code_availability": 0.0,
@@ -344,9 +344,9 @@
         "citation_signal": 0.0,
         "penalties": -0.0
       },
-      "priority": "Strong Skim",
+      "priority": "Must Read",
       "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization, transferable_insights.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
@@ -462,6 +462,51 @@
     },
     {
       "rank": 10,
+      "title": "Optimal score function estimation via derivatives constraints",
+      "authors": [
+        "Thomas Bonis",
+        "Thanh Mai Pham Ngoc",
+        "Viet Chi Tran"
+      ],
+      "date": "2026-06-17",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.19084v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19084v1",
+      "doi": "",
+      "arxiv_id": "2606.19084v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "We consider the problem of score function estimation via empirical risk minimization. We first start with the question of inferring the score function of a probability measure $μ$ with density on the flat torus from a sample of distribution $μ$. We show that constraining the hypothesis space to a Sobolev ball is sufficient to prevent overfitting and obtaining minimax estimation rates. We then consider the problem of score function estimation in the context of score-based generative modeling. Again, under a conjecture tying the score estimation rates to the quality of the output of a score-based generative model, we obtain minimax rates for such an approach using score function estimators obtained by constraining the hypothesis class to a Sobolev ball.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "generative_modeling_core"
+      ],
+      "deterministic_score": 16.135,
+      "score_breakdown": {
+        "paper_type": "transferable_method",
+        "direct_relevance": 12.150000000000002,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.325,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "transferable_method",
+      "why_selected": "Selected because it may contain a transferable modeling or optimization idea related to generative_modeling_core.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 11,
       "title": "Multi-Objective Hybrid Flow Shop Scheduling with Sequence-Dependent Setup Times and Multi-Skilled Workers",
       "authors": [
         "Haibing Ren",
@@ -506,52 +551,6 @@
       "priority": "Strong Skim",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization, stochastic_processes_probability_statistical_physics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 11,
-      "title": "A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise",
-      "authors": [
-        "M. Forzo",
-        "E. Monzio Compagnoni",
-        "A. Russo",
-        "A. Pacchiano"
-      ],
-      "date": "2026-06-16",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.18183v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.18183v1",
-      "doi": "",
-      "arxiv_id": "2606.18183v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Temporal difference (TD) learning with linear function approximation is a core method for policy evaluation. Its classical continuous-time description is an ordinary differential equation (ODE), which captures the asymptotic mean dynamics but neglects stochastic fluctuations determining the error floor. We introduce a stochastic differential equation (SDE) approximation for linear TD(0) under Markovian noise. The resulting model distinguishes the contraction dynamics governed by the projected Bellman operator from the influence of Markovian sampling. As a consequence, the model explains the constant-stepsize error floor through the interaction between Markovian long-run covariance and the contraction geometry of the projected Bellman operator.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "stochastic_processes_probability_statistical_physics"
-      ],
-      "deterministic_score": 15.211,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 1.4,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to stochastic_processes_probability_statistical_physics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
@@ -790,6 +789,51 @@
     },
     {
       "rank": 17,
+      "title": "Fast Computation of Free-Support Wasserstein Medians",
+      "authors": [
+        "Kisung You",
+        "Mauro Giuffré",
+        "Dennis Shung"
+      ],
+      "date": "2026-06-17",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.19148v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19148v1",
+      "doi": "",
+      "arxiv_id": "2606.19148v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The Wasserstein median is a robust alternative to the Wasserstein barycenter for averaging probability measures, but exact empirical computation can be expensive. A natural metric-space Weiszfeld scheme updates the current candidate by solving a weighted Wasserstein barycenter problem at each outer iteration, producing a nested optimization problem. We propose a direct fixed-weight free-support solver that avoids this inner barycenter loop. At each iteration, the method solves exact optimal transport (OT) subproblems from the current candidate to the input measures, computes barycentric projections of the selected plans, and relocates each support atom to an inverse-distance-weighted average of its projected destinations. For a smoothed median objective, we show that this relocation is the exact minimizer of a tight majorization--minimization surrogate. This yields monotone descent for exact transport subproblems, convex-hull invariance, a finite-time best-residual rate, residual-to-gradient control under differentiability, and fixed-point and stationarity characterizations. We also give smoothing, stability, and resolution-consistency results clarifying the fixed-weight approximation. In exact-OT benchmarks, the direct solver attains median objectives close to tightly solved nested Weiszfeld baselines while using substantially fewer exact transport subproblems. Additional contamination, posterior aggregation, and image-prototype experiments show that the direct solver produces median summaries comparable to nested computation and less sensitive to outlying distributions than Wasserstein barycenters.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 13.127,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.725,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 18,
       "title": "Nano-TPD for precision protein degradation via endogenous or exogenous triggered release",
       "authors": [
         "Zishu Liu",
@@ -846,52 +890,50 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 18,
-      "title": "MOCHI: Motion Enhancement of Collaborative Human-object Interactions",
+      "rank": 19,
+      "title": "The Market in the Model: Latent Diffusion as Neural Economy",
       "authors": [
-        "Jiye Lee",
-        "Yonghun Choi",
-        "Jungdam Won"
+        "Eryk Salvaggio"
       ],
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.18243v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.18243v1",
-      "doi": "10.1145/3811308",
-      "arxiv_id": "2606.18243v1",
+      "link": "http://arxiv.org/abs/2606.19151v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19151v1",
+      "doi": "",
+      "arxiv_id": "2606.19151v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Collaborative human-object interaction shows dynamic and complex movements that require mutual anticipation and continuous adjustment between participants and the shared object. Modeling such collaborative multi-human object interaction (MHOI) scenarios requires high-quality data acquisition as a foundational step; however, this is challenging due to the inherent complexity of MHOI where human-human and human-object interactions occur simultaneously. Such complexity leads to noisy MHOI captures characterized by several artifacts: contact misalignment between hands and objects, motion jitter and temporal inconsistencies in the captured sequences, and missing or incomplete finger-level articulation details. To address these challenges, we present MOCHI (MOtion Enhancement of Collaborative Human-object Interactions), a two-stage framework for enhancing noisy MHOI data. Our approach first generates physically plausible hand grasps through optimization from noisy body input, producing grasps that are both physically plausible and semantically consistent with the body pose, where these optimized grasps are extended into complete hand-object interaction sequences. Consequently, the full-body motion for all participants are refined through a diffusion-based noise optimization framework that uses single-person motion priors. During the optimization process, we introduce optimization objectives to encode human-object and human-human interaction information within these single-person priors. Experimental results demonstrate the effectiveness of our pipeline across diverse MHOI data, either acquired by existing capture methods or synthesized by generative models. We further show robustness of our system across varying numbers of participants and types of interactions, and demonstrate various applications including keyframe-based MHOI creation and data augmentation through varying object geometries.",
+      "abstract": "Valuable critique of generative image models within visual culture and the humanities has emphasized the role of datasets in shaping the images they produce. Yet, close studies of the ideological positions embedded into the mechanism of the models have been neglected, leaving them imagined as \"black boxes.\" In a bid to expand, rather than replace, dataset critique, this paper examines the mechanisms of the latent diffusion model in terms of the problems they were brought in to solve on behalf of computer vision engineers, and the decisions each component was tasked with automating. I interpret that ensemble through the histories of its parts and the theory of vision the system inscribes into every generated image. Drawing on Impett and Offert's notion of neural exchange value, I offer this analysis to argue that the model operates as a neural economy: a contained symbolic system that abstracts social communication into commensurable vectors as it transfers the social sphere into parcels for sale. Tracing the training and generation pipelines component by component reveals what each operation displaces, and how it further entrenches the logics of platform and attention economies over social communication. The paper warns that any critique fixated exclusively on copyright and commodity defenses risks reaffirming the very fetishism the model produces, and argues instead for centering social exchange.",
       "venue": "",
       "code_url": "",
       "topic_tags": [
-        "generative_modeling_core"
+        "flow_matching_and_diffusion"
       ],
-      "deterministic_score": 11.545,
+      "deterministic_score": 12.581,
       "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 2.8,
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 4.725,
+        "novelty": 1.8199999999999996,
         "methodological_insight": 1.024,
-        "transferable_insight": 1.911,
+        "transferable_insight": 1.352,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
+        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
         "source_credibility": 0.5599999999999999,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
-        "penalties": -4.0
+        "penalties": -0.0
       },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core.",
+      "priority": "Strong Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to flow_matching_and_diffusion.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "Balancing Revenue and Service in Urban Parking: A Reinforcement Learning-Based Capacity Management Approach",
       "authors": [
         "Thomas Müller",
@@ -937,97 +979,37 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
-      "title": "Agentic Discovery of Non-Canonical Antimicrobial Peptides with AMPGAN v3",
-      "authors": [
-        "Jay Jung",
-        "Xiaohan Zhang",
-        "Shenghan Song",
-        "Mahmoud Sayedahmed",
-        "Chijian Xiang",
-        "Yunong Xu",
-        "Ahmed AbdelKhalek",
-        "Severin T. Schneebeli",
-        "Matthew J. Wargo",
-        "Jianing Li",
-        "Safwan Wshah"
-      ],
-      "date": "2026-06-15",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.17127v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17127v1",
-      "doi": "",
-      "arxiv_id": "2606.17127v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Antimicrobial resistance causes to over a million deaths annually. Antimicrobial peptides (AMPs) are a promising solution, but generative AMP models are not yet ready to design peptides with non-natural amino acids and/or chemical modifications, which are essential for real-world peptide drugs. We present AMPGAN v3, a multi-objective conditional GAN that expands the generative vocabulary to D-amino acids and N/C-terminus modifications such as amidation. By separating adversarial and activity-aware supervision across two specialized discriminators, AMPGAN v3 substantially improves training stability and outperforms prior generative AMP models on external classifiers. We validated five candidates spanning three structural classes in vitro; two showed activity against Gram-positive strains, with the best candidate reaching MIC 8 μg/mL against B. subtilis. To support downstream curation, we further present PepCraft, a multi-agent framework for end-to-end AMP discovery in which a Planning Agent orchestrates specialized executors for generation, filtering, and verification. Its prioritization recommendations align with our in vitro outcomes. Together, these contributions let us examine, on a small but real scale, how generative and agentic AI compose in therapeutic peptide discovery. Code: https://github.com/marszzibros/AMPGANv3",
-      "venue": "",
-      "code_url": "https://github.com/marszzibros/AMPGANv3",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 8.406,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
       "rank": 21,
-      "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+      "title": "ProductConsistency: Improving Product Identity Preservation in Instruction-Based Image Editing via SFT and RL",
       "authors": [
-        "Wujian Peng",
-        "Lingchen Meng",
-        "Yuxuan Cai",
-        "Xianwei Zhuang",
-        "Yuhuan Yang",
-        "Rongyao Fang",
-        "Chenfei Wu",
-        "Junyang Lin",
-        "Zuxuan Wu",
-        "Shuai Bai"
+        "Mukund Khanna",
+        "Raj Singh Yadav",
+        "Kunal Singh"
       ],
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.18249v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.18249v1",
+      "link": "http://arxiv.org/abs/2606.19103v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19103v1",
       "doi": "",
-      "arxiv_id": "2606.18249v1",
+      "arxiv_id": "2606.19103v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Unified Multimodal Modeling aims to integrate visual understanding and generation within a single system. However, existing approaches typically rely on two disparate visual tokenizers, which splits the representation space and hinders truly unified modeling. We propose UniAR, a unified autoregressive framework where a single discrete visual tokenizer serves as the key bridge between understanding and generation, enabling a shared context in which the model can directly interpret its own generated visual tokens without additional re-encoding. UniAR adapts a pretrained vision encoder with multi-level feature fusion and a lookup-free bitwise quantization scheme, preserving both high-level semantics and low-level details while scaling the effective visual vocabulary at minimal cost. Building on this, the unified autoregressive model adopts parallel-bitwise-prediction to jointly predict spatially grouped, multi-level visual codes, substantially reducing visual sequence length and accelerating generation. Finally, a diffusion-based visual decoder operates on discrete visual tokens to decode high-fidelity images. Through large-scale pre-training, followed by supervised fine-tuning and reinforcement learning, UniAR achieves state-of-the-art performance on image generation and image editing while remaining competitive on multimodal understanding benchmarks. The project page is available at https://sharelab-sii.github.io/uniar-web.",
+      "abstract": "Recent advances in instruction-based image editing have enabled models to perform complex visual edits from natural language instructions. However, in product-centric scenarios where preserving product features, branding, and textual elements are critical, current open and closed source models often struggle to maintain this fine-grained object identity. This issue is further compounded by the lack of datasets for instruction-based product image editing with text fidelity constraints, leaving it largely treated as an implicit capability of instruction-based image editing models. In this work, we introduce the ProductConsistency dataset which is designed to improve product-centric image editing. Our approach includes a supervised fine-tuning (SFT) dataset of 87k samples for product editing, a reinforcement learning (RL) dataset with 869 unique product images, and a new benchmark dataset, the ProductConsistency Benchmark, to allow rigorous and standardized evaluation of editing models. To guide RL training, we propose a Cyclic Consistency reward that enforces semantic preservation of product identity by using caption similarity between the original product description and captions generated from the edited image. We fine-tune both Qwen-Image-Edit-2511 and Flux.1-Kontext-dev using our dataset and demonstrate consistent improvements over baseline models in OCR and Perceptual metrics, and MLLM-based evaluations as well, indicating stronger product consistency, text rendering, and overall visual quality; with the Qwen-Image-Edit-2511 model achieving a 5x reduction in the character error rate. The code and pipeline is available at https://anonymous.4open.science/r/ProductConsistency-6FCC/README.md",
       "venue": "",
       "code_url": "",
       "topic_tags": [
         "transferable_insights"
       ],
-      "deterministic_score": 8.331,
+      "deterministic_score": 8.042,
       "score_breakdown": {
-        "paper_type": "method",
+        "paper_type": "benchmark_dataset",
         "direct_relevance": 2.7,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
+        "novelty": 4.199999999999999,
+        "methodological_insight": 0.512,
+        "transferable_insight": 1.17,
         "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
+        "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
         "source_credibility": 0.5599999999999999,
@@ -1037,8 +1019,8 @@
         "penalties": -4.0
       },
       "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to transferable_insights.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
@@ -1087,6 +1069,52 @@
     },
     {
       "rank": 23,
+      "title": "Quantifying and Auditing LLM Evaluation via Positive--Unlabeled Learning",
+      "authors": [
+        "Zilong Zhang",
+        "Yi-Ting Hung",
+        "Lei Ding",
+        "Chi-Kuang Yeh"
+      ],
+      "date": "2026-06-17",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.19057v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19057v1",
+      "doi": "",
+      "arxiv_id": "2606.19057v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Large Language Models (LLMs) are increasingly used as judges for scalable evaluation, yet such LLM--as--a--Judge systems exhibit systematic biases that are decoupled from semantic quality, most notably verbosity bias. Meanwhile, human supervision is costly and typically selective, yielding reliable positive judgments but leaving most outputs unlabelled and potentially mixed in quality. We formulate LLM evaluation under selective human supervision as a positive--unlabelled learning problem and propose a geometric auditing framework based on Partial Optimal Transport. By aligning a small set of human--verified positives with a reliable subset of unlabelled outputs in a fixed embedding space, our method identifies human--consistent preferences and corrects biased judges without retraining. Experiments demonstrate improved alignment with human preferences, increased robustness to presentation biases, and interpretable confidence estimates, offering a scalable and statistically grounded alternative to existing LLM--as--a--judge pipelines.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 7.671,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.725,
+        "novelty": 0.84,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 24,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -1135,7 +1163,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "In Silico Comparison of AI-Generated Pharmacophore Analogs Against Mycobacterium tuberculosis Target Proteins with Traditional Finding of Analogs for Molecular Docking Approaches",
       "authors": [
         "Ankur Mohan",
@@ -1182,7 +1210,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -1226,7 +1254,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "Functional Templates in fMRI: Building Accurate and Interpretable Group-Level Decoders",
       "authors": [
         "Barbarant, P.-L.",
@@ -1271,7 +1299,7 @@
       "possible_concerns": "classified as weak_match"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1319,7 +1347,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1366,7 +1394,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "Formulation of hispidulin-loaded sodium carboxymethyl cellulose nanoparticles: characterisation, biological activities and molecular insights",
       "authors": [
         "Vrushali Manoj Hadkar",
@@ -1410,55 +1438,6 @@
       "paper_type": "routine_application",
       "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, but appears application-driven.",
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
-    },
-    {
-      "rank": 30,
-      "title": "Subtractive Proteomics Filtration, Immunoinformatic Design and Biophysics-Based Investigation of a Multi-epitopes Vaccine Construct Against Enterococcus casseliflavus",
-      "authors": [
-        "Inayat Ullah",
-        "Asad Ullah",
-        "Basmah F. Alharbi",
-        "Mawahib Ahmed",
-        "Kiran Akbar",
-        "Ajmal Khan",
-        "Sajjad Ahmad"
-      ],
-      "date": "2026-06-16",
-      "source": "openalex",
-      "link": "https://doi.org/10.1007/s12247-026-10831-4",
-      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12247-026-10831-4.pdf",
-      "doi": "10.1007/s12247-026-10831-4",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7164929513",
-      "semantic_scholar_id": "",
-      "abstract": "",
-      "venue": "Journal of Pharmaceutical Innovation",
-      "code_url": "",
-      "topic_tags": [
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 5.31,
-      "score_breakdown": {
-        "paper_type": "weak_match",
-        "direct_relevance": 7.020000000000001,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -3.0
-      },
-      "priority": "Archive",
-      "paper_type": "weak_match",
-      "why_selected": "Selected as a possible match to computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     }
   ]
 }
