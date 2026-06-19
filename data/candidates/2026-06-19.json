@@ -2,8 +2,8 @@
   "date": "2026-06-19",
   "stats": {
     "raw_candidates": 336,
-    "deduplicated_candidates": 223,
-    "filtered_candidates": 223,
+    "deduplicated_candidates": 229,
+    "filtered_candidates": 229,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -30,58 +30,6 @@
   "candidates": [
     {
       "rank": 1,
-      "title": "A Human-in-the-Loop Bayesian Optimization Framework for Constraint-Aware Bioprocess Development",
-      "authors": [
-        "Samuel Stricker",
-        "Claus Wirnsperger",
-        "Alessandro Butté",
-        "Laura Helleckes",
-        "Gonzalo Guillén Gosálbez",
-        "Antonio del Rio Chanona",
-        "Mehmet Mercangöz"
-      ],
-      "date": "2026-06-17",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19230v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19230v1",
-      "doi": "",
-      "arxiv_id": "2606.19230v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "This work presents an extension to Pareto Front Guided Sampling (PFGS), a Human-in-the-Loop (HitL) Bayesian Optimization (BO) framework in which Gaussian process (GP) surrogate-derived quantities are reformulated as objectives of a multi-objective optimization problem, and the resulting Pareto front is exposed to a domain expert for interactive candidate selection rather than returning a single automated recommendation. The framework is extended in two directions: constrained optimization is addressed by incorporating the posterior probability of satisfying output specification limits as an explicit Pareto objective, computed analytically from the GP posterior distribution; robust optimization is addressed by a Monte Carlo sampling strategy that estimates expected lower-confidence performance over a user-defined variability of input perturbations, capturing performance degradation under likely implementation deviations. The resulting multi-dimensional Pareto representation renders trade-offs between predicted performance, model uncertainty, probabilistic constraint satisfaction, and input robustness simultaneously visible through pairwise two-dimensional projections on an interactive dashboard, enabling selection criteria to be iteratively refined as the surrogate model improves and development objectives evolve. The framework is showcased on an eight-dimensional fed-batch Chinese Hamster Ovary (CHO) cell culture simulator demonstrating systematic identification of high-performing, feasibility-compliant, and perturbation-resilient operating conditions, and illustrating how expert-defined requirements provide a principled stopping criterion and support informed allocation of experimental resources.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "optimization_methods",
-        "multi_objective_optimization",
-        "black_box_combinatorial_and_expensive_optimization",
-        "graph_algorithms_and_discrete_structures"
-      ],
-      "deterministic_score": 24.442,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 18.0,
-        "novelty": 0.84,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.118,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to optimization_methods, multi_objective_optimization, black_box_combinatorial_and_expensive_optimization, graph_algorithms_and_discrete_structures.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 2,
       "title": "Rational design of dual ALK inhibitors: scaffolds and strategies to circumvent drug resistance.",
       "authors": [
         "Tawfeek A A Yahya",
@@ -127,7 +75,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "chyiricketts/Target-Specific_BAP_Prediction: Target-Specific BAP Predictions v1.0: Protein–Ligand Binding Affinity Prediction Pipeline",
       "authors": [
         "Chyi Ricketts"
@@ -171,7 +119,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "RareFold: Structure prediction and design of proteins with noncanonical amino acids",
       "authors": [
         "Li, Q.",
@@ -220,7 +168,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Latent Novelification: Expanding Generative Expressivity Through Objective-Defined Transformation",
       "authors": [
         "Joseph Meyer",
@@ -267,52 +215,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
-      "title": "Optimal score function estimation via derivatives constraints",
-      "authors": [
-        "Thomas Bonis",
-        "Thanh Mai Pham Ngoc",
-        "Viet Chi Tran"
-      ],
-      "date": "2026-06-17",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19084v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19084v1",
-      "doi": "",
-      "arxiv_id": "2606.19084v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "We consider the problem of score function estimation via empirical risk minimization. We first start with the question of inferring the score function of a probability measure $μ$ with density on the flat torus from a sample of distribution $μ$. We show that constraining the hypothesis space to a Sobolev ball is sufficient to prevent overfitting and obtaining minimax estimation rates. We then consider the problem of score function estimation in the context of score-based generative modeling. Again, under a conjecture tying the score estimation rates to the quality of the output of a score-based generative model, we obtain minimax rates for such an approach using score function estimators obtained by constraining the hypothesis class to a Sobolev ball.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "generative_modeling_core"
-      ],
-      "deterministic_score": 16.135,
-      "score_breakdown": {
-        "paper_type": "transferable_method",
-        "direct_relevance": 12.150000000000002,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.325,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "transferable_method",
-      "why_selected": "Selected because it may contain a transferable modeling or optimization idea related to generative_modeling_core.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "title": "Perron--Frobenius Operator Matching for Generative Modeling",
       "authors": [
         "Shiqi Zhang",
@@ -359,7 +262,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Machine learning-assisted high-speed combinatorial optimization with Ising machines for dynamically changing problems",
       "authors": [
         "Yohei Hamakawa",
@@ -406,7 +309,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Causal multi-fidelity surrogate forward and inverse models for ICF implosions",
       "authors": [
         "Tyler E. Maltba",
@@ -452,7 +355,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Nano-TPD for precision protein degradation via endogenous or exogenous triggered release",
       "authors": [
         "Zishu Liu",
@@ -509,7 +412,56 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 11,
+      "rank": 9,
+      "title": "CMDS-AD: Cross-Modal Dual-Stream Decoupling for Few-Shot Anomaly Detection",
+      "authors": [
+        "Junhao Cai",
+        "Deyu Zeng",
+        "Junhao Pang",
+        "Junyu Chen",
+        "Qiwei Liang",
+        "Xiaopin Zhong",
+        "Zongze Wu"
+      ],
+      "date": "2026-06-18",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.20300v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20300v1",
+      "doi": "",
+      "arxiv_id": "2606.20300v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Few-shot anomaly detection remains challenging due to limited training data. Multi-modal anomaly detection (MAD) offers a viable solution, leveraging 3D geometric cues to enrich 2D RGB representations and compensate for this scarcity. However, existing MAD methods apply spatially uniform feature processing, conflating stable macroscopic structures with high-frequency localized defect signals, exacerbating cross-modal misalignment and inflating false-positive rates. To overcome this, we present CMDS-AD, a Cross-Modal Dual-Stream Anomaly Detection framework. A LoRA-guided diffusion model generates diverse RGB samples to mitigate extreme data scarcity. For 3D normal augmentation, we employ a pre-trained diffusion model as a normal estimator. Crucially, this estimator inherently acts as a non-linear low-pass filter, directly extracting low-frequency normal representations from RGB inputs. This establishes an auxiliary estimated stream of purely low-frequency information, anchoring robust structural templates and assisting the uncompressed real stream, containing coupled high- and low-frequency components, to precisely isolate micro-defects. A Coordinate-Aware Hierarchical Feature Mapper adaptively aligns cross-modal semantics, while a multiplicative scoring mechanism filters modality-specific noise. Under the extreme 1-shot setting, CMDS-AD achieves absolute performance gains of 5.7% (I-AUROC) and 2.0% (AUPRO) on MVTec 3D-AD, alongside 7.7% and 5.6% improvements on EyeCandies, establishing a new state-of-the-art.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 12.256,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.725,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 10,
       "title": "Balancing Revenue and Service in Urban Parking: A Reinforcement Learning-Based Capacity Management Approach",
       "authors": [
         "Thomas Müller",
@@ -555,7 +507,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 11,
       "title": "ORACLE : Online reinforcement‐driven adaptive constraint learning engine for nonlinear optimization",
       "authors": [
         "Zahir Aghayev",
@@ -601,7 +553,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -645,53 +597,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
-      "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
-      "authors": [
-        "Mohamed Nabail",
-        "Leo Cheng",
-        "Jingmin Wang",
-        "Nicholas Rhinehart"
-      ],
-      "date": "2026-06-17",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19328v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19328v1",
-      "doi": "",
-      "arxiv_id": "2606.19328v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on passive data collection and suffer from poor sample efficiency, especially during the early stages of learning. We introduce a model-based approach that actively directs exploration by jointly reasoning over uncertainties in the reward, dynamics, and value functions. Our method, Uncertainty-Balanced Preference Planning (UBP2), uses ensembles of reward, dynamics, and value function models to evaluate candidate trajectories according to a unified score that combines expected reward, terminal value, and epistemic uncertainty. Planning under this objective yields an explicit tradeoff between exploitation and information acquisition without requiring ad hoc exploration heuristics. Under standard regularity assumptions, we establish sublinear regret guarantees for both finite-horizon and infinite-horizon settings. Empirically, experiments on the Meta-World benchmark show UBP2 achieves substantially higher sample efficiency than model-free preference-based methods and non-optimistic model-based baselines.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 7.665,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 2.7,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.261,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 15,
+      "rank": 13,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -740,7 +646,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "In Silico Comparison of AI-Generated Pharmacophore Analogs Against Mycobacterium tuberculosis Target Proteins with Traditional Finding of Analogs for Molecular Docking Approaches",
       "authors": [
         "Ankur Mohan",
@@ -787,7 +693,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 17,
+      "rank": 15,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -831,7 +737,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 16,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -879,37 +785,91 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
-      "title": "Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
+      "rank": 17,
+      "title": "Through the PRISM: Preference Representation in Intermediate States of Video Diffusion Models",
       "authors": [
-        "Siyi Gu",
-        "Jialin Chen",
-        "Sophia Zhou",
-        "Arman Cohan",
-        "Rex Ying"
+        "Haoxuan Wu",
+        "Lai Man Po",
+        "Mengyang Liu",
+        "Kun Li",
+        "Hongzheng Yang",
+        "Wei Liu"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19327v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19327v1",
+      "link": "http://arxiv.org/abs/2606.20310v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20310v1",
       "doi": "",
-      "arxiv_id": "2606.19327v1",
+      "arxiv_id": "2606.20310v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Post-training of reasoning language models is commonly driven by supervised distillation and reinforcement learning with verifiable rewards. Distillation often relies on chain-of-thought annotations that are expensive to obtain and may themselves be noisy, incomplete, or partially incorrect; even when the final solution is correct, an imperfect rationale can interfere with learning. Reinforcement learning with verified rewards, on the other hand, typically compresses evaluative feedback into a scalar signal, obscuring which aspects of a response should be improved. We propose \\textbf{Rubric-Conditioned Self-Distillation}, a framework that incorporates rubrics as structured, fine-grained feedback for on-policy self-distillation. Our method conditions the teacher model on criterion-level rubrics and uses it to provide token-level guidance on the student's own sampled trajectories. This design avoids treating a single reference rationale as the sole supervision target. Instead, rubrics specify what a strong response should satisfy, enabling more fine-grained credit assignment over the reasoning process than scalar reward optimization. We instantiate this framework with a two-stage pipeline that first learns to generate task-specific rubrics and then trains a rubric-guided reasoner. We evaluate on a diverse suite of science reasoning benchmarks and results show that rubric-conditioned self-distillation effectively converts rubric-level criteria into token-level guidance over the reasoning process, surpassing GRPO by 1.0 points and OPSD by 0.9 points on average.",
+      "abstract": "Evaluating video generation with clean, pixel-based reward models disconnects evaluation from the noisy diffusion process and incurs massive VAE decoding costs. In this paper, we challenge this paradigm by asking a fundamental question: Can a powerful video generator inherently discriminate preferences directly from noisy latents? To answer this, we introduce \\textbf{PRISM} (\\textbf{P}reference \\textbf{R}epresentation in \\textbf{I}ntermediate \\textbf{S}tates of Diffusion \\textbf{M}odels). PRISM employs a lightweight Query-based Aggregation head with a frozen video diffusion backbone to decode preference signals from noisy latents. Surprisingly, PRISM not only achieves SOTA preference accuracy but also unlocks strong noise-robustness, which enables early-stage Best-of-$N$ sampling. This allows for filtering suboptimal candidates at the very beginning of denoising, drastically reducing computation while boosting video quality. We also reveal a strong positive correlation between a backbone's generative performance and its inherent evaluative power, enabling self-improving video backbones.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "stochastic_processes_probability_statistical_physics"
+      ],
+      "deterministic_score": 6.74,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 1.4,
+        "methodological_insight": 0.512,
+        "transferable_insight": 1.118,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to stochastic_processes_probability_statistical_physics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 18,
+      "title": "ELVA: Exploring Ranking-Driven Universal Multimodal Retrieval",
+      "authors": [
+        "Yuhan Liu",
+        "Pei Fu",
+        "Hang Li",
+        "Yukun Qi",
+        "Chao Jiang",
+        "Jingwen Fu",
+        "Zhen Liu",
+        "Bin Qin",
+        "Zhenbo Luo",
+        "Jian Luan",
+        "Jingmin Xin"
+      ],
+      "date": "2026-06-18",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.20280v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20280v1",
+      "doi": "",
+      "arxiv_id": "2606.20280v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Leveraging Multimodal Large Language Models (MLLMs) via contrastive learning has become a mainstream paradigm for improving the performance of Universal Multimodal Retrieval (UMR). However, previous works have ignored the grain blindness when adapting the contrastive paradigm into retrieval tasks. Grain blindness refers to the tendency of the model to overlook grain-level information contained in the query, which is crucial for effectively handling complex queries. This stems from contrastive learning treating samples as a binary classification (positive/negative), while ignoring the different information carried by each negative sample. To address this, we argue that negatives should be treated differently according to their similarity to the positive sample, enabling the model to learn distinct grain information from each negative. In this paper, we introduce a simple but effective framework, called ELVA, a novel rule-based RL framework that mitigates grain blindness through ranking-driven MLLMs. 1) Instead of relying on reward models, we extend Reinforcement Learning with Verifiable Rewards (RLVR) to retrieval tasks, allowing the model to explore new ranking behaviors without explicit ranking labels. 2) By utilizing rule-based rewards, our approach jointly optimizes the ranking of negative samples while enlarging the similarity gap between positive and negative. To more precisely measure grain blindness, we further introduce MRBench, a new benchmark specifically designed for multi-grain query scenarios. ELVA achieves state-of-the-art results across standard retrieval benchmarks, and its notable 13.1% improvement on MRBench further demonstrates its effectiveness in alleviating grain blindness.",
       "venue": "",
       "code_url": "",
       "topic_tags": [
         "transferable_insights"
       ],
-      "deterministic_score": 6.777,
+      "deterministic_score": 6.688,
       "score_breakdown": {
-        "paper_type": "method",
+        "paper_type": "benchmark_dataset",
         "direct_relevance": 2.7,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.261,
+        "novelty": 4.06,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.46799999999999997,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
@@ -921,57 +881,12 @@
         "penalties": -4.0
       },
       "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to transferable_insights.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
-      "title": "P-K-GCN: Physics-augmented Koopman-enhanced Graph Convolutional Network for Deep Spatiotemporal Super-resolution",
-      "authors": [
-        "Xizhuo",
-        "Zhang",
-        "Zekai Wang",
-        "Fei Liu",
-        "Bing Yao"
-      ],
-      "date": "2026-06-17",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19303v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19303v1",
-      "doi": "",
-      "arxiv_id": "2606.19303v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "High-fidelity simulation of spatiotemporal dynamics is computationally prohibitive, necessitating efficient super-resolution techniques to reconstruct high-resolution data from coarse-grained inputs. Traditional data-driven methods often lack physical constraints, and simple physics-informed learning struggles with irregular spatial geometries and intricately evolving temporal dynamics. To tackle these challenges, we propose a Physics-augmented Koopman-enhanced Graph Convolutional Network (P-K-GCN) for spatiotemporal super-resolution on irregular geometries. Specifically, a continuous spline-based GCN is first designed to extract spatial dependencies directly from coarse graph, and Koopman operator theory is incorporated to project the nonlinear dynamics into a compact latent space where temporal progression is linearized. Second, we augment the optimization objective with a physics-based loss to force the data-driven reconstructions to adhere to physical laws for improving predictive fidelity and robustness. Finally, we provide a rigorous theoretical analysis, establishing that the physics augmentation and Koopman regularization mathematically guarantees a reduction in super-resolution error by diminishing Rademacher complexity and tightening generalization bounds. We evaluate our framework on reconstructing spatially high-resolution cardiac electrodynamics across a 3D heart geometry from sparse low-resolution measurements. Numerical experiments demonstrate that our method achieves superior accuracy compared to baseline models.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 6.456,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 3.6399999999999992,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.8199999999999998,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 21,
+      "rank": 19,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1018,52 +933,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 22,
-      "title": "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation",
-      "authors": [
-        "Ruida Wang",
-        "Rui Pan",
-        "Pengcheng Wang",
-        "Shizhe Diao",
-        "Tong Zhang"
-      ],
-      "date": "2026-06-17",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19315v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19315v1",
-      "doi": "",
-      "arxiv_id": "2606.19315v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Enhancing the formal math reasoning capabilities of Large Language Models (LLMs) has become a key focus in both mathematical and computer science communities in recent years. While significant progress has been made in using state-of-the-art Auto-Regressive (AR) LLMs for formal theorem proving, these models suffer from inherent limitations. Their next-token prediction generation methods may yield suboptimal performance due to the challenges of long-range coherence and the compounding of errors over long sequences. Recent advancements in diffusion LLMs (dLLMs), which generate text through iterative denoising of a multi-token block, offer a promising alternative. However, the application of dLLMs to formal mathematics, where maintaining long-range coherence is critical, remains largely understudied. To address the challenges above, we propose **Diffusion-Proof**, to the best of our knowledge, the first framework to train and apply dLLMs for formal theorem proving. Our frameworks contain training and inference methods for two models. The first one is *dLLM-Prover-7B*, which performs whole-proof writing with long-range coherent tactic usage. The second one is *dLLM-Corrector-7B*, which is a novel large block diffusion-based correction model. It leverages the in-filling capabilities of dLLMs to perform local proof correction using bi-directional information. Extensive experiments demonstrate that **Diffusion-Proof** relatively significantly outperforms the AR LLM baseline trained under the same dataset. **Diffusion-Proof** achieves an absolute improvement of **1.61%** on ProofNet-Test and **6.14%** on MiniF2F-Test benchmarks compare to the baseline. Notably, **Diffusion-Proof** successfully resolves one IMO problem that more advanced thinking model DeepSeek-Prover-V2-7B could not solve, showcasing the unique advantage of dLLMs in formal theorem proving.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 6.331,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.6399999999999992,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.4949999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 23,
+      "rank": 20,
       "title": "Formulation of hispidulin-loaded sodium carboxymethyl cellulose nanoparticles: characterisation, biological activities and molecular insights",
       "authors": [
         "Vrushali Manoj Hadkar",
@@ -1109,7 +979,96 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 24,
+      "rank": 21,
+      "title": "CRAX: Fast Safe Reinforcement Learning Benchmarking",
+      "authors": [
+        "Tristan Tomilin",
+        "Mourad Boustani",
+        "Mickey Beurskens",
+        "Thiago D. Simão"
+      ],
+      "date": "2026-06-18",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.20376v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20376v1",
+      "doi": "",
+      "arxiv_id": "2606.20376v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Safety is a core concern for deploying reinforcement learning (RL) agents in real-world domains such as robotics and autonomous driving. While benchmarks have been central to progress in RL, existing safety benchmarks with high-fidelity 3D physics remain computationally slow, limiting large-scale experimentation and rapid prototyping. To address this gap, we propose CRAX (Constrained RL Accelerated with JAX). Built on top of the MuJoCo XLA (MJX) physics engine with realistic 3D dynamics, CRAX leverages vectorized operations and hardware acceleration, yielding up to ~100x speedups over comparable CPU-based safety benchmarks. The benchmark features six environment suites and three agent-specific tasks, each spanning three difficulty levels. Evaluating six popular safe RL methods shows that no single approach dominates across all tasks, and reveals the trade-offs between performance and safety. We find that curriculum learning across difficulty levels and safety transfer can improve performance over direct training in harder settings.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "transferable_insights"
+      ],
+      "deterministic_score": 6.174,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 2.7,
+        "novelty": 2.8,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.7020000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 22,
+      "title": "Judging to Improve: A De-biased VLM-as-3D-Judge Protocol for Single-Image 3D Generation",
+      "authors": [
+        "Ali Asaria",
+        "Tony Salomone",
+        "Deep Gandhi"
+      ],
+      "date": "2026-06-18",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.20364v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20364v1",
+      "doi": "",
+      "arxiv_id": "2606.20364v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "A companion study established a de-biased, cross-model VLM-as-3D-judge that reliably ranks single-image-to-3D mesh quality where cheap geometry and CLIP proxies fall short. This paper asks: can that judge's preferences specialize a strong open generator, TRELLIS, on one asset class (furniture), cheaply and without human labels? Taking the judge from ranking to optimization is where the work lives. Pushing a VLM judge into the training and evaluation loop exposes failure modes ranking never triggered, so our contribution is an optimization-grade hardening of the judge: a training judge (Qwen2.5-VL-7B) held distinct from an evaluation judge (InternVL3-8B) to break circularity; position-bias correction; and fixes for three failure modes (image overload, geometry-hiding splat renders, and reference-free judging that rewards clean-but-wrong outputs), with calibration evidence (clear-gap win-rate 0.83-1.0; base-vs-base ~0.5). Using this protocol as an independent evaluator, and working only from public models and data with lightweight parameter-efficient adaptation, we find our methods match the strong base rather than exceed it. Independent base samples carry essentially no learnable preference (0.94 order-flip rate), so signal must be engineered by quality-contrastive construction. Across six adaptation methods, two input regimes, and a severity sweep, the most targeted - conditioner repair under severe degradation - reaches parity (0.50) with the base, while no method clears the >=65% win-rate target. The result is mechanistic: clean inputs saturate the judge, flow-DIT fine-tuning washes out through the sampler, and conditioning repair is the locus that moves geometry. Win-rates are directional at n=8 objects. Matching a strong public-data base with cheap adaptation is itself informative: exceeding it needs more than lightweight PEFT on public data, and the judge protocol is reusable.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 5.814,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 0.42,
+        "methodological_insight": 2.048,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 23,
       "title": "Contextualizing Biological Language Models across Modalities via Logit-Space Contrastive Alignment",
       "authors": [
         "Yanjun Shao",
@@ -1156,42 +1115,34 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
-      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+      "rank": 24,
+      "title": "Off-Policy Evaluation for Missingness-Aware Policies in MDPs with Rewards Missing Not at Random",
       "authors": [
-        "Zhenghao Xing",
-        "Ruiyang Xu",
-        "Yuxuan Wang",
-        "Jinzheng He",
-        "Ziyang Ma",
-        "Qize Yang",
-        "Yunfei Chu",
-        "Jin Xu",
-        "Junyang Lin",
-        "Chi-Wing Fu",
-        "Pheng-Ann Heng"
+        "Ziheng Wei",
+        "Annie Qu",
+        "Rui Miao"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19341v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19341v1",
+      "link": "http://arxiv.org/abs/2606.20206v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20206v1",
       "doi": "",
-      "arxiv_id": "2606.19341v1",
+      "arxiv_id": "2606.20206v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Passive models for long video understanding typically rely on a \"watch-it-all\" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video duration. Although interactive frameworks have emerged, they often rely on global pre-scanning, and their context cost still scales with video length. We propose OmniAgent, the first native omni-modal agent that formulates video understanding as a POMDP-based iterative Observation-Thought-Action cycle. OmniAgent executes on-demand actions to selectively distill audio-visual cues into a persistent textual memory, effectively decoupling reasoning complexity from raw video duration. To operationalize this, we introduce (1) Agentic Supervised Fine-Tuning to bootstrap native active perception via best-of-N trajectory synthesis with dual-stage quality control, and (2) Agentic Reinforcement Learning with TAURA (Turn-aware Adaptive Uncertainty Rescaled Advantage), which leverages turn-level entropy to steer credit assignment toward pivotal discovery turns. Crucially, OmniAgent exhibits positive test-time scaling, where performance improves as the number of reasoning turns increases, validating the efficacy of active perception. Empirical results across ten benchmarks (e.g., VideoMME, LVBench) demonstrate that OmniAgent achieves state-of-the-art performance among open-source models. Notably, on LVBench, our 7B agent outperforms the 10$\\times$ larger Qwen2.5-VL-72B (50.5% vs. 47.3%).",
+      "abstract": "In offline Reinforcement Learning, immediate rewards in logged batch data are often unobserved due to sparse or irregular record-keeping, or censored beyond certain reward values. This issue arises in practical settings, including health care and marketing. We investigate off-policy evaluation (OPE) in finite-horizon Markov decision processes when rewards are missing not at random (MNAR), which breaks ignorability and induces selection bias even after conditioning on states and actions. To address this, we formalize a reward-dependent propensity model and use future states as shadow variables to identify the full-data conditional mean reward. We further introduce a bridge function that recovers the conditional mean reward without explicitly modeling the MNAR mechanism, and estimate it via a min-max procedure to avoid double sampling. Building upon these identification results, we propose an Fitted-Q-Evaluation-style estimator that propagates the recovered rewards while allowing target policies to depend on past missingness indicators. Finally, we establish consistency and finite-sample error bounds for our OPE estimator, and show through experiments the strong performance of our method compared to existing methods on simulated and MIMIC-III Sepsis data.",
       "venue": "",
       "code_url": "",
       "topic_tags": [
         "transferable_insights"
       ],
-      "deterministic_score": 5.428,
+      "deterministic_score": 4.96,
       "score_breakdown": {
         "paper_type": "method",
         "direct_relevance": 2.7,
-        "novelty": 2.8,
-        "methodological_insight": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
         "transferable_insight": 0.46799999999999997,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
@@ -1209,54 +1160,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
-      "title": "MOLAR: Learning Multimodal Molecular Representations from Noisy Labels",
-      "authors": [
-        "Yingxu Wang",
-        "Kunyu Zhang",
-        "Nan Yin",
-        "Yu Li",
-        "Eran Segal"
-      ],
-      "date": "2026-06-16",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.18390v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.18390v1",
-      "doi": "",
-      "arxiv_id": "2606.18390v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Motivation: Noisy labels are a common challenge in molecular property prediction because molecular annotations are often obtained from assays, curated databases, or weak annotation pipelines rather than directly observed clean biological states. Treating recorded labels as reliable supervision can cause models to memorize corrupted observations and learn misleading molecular evidence. In multimodal molecular representation learning, this issue can be amplified by graph-text fusion or alignment, which may propagate label-induced errors across modalities. Results: We propose MOLAR, a noise-aware framework for learning multimodal molecular representations from noisy labels. MOLAR separates latent clean-property inference from recorded-label observation: graph and text views contribute residual evidence to a clean-property distribution, and a categorical label-observation channel maps this distribution to recorded labels for training. This formulation derives posterior label reliability and modality-specific molecular evidence from the model. Experiments on naturally noisy molecular benchmarks and controlled label-flipping benchmarks show that MOLAR consistently outperforms representative baselines. Visualization analyses further show that MOLAR provides interpretable reliability and modality-evidence diagnostics.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "small_molecule_design"
-      ],
-      "deterministic_score": 5.376,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to small_molecule_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
+      "rank": 25,
       "title": "Prediction of pre- and postfusion conformations of class I fusion proteins with AlphaFold2.",
       "authors": [
         "Sevilay Gülesen",
@@ -1302,7 +1206,52 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 26,
+      "title": "AutoPass: Evidence-Guided LLM Agents for Compiler Performance Tuning",
+      "authors": [
+        "Zepeng Li",
+        "Jie Ren",
+        "Zhanyong Tang",
+        "Jie Zheng",
+        "Zheng Wang"
+      ],
+      "date": "2026-06-18",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.20373v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20373v1",
+      "doi": "",
+      "arxiv_id": "2606.20373v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Large Language Models (LLMs) show promise for code compilation tasks, but applying them to runtime performance tuning is difficult due to complex microarchitectural effects and noisy runtime measurements. We present AutoPass, a multi-agent framework for compiler performance tuning that uses compiler and runtime evidence to guide LLM-generated optimization decisions. Rather than treating the compiler as a black box like prior auto-tuning schemes, AutoPass opens up the compiler to the LLM, enabling it to query compiler-internal optimization states and analyze the intermediate representation to orchestrate compiler options. The search process iteratively refines optimization configurations using measured runtime feedback to diagnose regressions and guide latency-improving edits. AutoPass operates in an inference-only, training-free setting and requires no offline training or task-specific fine-tuning, making it readily applicable to new benchmarks and platforms. We implement AutoPass on the LLVM compiler and evaluate it on server-grade x86-64 and embedded ARM64 systems. AutoPass outperforms expert-tuned heuristics and classical autotuning methods, achieving geometric-mean speedups of 1.043x and 1.117x over LLVM -O3 on x86-64 and ARM64, respectively.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.402,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
       "title": "Machine learning application in molecular science research field",
       "authors": [
         "Yijie Li",
@@ -1352,7 +1301,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 28,
       "title": "Expanding gene regulatory networks from transcriptome data through graphical modeling with heterogeneous priors",
       "authors": [
         "Kokaji, T.",
@@ -1396,28 +1345,23 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
-      "title": "NeuMesh++: Towards Versatile and Efficient Volumetric Editing with Disentangled Neural Mesh-based Implicit Field",
+      "rank": 29,
+      "title": "On the Oracle Complexity of Interpolation-Based Gradient Descent",
       "authors": [
-        "Chong Bao",
-        "Yuan Li",
-        "Bangbang Yang",
-        "Yujun Shen",
-        "Hujun Bao",
-        "Zhaopeng Cui",
-        "Yinda Zhang",
-        "Guofeng Zhang"
+        "Dongmin Lee",
+        "William Lu",
+        "Anuran Makur"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.19316v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19316v1",
-      "doi": "",
-      "arxiv_id": "2606.19316v1",
+      "link": "http://arxiv.org/abs/2606.19878v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19878v1",
+      "doi": "10.1109/TAC.2026.3682210",
+      "arxiv_id": "2606.19878v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Recently neural implicit rendering techniques have evolved rapidly and demonstrated significant advantages in novel view synthesis and 3D scene reconstruction. However, existing neural rendering methods for editing purposes offer limited functionalities, e.g., rigid transformation and category-specific editing. In this paper, we present a novel mesh-based representation by encoding the neural radiance field with disentangled geometry, texture, and semantic codes on mesh vertices, which empowers a set of efficient and comprehensive editing functionalities, including mesh-guided geometry editing, designated texture editing with texture swapping, filling and painting operations, and semantic-guided editing. To this end, we develop several techniques including a novel local space parameterization to enhance rendering quality and training stability, a learnable modification color on vertex to improve the fidelity of texture editing, a spatial-aware optimization strategy to realize precise texture editing, and a semantic-aided region selection to ease the laborious annotation of implicit field editing. Extensive experiments and editing examples on both real and synthetic datasets demonstrate the superiority of our method on representation quality and editing ability. Project page: https://zju3dv.github.io/neumeshplusplus/",
+      "abstract": "Recent work on first-order optimizers for empirical risk minimization (ERM) has suggested that smoothness of ERM loss functions in the training data, rather than in the optimization parameters, can be leveraged to improve the oracle complexity of gradient descent (GD) methods. In this paper, we propose an inexact gradient method, piecewise polynomial interpolation-based gradient descent (PPI-GD), which approximates the full gradient in each iteration by querying the first-order oracle at equidistant points in the data domain to construct polynomial interpolants of the resulting gradient samples over appropriately sized patches of the data domain. We analyze the oracle complexity of PPI-GD for strongly convex and non-convex loss functions when the data space dimension is bounded by a polylogarithmic function of the number of training samples, and find it to outperform several GD variants in key regimes when the loss function is sufficiently smooth. Furthermore, our analysis extends several techniques from the error analysis of bicubic spline interpolants to the setting of $d$-variate tensor product polynomial interpolants which may be of independent interest in interpolation analysis.",
       "venue": "",
       "code_url": "",
       "topic_tags": [],
@@ -1433,6 +1377,53 @@
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
         "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Latent Terrain: Adapting Neural Audio Autoencoders as Design Materials in NIME",
+      "authors": [
+        "Shuoyang Zheng",
+        "Keigo Yoshida",
+        "Nico Garcia-Peguinho",
+        "Jiatong Liu",
+        "Dan Hearn",
+        "Anna Xambó Sedó",
+        "Nick Bryan-Kinns"
+      ],
+      "date": "2026-06-23",
+      "source": "openalex",
+      "link": "https://ualresearchonline.arts.ac.uk/view/creators/Zheng=3AShuoyang_Jasper=3A=3A.html>",
+      "pdf_url": "https://ualresearchonline.arts.ac.uk/id/eprint/26518/1/Camera-Ready-Zheng-etal-191.pdf",
+      "doi": "",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7161097285",
+      "semantic_scholar_id": "",
+      "abstract": "Neural audio autoencoders, a deep learning method for sound synthesis, are increasingly popular in AI-enhanced NIMEs. It is timely to explore as a community how this technological opportunity has opened a domain of design in NIME. This paper focuses on one compelling technique of using autoencoders for sound synthesis: navigating their latent space as a generative sound space. We introduce Latent Terrain, a Max/MSP tool package designed to tailor latent spaces into corpus-based sound spaces for NIMEs. We describe the rationale and development process of Latent Terrain to offer insights into the use of autoencoders in a material-oriented crafting space of musical interface design. We present an annotated portfolio resulting from a collaborative artistic exploration of Latent Terrain with four NIME makers, to showcase the design possibilities opened by autoencoders. We reflect on our practice-based account to discuss the challenges and opportunities of enabling neural audio autoencoders as design materials for AI-enhanced NIMEs.",
+      "venue": "University of the Arts London Research Online (University of the Arts London)",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.509,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.38,
+        "methodological_insight": 0.512,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
