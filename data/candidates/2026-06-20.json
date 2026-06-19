@@ -1,7 +1,7 @@
 {
   "date": "2026-06-20",
   "stats": {
-    "raw_candidates": 342,
+    "raw_candidates": 343,
     "deduplicated_candidates": 222,
     "filtered_candidates": 222,
     "sources_checked": [
@@ -37,7 +37,7 @@
         "Jon Paul Janet"
       ],
       "date": "2026-06-19",
-      "source": "pubmed",
+      "source": "pubmed+europe_pmc",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42317170/",
       "pdf_url": "",
       "doi": "10.1021/acs.jcim.6c00421",
@@ -53,7 +53,7 @@
         "multi_objective_optimization",
         "ai_drug_discovery"
       ],
-      "deterministic_score": 26.586,
+      "deterministic_score": 26.936,
       "score_breakdown": {
         "paper_type": "method",
         "direct_relevance": 16.470000000000002,
@@ -64,7 +64,7 @@
         "generative_modeling_relevance": 2.3,
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
+        "source_credibility": 1.0499999999999998,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
