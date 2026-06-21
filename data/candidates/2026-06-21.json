@@ -1,9 +1,9 @@
 {
   "date": "2026-06-21",
   "stats": {
-    "raw_candidates": 319,
-    "deduplicated_candidates": 200,
-    "filtered_candidates": 200,
+    "raw_candidates": 332,
+    "deduplicated_candidates": 211,
+    "filtered_candidates": 211,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -77,6 +77,104 @@
     },
     {
       "rank": 2,
+      "title": "Deep Kernel Learning with Kolmogorov–Arnold Networks for Bayesian Optimization",
+      "authors": [
+        "Zhongtao Shang",
+        "Zhihong Yuan",
+        "Lifeng Zhang",
+        "Yiyang Dai"
+      ],
+      "date": "2026-06-19",
+      "source": "openalex",
+      "link": "https://doi.org/10.69997/sct.169600",
+      "pdf_url": "https://psecommunity.org/wp-content/plugins/wpor/includes/file/2606/LAPSE-2026.0448-1v1.pdf",
+      "doi": "10.69997/sct.169600",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165401406",
+      "semantic_scholar_id": "",
+      "abstract": "Deep Kernel Learning (DKL) has emerged as a powerful framework for Bayesian Optimization (BO), via combining expressive representation learning models with typical Gaussian Processes (GPs) surrogate models. However, conventional DKL typically relies on weight-based feature extractors (e.g., multilayer perceptrons (MLPs)), which often lack interpretability and may suffer from overfitting under data scarcity or training instability, potentially leading to a degraded uncertainty quantification in GP models. Grounded in the Kolmogorov-Arnold representation theorem, this paper proposes a novel DKL-KAN framework that employs Kolmogorov-Arnold Networks (KANs) as adaptive feature extractors, formulating a DKL-KAN surrogate model. Unlike MLPs, the KANs learn data-driven univariate functions, yielding more sample-efficient and stable representations for regression under limited data regimes. Followed by the GP, the DKL-KAN facilitates end-to-end learning of expressive latent representations while maintaining robust uncertainty quantification. The proposed DKL-KAN framework is further validated with the Williams-Otto (W-O) process benchmarks. Compared to classical GPs and DKL-MLPs, the DKL-KANs consistently exhibit superior predictive accuracy and uncertainty calibration even under high-dimensional and scarce dataset. The results show that the KANs generate more structured and informative latent embeddings, thus enhancing the ability to capture complex physical nonlinearities in sparsely sampled edge regions of the design space where traditional models often falter. Moreover, the DKL-KAN is embedded into the BO and yields the efficient optimization performance on the W–O process benchmark, achieving faster early-stage improvement and converging to higher objective values. These results demonstrate the potential of DKL-KAN surrogates for accelerating BO in chemical engineering processes.",
+      "venue": "Systems and Control Transactions",
+      "code_url": "",
+      "topic_tags": [
+        "optimization_methods",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 23.226,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 12.420000000000002,
+        "novelty": 4.06,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.8199999999999998,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to optimization_methods, black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 3,
+      "title": "FreeMMIF: interactive multimodal medical image fusion via instruction-aware diffusion",
+      "authors": [
+        "Huizhong Bai",
+        "Liu G",
+        "Bowen Deng",
+        "Jiashu YUE",
+        "Jiang Y",
+        "Xiaoye Li",
+        "Jinyu Li",
+        "Xiaohong Mu"
+      ],
+      "date": "2026-06-19",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fneur.2026.1802423",
+      "pdf_url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1802423/pdf",
+      "doi": "10.3389/fneur.2026.1802423",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165124195",
+      "semantic_scholar_id": "",
+      "abstract": "As a key technique in clinical diagnosis, multimodal medical image fusion (MMIF) integrates functional and metabolic information to assist diagnosis and enhance disease analysis reliability. However, existing methods typically rely on a single optimization objective, failing to meet clinical demands for flexible, on-the-fly result adjustments. To address this, we propose FreeMMIF, an interactive framework integrating a vision-language model (VLM)-based pseudo-labeling strategy and an instruction-aware diffusion model for task-guided, preference-adaptive fusion. During training, a VLM with specific prompts selects optimal candidates from existing methods as pseudo-ground truths to provide robust supervision without reference images. Subsequently, the diffusion process is modulated via an adaptive feature re-weighting branch, training the model to dynamically coordinate outputs by balancing weighted inputs from source images and pseudo-ground truths. Finally, we employ prompt engineering to construct a weight-generating VLM, allowing physicians to adjust source modality ratios via text instructions for direct control over fusion results. Experimental results demonstrate that FreeMMIF generates diagnostic-quality fusion results that precisely align with clinical intentions. Our code is available at: https://github.com/hzbbucm/FreeMMIF .",
+      "venue": "Frontiers in Neurology",
+      "code_url": "https://github.com/hzbbucm/FreeMMIF",
+      "topic_tags": [
+        "flow_matching_and_diffusion",
+        "stochastic_processes_probability_statistical_physics"
+      ],
+      "deterministic_score": 21.398,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 8.774999999999999,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 2.048,
+        "transferable_insight": 2.145,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.5,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion, stochastic_processes_probability_statistical_physics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 4,
       "title": "Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction",
       "authors": [
         "Bhattacharya, S.",
@@ -123,7 +221,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "WITHDRAWN: PolyFold: Evaluation of Open-Use Molecular Structure Prediction Algorithms to Inform Their Utility in Diverse Biological Applications",
       "authors": [
         "Stephenson, H.",
@@ -171,7 +269,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Latent Novelification: Expanding Generative Expressivity Through Objective-Defined Transformation",
       "authors": [
         "Joseph Meyer",
@@ -218,7 +316,103 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 7,
+      "title": "Optimizing the Solubility of Organic Molecules in Mixed Solvents Using Bayesian Optimization and Multicomponent Directed-Message Passing Neural Networks",
+      "authors": [
+        "Simona Buzzi",
+        "Ulderico Di Caprio",
+        "Dominik Bongartz",
+        "Florence H. Vermeire"
+      ],
+      "date": "2026-06-19",
+      "source": "openalex",
+      "link": "https://doi.org/10.69997/sct.123992",
+      "pdf_url": "https://psecommunity.org/wp-content/plugins/wpor/includes/file/2606/LAPSE-2026.0413-1v1.pdf",
+      "doi": "10.69997/sct.123992",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165404938",
+      "semantic_scholar_id": "",
+      "abstract": "Accurate prediction of solubility limits of organic compounds in mixed solvents is critical for the design and optimization of chemical and pharmaceutical processes. Recent advances in machine learning have enabled fast and reliable prediction of physicochemical properties of molecules, including solubility. In this work, we present a Bayesian Optimization framework to identify optimal solvent combinations, compositions, and temperatures that maximize the solubility of active pharmaceutical ingredients. The optimization strategy leverages a multicomponent directed-edge message passing neural network trained on solvent mixtures to predict solubility in ternary systems consisting of a solute and two solvents. To enable efficient Bayesian optimization, we represented the solvents in a continuous space and compare three different strategies: integer enumeration, numerical descriptors, and deep embeddings. The proposed approach was tested on a dataset comprising 14 299 points in solvent mixtures. The results indicate that integer enumeration and embedding-based representations achieve the best performance in identifying solvent mixtures that maximize solubility for each compound at a fixed number of model evaluations. While demonstrated on ternary systems, the framework is readily extensible to mixtures with a larger number of components. With this work we aim to identify which chemical representation is most suitable for similar optimization problems, providing a solid foundation for further and broader exploration, for example in the optimization of crystallization processes.",
+      "venue": "Systems and Control Transactions",
+      "code_url": "",
+      "topic_tags": [
+        "optimization_methods",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 15.964,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 8.235,
+        "novelty": 2.8,
+        "methodological_insight": 0.512,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to optimization_methods, black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 8,
+      "title": "A Multi-Objective Intelligent Method for Generating Mine Ventilation Feature Graphs Based on the Adaptive NSGA-II Algorithm",
+      "authors": [
+        "Zhenguo Yan",
+        "Lipeng Dang",
+        "Longcheng Zhang",
+        "Yuxin Huang",
+        "Chongwu Chen",
+        "Jianing RUAN"
+      ],
+      "date": "2026-06-18",
+      "source": "openalex",
+      "link": "https://doi.org/10.3390/math14122191",
+      "pdf_url": "https://www.mdpi.com/2227-7390/14/12/2191/pdf?version=1781771949",
+      "doi": "10.3390/math14122191",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165125919",
+      "semantic_scholar_id": "",
+      "abstract": "Ventilation network feature graphs (Q-H graphs) are a key visualisation tool for mine ventilation systems, and their automated generation reduces to a combinatorial optimisation problem over independent-path permutations. Existing methods, however, exhibit three limitations: a single-dimensional evaluation criterion, inadequate nodal pressure-energy assignment, and unstable convergence in factorial-scale search spaces. This paper proposes an adaptive NSGA-II (A-NSGA-II) framework with coordinated enhancements at the evaluation, modelling, and algorithmic levels. A three-objective system that minimises split-block count, topological-spatial discrepancy, and layout fragmentation is established, together with an aggregate evaluation score (AES) for engineering decision-making; nodal pressure energies are reconstructed via the longest path on a directed acyclic graph; and topology-aware initialisation, Lagrange three-point interpolated adaptive operators, and periodic memetic local search are integrated within NSGA-II. Experiments on two mine ventilation networks (75 and 112 branches) over 30 independent trials show that A-NSGA-II consistently outperforms four benchmarks (NSGA-II, MOEA/D, SPEA2, and MOSA) in terms of split-block count, AES, and hypervolume; statistical tests confirm significant, large-effect HV advantages on the 112-branch network, while the 75-branch network shows a 56.6–71.5% reduction in HV standard deviation.",
+      "venue": "Mathematics",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 15.773,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 8.235,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization, black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 9,
       "title": "A data-driven rediscovery of the specificity-conferring code of adenylation domains in nonribosomal peptide synthetases",
       "authors": [
         "Li, Z.",
@@ -265,57 +459,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 6,
-      "title": "Artificial Intelligence in Chemical Process Optimization: Techniques, Applications, Challenges, and Future Directions",
-      "authors": [
-        "Manjusha Tatiya",
-        "Pragati Choudhari",
-        "Rupali Kawade",
-        "Prafulla O. Bagde",
-        "Rupali Ashok Patil",
-        "Vasundhara Vasudev Sutar",
-        "Anant Sidhappa Kurhade"
-      ],
-      "date": "2026-06-18",
-      "source": "openalex",
-      "link": "https://doi.org/10.59429/ace.v9i2.5949",
-      "pdf_url": "https://ace.as-pub.com/index.php/ACE/article/download/5949/3417",
-      "doi": "10.59429/ace.v9i2.5949",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7165107356",
-      "semantic_scholar_id": "",
-      "abstract": "Chemical processes are often complex nonlinear reactions, with large numbers of operating variables, and high energy consumption; therefore, optimization is not an easy task. With the industrial data from sensors and monitoring systems becoming more widely available, artificial intelligence (AI) is being deployed to enable process efficiency as well as better decision making. Further, unlike the more traditional optimization methods used, especially for complex and high dimensional systems as in molecular design, AI techniques can do so much more efficiently than exploring the whole computational landscape thanks to their powerful predictive capabilities. This review provides an overview of recent developments in machine learning, deep learning (DL), reinforcement learning, and evolutionary algorithms for chemical process optimization across four key industrial applications: reactor design; distillation; energy management; and predictive maintenance. Results suggest that AI-driven solutions enhance process performance, energy savings and promote sustainable industrialization in the context of SDGs 7, 9, 12 and 13.",
-      "venue": "Applied Chemical Engineering",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "transferable_insights"
-      ],
-      "deterministic_score": 10.922,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 7.020000000000001,
-        "novelty": 0.0,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to ai_drug_discovery, transferable_insights, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 7,
+      "rank": 10,
       "title": "JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising",
       "authors": [
         "Siang-Ling Zhang",
@@ -359,7 +503,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 11,
       "title": "Balancing Revenue and Service in Urban Parking: A Reinforcement Learning-Based Capacity Management Approach",
       "authors": [
         "Thomas Müller",
@@ -405,53 +549,60 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
-      "title": "Enhancing Machine Learning models of biogas production in wastewater treatment plants using hybrid Bayesian optimization based on Gaussian process",
+      "rank": 12,
+      "title": "In-silico evaluation of novel quercetin derivatives targeting Plasmodium falciparum dihydrofolate reductase for antimalarial activity",
       "authors": [
-        "Hadjer Sadoune",
-        "Rachida Rihani",
-        "Francesco Saverio Marra"
+        "Mansita Saha",
+        "Krishna Jyoti Deka",
+        "Sabnam Nargis",
+        "Dhrubajyoti Gogoi",
+        "Pallab Kumar Nath",
+        "Debarupa Dutta Chakraborty",
+        "Prithviraj Chakraborty"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "source": "openalex",
-      "link": "https://doi.org/10.21203/rs.3.rs-9917351/v1",
-      "pdf_url": "https://www.researchsquare.com/article/rs-9917351/latest.pdf",
-      "doi": "10.21203/rs.3.rs-9917351/v1",
+      "link": "https://doi.org/10.1007/s44371-026-00799-y",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44371-026-00799-y.pdf",
+      "doi": "10.1007/s44371-026-00799-y",
       "arxiv_id": "",
       "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7165117987",
+      "openalex_id": "https://openalex.org/W7165196630",
       "semantic_scholar_id": "",
-      "abstract": "",
-      "venue": "Research Square",
+      "abstract": "Abstract The global rise in malaria mortality is significantly influenced by the increasing resistance of Plasmodium falciparum to widely used and affordable antimalarial drugs, among other contributing factors, emphasizing the need for novel therapeutic agents. In this study, a series of 84 quercetin-derived ligands were designed and subsequently evaluated in silico as potential inhibitors of the bifunctional enzyme dihydrofolate reductase-thymidylate synthase (DHFR-TS; PDB ID: 1J3K), a validated antimalarial drug target. Virtual screening and molecular docking were performed using AutoDock implemented in PyRx v0.8, followed by molecular dynamics simulations using GROMACS v2024.4. Pharmacokinetic and toxicity profiles were assessed using SwissADME and Protox 3.0. Molecular docking identified 35 designed compounds exhibiting higher predicted binding affinities than the reference drugs cycloguanil (− 6.0 kcal/mol) and pyrimethamine (− 5.2 kcal/mol), with ligand binding energies ranging from − 5.8 to − 9.8 kcal/mol. Among these, ligand b.II exhibited the most favorable predicted binding affinity (− 9.8 kcal/mol) and was selected for further molecular dynamics simulations which indicated stable ligand–protein interactions, with minor differences in dynamic behavior compared to the reference drug, pyrimethamine. ADME analysis of the 35 selected compounds indicated that most of them exhibited favorable pharmacokinetic properties, as reflected by acceptable molecular weight, hydrogen bond donors and acceptors (nHBD, nHBA), lipophilicity (iLogP), and topological polar surface area, along with compliance with drug-likeness parameters such as number of Lipinski rule of five violations and synthetic accessibility, while toxicity studies predicted the ligands to have a low risk of hepatotoxicity, cardiotoxicity, and carcinogenicity. Overall, the findings support the potential of quercetin derivatives, particularly b.II, for further investigation. However, given that these results are derived from computational analyses, experimental validation is necessary to confirm their antimalarial efficacy against multidrug-resistant Plasmodium falciparum .",
+      "venue": "Discover Chemistry.",
       "code_url": "",
       "topic_tags": [
-        "optimization_methods",
-        "black_box_combinatorial_and_expensive_optimization"
+        "ai_drug_discovery",
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
       ],
-      "deterministic_score": 9.696,
+      "deterministic_score": 10.11,
       "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.235,
-        "novelty": 0.0,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 0.0,
+        "paper_type": "routine_application",
+        "direct_relevance": 18.0,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
         "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
+        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
         "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
-        "penalties": -3.0
+        "penalties": -12.0
       },
       "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to optimization_methods, black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "abstract is missing or too short to judge novelty well"
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 10,
+      "rank": 13,
       "title": "Benchmarking gene expression reconstruction from single-cell latent representations",
       "authors": [
         "Fu, X.",
@@ -504,7 +655,50 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 14,
+      "title": "The fusion of artificial intelligence and omics: a perspective toward 2035",
+      "authors": [
+        "Enrique Díaz Cantón"
+      ],
+      "date": "2026-06-18",
+      "source": "openalex",
+      "link": "https://doi.org/10.3332/ecancer.2026.2152",
+      "pdf_url": "https://ecancer.org/en/journal/article/2152-the-fusion-of-artificial-intelligence-and-omics-a-perspective-toward-2035/pdf",
+      "doi": "10.3332/ecancer.2026.2152",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165118624",
+      "semantic_scholar_id": "",
+      "abstract": "Artificial intelligence (AI) has catalyzed a revolution in the life sciences, culminating in AlphaFold's capacity to predict the static structure of proteins with atomic precision.However, this static view-analogous to a molecular radiograph-omits the fundamental dimension of protein dynamics, a critical factor for biological function and drug interaction.The phenomenon of induced fit, whereby proteins reconfigure upon ligand binding, remains largely beyond the reach of current models.This article posits that the next frontier in computational biology lies in the adoption of World Models-AI architectures such as Google DeepMind's Genie 3 and Meta AI's Joint-Embedding Predictive Architecture.Rather than predicting individual states, these models learn the underlying rules governing system evolution.We argue that applying these principles to molecular dynamics may enable the simulation of conformational trajectories, predicting how proteins move, flex, and respond to ligand binding.We explore the transformative implications for oncology, particularly in the design of allosteric modulators and in targeting historically \"undruggable\" proteins such as intrinsically disordered proteins.Finally, we delineate a roadmap toward 2035, highlighting challenges and opportunities at the convergence of generative AI and dynamic structural biology.",
+      "venue": "ecancermedicalscience",
+      "code_url": "",
+      "topic_tags": [
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 8.52,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 10.530000000000001,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -8.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 15,
       "title": "Parametric Engineering of Atrioventricular Living Valve Transplants",
       "authors": [
         "Kaneelil, P. R.",
@@ -554,7 +748,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 16,
       "title": "SSD: Spatially Speculative Decoding Accelerates Autoregressive Image Generation",
       "authors": [
         "Shilong Xiang",
@@ -600,55 +794,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
-      "title": "DiscoVerse: multi-agent pharmaceutical co-scientist for traceable drug discovery and reverse translation",
-      "authors": [
-        "Xiaochen Zheng",
-        "Alvaro Serra",
-        "Ilya Schneider Chernov",
-        "Maddalena Marchesi",
-        "Eunice Musvasva",
-        "Tatyana Y. Doktorova"
-      ],
-      "date": "2026-06-18",
-      "source": "openalex",
-      "link": "https://doi.org/10.3389/frai.2026.1808378",
-      "pdf_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1808378/pdf",
-      "doi": "10.3389/frai.2026.1808378",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7165119238",
-      "semantic_scholar_id": "",
-      "abstract": "Pharmaceutical research and development has accumulated vast and heterogeneous archives of data. Much of this knowledge stems from discontinued programs, and reusing these archives is invaluable for reverse translation. However, in practice, such reuse is often infeasible. In this work, we introduce DiscoVerse , a multi-agent co-scientist designed to support pharmaceutical research and development at Roche. Designed as a human-in-the-loop assistant, DiscoVerse enables domain-specific queries by delivering evidence-based answers: it retrieves relevant data, links across documents, summarizes key findings and preserves institutional memory. We assess DiscoVerse through expert evaluation of source-linked outputs. Our evaluation spans a selected subset of 180 molecules from Roche's research and development repositories, encompassing over 0.87 billion Byte-Pair Encoding (BPE) tokens and more than four decades of research. To our knowledge, this represents the first agentic framework to be systematically assessed on real pharmaceutical data for reverse translation, enabled by authorized access to confidential archives covering the full lifecycle of drug development. Our contributions include: role-specialized agent designs aligned with scientist workflows; human-in-the-loop support for reverse translation; expert evaluation; and a large-scale demonstration showing promising decision-making insights. In brief, across seven benchmark questions, DiscoVerse achieved near-perfect recall (≥0.99) with moderate precision (0.71 − 0.91). Qualitative assessments and three real-world pharmaceutical use cases further showed faithful, source-linked synthesis across preclinical and clinical evidence.",
-      "venue": "Frontiers in Artificial Intelligence",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery"
-      ],
-      "deterministic_score": 8.023,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 4.32,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 14,
+      "rank": 17,
       "title": "Trichomonas vaginalis PPi-dependent phosphofructokinase structures reveal a non-canonical nucleotide binding site",
       "authors": [
         "Chiu, A.",
@@ -705,7 +851,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 18,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -749,59 +895,108 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
-      "title": "Identification of novel DNA gyrase B inhibitors in Mycobacterium species using integrated computational approaches",
+      "rank": 19,
+      "title": "Attention guided fair artificial intelligence modeling for skin cancer diagnosis",
       "authors": [
-        "Jagritee Yadav",
-        "Lalhmangaihzuali",
-        "Harish Shukla",
-        "Anshuman Chandra",
-        "S. N. Singh",
-        "Meenakshi Singh"
+        "Mingcheng Zhu",
+        "Mingxuan Liu",
+        "Han Yuan",
+        "Yilin Ning",
+        "Zhiyao Luo",
+        "Tingting Zhu",
+        "Nan Liu"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "source": "openalex",
-      "link": "https://doi.org/10.3389/ftubr.2026.1854329",
-      "pdf_url": "https://www.frontiersin.org/journals/tuberculosis/articles/10.3389/ftubr.2026.1854329/pdf",
-      "doi": "10.3389/ftubr.2026.1854329",
+      "link": "https://doi.org/10.1038/s41746-026-02897-8",
+      "pdf_url": "https://www.nature.com/articles/s41746-026-02897-8_reference.pdf",
+      "doi": "10.1038/s41746-026-02897-8",
       "arxiv_id": "",
       "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7165122293",
+      "openalex_id": "https://openalex.org/W7165120293",
       "semantic_scholar_id": "",
-      "abstract": "Introduction Drug-resistant Mycobacterium tuberculosis remains a major global health challenge, particularly due to the emergence of multidrug-resistant and extensively drug-resistant strains. DNA gyrase, specifically the ATPase domain of GyrB, represents a promising target for the development of novel anti-tubercular agents. Methods A comprehensive computational workflow was employed, including pharmacophore-based virtual screening of approximately 1,000,000 compounds from the PubChem, ZINC, ChEMBL, and MolPort databases. Hits were filtered using Lipinski's rule of five, structural diversity analysis, molecular docking, ADMET and toxicity assessment, molecular dynamics simulations, and density functional theory analyses. Results Approximately 30,000 preliminary hits were obtained, which were reduced to 21 candidate molecules and subsequently to 10 unique compounds. Molecular docking identified two lead compounds, D (PubChem ID: 166484985) and I (PubChem ID: 166484904), with strong binding affinity toward the GyrB ATPase domain. ADMET and toxicity analyses indicated favorable drug-likeness and safety profiles. Molecular dynamics simulations and density functional theory studies further confirmed stable protein-ligand interactions and significant electronic reactivity. Discussion Compounds D and I demonstrated promising ATP-competitive inhibition of the GyrB ATPase domain and exhibited distinct species-specific interaction profiles. These findings support their potential as novel anti-tubercular lead scaffolds for further experimental validation and therapeutic development.",
-      "venue": "Frontiers in Tuberculosis",
+      "abstract": "Artificial intelligence (AI) has shown promise in dermatology, offering accurate and non-invasive diagnosis of skin cancer. While extensive research has addressed skin-tone bias, gender bias in dermatologic AI remains underexplored, potentially perpetuating diagnostic disparities. In this study, we developed LesionAttn, an algorithm designed to mitigate gender bias by directing model attention toward lesions, thereby mirroring clinicians' diagnostic focus. Combined with Pareto Frontier optimization for dual-objective model selection, LesionAttn balances gender fairness and diagnostic performance. Validated on two large-scale dermatologic datasets for binary malignancy classification, LesionAttn significantly mitigated gender bias while maintaining high diagnostic performance, outperforming existing bias-mitigation algorithms. Our study demonstrates that explicitly guiding model attention to medically essential features provides a practical approach to advance both performance and fairness in dermatologic AI. By leveraging clinical priors to bridge the gap between human expertise and algorithmic optimization, this study demonstrates a feasible pathway for developing equitable and reliable diagnostic tools.",
+      "venue": "npj Digital Medicine",
       "code_url": "",
       "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "medicinal_and_synthetic_chemistry",
-        "computational_chemistry_biophysics_structural_biology"
+        "distributional_optimization"
       ],
-      "deterministic_score": 7.53,
+      "deterministic_score": 7.588,
       "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 18.0,
-        "novelty": 0.84,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
+        "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
         "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
-        "penalties": -15.0
+        "penalties": -4.0
       },
-      "priority": "Archive",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to distributional_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 20,
+      "title": "Enhancing plasma etching efficiency via physics-based modeling and machine learning",
+      "authors": [
+        "Eneri Boniakou",
+        "Yanhu Wang",
+        "Tzannis Vasileiadis",
+        "Sotiris Mouchtouris",
+        "Katerina Maria Oikonomou",
+        "Chloi Zormpa",
+        "Antonios Armaou",
+        "Vassilios Constantoudis",
+        "Εvangelos Gogolides",
+        "George Kokkoris"
+      ],
+      "date": "2026-06-19",
+      "source": "openalex",
+      "link": "https://doi.org/10.69997/sct.112422",
+      "pdf_url": "https://psecommunity.org/wp-content/plugins/wpor/includes/file/2606/LAPSE-2026.0526-1v1.pdf",
+      "doi": "10.69997/sct.112422",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165366629",
+      "semantic_scholar_id": "",
+      "abstract": "Modern semiconductor manufacturing requires extreme precision as yield margins narrow in the \"More-than-Moore\" era. While physics-based models (PBMs) provide high-fidelity insights into plasma etching, their computational intensity—often requiring hours per simulation—renders them impractical for direct iterative optimization. This work demonstrates a hybrid framework that utilizes data-driven surrogate models to enable rapid, cost-effective process optimization. A 2D axisymmetric fluid model of an inductively coupled O2 plasma (ICP) reactor was developed to generate a training dataset for two neural architectures: a Multi-Layer Perceptron (MLP) and a Kolmogorov-Arnold Network (KAN). These surrogates predict radial etching rates across a wide operating window of power, pressure, gas flow, and bias voltage. By replacing the expensive PBM with these high-speed surrogates, derivative-free optimization algorithms (Nelder-Mead and Powell) successfully identified a profit-maximizing operating point (2000 W, 10 mTorr) orders of magnitude faster than direct physical simulation. The results confirm that surrogate-based optimization effectively captures dominant physical trends, such as ion-flux limited regimes, while providing a \"Confidence Gap\" through model disagreement to flag epistemic uncertainty. This methodology offers a scalable blueprint for reducing the computational burden of process design, transitioning from expensive trial-and-error to efficient, physics-validated autonomous discovery.",
+      "venue": "Systems and Control Transactions",
+      "code_url": "",
+      "topic_tags": [
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 7.446,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 4.1850000000000005,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 21,
       "title": "Predictability as a Fine-Grained Measure for Privacy",
       "authors": [
         "Linda Lu",
@@ -845,7 +1040,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 22,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -894,7 +1089,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 19,
+      "rank": 23,
       "title": "Multitargeted comparative evaluation suggests 2-Aoeobenoxmide shows favourable in silico binding compared to Tucatinib against ERα, HER2, AKT1, EGFR, and PIK3CA in breast cancer",
       "authors": [
         "Mohammed H. Al-Qahtani",
@@ -944,7 +1139,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 20,
+      "rank": 24,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -988,7 +1183,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 25,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1036,7 +1231,53 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 26,
+      "title": "Data-Driven Multi-Objective Optimization of Energy, Environmental, and Economic Performances in Manufacturing with Physics-Consistent Deep Learning",
+      "authors": [
+        "Hyeonrok Choi",
+        "Jaewook Lee",
+        "Won Yang",
+        "Seong-il Kim"
+      ],
+      "date": "2026-06-19",
+      "source": "openalex",
+      "link": "https://doi.org/10.69997/sct.128206",
+      "pdf_url": "https://psecommunity.org/wp-content/plugins/wpor/includes/file/2606/LAPSE-2026.0468-1v1.pdf",
+      "doi": "10.69997/sct.128206",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165374524",
+      "semantic_scholar_id": "",
+      "abstract": "Aluminium cold rolling is an energy-intensive process that has a substantial impact on CO2 emissions and production cost, yet plant-level optimization remains challenging due to strong process nonlinearities and various operational constraints. This study develops a physics-consistent hybrid model that combines a Stone–Hitchcock–Ludwik analytical rolling-energy formulation with a residual deep neural network to predict the daily electricity consumption of three single-stand cold rolling mills. Using plant raw data, the hybrid model achieves lower prediction errors than conventional data driven model and yields line-specific physical parameters that agree well with the observed behaviour of each mill. On this basis, an NSGA-II-based tri-objective optimization is carried out to minimise daily energy use, CO2 emissions, and specific production cost (SPC) by adjusting pass-wise reduction and tension schedules and line-wise production allocation. Case studies on a representative operating day and additional plant data show that the optimised operating strategy shifts production load from less efficient to more efficient lines and smooths pass-wise operating conditions, thereby consistently reducing daily energy consumption and unit cost while moderately decreasing CO2 emissions without any hardware modifications. The proposed hybrid prediction–optimization framework thus provides a practical decision-support tool for integrated energy–environment–economic optimization in multi-line aluminium cold rolling operations.",
+      "venue": "Systems and Control Transactions",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 6.842,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.118,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
       "title": "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech",
       "authors": [
         "Nityanand Mathur",
@@ -1085,7 +1326,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 28,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1132,7 +1373,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 24,
+      "rank": 29,
       "title": "A robust machine learning framework for detecting temporal drift in financial fraud prevention",
       "authors": [
         "Nikosi Zuberi",
@@ -1178,286 +1419,50 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
-      "title": "RNA 3D Motif Dynamics Guide Assembly of the Replication Initiation Complex in Flaviviruses",
+      "rank": 30,
+      "title": "Beyond Neural Solvers: A Critical Review of Machine Learning for Combinatorial Optimization",
       "authors": [
-        "Streit, L. V.",
-        "Onikubo, T.",
-        "Astore, M. A.",
-        "Cioppa, E. A.",
-        "Olinares, P. D. B.",
-        "Urnavicius, L.",
-        "Incarnato, D.",
-        "Bonilla, S. L."
+        "Mostafa E. A. Ibrahim",
+        "Alaa E. S. Ahmed",
+        "Yassine Daadaa"
       ],
-      "date": "2026-06-18",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/18//2026.06.16.732768.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/18//2026.06.16.732768.source.xml",
-      "doi": "10.64898/2026.06.16.732768",
+      "date": "2026-06-19",
+      "source": "openalex",
+      "link": "https://doi.org/10.3390/math14122208",
+      "pdf_url": "https://www.mdpi.com/2227-7390/14/12/2208/pdf?version=1781867436",
+      "doi": "10.3390/math14122208",
       "arxiv_id": "",
       "pubmed_id": "",
-      "openalex_id": "",
+      "openalex_id": "https://openalex.org/W7165146143",
       "semantic_scholar_id": "",
-      "abstract": "Viral RNA genomes contain structured elements that recruit the machinery necessary for their replication. However, these mechanisms remain poorly understood because of RNA structures dynamic nature. Using cryo-EM and single-molecule Forster resonance energy transfer, we show that the flaviviral stem-loop A (SLA)--which recruits the viral polymerase NS5 to initiate negative-strand synthesis--populates a conserved, multi-state conformational ensemble governed by a dynamic three-dimensional (3D) motif. Structures of Zika and dengue SLA-NS5 complexes reveal that NS5 engages a preorganized SLA conformation. Notably, destabilizing this conformation impairs negative-strand synthesis without affecting NS5 binding. Thus, the conserved SLA 3D ensemble guides a post-binding conformational search that converts an initial encounter complex into a productive replication-initiation complex--revealing how RNA conformational ensembles, rather than static structures, dictate function. SUMMARYViral genomes encode dynamic RNA structures that are specifically recognized by proteins to regulate critical steps of the viral life cycle. Although these RNAs exist as multi-state conformational ensembles, structural studies have largely captured single conformations, limiting our mechanistic understanding of RNA-protein recognition and function. Here, using single-particle cryo-electron microscopy (cryo-EM), single-molecule Forster resonance energy transfer, and biochemical assays, we show how flaviviral genomes use structural dynamics encoded in their stem-loop A (SLA) to guide a conserved, multi-step mechanism of negative-strand synthesis initiation by non-structural protein 5 (NS5). Cryo-EM ensembles of SLAs from dengue, Zika, West Nile, and yellow fever viruses reveal a conserved conformational landscape dictated by alternative stacking configurations of a central three-way junction (3WJ). Cryo-EM structures of SLA-NS5 complexes from dengue and Zika show that NS5 engages a specific state within SLA 3D ensemble, one in which the 3WJ adopts a GRR/A tetraloop-like motif that we identify across diverse structural RNAs. Strikingly, mutations that substantially destabilize this state impair negative-strand synthesis without affecting NS5 binding--decoupling binding from function and ruling out a simple conformational-capture mechanism. Instead, the SLAs intrinsic structural dynamics direct a post-binding conformational search that converts an initial, conformationally heterogeneous encounter complex into a productive replication-initiation complex. These results demonstrate a mechanism of RNA-protein recognition in which the 3D conformational ensemble of an RNA guides formation of the functional state downstream of binding, and identify a ubiquitous, intrinsically dynamic 3D motif within the SLAs 3WJ as a critical determinant of flavivirus negative-strand synthesis.",
-      "venue": "biorxiv",
+      "abstract": "Combinatorial optimization is a key component in critical decision problems such as routing, scheduling, network design, and graph optimization. Although combinatorial optimization methods, including exact algorithms, approximation methods, constraint programming, mixed integer programming, and metaheuristics, are widely available, they often face obstacles, such as limited scalability and adaptability in various applications. In this study, a systematic critical review of machine learning for combinatorial optimization is provided to characterize the usage and evaluation of learning-based approaches. A detailed analysis is used to infer and determine findings and limitations. The paper emphasizes how machine learning for computational optimization has changed over time, moving from end-to-end neural solvers to hybrid systems. Learning components are essential for directing, speeding up, or enhancing traditional solver backbones such as constraint programming and metaheuristics in hybrid systems. The review also critically examines current limits that impact performance in general, including scalability, deployment readiness, generalization, and benchmark consistency. Even though using large language models for problem formulation and heuristic synthesis has potential, more work needs to be done to ensure reliable validation. As a conclusion, this article examines recent studies’ findings, emphasizes the growing trend toward hybrid learning-driven optimization frameworks, and underlines important methodological limits and unresolved issues.",
+      "venue": "Mathematics",
       "code_url": "",
       "topic_tags": [
-        "computational_chemistry_biophysics_structural_biology"
+        "optimization_methods",
+        "black_box_combinatorial_and_expensive_optimization"
       ],
-      "deterministic_score": 5.625,
+      "deterministic_score": 5.957,
       "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.5100000000000007,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.325,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 26,
-      "title": "Off-Policy Evaluation for Missingness-Aware Policies in MDPs with Rewards Missing Not at Random",
-      "authors": [
-        "Ziheng Wei",
-        "Annie Qu",
-        "Rui Miao"
-      ],
-      "date": "2026-06-18",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.20206v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.20206v1",
-      "doi": "",
-      "arxiv_id": "2606.20206v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "In offline Reinforcement Learning, immediate rewards in logged batch data are often unobserved due to sparse or irregular record-keeping, or censored beyond certain reward values. This issue arises in practical settings, including health care and marketing. We investigate off-policy evaluation (OPE) in finite-horizon Markov decision processes when rewards are missing not at random (MNAR), which breaks ignorability and induces selection bias even after conditioning on states and actions. To address this, we formalize a reward-dependent propensity model and use future states as shadow variables to identify the full-data conditional mean reward. We further introduce a bridge function that recovers the conditional mean reward without explicitly modeling the MNAR mechanism, and estimate it via a min-max procedure to avoid double sampling. Building upon these identification results, we propose an Fitted-Q-Evaluation-style estimator that propagates the recovered rewards while allowing target policies to depend on past missingness indicators. Finally, we establish consistency and finite-sample error bounds for our OPE estimator, and show through experiments the strong performance of our method compared to existing methods on simulated and MIMIC-III Sepsis data.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 4.96,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 2.7,
+        "paper_type": "review",
+        "direct_relevance": 8.235,
         "novelty": 1.8199999999999996,
         "methodological_insight": 0.512,
-        "transferable_insight": 0.46799999999999997,
+        "transferable_insight": 0.0,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
-      "title": "A hybrid framework integrating structural machine learning and 3D liver-on-chip assay for drug-induced liver injury prediction",
-      "authors": [
-        "Zhang, F.",
-        "Zhou, Y.",
-        "Ding, D.",
-        "Zhang, F.",
-        "Xiao, R.",
-        "Ai, X."
-      ],
-      "date": "2026-06-18",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/18//2026.06.15.732231.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/18//2026.06.15.732231.source.xml",
-      "doi": "10.64898/2026.06.15.732231",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Drug-induced liver injury (DILI) remains one of the most pressing challenges in drug development, contributing to 25-30% of late-stage clinical attrition and representing a leading cause of post-marketing drug withdrawals. Here, we introduce Oakuloid, a hybrid DILI prediction framework that combines a stacked ensemble of three gradient-boosted decision-tree models, including LightGBM, XGBoost, and CatBoost, with an inference-time rank-mean fusion module. This module integrates a structure-based prediction score with the experimental IC50/Cmax ratio measured using our previously reported 3D primary human hepatocyte iBAC platform. Oakuloid establishes a new state of the art among open structure-only DILI predictors, achieving an AUROC of 0.767 +/- 0.001 on a strict external benchmark and an AUROC of 0.821 on our internal DILIrank cohort. When wet-lab fusion is enabled, performance on the internal cohort further improves to an AUROC of 0.872, while per-class sensitivity for less-severe DILI compounds increases from 0.24 to 0.76. The fusion strategy correctly identifies paradigm DILI drugs, including Acetaminophen, Clozapine, and Simvastatin, that are systematically misclassified by either signal alone. The two channels provide mechanistically complementary information: structural features capture a priori reactive or scaffold-related liabilities, whereas the IC50/Cmax ratio reflects a posteriori cellular damage at clinically relevant exposure levels. Their integration is defined by a single equation that enables scoring of any new compound at single-compound inference time. Beyond prediction, we release the trained model bundle, a curated 122-compound DILIrank wet-lab benchmark, calibration analysis, and a Mitchell-style model card under the Apache License 2.0, supporting transparent and reproducible drug-safety screening.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.544,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.6399999999999992,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
         "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
-        "penalties": -4.0
+        "penalties": -8.0
       },
       "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 28,
-      "title": "Multi-Task Bayesian In-Context Learning",
-      "authors": [
-        "Qingyang Zhu",
-        "Eric Karl Oermann",
-        "Kyunghyun Cho"
-      ],
-      "date": "2026-06-18",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.20538v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.20538v1",
-      "doi": "",
-      "arxiv_id": "2606.20538v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Bayesian predictive inference provides a principled framework for uncertainty quantification, data efficiency, and robust generalization. However, exact inference is often intractable, and scalable approximations may remain computationally expensive or require restrictive modeling assumptions that degrade predictive performance. Prior-Data Fitted and in-context models have recently emerged as an amortized alternative by learning to map datasets directly to predictive distributions, but existing approaches are tightly coupled to the support of the training prior and lack explicit mechanisms for adapting to new priors at test time, resulting in limited robustness under distribution shift. We introduce a multi-task in-context learning framework for amortized hierarchical Bayesian predictive inference that explicitly represents prior information as a prefix of in-context datasets. A transformer trained on sequences of prior and target tasks learns to adapt its predictions across families of priors. On a suite of evaluations with increasing difficulty, including out-of-meta-distribution priors and priors with high-dimensional latent structures, our method matches oracle Bayesian predictors while being orders of magnitude faster. We further demonstrate its practical relevance on a real-world spatiotemporal temperature prediction benchmark. Code is available at https://github.com/martianmartina/multi-task-bayesian-icl/.",
-      "venue": "",
-      "code_url": "https://github.com/martianmartina/multi-task-bayesian-icl/",
-      "topic_tags": [],
-      "deterministic_score": 4.206,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.6399999999999992,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.17,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "SARLO-80: Worldwide Slant SAR Language Optic Dataset 80cm",
-      "authors": [
-        "Solène Debuysère",
-        "Nicolas Trouvé",
-        "Nathan Letheule",
-        "Elise Colin",
-        "Georgia Channing"
-      ],
-      "date": "2026-06-18",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2606.20523v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.20523v1",
-      "doi": "",
-      "arxiv_id": "2606.20523v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Multimodal foundation models have advanced rapidly thanks to large optical benchmarks, but comparable resources for synthetic aperture radar (SAR) remain limited. Existing SAR--optical datasets largely rely on low-resolution, intensity-only Ground Range Detected~(GRD) products and do not preserve complex-valued SAR measurements or native acquisition geometry, which restricts physically grounded multimodal learning. In particular, large-scale public datasets combining very-high-resolution (VHR) SAR SLC, aligned optical imagery, and natural-language descriptions are still lacking. We present a VHR SAR--optical--text dataset built from open-access Umbra spotlight acquisitions distributed as Sensor Independent Complex Data (SICD). From around 2,500 worldwide scenes (VV/HH, 20cm--2m native resolution), we standardize all SAR data to an 80cm slant-range grid via band-limited FFT resampling and tile the imagery into 1024 by 1024 patches. For each SAR patch, we retrieve a high-resolution optical tile and warp it into the SAR grid using local coordinate correspondences for local pixel-level alignment. We further generate three caption variants (SHORT/MID/LONG) per sample to support vision--language training and evaluation. Our dataset contains 119,566 triplets (complex and amplitude slant-range SAR patch, aligned optical patch, natural-language description) covering 257 locations across 72 countries and a broad range of land types and infrastructures. We release fixed train/validation/test splits and the full preprocessing and baseline code to enable reproducible benchmarks for multimodal alignment on cross-modal retrieval and conditional generation in native SAR geometry. The dataset is publicly available on the Hugging Face Hub at https://huggingface.co/datasets/ONERA/SARLO-80.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "medicinal_and_synthetic_chemistry"
-      ],
-      "deterministic_score": 4.194,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 3.24,
-        "novelty": 2.38,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to medicinal_and_synthetic_chemistry.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Bioinf-Farma: supervised integration of epitope prediction and recombinant protein developability for automated vaccine candidate prioritization",
-      "authors": [
-        "Bondi, H.",
-        "Crespi, M.",
-        "Orlando, M.",
-        "Lescai, F.",
-        "Serapian, S. A.",
-        "Colombo, G.",
-        "Fasano, M.",
-        "Pollegioni, L.",
-        "Molla, G."
-      ],
-      "date": "2026-06-18",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/18//2026.06.15.732271.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/18//2026.06.15.732271.source.xml",
-      "doi": "10.64898/2026.06.15.732271",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Vaccine antigen discovery requires prioritizing protein candidates according to both immunogenic potential and recombinant expression feasibility. These properties are typically evaluated using separate computational tools, requiring researchers to integrate heterogeneous outputs through ad hoc workflows. Here, we present BIOINF-farma, a modular platform integrating epitope prediction and developability assessment for rational antigen selection within a unified environment. Candidates can be submitted as amino acid sequences or three-dimensional structures. When experimental structures are unavailable, BIOINF-farma automatically searches for models in AlphaFold DB or performs structure prediction using Boltz-2, ensuring a standardized structural representation for downstream analyses. Antigenicity is quantified by combining structure-based conformational epitope signals (MLCE/REBELOT-BEPPE) and sequence-based linear epitope propensity scores (BepiPred 3.0) into a protein-level Antigenicity Score, with a classification threshold optimized on a manually curated validation dataset. Developability is evaluated through two supervised Random Forest meta-learners that integrate three solubility predictors (DeepSoluE, SoluProt, Protein-Sol) and three thermal stability predictors (TemStaPro, ProLaTherm, BertThermo), whose outputs are combined into an Expression Efficiency Score (EES). By integrating complementary predictive signals, the meta-learning framework achieves greater accuracy and robustness than individual predictors while maintaining performance across a broad range of sequence identities. The Antigenicity Score effectively discriminates antigenic from non-antigenic proteins with a large effect size, whereas EES successfully distinguishes soluble from insoluble outcomes on an independent panel of recombinant proteins expressed in Escherichia coli. BIOINF-farma jointly assesses antigenicity and expression feasibility within a single framework. Its modular architecture facilitates the incorporation of future predictive methods, while its web-based interface makes the full pipeline accessible to users without programming expertise, supporting rapid candidate triage in vaccine research and emerging pathogen responses. Author SummaryVaccine development begins with a critical step: identifying, among the many proteins encoded in a pathogen genome, those most suitable as candidate antigens. A promising candidate must satisfy two requirements that are rarely evaluated together. It must be recognized by the immune system, so that vaccination elicits a protective response; and it must be amenable to recombinant production, since antigens that cannot be obtained in sufficient quantity and quality are of limited practical use. Current computational tools typically address only one of these aspects, and researchers must integrate their outputs manually, through procedures that are time-consuming and prone to inconsistency. We developed BIOINF-farma, an automated platform that brings these two assessments into a single analytical framework. Starting from a protein sequence or an experimental structure, the platform retrieves or predicts a three-dimensional model, evaluates the proteins antigenic potential by combining complementary epitope predictors, and estimates its expression feasibility by integrating multiple solubility and stability predictors through supervised machine learning. A web-based interface makes the full workflow available to experimental immunologists and vaccine developers without requiring computational expertise, supporting rational candidate prioritization in routine vaccine research and during emerging pathogen responses.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 3.603,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 2.8,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.46799999999999997,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -7.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to optimization_methods, black_box_combinatorial_and_expensive_optimization, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
     }
   ]
 }
