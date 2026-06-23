@@ -1,9 +1,9 @@
 {
   "date": "2026-06-23",
   "stats": {
-    "raw_candidates": 190,
-    "deduplicated_candidates": 146,
-    "filtered_candidates": 146,
+    "raw_candidates": 191,
+    "deduplicated_candidates": 147,
+    "filtered_candidates": 147,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -77,6 +77,54 @@
     },
     {
       "rank": 2,
+      "title": "DiFlow-TTS: Discrete Flow Matching with Factorized Speech Tokens for Low-Latency Zero-Shot Text-To-Speech",
+      "authors": [
+        "N. Nguyen",
+        "Hieu-Nghia Huynh-Nguyen",
+        "Thanh V. T. Tran",
+        "T. Hy",
+        "Van Nguyen"
+      ],
+      "date": "2025",
+      "source": "semantic_scholar",
+      "link": "https://www.semanticscholar.org/paper/e7a6717265dfb839741d0f500b1076a6ba8d2178",
+      "pdf_url": "",
+      "doi": "10.48550/arXiv.2509.09631",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "e7a6717265dfb839741d0f500b1076a6ba8d2178",
+      "abstract": "",
+      "venue": "arXiv.org",
+      "code_url": "",
+      "topic_tags": [
+        "discrete_generative_modeling",
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 17.586,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 13.905,
+        "novelty": 0.0,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 2.5,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.16000000000000003,
+        "citation_signal": 0.09030899869919436,
+        "penalties": -3.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to discrete_generative_modeling, flow_matching_and_diffusion.",
+      "possible_concerns": "abstract is missing or too short to judge novelty well"
+    },
+    {
+      "rank": 3,
       "title": "Latent Novelification: Expanding Generative Expressivity Through Objective-Defined Transformation",
       "authors": [
         "Joseph Meyer",
@@ -123,7 +171,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Fast Multi-objective RNA Optimization with Autoregressive Reinforcement Learning",
       "authors": [
         "Huang, J.",
@@ -181,7 +229,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Probability of Antibiotic Resistance During Treatment in Stochastic PK/PD-Based Bacterial Model with Distinct Drug and Mutation Modes",
       "authors": [
         "Izuazu, C.",
@@ -225,7 +273,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Targeting the Mannitol Biosynthesis Pathway in Aspergillus fumigatus: Characterisation and Inhibition of Mannitol-2-Dehydrogenase",
       "authors": [
         "Nguyen, S.",
@@ -274,7 +322,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Balancing Revenue and Service in Urban Parking: A Reinforcement Learning-Based Capacity Management Approach",
       "authors": [
         "Thomas Müller",
@@ -320,7 +368,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Defining reversible binding rates in 1D systems dependent on diffusion, density, and excluded volume",
       "authors": [
         "Sang, M.",
@@ -364,7 +412,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Continuous evolution of gene libraries towards arbitrary functions reveals the versatility of biomolecular evolution in vivo",
       "authors": [
         "Pisera, A.",
@@ -409,7 +457,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Antibody-Antigen Affinity Prediction with Chain-Aware Protein Language Modeling",
       "authors": [
         "Singh, H.",
@@ -456,7 +504,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -500,7 +548,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -549,7 +597,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -593,7 +641,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -641,7 +689,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -688,7 +736,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "title": "Generating antimicrobial peptides via genomic transfer learning",
       "authors": [
         "Polloni, L.",
@@ -732,7 +780,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "The shape of evolution: persistent homology of genetic-distancedata as an observable of reticulate processes in pathogen andplant genomes",
       "authors": [
         "Feged-Rivadeneira, A.",
@@ -777,7 +825,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "Robust Conditional Diffusion with Noisy Templates for Antibody Sequence-Structure Design",
       "authors": [
         "Liu, p.",
@@ -824,7 +872,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "Latent Terrain: Adapting Neural Audio Autoencoders as Design Materials in NIME",
       "authors": [
         "Shuoyang Zheng",
@@ -871,7 +919,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "πDIA-CLIP: efficient identification of highly heterogeneous proteomics data via a generalized zero-shot framework",
       "authors": [
         "Liao, Y.",
@@ -922,7 +970,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 21,
       "title": "GENATATORs: ab initio Gene Annotation With DNA Language Models",
       "authors": [
         "Shmelev, A.",
@@ -968,7 +1016,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "Ecological axes of skull diversification in a massive 1 vertebrate radiation",
       "authors": [
         "Santos, E. C.",
@@ -1039,7 +1087,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "SYNTHESIS AND ADSORPTION STUDY OF PENICILLIN G USING AN ACRYLAMIDE-EGDMA MOLECULARLY IMPRINTED POLYMER",
       "authors": [
         "Fitria Puspita",
@@ -1090,7 +1138,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "Advances in functionalized biopolymers for targeted cancer drug delivery",
       "authors": [
         "Ishaan Ghodke",
@@ -1139,7 +1187,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "Constrained assortment optimization under the mixed-logit model",
       "authors": [
         "Hoang Giang PHAM",
@@ -1183,7 +1231,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "From bench to bedside 2.0: AI-driven innovations in clinical research and&amp;nbsp;&lt;span style=&quot;font-size: 1rem;&quot;&gt;precision medicine&lt;/span&gt;",
       "authors": [
         "Shivam Dubey"
@@ -1224,7 +1272,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "Protein-glass microenvironments define electron transfer vulnerability in Leigh syndrome",
       "authors": [
         "Sung, J.-Y.",
@@ -1266,7 +1314,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "Applying Deep-Learning-Driven",
       "authors": [
         "Margherita Persico",
@@ -1320,7 +1368,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "The Ontological Status of AI-Generated Music: From Stylistic Mimicry to Collaborative Agency",
       "authors": [
         "Shen Jiang"
@@ -1361,7 +1409,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "From Known Relations to New One: Learning to Classify Triplets of Unseen Relations from A Biomedical Knowledge Graph",
       "authors": [
         "Pei Yuan Tsai",
@@ -1391,49 +1439,6 @@
         "methodological_insight": 1.024,
         "transferable_insight": 0.7020000000000001,
         "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Maternal BMI and Placental Transcriptomic Changes: A Meta-Analysis of Gene Expression at the Maternal-Fetal Interface",
-      "authors": [
-        "Tangri, R.",
-        "Regnault, T. R. H.",
-        "Shooshtari, P."
-      ],
-      "date": "2026-06-20",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/20//2026.06.10.731498.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/20//2026.06.10.731498.source.xml",
-      "doi": "10.64898/2026.06.10.731498",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Objective: Maternal body mass index (BMI) is often used as a measure of metabolic status and increased or decreased maternal BMI is associated with a heightened risk of cardiometabolic diseases across generations. The placenta mediates these maternal metabolic cues; however, its genome wide transcriptional adaptations in response to maternal BMI remain incompletely defined. Methods: To delineate placental genes, pathways, and interaction clusters whose transcript abundance varies with maternal prepregnancy BMI through a genome wide meta analysis of human placental RNA sequencing datasets. Placental RNA seq reads from four publicly available cohorts (n=146) were mapped to the GRCh38 reference genome and differentially expressed genes were identified. An independent microarray cohort (n=19) was reanalysed separately to facilitate cross platform comparison. Functional enrichment employed GO, KEGG, and STRING protein interaction resources. Results: Meta-analysis of 146 RNA seq samples identified eight genes with genome-wide significance in placentae from underweight pregnancies including inflammatory signaling gene MAP4K1 and metabolic enzyme PSPH, while overweight and obese categories revealed nominally significant differential expression. KEGG analysis demonstrated significant downregulation of oxidative phosphorylation with increasing maternal BMI, and protein-protein interaction networks revealed inflammatory mediators as central nodes in overweight and obese groups. Independent microarray validation corroborated key findings, including consistent downregulation of oxidative phosphorylation in obesity. Conclusion: Maternal BMI is associated with placental transcriptomic signatures involving inflammatory, metabolic, and hormonal pathways, with consistent downregulation of oxidative phosphorylation across platforms. This genome-wide meta-analysis provides a reproducible catalogue of BMI-responsive placental transcripts that may contribute to developmental programming of offspring health.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.181,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.42,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
