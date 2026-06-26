@@ -1,9 +1,9 @@
 {
   "date": "2026-06-26",
   "stats": {
-    "raw_candidates": 348,
-    "deduplicated_candidates": 224,
-    "filtered_candidates": 224,
+    "raw_candidates": 304,
+    "deduplicated_candidates": 188,
+    "filtered_candidates": 188,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -214,54 +214,6 @@
     },
     {
       "rank": 5,
-      "title": "Energy Scaling Laws for Diffusion Models: Quantifying Compute in Image Generation",
-      "authors": [
-        "Aniketh Iyengar",
-        "Jiaqi Han",
-        "Boris Ruf",
-        "Vincent Grari",
-        "Marcin Detyniecki",
-        "Stefano Ermon"
-      ],
-      "date": "2026-06-23",
-      "source": "openalex",
-      "link": "https://doi.org/10.1145/3805689.3812229",
-      "pdf_url": "",
-      "doi": "10.1145/3805689.3812229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W4416595347",
-      "semantic_scholar_id": "",
-      "abstract": "The rapidly growing computational demands of diffusion models for image generation have raised significant concerns about energy consumption and environmental impact. While existing approaches to energy optimization focus on architectural improvements or hardware acceleration, there is a lack of principled methods to predict energy consumption across different model configurations and hardware setups. We propose an adaptation of Kaplan scaling laws to predict GPU energy consumption for diffusion models based on computational complexity (FLOPs). Our approach decomposes diffusion model inference into text encoding, iterative denoising, and decoding components, with the hypothesis that denoising operations dominate energy consumption due to their repeated execution across multiple inference steps. We conduct comprehensive experiments across four state-of-the-art diffusion models (Stable Diffusion 2, Stable Diffusion 3.5, Flux, and Qwen) on three GPU architectures (NVIDIA A100, A4000, A6000), spanning various inference configurations including resolution (2562-10242), precision (fp16/fp32), step counts (10-50), and classifier-free guidance settings. Our energy scaling law achieves high predictive accuracy within individual architectures (R2 > 0.9) and exhibits strong cross-architecture generalization, maintaining high rank correlations across models and enabling reliable energy estimation for unseen model-hardware combinations. These results validate the compute-bound nature of diffusion inference and establish energy consumption estimation as a necessary foundation for sustainable AI deployment planning and subsequent carbon footprint assessment.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 16.103,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.725,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.8199999999999998,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 6,
       "title": "GenoME: a MoE-based generative model for individualized, multimodal prediction and perturbation of genomic profiles",
       "authors": [
         "Wei, J.",
@@ -307,7 +259,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Integrating experimental biology, computational methods, and artificial intelligence in anticancer drug discovery: Bridging the translational gap.",
       "authors": [
         "Cromwel Tepap Zemnou",
@@ -358,7 +310,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "MVTrack4Gen: Multi-View Point Tracking as Geometric Supervision for 4D Video Generation",
       "authors": [
         "JoungBin Lee",
@@ -411,79 +363,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
-      "title": "Reversible covalency reprograms CRBN substrate recruitment and PROTAC-mediated degradation",
-      "authors": [
-        "Ivan Đikić",
-        "Henry Bailey",
-        "Thomas Geiger",
-        "Serhii Zhersh",
-        "Nataliya Tolmachova",
-        "Vinay Singh",
-        "Ina Dressel",
-        "Rubina Kazi",
-        "Jonathan Eisert",
-        "Jan Gerhartz",
-        "Dominika Pienkowska",
-        "Lina Read",
-        "Se-Hun Kim",
-        "Maksym Bugera",
-        "Oleg Michurin",
-        "Tim Schober",
-        "Yuliia Mamchych",
-        "Nataliia Shliakhtova",
-        "Justyna Adamczyk",
-        "Petro Borysko",
-        "Urbi Mukhopadhyay",
-        "Jessica Fechner",
-        "Ulrike Bauer",
-        "Birgitta Leuthner",
-        "Thorsten Mosler",
-        "Fiona Sorrell",
-        "Frederik Lermyte",
-        "Radosław P. Nowak",
-        "Иван Кондратов"
-      ],
-      "date": "2026-06-24",
-      "source": "openalex",
-      "link": "https://doi.org/10.21203/rs.3.rs-10120177/v1",
-      "pdf_url": "",
-      "doi": "10.21203/rs.3.rs-10120177/v1",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7165654191",
-      "semantic_scholar_id": "",
-      "abstract": "",
-      "venue": "Research Square",
-      "code_url": "",
-      "topic_tags": [
-        "molecular_glue_and_tpd",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 14.26,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 11.07,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 2.5,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -3.0
-      },
-      "priority": "Skim",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to molecular_glue_and_tpd, computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "abstract is missing or too short to judge novelty well"
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Statistically Valid Hyperparameter Selection: From Tuning to Guarantees",
       "authors": [
         "Amirmohammad Farzaneh",
@@ -528,7 +408,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation Pipeline Construction",
       "authors": [
         "Kunyu Ni",
@@ -577,56 +457,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
-      "title": "pHLA-Bi-Mamba: A pan-specific deep learning model for peptide-HLA-Ⅰ binding affinity and eluted ligand prediction.",
-      "authors": [
-        "Yao Xuan",
-        "Qiang Huang",
-        "Qianting Yang",
-        "Yingyin Cao",
-        "Juanjuan Zhao",
-        "Furong Qi",
-        "Zheng Zhang"
-      ],
-      "date": "2026-06-25",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42013547/",
-      "pdf_url": "",
-      "doi": "10.1016/j.bbrc.2026.153729",
-      "arxiv_id": "",
-      "pubmed_id": "42013547",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Human leukocyte antigen class I (HLA-I) molecules are central to immunosurveillance, and accurate prediction of peptide-HLA-I binding is critical for immune target discovery and personalized immunotherapies. Although Transformer-based deep learning models have advanced sequence representation learning, they are often limited by quadratic computational complexity. In contrast, the bidirectional Mamba architecture integrates forward and backward contextual information, enabling more effective modeling of global sequence dependencies and spatial constraints within the peptide-binding groove. Because peptide-MHC binding is governed by global physicochemical interactions-where N- and C- terminal residues are frequently thermodynamically coupled-such bidirectional context is particularly advantageous. Here, we present pHLA-Bi-Mamba, a pan-specific model that leverages bidirectional Mamba-based protein language modeling to predict both binding affinity and eluted ligands for peptide-HLA-I pairs. pHLA-Bi-Mamba achieves state-of-the-art performance on recent benchmarking datasets while providing interpretable attribution to key peptide and HLA positions. For binding affinity prediction, the model attains an R",
-      "venue": "Biochemical and biophysical research communications",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 12.674,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 7.5600000000000005,
-        "novelty": 0.9799999999999999,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to protein_ligand_affinity.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 13,
+      "rank": 10,
       "title": "Structural Pockets and Interacting RNA-Associated Ligands (SPIRAL): A DSSR-enabled Meta-Analysis of RNA-Small Molecule Recognition",
       "authors": [
         "Lu, X.-J.",
@@ -671,7 +502,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 11,
       "title": "Computer-aided drug discovery: historical foundations, practical AI tools, and emerging ethical considerations",
       "authors": [
         "Rebekah Clarke",
@@ -719,7 +550,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 15,
+      "rank": 12,
       "title": "Large-scale multi-objective human resource scheduling for organizational agility: An improved co-evolutionary NSGA-II algorithm",
       "authors": [
         "Jingbo Huang",
@@ -769,7 +600,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 16,
+      "rank": 13,
       "title": "Balancing Revenue and Service in Urban Parking: A Reinforcement Learning-Based Capacity Management Approach",
       "authors": [
         "Thomas Müller",
@@ -815,7 +646,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 14,
       "title": "Video Object Segmentation-Aware Audio Generation",
       "authors": [
         "Ilpo Viertola",
@@ -860,56 +691,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
-      "title": "Urutau Optimization Algorithm: A Novel Swarm-based Metaheuristic Inspired by the Natural Behaviour of Urutau Bird",
-      "authors": [
-        "Gulnara Bektemyssova",
-        "Aseel Smerat",
-        "Zeinab Montazeri",
-        "Ali Jafer Mahdi",
-        "Mohammad Dehghani",
-        "O.P. Malik",
-        "Kei Eguchi"
-      ],
-      "date": "2026-06-24",
-      "source": "openalex",
-      "link": "https://doi.org/10.22266/ijies2026.0731.33",
-      "pdf_url": "https://doi.org/10.22266/ijies2026.0731.33",
-      "doi": "10.22266/ijies2026.0731.33",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7165805093",
-      "semantic_scholar_id": "",
-      "abstract": "A new population-based metaheuristic algorithm named Urutau Optimization Algorithm (UOA), inspired by the natural behaviour of the Urutau bird in the wild, is introduced in this paper.First, the ethology of this bird is investigated, and its characteristic behaviours are extracted to design the algorithm structure.Then, the theory of the UOA algorithm is fully explained and its mathematical structure is modelled in three main parts including initialization, exploration phase, and exploitation phase.The exploration phase in UOA is designed based on the simulation of the multidirectional environmental monitoring behaviour of the Urutau; a behaviour in which the bird identifies potential opportunities by examining different areas of the environment.Also, the exploitation phase is designed based on the simulation of the precise and targeted attack behaviour of this bird on the prey to perform the local search process with high accuracy.The efficiency of the proposed UOA algorithm in optimization applications is evaluated on 23 standard benchmark functions including unimodal and multimodal functions.The results of the unimodal function optimization show that UOA has a very high ability in local search, exploitation, and accurate convergence towards the optimal solution.Also, the results of the high-dimensional multimodal test functions show that the algorithm can provide successful performance in global search by maintaining population diversity and preventing premature convergence.In addition, the results of the fixed-dimensional multimodal test functions show that an effective balance between exploration and exploitation is established and that UOA can provide stable and competitive performance in complex multi-vertex problems.The results are compared with 9 well-known metaheuristic algorithms to evaluate the performance quality of UOA.The simulation results show that UOA has achieved the first best optimizer rank in 19 out of a total of 23 benchmark functions, providing a successful performance of 82.60% in competition with the compared algorithms.Also, qualitative analysis of convergence curves shows that UOA has a fast, stable, and uniform convergence trend and can avoid getting stuck in local optima during the search process.The findings of this study show that the UOA algorithm, with its high ability in exploration, exploitation, and balancing between the two in the search process, provides successful and acceptable performance in various optimization applications and can be used as an effective tool for solving complex optimization problems.",
-      "venue": "International journal of intelligent engineering and systems",
-      "code_url": "",
-      "topic_tags": [
-        "black_box_combinatorial_and_expensive_optimization"
-      ],
-      "deterministic_score": 9.031,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 4.1850000000000005,
-        "novelty": 3.08,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 19,
+      "rank": 15,
       "title": "Adaptive gait planning and performance evaluation of a lightweight three-bar tensegrity robot",
       "authors": [
         "Lin Zheng",
@@ -957,7 +739,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 16,
       "title": "HoloCell: A Generative Foundation Model for Holistic Cellular Modeling",
       "authors": [
         "Jiang, Q.",
@@ -1014,7 +796,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 21,
+      "rank": 17,
       "title": "The RdRp Thumb-1 Pocket is a Conserved Target for Broad-Spectrum Antiviral Development",
       "authors": [
         "Woods, V.",
@@ -1063,7 +845,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 18,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -1107,7 +889,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 19,
       "title": "Design, synthesis, biological evaluation, and in silico characterization of chalcone derivatives as antidiabetic hits",
       "authors": [
         "A Ali",
@@ -1165,56 +947,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 24,
-      "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
-      "authors": [
-        "RADU CONSTANTIN Calinescu",
-        "Micah Bassett",
-        "Brendan Devlin-Hill",
-        "Simos Gerasimou",
-        "Sinem Getir Yaman",
-        "Kavan Fatehi",
-        "Gricel VAZQUEZ FLORES"
-      ],
-      "date": "2026-07-26",
-      "source": "openalex",
-      "link": "https://orcid.org/0000-0002-2678-9260>,",
-      "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/240654/1/CAV-2026_ULTIMATE-tool-paper.pdf",
-      "doi": "",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7159896520",
-      "semantic_scholar_id": "",
-      "abstract": "",
-      "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
-      "code_url": "",
-      "topic_tags": [
-        "stochastic_processes_probability_statistical_physics"
-      ],
-      "deterministic_score": 7.322,
-      "score_breakdown": {
-        "paper_type": "weak_match",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -3.0
-      },
-      "priority": "Skim",
-      "paper_type": "weak_match",
-      "why_selected": "Selected as a possible match to stochastic_processes_probability_statistical_physics, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
-    },
-    {
-      "rank": 25,
+      "rank": 20,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -1258,7 +991,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 21,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1306,7 +1039,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 22,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1353,7 +1086,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 28,
+      "rank": 23,
       "title": "Electrostatic interactions compensate energetic frustration in the coupled folding and binding of intrinsically disordered proteins",
       "authors": [
         "Alvarez, L.",
@@ -1407,7 +1140,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 24,
       "title": "When Does Synthetic Data Augmentation Improve Score-Based Imbalanced Classification?",
       "authors": [
         "Zhengchi Ma",
@@ -1452,7 +1185,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 25,
       "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
       "authors": [
         "Dong Jing",
@@ -1489,6 +1222,232 @@
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
         "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 26,
+      "title": "Representational geometry as a fidelity metric for connectome-constrained networks: evidence from the Drosophila visual system",
+      "authors": [
+        "Zhou, M. G.",
+        "Hasler, J. O."
+      ],
+      "date": "2026-06-23",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/06/23//2026.06.10.731214.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/23//2026.06.10.731214.source.xml",
+      "doi": "10.64898/2026.06.10.731214",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "What does biological wiring actually contribute to neural computation? Behavioral experiments can test whether a model produces the right outputs, but they cannot determine whether its internal representations are biologically faithful. Brunton et al. (2026) made this concrete: a C. elegans worm connectome trained with deep reinforcement learning produces realistic Drosophila fly walking -- yet the model is biologically meaningless, because behavioral fidelity is achievable without biological fidelity. We need a population-level metric that discriminates real biological wiring from arbitrary wiring, without requiring a behavioral decoder. We propose representational geometry as that metric. Representational geometry -- the structure of pairwise distances between population responses to different stimuli -- captures how a neural circuit organizes its representational space, independently of what behavior it drives. We apply representational similarity analysis (RSA) and centered kernel alignment (CKA) to the Flyvis pretrained Drosophila melanogaster visual system ensemble (Lappalainen et al. 2024): 50 networks whose architecture is fixed to the Flyvis connectome (reconstructed from partial electron-microscopy sources), compared against stability-constrained random baselines (sign-preserving weight shuffles, rejection-sampled for dynamic stability, n = 50). Connectome-constrained networks produce a smooth circular direction geometry that random networks cannot replicate: RSA Spearman r = 0.686 (p < 0.0001) for ON edge stimuli and r = 0.846 (p < 0.0001) for ON+OFF edge stimuli, corroborated by CKA (p < 0.05 in both experiments). The geometry also tracks biological T4/T5 direction tuning recorded in living flies (Maisak et al. 2013): connectome-constrained geometry matches biology substantially better than random geometry (r = 0.930 vs. r = 0.603, gap {Delta}r = 0.327, p < 0.0001). Within each stimulus polarity, the ON pathway encodes direction with stronger geometric separation than the OFF pathway ({Delta}r = 0.138, 95% CI [0.091, 0.236]); we report this as a property of the model ensemble's representations rather than an established biological difference: Maisak et al. (2013) find T4 and T5 functionally equivalent except in contrast polarity. To address the training confound, we compared untrained networks against shuffled baselines: the connectome prior shapes directional geometry at the ensemble level before any task training (r = 0.260, p = 0.041 and r = 0.215, p = 0.048; both marginal, uncorrected), suggesting wiring encodes a geometric prior that training amplifies. These results establish representational geometry as a candidate fidelity metric that discriminates biological from arbitrary wiring using only population responses to a structured stimulus set, and suggest a practical path toward fidelity metrics for connectome-scale emulations approaching mammalian cortex.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "transferable_insights"
+      ],
+      "deterministic_score": 4.47,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 2.7,
+        "novelty": 1.4,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "DomainShuttle: Freeform Open Domain Subject-driven Text-to-video Generation",
+      "authors": [
+        "Nan Chen",
+        "Yiyang Cai",
+        "Rongchang Xie",
+        "Junwen Pan",
+        "Cheng Chen",
+        "Weinan Jia",
+        "Zhuowei Chen",
+        "Wen Zhou",
+        "Zhenbang Sun",
+        "Wenhan Luo"
+      ],
+      "date": "2026-06-24",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.26058v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26058v1",
+      "doi": "",
+      "arxiv_id": "2606.26058v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Open domain subject-driven text-to-video (S2V) generation has drawn significant interest in academia and industry. Open domain S2V mainly involves two scenarios: in-domain, which requires retaining the reference subject features as much as possible, and cross-domain, which preserves the intrinsic features of the subject while allowing subject-irrelevant properties to vary flexibly according to the text prompt. Existing methods primarily focus on maximizing subject fidelity in in-domain scenarios, which limits their editability and adaptability in cross-domain scenarios, such as novel styles, semantic combinations, or domain attributes. In this study, we propose that an ideal S2V method should flexibly shuttle between different domains, achieving strong performance in both in-domain and cross-domain scenarios. To this end, we propose DomainShuttle, which could achieve high fidelity and generative flexibility for open domain video personalization. Specifically, we introduce Domain-MoT, which decouples videos and reference features and introduces the domain-aware AdaLN for domain-specific modeling of reference images. We then introduce the Video-Reference DualRoPE scheme, which places reference image tokens and video tokens in separate RoPE spaces to enable precise subject-level spatial modeling, and Cross-Pair Consistent Loss, which aims to extract intrinsic subject features unaffected by irrelevant features. Extensive experiments demonstrate that DomainShuttle achieves significant performance improvements over existing methods, exhibiting high subject fidelity and generative flexibility across diverse open domain application scenarios.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.419,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 0.512,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "Machine learning-based modeling to predict inhibitors for targets of Alzheimer's Disease",
+      "authors": [
+        "Nalin Arora",
+        "Mehak Gopal"
+      ],
+      "date": "2026-06-23",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.24372v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24372v1",
+      "doi": "",
+      "arxiv_id": "2606.24372v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Alzheimer's Disease is a chronic neurodegenerative disorder projected to affect 115 million people by 2050, driven by mechanisms like the cholinergic and amyloid hypotheses and insulin signaling disruptions involving key targets such as BACE-1, AChE, and GSK-3 beta. Utilizing machine learning (ML), we developed predictive models for inhibitor screening, achieving AUC-ROC scores above 0.9 for all targets. BACE-1 models showed high accuracy (86.63%) but limited chemical diversity. AChE models exhibited greater chemical diversity and similar performance (AUC-ROC: 92.86%, Accuracy: 85.20%), while GSK-3 beta models achieved an AUC-ROC of 91.14% with the highest proportion of viable drug candidates. These findings highlight the potential of ML in Alzheimer's drug discovery, with AChE and GSK-3 beta emerging as promising targets.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery"
+      ],
+      "deterministic_score": 4.405,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 4.32,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.325,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "DREAM—Meta learning for tailored hierarchical dialogue management: application to motivational interview",
+      "authors": [
+        "Lucie Galland",
+        "Catherine Pélachaud",
+        "Florian Pécune"
+      ],
+      "date": "2026-06-24",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/frai.2026.1786834",
+      "pdf_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1786834/pdf",
+      "doi": "10.3389/frai.2026.1786834",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165736031",
+      "semantic_scholar_id": "",
+      "abstract": "Large Language Models (LLM) enable open-ended and socially rich interactions, yet they lack mechanisms for deliberate control and structured adaptation. In many complex tasks, effective dialogue requires two levels of adaptation: personalization to diverse user profiles with distinct needs, and dynamic management of evolving sub-goals throughout multi-stage interactions. Existing systems typically address only one of these dimensions, limiting their ability to support nuanced, goal-driven conversations. We propose a hybrid dialogue framework that integrates an LLM with a hierarchical dialogue manager capable of guiding conversational structure while adapting to different user types. Motivational Interviewing (MI) serves as a challenging testbed, as it requires both adherence to a defined sequence of interaction phases and sensitive personalization to individual users. Our manager leverages hierarchical reinforcement learning to model MI's multi-phase progression and employs meta-learning to enable rapid adaptation across user profiles. Experiments using a simulated user and evaluations involving human participants show that the proposed system produces more engaging interactions than a plain LLM baseline. This article demonstrates the value of hybrid architectures for achieving two-level adaptation in dialogue systems.",
+      "venue": "Frontiers in Artificial Intelligence",
+      "code_url": "",
+      "topic_tags": [
+        "transferable_insights"
+      ],
+      "deterministic_score": 4.144,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 2.7,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "biomeStat: Using Agentic AI for Scalable Genomic Epidemiology Demonstrated Through End-to-End Analysis of 1,000 Asian Dengue Virus Genomes",
+      "authors": [
+        "Ariyaratne, D.",
+        "Somaratna, N.",
+        "Malavige, G. N."
+      ],
+      "date": "2026-06-23",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/06/23//2026.06.10.731380.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/23//2026.06.10.731380.source.xml",
+      "doi": "10.64898/2026.06.10.731380",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Genomic epidemiology workflows typically require expert curation of multiple specialized tools, extensive manual parameter tuning, and access to heterogeneous compute infrastructure. While standard generative AI models often hallucinate in complex biological domains, we introduce biomeStat: an autonomous AI agent that functions as a strict deterministic orchestrator. By automatically writing code to execute established bioinformatics tools in sandboxed environments, biomeStat dynamically provisions compute resources (CPU and GPU) and guarantees reproducibility, making it immediately useful for scientists without requiring command-line expertise. To demonstrate the platform, we performed a fully autonomous genomic epidemiology and structural analysis of 1,000 Dengue virus (DENV) genomes sampled from 16 Asian countries between 2000 and 2025. The agent seamlessly orchestrated phylogenetic reconstruction (IQ-TREE, TreeTime), Bayesian phylodynamics (BEAST2 via NVIDIA H200 GPU), selection pressure analysis (HyPhy), and structural mapping (PyMOL). The analysis was completed in under 24 hours of wall-clock time, revealing endemic stability (R_e [~]1.0) and identifying 1,869 candidate immune escape sites structurally colocalized with B-cell and T-cell epitopes. Furthermore, the agent validated 176 highly conserved drug target residues across the viral replication complex, confirming that resistance-associated positions for emerging antivirals JNJ-1802 and NITD-688 remain absolutely conserved across all four serotypes. By bridging the gap between natural language intent and deterministic computational execution, biomeStat reduces weeks of expert effort into a single-session analysis with full methodological transparency.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.949,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
