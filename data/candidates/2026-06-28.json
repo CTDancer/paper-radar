@@ -1,9 +1,9 @@
 {
   "date": "2026-06-28",
   "stats": {
-    "raw_candidates": 362,
-    "deduplicated_candidates": 237,
-    "filtered_candidates": 237,
+    "raw_candidates": 282,
+    "deduplicated_candidates": 157,
+    "filtered_candidates": 157,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -289,62 +289,6 @@
     },
     {
       "rank": 6,
-      "title": "Evolutionary dynamics of insect odorant receptors reveal ecological tuning shaping olfactory perception",
-      "authors": [
-        "Zhang, T.",
-        "Yang, X.",
-        "Fu, Y.",
-        "Xue, W.",
-        "Zhang, Y.",
-        "Duan, S.",
-        "Yin, Y.",
-        "Guo, Y.",
-        "Gao, C.",
-        "Liu, Y.",
-        "Li, G.",
-        "Xu, C.",
-        "Lu, H."
-      ],
-      "date": "2026-06-25",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/25//2026.02.12.705626.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/25//2026.02.12.705626.source.xml",
-      "doi": "10.64898/2026.02.12.705626",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Insect olfaction is facilitated by a heterotetrameric odorant receptor-odorant receptor co-receptor (OR-Orco) complex, which is distinct from that of vertebrate ORs. However, extreme sequence divergence among insect ORs has hindered a unified understanding of their evolutionary history and ecological importance. In this study, we present a multiscale analysis of OR genes across 115 insect species. We overcome the limitations of traditional phylogenetic approaches by applying a protein similarity network-based strategy and introduce a \"trunk-branch\" framework to systematically describe the evolutionary trajectories of insect ORs across sequence, structural, and predicted olfactory potential levels. Although they possess different sequences and structural communities, all sampled insect orders contained ORs assigned to all six docking-derived functional communities. Notably, extant insect lineages with order-level origins spanning the end-Permian mass extinction (EPME) differed in docking-derived functional OR repertoires, and early-and late-diverging lineages differed in OR sequence-community diversity. The emergence of Orco represents a key evolutionary transition point, marking the shift from a homomeric to a heteromeric complex accompanied by specialization of the extracellular domain and binding pocket. Furthermore, we established robust associations between potential olfactory recognition breadth and ecological variables, including diet, circadian rhythm, and habitat. Our findings provide a class-level framework for investigating insect OR evolution and generate testable hypotheses about how receptor repertoire diversification may relate to ecological adaptation.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design"
-      ],
-      "deterministic_score": 14.999,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 7.154999999999999,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to protein_ligand_affinity, structure_based_drug_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 7,
       "title": "A Reinforcement Learning–Guided Hybrid NSGA-II + ALNS Framework for Large-Scale Capacitated Transportation Optimization in Thai Sugarcane Logistics",
       "authors": [
         "Putis Wittayasin",
@@ -390,52 +334,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
-      "title": "FoldARE, an RNA secondary structure analysis and prediction tool via generative pseudo-SHAPE modeling",
-      "authors": [
-        "Marino, S. M.",
-        "Husak, V.",
-        "Tebaldi, T."
-      ],
-      "date": "2026-06-25",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/25//2026.03.04.709501.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/25//2026.03.04.709501.source.xml",
-      "doi": "10.64898/2026.03.04.709501",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "RNA secondary structure prediction is limited by conformational heterogeneity and the scarcity of experimental data, as many RNAs populate ensembles of near-isoenergetic folds and SHAPE data are often unavailable. We present FoldARE (Folding and Analysis of RNA Ensembles), a two-step framework that derives pseudo-SHAPE constraints from in silico structural ensembles and uses them to guide SHAPE-aware secondary structure prediction. In the first step, an ensemble is generated and parsed nucleotide by nucleotide to estimate single-strandedness frequencies, which are converted into a pseudo-SHAPE reactivity profile using a weight-and-threshold scheme. In the second step, this profile is provided as a constraint to a SHAPE-compatible folding algorithm to improve the final prediction. We systematically evaluated all combinations of four ensemble-capable predictors, ViennaRNA, RNAstructure, LinearFold and EternaFold. After parameter optimization on a structurally diverse 25-RNA training set and validation using multiple scoring schemes, the best configuration combined EternaFold as ensembler and RNAstructure as predictor. Across external benchmark datasets (RNAstrand, ArchiveII and bpRNA) and the experimentally derived eFold dataset, FoldARE achieved the highest accuracy. Beyond prediction, FoldARE provides modules for ensemble-focused comparative analysis, including pairwise and multi-tool consensus assessment, per-nucleotide variability metrics, and interactive visualizations. Notably, it also supports the evaluation of m6A modification effects on structural ensembles. FoldARE is freely available on GitHub (https://github.com/TebaldiLab/FoldARE) and as a web accessible version (https://rdds.it/foldare/)",
-      "venue": "biorxiv",
-      "code_url": "https://github.com/TebaldiLab/FoldARE",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 13.625,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 4.199999999999999,
-        "methodological_insight": 1.536,
-        "transferable_insight": 2.0540000000000003,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "Balancing Revenue and Service in Urban Parking: A Reinforcement Learning-Based Capacity Management Approach",
       "authors": [
         "Thomas Müller",
@@ -481,7 +380,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Shape-Constrained Bayesian Active Learning of Self-Limiting Saturation Curves",
       "authors": [
         "Pouyan Navabi",
@@ -526,7 +425,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -570,7 +469,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -619,7 +518,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 13,
+      "rank": 11,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -663,7 +562,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 12,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -711,7 +610,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 13,
       "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
       "authors": [
         "Yiming Chen",
@@ -756,7 +655,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "A Unified Energy Landscape Framework for Development and Aging",
       "authors": [
         "Maia Ozdemir"
@@ -799,7 +698,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 17,
+      "rank": 15,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -846,7 +745,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 18,
+      "rank": 16,
       "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
       "authors": [
         "Ritesh Thawkar",
@@ -894,7 +793,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 17,
       "title": "Computer-assisted design of a novel peptide vaccine against multidrug-resistant Nocardia farcinica",
       "authors": [
         "Hamna Bashir",
@@ -946,7 +845,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 20,
+      "rank": 18,
       "title": "Bridging Performance and Generalization in Reinforcement Learning for Agile Flight",
       "authors": [
         "Jonathan Green",
@@ -993,7 +892,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 19,
       "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
       "authors": [
         "Arthur Allshire",
@@ -1051,7 +950,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 20,
       "title": "DanceOPD: On-Policy Generative Field Distillation",
       "authors": [
         "Wei Zhou",
@@ -1102,105 +1001,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
-      "title": "Representational geometry as a fidelity metric for connectome-constrained networks: evidence from the Drosophila visual system",
-      "authors": [
-        "Zhou, M. G.",
-        "Hasler, J. O."
-      ],
-      "date": "2026-06-25",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.10.731214.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.10.731214.source.xml",
-      "doi": "10.64898/2026.06.10.731214",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "What does biological wiring actually contribute to neural computation? Behavioral experiments can test whether a model produces the right outputs, but they cannot determine whether its internal representations are biologically faithful. Brunton et al. (2026) made this concrete: a C. elegans worm connectome trained with deep reinforcement learning produces realistic Drosophila fly walking -- yet the model is biologically meaningless, because behavioral fidelity is achievable without biological fidelity. We need a population-level metric that discriminates real biological wiring from arbitrary wiring, without requiring a behavioral decoder. We propose representational geometry as that metric. Representational geometry -- the structure of pairwise distances between population responses to different stimuli -- captures how a neural circuit organizes its representational space, independently of what behavior it drives. We apply representational similarity analysis (RSA) and centered kernel alignment (CKA) to the Flyvis pretrained Drosophila melanogaster visual system ensemble (Lappalainen et al. (2024)): 50 networks whose architecture is fixed to the Flyvis connectome (reconstructed from partial electron-microscopy sources), compared against stability-constrained random baselines (sign-preserving weight shuffles, rejection-sampled for dynamic stability, n = 50). Connectome-constrained networks produce a smooth circular direction geometry that random networks cannot replicate: RSA Spearman r = 0.686 (p < 0.0001) for ON edge stimuli and r = 0.846 (p < 0.0001) for ON+OFF edge stimuli, corroborated by CKA (p < 0.05 in both experiments). The geometry also tracks biological T4/T5 direction tuning recorded in living flies (Maisak et al. 2013): connectome-constrained geometry matches biology substantially better than random geometry (r = 0.930 vs. r = 0.603, gap {Delta}r = 0.327, p < 0.0001). Within each stimulus polarity, the ON pathway encodes direction with stronger geometric separation than the OFF pathway ({Delta}r = 0.138, 95% CI [0.091, 0.236]); we report this as a property of the model ensembles representations rather than an established biological difference: Maisak et al. (2013) find T4 and T5 functionally equivalent except in contrast polarity. To address the training confound, we compared untrained networks against shuffled baselines: the connectome prior shapes directional geometry at the ensemble level before any task training (r = 0.260, p = 0.041 and r = 0.215, p = 0.048; both marginal, uncorrected), suggesting wiring encodes a geometric prior that training amplifies. These results establish representational geometry as a candidate fidelity metric that discriminates biological from arbitrary wiring using only population responses to a structured stimulus set, and suggest a practical path toward fidelity metrics for connectome-scale emulations approaching mammalian cortex.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 4.47,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 2.7,
-        "novelty": 1.4,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.46799999999999997,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
-      "title": "High-Throughput Screening Identifies Small-Molecule Inhibitors of the Tau-LRP1 Interaction",
-      "authors": [
-        "Wang, C.",
-        "Ma, C.-T.",
-        "Crotty, C.",
-        "Zeng, F.-Y.",
-        "Bobkov, A.",
-        "Covel, J. A.",
-        "Keane Rivera, E.",
-        "Sergienko, E.",
-        "Kosik, K. S.",
-        "Olson, S. H.",
-        "Jackson, M. R.",
-        "Rauch, J. N."
-      ],
-      "date": "2026-06-25",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.24.733881.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.24.733881.source.xml",
-      "doi": "10.64898/2026.06.24.733881",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "The cellular uptake and propagation of tau are central features of tauopathies, including Alzheimers disease, and are mediated by the endocytic receptor low-density lipoprotein receptor-related protein 1 (LRP1). While prior studies have implicated LRP1 in tau binding and internalization, the biochemical features of this interaction and its suitability for therapeutic targeting remain incompletely defined. Here, we establish a quantitative and scalable framework to interrogate the tau-LRP1 interaction and identify small-molecule modulators. We engineered and purified the LRP1 ligand-binding domain 4 (BD4), a key region mediating tau interaction, and developed multiple orthogonal assays, including fluorescence polarization, split luciferase complementation, and time-resolved FRET, to measure LRP1-BD4 interactions with tau and a known peptide ligand. Across assay formats, we observe consistent binding affinities in the nanomolar range and demonstrate competitive displacement by tau, receptor-associated protein (RAP), and a peptide ligand, supporting overlapping binding interfaces. Leveraging these platforms, we performed small molecule high-throughput screening and identified a set of candidate inhibitors of the LRP1-BD4-tau interaction. Selected compounds reduced tau uptake in a cellular assay, phenocopying competitive inhibition by tau and a peptide ligand. Together, these studies define the LRP1-BD4-tau interaction as a biochemically tractable and druggable interface and establish an integrated discovery pipeline linking mechanistic characterization to functional cellular outcomes. This work provides a foundation for the development of therapeutic strategies targeting LRP1-mediated tau uptake.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "small_molecule_design"
-      ],
-      "deterministic_score": 4.16,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to small_molecule_design, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
+      "rank": 21,
       "title": "Hallucination in World Models is Predictable and Preventable",
       "authors": [
         "Nicklas Hansen",
@@ -1242,7 +1043,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 22,
       "title": "Budget-Constrained Compound Library Prioritization with Risk Awareness and Uncertainty Quantification",
       "authors": [
         "Shengyao Liang"
@@ -1285,7 +1086,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 27,
+      "rank": 23,
       "title": "CHIA: An open-source framework for principled, agentic AI-driven hardware/software co-design research",
       "authors": [
         "Angela Cui",
@@ -1337,115 +1138,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
-      "title": "Confocal Raman Microscopy-Guided Optimization of Early Otic Differentiation from Human Pluripotent Stem Cells",
-      "authors": [
-        "VERET, D.",
-        "CHUNG, K.",
-        "Le, P. D.",
-        "ROUILLON, L.",
-        "ELIAS, E.",
-        "DESOUTTER, A.",
-        "SALEHI, H.",
-        "ZINE, A."
-      ],
-      "date": "2026-06-25",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.24.734338.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.24.734338.source.xml",
-      "doi": "10.64898/2026.06.24.734338",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Generation of otic progenitors from pluripotent stem cells requires precise timed regulation of signalling pathways, including bone morphogenetic protein 4 (BMP4). Because endogenous levels of BMP4 varie between cell lines, the optimal concentration of exogenous BMP4 must be determined individually to achieve efficient otic differentiation. Three different human induced pluripotent stem cell lines (hiPSCs) underwent ectodermal differentiation to early otic induction stages in the presence of various concentrations of BMP4 (0-5 ng/ml). Differentiation outcomes were assessed by immunofluorescence staining, and quantitative gene expression analysis. Raman microscopy was used to characterize biochemical differences between hiPSC differentiated cultures exposed to different BMP4 concentration. We observed distinct ectodermal fate were after 8 days of in vitro differentiation depending on BMP4 concentration, including neural, non-neural/otic ectoderm and surface epidermal fates. The proportion of PAX2-otic progenitors varied substantially between cell lines and culture conditions, ranging from approximately 9% to 77%. Raman spectroscopy revealed concentration dependent spectral differences and enabled discrimination between differentiating condition within individual hiPSC lines. Analysis of Raman spectral features indicated differences in nucleic acid, lipid, protein, and collagen associated signatures across culture conditions and cell lines. These findings demonstrate that Raman microscopy provides a non-destructive, label-free method for monitoring molecular changes associated with early otic differentiation. By complementing conventional molecular and immunocytochemical analyses, Raman spectroscopy offers a valuable tool for optimizing BMP4-mediated otic induction protocols and improving the reproducibility of stem cell-based strategies for inner ear research and regenerative medicine.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 3.607,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.0,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "Identifying Novel Estrogenic Mitochondrial Targets in Hypothalamic Proopiomelanocortin Neurons by Chemoproteomics",
-      "authors": [
-        "Qiu, J.",
-        "Bosch, M. A.",
-        "Wolfe, M. S.",
-        "Korac, K.",
-        "Rizzo, S.",
-        "Stincic, T. L.",
-        "Farley, S. E.",
-        "Fitzgerald, W.",
-        "Rajendran, M.",
-        "Laguerre, A.",
-        "Stein, F.",
-        "F. Copenhaver, P.",
-        "Ronnekleiv, O. K.",
-        "Ronnekleiv-Kelly, S. M.",
-        "Rostovtseva, T.",
-        "Bezrukov, S.",
-        "Schultz, C.",
-        "Kelly, M. J."
-      ],
-      "date": "2026-06-25",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.17.732817.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/25//2026.06.17.732817.source.xml",
-      "doi": "10.64898/2026.06.17.732817",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Loss of estrogens at menopause is linked to impaired brain metabolism and increased risk of Alzheimers disease (AD). However, estrogen replacement therapies are limited due to the deleterious effects of estrogen on peripheral organs and increased risk of vascular dementia. We have developed a non-steroidal estrogenic compound, STX, which does not bind to the classical estrogen receptors and {beta}, but mimics estrogenic signaling in the central nervous system (CNS) without the peripheral reproductive actions. STX is protective against neurodegeneration in stroke and AD models, but its molecular targets are unknown. Here, we identified and validated STX neural targets using chemoproteomic, molecular biological, electrophysiological and metabolic assays of hypothalamic proopiomelanocortin (POMC) neurons. Chemoproteomic profiling identified voltage dependent anion channels (VDAC1-3) as major intracellular binding partners in mHypo43 (POMC) cells. Based on quantitative single-cell PCR, Vdac2 was identified as the dominant isoform in female hypothalamic POMC neurons. Seahorse metabolic flux analyses showed that STX potently increased glycolysis, oxidative respiration and mitochondrial ATP production in mHypo43 cells. Nanomolar concentrations of STX enhanced VDAC2 voltage-dependent gating in reconstituted lipid membranes and shifted the low-conductance states toward anion selectivity, consistent with increased ATP flux. Together, these findings reveal a mechanism for the neuroprotective effects of STX through enhancing mitochondrial bioenergetics and modulating VDAC channel properties, potentially increasing cellular energy stores. Therefore, this work identifies previously unrecognized estrogenic mitochondrial targets and provides a mechanistic basis for the neuroprotective actions of STX relevant to menopause-associated brain vulnerability.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "medicinal_and_synthetic_chemistry"
-      ],
-      "deterministic_score": 3.35,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.24,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
+      "rank": 24,
       "title": "SYNTHESIS AND ADSORPTION STUDY OF PENICILLIN G USING AN ACRYLAMIDE-EGDMA MOLECULARLY IMPRINTED POLYMER",
       "authors": [
         "Fitria Puspita",
@@ -1493,6 +1186,283 @@
       "priority": "Archive",
       "paper_type": "application",
       "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 25,
+      "title": "Error-Conditioned Neural Solvers",
+      "authors": [
+        "Haina Jiang",
+        "Liam Wang",
+        "Peng-Chen Chen",
+        "Min Seop Kwak",
+        "Seungryong Kim",
+        "Brian Bell",
+        "Jeong Joon Park"
+      ],
+      "date": "2026-06-25",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.27354v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27354v1",
+      "doi": "",
+      "arxiv_id": "2606.27354v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violations and extrapolate beyond the training distribution. Recent hybrid methods promote physical correctness by targeting the PDE residual via gradient descent or Gauss--Newton steps, but inherit the compute cost and instability of the underlying classical optimizers. We show, theoretically and empirically, that numerically minimizing the PDE residual can be an unreliable proxy for reconstruction accuracy in ill-conditioned systems, explaining why these methods often do not make accurate predictions despite achieving low residuals. We propose error-conditioned Neural Solvers (ENS), built on a different principle: rather than an optimization target, the PDE residual field is passed as a direct input to the network at each iteration, enabling it to read the spatial structure of its own errors and learn an update policy to iteratively correct its predictions. Across four PDE families, ENS attains the highest prediction accuracy in the large majority of settings, with gains reaching $10\\times$ on turbulent Kolmogorov flow, while avoiding the expensive compute cost of hybrid methods. ENS's learned correction policy generalizes under distribution shift, including zero-shot parameter changes and cross-equation transfer, where its relative advantage is largest in the ill-conditioned regimes where residual minimization is least reliable. Project website: https://neuralsolver.github.io/.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.911,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 26,
+      "title": "Constrained assortment optimization under the mixed-logit model",
+      "authors": [
+        "Hoang Giang PHAM",
+        "Tien Mai"
+      ],
+      "date": "2026-07-01",
+      "source": "openalex",
+      "link": "https://ink.library.smu.edu.sg/sis_research/11058",
+      "pdf_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=12059&context=sis_research",
+      "doi": "",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7142561071",
+      "semantic_scholar_id": "",
+      "abstract": "",
+      "venue": "Singapore Management University Institutional Knowledge (InK) (Singapore Management University)",
+      "code_url": "",
+      "topic_tags": [
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 2.812,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.1850000000000005,
+        "novelty": 0.42,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -7.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "abstract is missing or too short to judge novelty well"
+    },
+    {
+      "rank": 27,
+      "title": "Enhanced Inversion for Distributed Acoustic Sensing: A Robust Approach with HOLp–OGS Regularization",
+      "authors": [
+        "Wenhua Xu",
+        "Jingye Li",
+        "Yaning Wu",
+        "Weiheng Geng",
+        "Bangbang Gao",
+        "Lei Han"
+      ],
+      "date": "2026-06-25",
+      "source": "openalex",
+      "link": "https://doi.org/10.3390/s26134051",
+      "pdf_url": "https://www.mdpi.com/1424-8220/26/13/4051/pdf?version=1782397419",
+      "doi": "10.3390/s26134051",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7165887186",
+      "semantic_scholar_id": "",
+      "abstract": "Conversion from distributed acoustic sensing (DAS) measurements to geophone-equivalent data is important for integrating DAS into conventional seismic workflows. This is because most established seismic-processing algorithms are designed for particle-velocity or acceleration data, whereas DAS measures strain or strain rate. Recovering geophone-equivalent particle velocity from DAS strain-rate measurements requires inversion of a gauge-length-dependent spatial-difference operator, which can amplify measurement noise, particularly in field data with low signal-to-noise ratios (SNRs). Existing single-regularization methods often trade noise attenuation against waveform fidelity and the preservation of weak coherent events. To address these limitations, we propose an inverse reconstruction framework combining high-order Lp (HOLp) and overlapping group sparsity (OGS) regularizations. HOLp promotes a compact representation of second-order differences and suppresses incoherent fluctuations, whereas OGS exploits local coherence to reduce isolated artifacts and preserve weak continuous events. The resulting objective function is solved using the alternating direction method of multipliers, with iteratively reweighted L1 minimization for the HOLp subproblem and a majorization–minimization strategy for the OGS subproblem. Numerical and field experiments confirm that the method restores amplitude and waveform fidelity under low SNR conditions, demonstrating robust and reliable DAS-to-geophone conversion.",
+      "venue": "Sensors",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.747,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.6599999999999997,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "INTEGRATIVE NETWORK PHARMACOLOGY AND MOLECULAR DOCKING REVEAL MULTI-TARGET THERAPEUTIC POTENTIAL OF ABELMOSCHUS ESCULENTUS PHYTOCONSTITUENTS AGAINST POLYCYSTIC OVARY SYNDROME",
+      "authors": [
+        "Purva B. Jadhav",
+        "Vikas R. Dhole",
+        "S. C. Burli",
+        "Prashant S. Kumbhar -",
+        "Swapnil B. Swapnil B. Ingavale",
+        "Vinayak Y. Rohile",
+        "Asawari P. Salunkhe",
+        "Shivani Pandit"
+      ],
+      "date": "2026-06-26",
+      "source": "openalex",
+      "link": "https://doi.org/10.25258/ijddt.16.58s.2",
+      "pdf_url": "https://doi.org/10.25258/ijddt.16.58s.2",
+      "doi": "10.25258/ijddt.16.58s.2",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7166114386",
+      "semantic_scholar_id": "",
+      "abstract": "Polycystic ovary syndrome (PCOS) is a multifactorial endocrine disorder characterized by hormonal imbalance, insulin resistance, and chronic inflammation. This study aimed to evaluate the therapeutic potential of phytoconstituents from Abelmoschus esculentus using an integrated network pharmacology and molecular docking approach. Compounds were screened based on pharmacokinetic properties, drug-likeness, and toxicity, followed by target prediction and intersection with PCOS-related genes. Protein–protein interaction (PPI) network analysis and pathway enrichment identified key targets, including EGFR, STAT3, TLR4, and MTOR, involved in PI3K–AKT, MAPK, JAK–STAT, and mTOR signaling pathways. Molecular docking demonstrated that Vitamin E exhibited the highest binding affinity, particularly with EGFR (−8.0 kcal/mol), followed by Vernolic acid and Linolenic acid. Additionally, selected compounds showed favorable pharmacokinetic and safety profiles. To the best of our knowledge, limited studies have explored the multi-target therapeutic potential of Abelmoschus esculentus phytoconstituents against PCOS using an integrated network pharmacology and molecular docking approach. These findings highlight their multi-target therapeutic potential; however, further experimental validation is required.",
+      "venue": "International Journal of Drug Delivery Technology",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity",
+        "structure_based_drug_design"
+      ],
+      "deterministic_score": 2.625,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 10.935,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Archive",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 29,
+      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+      "authors": [
+        "Tianyi Men",
+        "Zhuoran Jin",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "date": "2026-06-25",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.27330v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27330v1",
+      "doi": "",
+      "arxiv_id": "2606.27330v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLLMs are cost efficient and privacy preserving compared with commercial large models, they suffer from weak planning and limited cross website generalization. To address these limitations, we introduce the planning experience exploration and utilization (PEEU) method, which autonomously explores environments to discover experiences and utilizes hindsight experience to synthesize strictly aligned, high level training data. To quantitatively analyze the generalization behaviors driving this performance, we propose the task decomposition hierarchical analysis framework (TDHAF) to systematically study compositional generalization across three task granularities: low, middle and high levels. Our analysis reveals that mastering low level atomic skills does not guarantee high level planning competence, while high level task training yields stronger OOD generalization. Experiments on real world benchmarks demonstrate PEEU's superior effectiveness: our 7B model achieves 30.6% accuracy, outperforming the much larger Qwen2.5-VL-32B model. These demonstrate constructing hindsight high level tasks and leveraging experiences is crucial for OOD planning abilities of small MLLMs.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.54,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.9359999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+      "authors": [
+        "Mohammad Mehdi Hosseini",
+        "Mohammad H. Mahoor",
+        "Hiroko H. Dodge"
+      ],
+      "date": "2026-06-25",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2606.27334v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27334v1",
+      "doi": "",
+      "arxiv_id": "2606.27334v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive Impairment (MCI) remains challenging, where language and conversational patterns serve as non-invasive biomarkers. In this work, we propose a language-based digital twin framework that leverages large language models (LLMs) to mimic the conversational behavior of elderly individuals by incorporating stylometric cues and contextual metadata. To evaluate fidelity and cognitive consistency, we introduce a multi-head conditional variational autoencoder (cVAE) that jointly measures reconstruction quality and predicts cognitive scores. Experiments on the I-CONECT dataset show that the digital twin preserves identity-specific characteristics and achieves reconstruction and MoCA prediction errors comparable to real data, while outperforming baseline GPT-generated responses. These results highlight the potential of language-based digital twins as a scalable and non-invasive approach for personalized and continuous cognitive health monitoring.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.262,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 4.199999999999999,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.7020000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
