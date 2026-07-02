@@ -1,9 +1,9 @@
 {
   "date": "2026-07-02",
   "stats": {
-    "raw_candidates": 278,
-    "deduplicated_candidates": 163,
-    "filtered_candidates": 163,
+    "raw_candidates": 274,
+    "deduplicated_candidates": 159,
+    "filtered_candidates": 159,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -129,54 +129,6 @@
     },
     {
       "rank": 3,
-      "title": "Capturing induced-fit effects: A geometry-aware and interpretable framework for robust drug-target affinity prediction.",
-      "authors": [
-        "Zongrui Sui",
-        "Daying Lu",
-        "Zhenkun Zhu",
-        "Liya Wei",
-        "Qingchun Zhang"
-      ],
-      "date": "2026-07-01",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42066524/",
-      "pdf_url": "",
-      "doi": "10.1016/j.jmgm.2026.109429",
-      "arxiv_id": "",
-      "pubmed_id": "42066524",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Accurate drug-target affinity (DTA) prediction is pivotal for virtual screening, yet practical reliability is often limited by the static treatment of molecular interactions and the \"black-box\" nature of deep learning models. In biological reality, binding involves dynamic structural adaptations known as induced-fit effects, which are frequently overlooked by conventional static representations. To address this, we propose a geometry-aware and interpretable framework (DCR-DTA) that explicitly models bidirectional induced-fit interactions, prioritizing stable structural anchors rather than computing raw 3D displacements. By integrating Dynamic Contextual Regularization, our model not only mitigates feature anisotropy in pretrained representations but also captures the intrinsic geometry of the interaction manifold. Extensive experiments on the Davis and KIBA benchmarks demonstrate that our method consistently outperforms state-of-the-art baselines, particularly in challenging cold-start scenarios. Notably, beyond achieving competitive Mean Squared Error (MSE), our model achieves superior external validation metrics, including a higher r",
-      "venue": "Journal of molecular graphics & modelling",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 14.8,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.46799999999999997,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, protein_ligand_affinity.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 4,
       "title": "SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE",
       "authors": [
         "Or Hirschorn",
@@ -224,7 +176,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Incorporating Surfaced-Induced Dissociation Mass Spectrometry Data into an AlphaFold-derived deep learning network improves protein structure prediction",
       "authors": [
         "Bolz, R. M.",
@@ -273,112 +225,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
-      "title": "In silico identification of NPACT-derived PAK1 inhibitors using machine learning, molecular docking, and dynamic simulation approaches.",
-      "authors": [
-        "Ha Nguyen Xuan",
-        "Chau Le Thi My",
-        "Thuy Phan Thi"
-      ],
-      "date": "2026-07-01",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42090979/",
-      "pdf_url": "",
-      "doi": "10.1016/j.jmgm.2026.109425",
-      "arxiv_id": "",
-      "pubmed_id": "42090979",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "P21-activated kinase 1 (PAK1) is a key serine/threonine kinase involved in cytoskeletal remodeling, cell proliferation, and survival, and its aberrant activation has been strongly associated with tumorigenesis in multiple cancer types. Owing to its central role in oncogenic signaling and its more favorable safety profile compared with other PAK isoforms, PAK1 has emerged as an attractive therapeutic target. However, the development of selective and non-toxic PAK1 inhibitors remains challenging, particularly due to the conserved nature of kinase ATP-binding sites. In this study, an integrated in silico strategy was employed to identify potential PAK1 inhibitors from the Naturally occurring Plant-based Anti-cancer Compound-Activity-Target database (NPACT). Machine learning models were first constructed to predict binding free energies, with the K-Nearest Neighbors model showing the best performance. Six top-ranked compounds were subsequently subjected to molecular docking, revealing favorable binding affinities and consistent interactions with key active-site residues of PAK1. Binding affinity was further refined using steered molecular dynamics simulations, which showed a strong correlation between maximum rupture force and experimental inhibitory activity, supporting the reliability of the steered molecular dynamics (SMD)-derived binding free energies. Toxicity prediction suggested moderate to low toxicity profiles for all candidates, with no predicted cardiotoxicity. Density functional theory calculations further elucidated the electronic properties, frontier molecular orbitals, and molecular electrostatic potential features relevant to protein-ligand interactions. Overall, this comprehensive computational investigation highlights several NPACT-derived phytochemicals as promising PAK1 inhibitors, providing valuable insights for future experimental validation and anticancer drug development.",
-      "venue": "Journal of molecular graphics & modelling",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 10.32,
-      "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 18.0,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -12.0
-      },
-      "priority": "Skim",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
-    },
-    {
-      "rank": 7,
-      "title": "Discovery of novel MDM2 inhibitors from a Penicillium metabolome library: An integrated phylogenetic, machine learning, and molecular simulation approach.",
-      "authors": [
-        "Prince Danan Biniyam",
-        "Naomi Kayeri",
-        "Jesse Ayim Buabeng",
-        "Dickson Aboagye",
-        "Alberta Hammah",
-        "Syed Arslan Haider",
-        "Lawrence Kwame Nkrumah",
-        "Kwabena Adu-Adjei",
-        "Victoria Ohene-Adu",
-        "Michael Osei",
-        "Clifford Tignangnen Penajah",
-        "Peter Bedman Narh",
-        "Cedric Dzidzor Kodjo Amengor"
-      ],
-      "date": "2026-07-01",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42068607/",
-      "pdf_url": "",
-      "doi": "10.1016/j.jmgm.2026.109426",
-      "arxiv_id": "",
-      "pubmed_id": "42068607",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Restoring the tumor-suppressor function of p53 by inhibiting its negative regulator, MDM2, represents a significant therapeutic avenue for cancers that maintain wild-type p53. This research aimed to identify new MDM2 inhibitors through a phylogenetically guided strategy that involved the construction of a focused virtual library of metabolites derived from the Penicillium genus. A comprehensive computational framework was developed, employing machine learning-based quantitative structure-activity relationship (ML-QSAR) modeling, ensemble molecular docking, network pharmacology, molecular dynamics (MD) simulations, and ADMET profiling. The gradient boosting ML-QSAR model achieved a test set R",
-      "venue": "Journal of molecular graphics & modelling",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "medicinal_and_synthetic_chemistry",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 10.305,
-      "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 17.145,
-        "novelty": 1.2599999999999998,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -12.0
-      },
-      "priority": "Skim",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
-    },
-    {
-      "rank": 8,
+      "rank": 5,
       "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
       "authors": [
         "Davy Guan",
@@ -430,7 +277,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 6,
       "title": "Systematic comparison of color representations between humans and deep neural networks: towards predicting human color perception in a vast color space",
       "authors": [
         "Wickramanayaka, N. R.",
@@ -474,7 +321,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -518,7 +365,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 8,
       "title": "Artificial intelligence in clinical oncology: Multimodal integration and translational development.",
       "authors": [
         "Ruichong Lin",
@@ -567,7 +414,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 12,
+      "rank": 9,
       "title": "RNArefine: AI-guided Atomic-Level Refinement of RNA Structures",
       "authors": [
         "Tsukiyama, S.",
@@ -614,7 +461,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 10,
       "title": "SentryPath: a mechanistic protocol-ranking simulator with leave-one-trial-out cross-validation across 13 phase-III oncology randomised controlled trials and a pre-registered prospective forecast",
       "authors": [
         "Kumar, M. D.",
@@ -658,7 +505,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 11,
       "title": "On the Convergence of Self-Improving Online LLM Alignment",
       "authors": [
         "Xudong Wu",
@@ -702,7 +549,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 12,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -746,7 +593,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 13,
       "title": "GEAR: Guided End-to-End AutoRegression for Image Synthesis",
       "authors": [
         "Bin Lin",
@@ -799,7 +646,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 14,
       "title": "A substrate recursion principle for biological information, with empirical anchoring through a templating-mode taxonomy",
       "authors": [
         "Boggavarapu, K."
@@ -813,17 +660,17 @@
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Biological inheritance can be treated as a class of catalytic templating reactions in which a daughter molecule, generated by a kinetic kernel acting on a parent template, is itself a substrate for the next round of the same catalysis. We give the physicochemical conditions under which such a reaction can support unbounded heritable molecular distinguishability. Four conditions on the template-operator pair organize the analysis: nonzero per-site information content under the active-site recognition kernel (R1), a count of independently variable recognized positions that grows without bound as the reaction extends (R2), catalytic closure under iteration, possibly through a reversible involution such as Watson-Crick complementation (R3), and stochastic drift of the kernel in its recognition alphabet (R4). A fifth, scope-defining condition (R5) restricts the principle to kernels that are intrinsic physicochemistry rather than externally optimized search. These conditions are necessary for two distinct outcomes, separable as two necessity results. The capacity theorem states that linear scaling of substrate Shannon capacity with reaction extent requires R1, R2, and R3 but not R4: a perfect copier transmits an exponentially large configurational ensemble while producing no novelty. The generation theorem states that diversification of the heritable configuration set beyond the deterministic closure of a finite initial repertoire additionally requires R4, because branching trajectories in the recognized alphabet are what produce innovation. Population-level kinetics follow as a corollary that organizes six attested templating reactions into a taxonomy, and as a finite-population, finite-horizon proposition tested over five inheritance kinetic schemes, in which only individual-level stochastic drift reaches the target within the model class. We test the framework on the recently characterized bacterial defense system Drt3b, which makes alternating poly(AC) DNA without using a nucleic acid template. The framework classifies Drt3b as a cyclic two-state catalytic templating channel with a 1-bit capacity ceiling, and predicts that the Glu26-to-Gln active-site mutant incorporates {Delta}G at 10% probability at the {Delta}A-selecting state; the published biochemistry reports 10.16%. Across 1,232 Drt3b homologs, the framework predicts and recovers a 15.7-fold elevation of {Delta}G misincorporation in six clades carrying the natural Glu26-to-Asp substitution at this gate. Substitutions at two universal gate residues, Arg253 (architectural) and Gly248 (selectivity), provide single-experiment site-directed mutagenesis tests of the framework's predictions.",
+      "abstract": "Biological inheritance can be treated as a class of catalytic templating reactions in which a daughter molecule, generated by a kinetic kernel acting on a parent template, is itself a substrate for the next round of the same catalysis. We give the physicochemical conditions under which such a reaction can support unbounded heritable molecular distinguishability. Four conditions on the template-operator pair organize the analysis: nonzero per-site information content under the activesite recognition kernel (R1), a count of independently variable recognized positions that grows without bound as the reaction extends (R2), catalytic closure under iteration, possibly through a reversible involution such as Watson-Crick complementation (R3), and stochastic drift of the kernel in its recognition alphabet (R4). A fifth, scope-defining condition (R5) restricts the principle to kernels that are intrinsic physicochemistry rather than externally optimized search. These conditions are necessary for two distinct outcomes, separable as two necessity results. The capacity theorem states that linear scaling of substrate Shannon capacity with reaction extent requires R1, R2, and R3 but not R4: a perfect copier transmits an exponentially large configurational ensemble while producing no novelty. The generation theorem states that diversification of the heritable configuration set beyond the deterministic closure of a finite initial repertoire additionally requires R4, because branching trajectories in the recognized alphabet are what produce innovation. Populationlevel kinetics follow as a corollary that organizes six attested templating reactions into a taxonomy, and as a finite-population, finite-horizon proposition tested over five inheritance kinetic schemes, in which only individual-level stochastic drift reaches the target within the model class. We test the framework on the recently characterized bacterial defense system Drt3b, which makes alternating poly(AC) DNA without using a nucleic acid template. The framework classifies Drt3b as a cyclic two-state catalytic templating channel with a 1-bit capacity ceiling, and predicts that the Glu26-to-Gln active-site mutant incorporates dG at 10% probability at the dA-selecting state; the published biochemistry reports 10.16%. Across 1,232 Drt3b homologs, the framework predicts and recovers a 15.7-fold elevation of dG misincorporation in six clades carrying the natural Glu26-to-Asp substitution at this gate. Substitutions at two universal gate residues, Arg253 (architectural) and Gly248 (selectivity), provide single-experiment site-directed mutagenesis tests of the frameworks predictions. POPULAR SUMMARYA bacterial defense protein called Drt3b, recently characterized in E. coli, synthesizes DNA with a strict alternating ACAC pattern without copying any template. Two conserved active-site residues, Glu26 and Arg253, are modeled as enforcing an alternating two-state catalytic cycle that selects which nucleotide enters at each step. This is sequence without a sequence template, and it does not fit the textbook picture of inheritance. We treat inheritance as a class of catalytic templating reactions and ask which chemistries can support openended evolution. Two distinct requirements emerge. Capacity, the ability to transmit exponentially many distinct heritable configurations, requires three conditions on the template-catalyst pair: more than one monomer state recognized at each position, a position count that grows unboundedly with the reaction extent, and applicability of the catalysis to its own product. Generation of novel heritable configurations beyond what is already present requires a fourth condition: stochastic drift of the catalysis in its recognition alphabet. A perfect copier has capacity but cannot innovate; a drifting copier has both. Drt3b fails the second capacity condition, because its cycle has two states regardless of product length. The framework classifies six attested biological templating reactions as instances or partial instances of the same chemical specification, and it identifies two single-residue substitutions at Drt3bs active site whose measured effects would test its predictions.",
       "venue": "biorxiv",
       "code_url": "",
       "topic_tags": [
         "medicinal_and_synthetic_chemistry"
       ],
-      "deterministic_score": 5.775,
+      "deterministic_score": 6.195,
       "score_breakdown": {
         "paper_type": "application",
         "direct_relevance": 3.24,
-        "novelty": 0.42,
+        "novelty": 0.84,
         "methodological_insight": 0.0,
         "transferable_insight": 0.325,
         "drug_discovery_relevance": 2.4,
@@ -842,7 +689,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 15,
       "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
       "authors": [
         "Yuanda Xu",
@@ -892,7 +739,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 16,
       "title": "Resolving superposition in AI for interpretability and cross-modal alignment in patient-neuronal images",
       "authors": [
         "Jisung Park",
@@ -945,7 +792,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 17,
       "title": "EnzyKAN: Protein Language Model Embeddings and Kolmogorov-Arnold Network Variants for Enzyme Commission Classification with a Proposed Electron-Transfer Physics Feature Framework",
       "authors": [
         "R, S.",
@@ -987,7 +834,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 18,
       "title": "FedLAB: Traceable Semantic Codebooks for Federated Multimodal Graph Foundation Learning",
       "authors": [
         "Zekai Chen",
@@ -1034,7 +881,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 19,
       "title": "Random Reshuffling Dominates Stochastic Gradient Descent",
       "authors": [
         "Zijian Liu"
@@ -1075,7 +922,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 20,
       "title": "FaceMoE: Mixture of Experts for Low-Resolution Face Recognition",
       "authors": [
         "Kartik Narayan",
@@ -1117,7 +964,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 21,
       "title": "Selective knockout of PKA regulatory subunits reveal opposite catalytic and metabolic consequences with implications for Alzheimer's disease",
       "authors": [
         "Rossitto, L.-A. M.",
@@ -1174,7 +1021,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 22,
       "title": "Modeling Cell-Cycle-Aware Single-Cell Drug Perturbation Responses",
       "authors": [
         "Dingping Zhao",
@@ -1216,7 +1063,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 23,
       "title": "Policy Optimization Achieves Data-Dependent Regret Bounds in MDPs with Unknown Transitions",
       "authors": [
         "Mingyi Li",
@@ -1259,7 +1106,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 24,
       "title": "Digging deeper into the immunopeptidome with TripleToolWF",
       "authors": [
         "Mayer, R. L.",
@@ -1301,7 +1148,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 25,
       "title": "Cross-Space Distillation: Teaching One-Step Students with Modern Diffusion Teachers",
       "authors": [
         "Anh Nguyen",
@@ -1355,7 +1202,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 26,
       "title": "Practical Use of Advanced AI Frameworks on Real-Life Scientific Problems: Three Case Studies",
       "authors": [
         "Gulluoglu, H. S. A.",
@@ -1416,7 +1263,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 27,
       "title": "CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation",
       "authors": [
         "Sanghyuk Chun",
@@ -1457,6 +1304,133 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "Learning Fragmentation Physics or Exploiting Sequence Priors? Benchmarking Bias in Deep Learning Models for De Novo Peptide Sequencing",
+      "authors": [
+        "Li, J.",
+        "Rost, H."
+      ],
+      "date": "2026-06-29",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/06/29//2026.06.23.734131.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/29//2026.06.23.734131.source.xml",
+      "doi": "10.64898/2026.06.23.734131",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Deep learning models have advanced de novo peptide sequencing, but their predictions may reflect both physics-based spectral evidence and learned peptide-sequence priors. Systematically measuring such prior-associated behavior is important for benchmarking model robustness beyond conventional proteomics data. Here, we introduce the Prior Bias Index (PBI), a general framework for measuring the extent to which model behavior shifts toward prior-associated reference patterns under controlled conditions, and implement it as DeNovo-PBI, a benchmark for quantifying prior bias in de novo peptide sequencing models. DeNovo-PBI combines benchmark dataset construction, in silico sequence and spectral perturbation workflows, PBI-based metrics, and analysis algorithms to evaluate three forms of prior-associated behavior: sequence-distribution dependence, database amino-acid-pair order preference, and mutation-group prediction consistency under shared sequence context. In addition to experimentally acquired peptide spectra, we generated in silico spectra from random, natural, and mutated peptide sequences and selectively removed fragment ions that distinguish N-terminal residue orders. Across these assays, deep learning models showed peptide-sequence-distribution-dependent performance and strong directional amino-acid-pair order preferences even when order-diagnostic spectral evidence was removed. DeNovo-PBI provides a quantitative benchmark for measuring, comparing, and interpreting learned bias in de novo peptide sequencing models.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.192,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 4.199999999999999,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.7020000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "Precision-Controlled Active Inference Accounts for Sensory Reweighting in Quiet Standing",
+      "authors": [
+        "Kobayashi, J."
+      ],
+      "date": "2026-06-29",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/06/29//2026.06.23.733972.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/29//2026.06.23.733972.source.xml",
+      "doi": "10.64898/2026.06.23.733972",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Human quiet standing depends on the context-dependent reweighting of vestibular, proprioceptive, and visual information. Posturography has empirically characterized this phenomenon, but a minimal generative-control account of how changes in sensory reliability propagate from state estimation to postural action remains incomplete. Here, we test a minimal continuous-time active inference model of quiet standing. In this model, sensory reweighting is implemented as channel-specific precision control over prediction errors. A one-link inverted pendulum receives vestibular, proprioceptive, and visual observations, estimates posture using a generalized-coordinate variational free-energy objective, and selects ankle torque by minimizing the same objective under an upright generalized sensory goal. Context changes alter the relative precision of sensory channels, without changing the plant, action optimizer, or goal dynamics. Across controlled sensory perturbations, reducing the precision of an unreliable visual or proprioceptive channel reduced perturbation-driven postural shifts by approximately 82%. An automatic-differentiation-based state-update gradient contribution closely matched the reduction, identifying the mechanistic locus of reweighting in the perceptual update. A linear reliability-to-precision law, lambda(c) = 1 + 7c, monotonically controlled sensory contribution, and a fixed-precision ablation showed that global precision reduction did not produce reweighting: the behavioral bias remained comparable to the equal-precision condition unless precision was changed selectively across channels. These results support the claim that postural sensory reweighting can be understood as relative, context-selective precision control in a continuous active inference loop.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.152,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 0.42,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.118,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
+      "authors": [
+        "Green, A. G.",
+        "Tasmin, M.",
+        "Vargas, R.",
+        "Farhat, M. R."
+      ],
+      "date": "2026-06-29",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/06/29/2025.09.23.676583.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/06/29/2025.09.23.676583.source.xml",
+      "doi": "10.1101/2025.09.23.676583",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "In Mycobacterium tuberculosis, a prevalent and deadly pathogen, resistance to antibiotics evolves primarily through non-synonymous mutations in proteins. Sequence-based analyses are currently used to understand the genetic basis of antibiotic resistance, either via genotype-phenotype association, or via signals of convergent evolution. These methods focus on primary sequence and often neglect other biological signals such as protein structural information. We hypothesize that integrating the structural context of mutations improves the prediction of effects on function and phenotype. We curate high confidence structural annotations for the M. tuberculosis proteome from 1,371 crystallography and 2,316 AlphaFold predictions, and combine the structures with mutations from over 31,000 clinical M. tuberculosis isolates. We demonstrate that mutations in proteins known to cause resistance are clustered in 3D space, even in proteins where inactivating mutations at any position are thought to cause resistance. We develop a statistic to search the M. tuberculosis proteome for signal of clustered mutations, finding over 450 proteins that display this signal, many of which have a known relationship with antibiotic resistance. We show that a supervised classifier trained on 3D distance to known resistance sites alone has an F1 score of 94.6% at classifying mutations as resistance-conferring across proteins. This work demonstrates that protein structure provides useful information for categorizing which variants may cause antibiotic resistance, even when the majority of structures are AI-predicted.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.115,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 0.0,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.325,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
