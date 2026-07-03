@@ -1,9 +1,9 @@
 {
   "date": "2026-07-04",
   "stats": {
-    "raw_candidates": 346,
-    "deduplicated_candidates": 225,
-    "filtered_candidates": 225,
+    "raw_candidates": 232,
+    "deduplicated_candidates": 185,
+    "filtered_candidates": 185,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -30,55 +30,6 @@
   "candidates": [
     {
       "rank": 1,
-      "title": "Generative AI-Based Drug Design: Target-Aware Molecular Generation for EGFR Type I Inhibitors with Multiplatform Docking Validation.",
-      "authors": [
-        "Taqdees Khan",
-        "Young Beom Kwak",
-        "Hee Cheol Kim"
-      ],
-      "date": "2026-06-30",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42396081/",
-      "pdf_url": "",
-      "doi": "10.1039/C6CP01555G",
-      "arxiv_id": "",
-      "pubmed_id": "42396081",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "The development of selective kinase inhibitors remains an ongoing challenge in the drug development process, particularly regarding resistance mutations in the epidermal growth factor receptor (EGFR). EGFR resistance mutations, particularly T790 M and C797S variants, pose significant challenges in oncology therapeutics, necessitating novel approaches to identify resistance-circumventing inhibitors. In this study, a target-conditioned generation framework is proposed, which incorporates ATP-binding pocket information into structural generation through structure-aware conditioning. A three-layer, bidirectional Long Short-Term Memory network is conditioned on 20 essential binding site residues from the EGFR crystal structure (PDB 1M17). Training data comprised 6,038 Type I EGFR inhibitors from the ChEMBL database, filtered for drug-like properties (pChEMBL ≥ 5.0, Lipinski compliance). From 1000 generated sequences, 82.6% were chemically valid, with 79.5% ECFP4 novelty versus the training set. Five prioritized candidates demonstrated predicted binding scores of -7.7 to -8.4 kcal/mol in AutoDock Vina, used here for computational candidate ranking, compared to -7.57 kcal/mol for the erlotinib redocking reference under the same protocol; all five candidates exhibited zero Lipinski violations. Cavity-based cross-checking using CB-Dock2 confirmed that all five molecules consistently targeted the ATP-binding pocket (C2 cavity), supporting target-site specificity of predicted binding modes (intertool score consistency",
-      "venue": "ACS omega",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "small_molecule_design",
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "medicinal_and_synthetic_chemistry"
-      ],
-      "deterministic_score": 25.871,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 18.0,
-        "novelty": 0.84,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, small_molecule_design, protein_ligand_affinity, structure_based_drug_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 2,
       "title": "Data-centric Machine Learning and Foundation Models for Molecular Discovery",
       "authors": [
         "Gang Liu"
@@ -125,7 +76,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "ConfDock: Atom-specific Uncertainty Quantification for Molecular Docking via Conformal Prediction",
       "authors": [
         "Hao, H.",
@@ -173,7 +124,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "AI-guided discovery for low-resource peptide engineering using evolutionary scale modeling",
       "authors": [
         "Andrekson, L.",
@@ -220,57 +171,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
-      "title": "AI-Driven Design Platforms of Next-Generation Antibody Therapeutics.",
-      "authors": [
-        "Yingjie Wang",
-        "Afsheen Saba",
-        "Yue Ran",
-        "Kiran Shehzadi",
-        "Qi Zhang",
-        "Jianhua Liang",
-        "Mingjia Yu"
-      ],
-      "date": "2026-06-30",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42377676/",
-      "pdf_url": "",
-      "doi": "10.1038/s41467-025-55987-8",
-      "arxiv_id": "",
-      "pubmed_id": "42377676",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Artificial intelligence (AI) is reshaping drug discovery by bridging the gap between traditional computer-aided drug design (CADD) and next-generation, data-driven methodologies. Unlike conventional CADD, which relies on physical modelling of molecular interactions, AI integrates machine learning (ML) and deep learning (DL) to leverage rapidly expanding datasets in biology and chemistry. These approaches enable efficient prediction of molecular structures, binding affinities, and pharmacological properties, thereby reducing both time and cost in drug development. The impact is particularly profound in the design of protein therapeutics, such as antibodies, which require accurate modelling of complex structures and interactions. Emerging AI frameworks, including generative adversarial networks (GANs), reinforcement learning (RL), and multi-omics integration, are accelerating target identification, optimizing lead candidates, and refining pharmacokinetic and biophysical profiles. In this review, we highlight recent advances at the interface of AI and antibody drug discovery, discuss key methodological developments, and examine the challenges that remain in translating AI-driven strategies into clinical success. We further explore how AI-enabled platforms are redefining the landscape of precision biopharmaceuticals, offering new opportunities for efficient and targeted therapeutic development.",
-      "venue": "Topics in current chemistry (Cham)",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "transferable_insights"
-      ],
-      "deterministic_score": 19.82,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 11.34,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to ai_drug_discovery, transferable_insights, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 6,
+      "rank": 4,
       "title": "Generative design of antigen-specific T-cell receptor sequences with a conditional diffusion model",
       "authors": [
         "Zhang, Y.",
@@ -323,7 +224,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Solving the 3D UAV Path Planning Problem Using an Improved Multi-Leader Multi-Objective Whale Optimization Algorithm",
       "authors": [
         "Binbin Tu",
@@ -372,7 +273,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "AI-augmented thyroid scintigraphy for robust classification of disease",
       "authors": [
         "Maziar Sabouri",
@@ -429,7 +330,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "A discrete-to-continuous mathematical model for ensemble distributions of a ligand-interacting macromolecular species across milieux-dependent conformational states may offer insights into the genesis and progression of cooperative binding",
       "authors": [
         "KUNDU, S."
@@ -473,67 +374,55 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
-      "title": "Cryo-EM-guided subtractive optimization of a novel VCP/p97 inhibitor.",
+      "rank": 8,
+      "title": "Capturing induced-fit effects: A geometry-aware and interpretable framework for robust drug-target affinity prediction.",
       "authors": [
-        "Jason Crawford",
-        "Ravi Munuganti",
-        "Charles Leung",
-        "Kriti Singh",
-        "Ellen Gates",
-        "Xing Zhu",
-        "Marcel Bally",
-        "Nancy Dos Santos",
-        "Maryam Sharifiaghdam",
-        "Zeynab Nosrati",
-        "Peter Axerio-Cilies",
-        "Alison M Berezuk",
-        "Spencer Cholak",
-        "Alan Merk",
-        "Dale R Cameron",
-        "Sriram Subramaniam"
+        "Zongrui Sui",
+        "Daying Lu",
+        "Zhenkun Zhu",
+        "Liya Wei",
+        "Qingchun Zhang"
       ],
       "date": "2026-07-01",
       "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42329166/",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42066524/",
       "pdf_url": "",
-      "doi": "10.1107/S2052252526004604",
+      "doi": "10.1016/j.jmgm.2026.109429",
       "arxiv_id": "",
-      "pubmed_id": "42329166",
+      "pubmed_id": "42066524",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "We report the cryo-EM structure-guided discovery of GND-135, a novel small-molecule inhibitor of the VCP/p97 AAA ATPase that demonstrates efficient inhibition of VCP/p97 in biochemical, cellular, and pharmacokinetic assays and in a tumor efficacy mouse model of acute myeloid leukemia. Our approach overcomes the liability in the clinical-stage compound CB-5083 where Phase I studies showed off-target activity of CB-5083 for the enzyme PDE6. From the cryo-EM structural analysis of CB-5083 bound to PDE6 and VCP/p97, we identified critical ligand/protein interactions in both proteins and rationally designed a small molecule that retains key interactions necessary for VCP/p97 inhibition while eliminating PDE6 off-target activity. We refer to this approach as `subtractive optimization' because we are leveraging our ability to determine both on-target and off-target cryo-EM structures to guide the medicinal chemistry campaign to enable more targeted compound design. While this strategy is not possible in all cases, the use of cryo-EM to tune on-site binding while eliminating off-target binding could be a generally applicable strategy for informing molecular design and accelerating small-molecule drug discovery.",
-      "venue": "IUCrJ",
+      "abstract": "Accurate drug-target affinity (DTA) prediction is pivotal for virtual screening, yet practical reliability is often limited by the static treatment of molecular interactions and the \"black-box\" nature of deep learning models. In biological reality, binding involves dynamic structural adaptations known as induced-fit effects, which are frequently overlooked by conventional static representations. To address this, we propose a geometry-aware and interpretable framework (DCR-DTA) that explicitly models bidirectional induced-fit interactions, prioritizing stable structural anchors rather than computing raw 3D displacements. By integrating Dynamic Contextual Regularization, our model not only mitigates feature anisotropy in pretrained representations but also captures the intrinsic geometry of the interaction manifold. Extensive experiments on the Davis and KIBA benchmarks demonstrate that our method consistently outperforms state-of-the-art baselines, particularly in challenging cold-start scenarios. Notably, beyond achieving competitive Mean Squared Error (MSE), our model achieves superior external validation metrics, including a higher r",
+      "venue": "Journal of molecular graphics & modelling",
       "code_url": "",
       "topic_tags": [
         "ai_drug_discovery",
-        "small_molecule_design",
-        "medicinal_and_synthetic_chemistry"
+        "protein_ligand_affinity"
       ],
-      "deterministic_score": 12.932,
+      "deterministic_score": 14.8,
       "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 18.0,
-        "novelty": 0.42,
+        "paper_type": "method",
+        "direct_relevance": 8.100000000000001,
+        "novelty": 1.8199999999999996,
         "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
+        "transferable_insight": 0.46799999999999997,
         "drug_discovery_relevance": 2.4,
         "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
+        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
         "source_credibility": 0.7,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
-        "penalties": -12.0
+        "penalties": -0.0
       },
-      "priority": "Skim",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, small_molecule_design, medicinal_and_synthetic_chemistry, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, protein_ligand_affinity.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "Small molecules targeting ARF1 interaction with C9orf72:SMCR8:WDR41 complexes suppress its overactivation implicated in ALS/FTD",
       "authors": [
         "Dixon, E.",
@@ -583,7 +472,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "Artificial Intelligence for Discovery in Life Sciences",
       "authors": [
         "Sushovan Chanda",
@@ -629,105 +518,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 13,
-      "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
-      "authors": [
-        "Dengyang Jiang",
-        "Mengmeng Wang",
-        "Harry Yang",
-        "Jingdong Wang"
-      ],
-      "date": "2026-07-02",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.02508v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02508v1",
-      "doi": "",
-      "arxiv_id": "2607.02508v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion model itself. However, the mechanism behind the improvement from SRA to Self-Flow, dual-time scheduling, remains under-examined: Self-Flow attributes its gain to interactions between tokens at different noise levels, where cleaner tokens help infer noisier ones. In this work, we revisit this explanation and ask whether the gain instead comes from data augmentation along the noise dimension. To disentangle these factors, we introduce Attention Separation, which preserves the same dual-timestep input as Self-Flow while blocking attention between tokens assigned to different noise levels. Surprisingly, removing such interaction does not degrade performance and can even improve it, suggesting that the improvement from SRA to Self-Flow mainly comes from data augmentation. Furthermore,We show that Attention Separation itself provides an augmentation effect by splitting a single image into multiple effective training parts to expand the training data. Based on these observations, we combine self-representation alignment with dual-timestep and attention-separation augmentation, and demonstrate the effectiveness of this design on ImageNet.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 11.836,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.725,
-        "novelty": 1.4,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 14,
-      "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation",
-      "authors": [
-        "Shuai Tian",
-        "Yupeng Zheng",
-        "Yuhang Zheng",
-        "Songen Gu",
-        "Yujie Zang",
-        "Yuxing Qin",
-        "Weize Li",
-        "Haoran Li",
-        "Wenchao Ding",
-        "Dongbin Zhao"
-      ],
-      "date": "2026-07-02",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.02503v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02503v1",
-      "doi": "",
-      "arxiv_id": "2607.02503v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Contact-rich manipulation requires policies to react to local deformation, pressure, slip, and friction, yet these cues are temporally sparse and often invisible in visual observations. Existing visual-tactile policies usually feed tactile observations directly into action prediction, but rarely model tactile deformation dynamics during action generation. In this paper, we introduce VT-WAM, a Visual-Tactile World Action Model that jointly learns future visual prediction, tactile deformation prediction, and action prediction within a unified flow matching framework. In particular, VT-WAM introduces (1) Asymmetric Mixture-of-Transformers (MoT) attention to bridge a first-frame visual anchor with temporal tactile dynamics, and (2) contact-gated Action-Visual-Tactile Attention Guidance (AVTAG) to encourage action queries to rely on tactile evidence during contact phases. Across six real-world contact-rich manipulation tasks, VT-WAM achieves a 71.67% average success rate, outperforming Fast-WAM by 26.67% and OmniVTLA by 35.84%. Ablations demonstrate that modeling tactile deformation dynamics and guiding contact-phase tactile attention are both important for contact-rich tasks. Project website: https://vt-wam.github.io/.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 11.51,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.725,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 15,
+      "rank": 11,
       "title": "Integration of regression models and MD simulations for virtual screening of natural compounds: Identification of novel hit scaffolds against SphK1 proteins",
       "authors": [
         "Mohammad Aslam",
@@ -777,7 +568,112 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 16,
+      "rank": 12,
+      "title": "In silico identification of NPACT-derived PAK1 inhibitors using machine learning, molecular docking, and dynamic simulation approaches.",
+      "authors": [
+        "Ha Nguyen Xuan",
+        "Chau Le Thi My",
+        "Thuy Phan Thi"
+      ],
+      "date": "2026-07-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42090979/",
+      "pdf_url": "",
+      "doi": "10.1016/j.jmgm.2026.109425",
+      "arxiv_id": "",
+      "pubmed_id": "42090979",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "P21-activated kinase 1 (PAK1) is a key serine/threonine kinase involved in cytoskeletal remodeling, cell proliferation, and survival, and its aberrant activation has been strongly associated with tumorigenesis in multiple cancer types. Owing to its central role in oncogenic signaling and its more favorable safety profile compared with other PAK isoforms, PAK1 has emerged as an attractive therapeutic target. However, the development of selective and non-toxic PAK1 inhibitors remains challenging, particularly due to the conserved nature of kinase ATP-binding sites. In this study, an integrated in silico strategy was employed to identify potential PAK1 inhibitors from the Naturally occurring Plant-based Anti-cancer Compound-Activity-Target database (NPACT). Machine learning models were first constructed to predict binding free energies, with the K-Nearest Neighbors model showing the best performance. Six top-ranked compounds were subsequently subjected to molecular docking, revealing favorable binding affinities and consistent interactions with key active-site residues of PAK1. Binding affinity was further refined using steered molecular dynamics simulations, which showed a strong correlation between maximum rupture force and experimental inhibitory activity, supporting the reliability of the steered molecular dynamics (SMD)-derived binding free energies. Toxicity prediction suggested moderate to low toxicity profiles for all candidates, with no predicted cardiotoxicity. Density functional theory calculations further elucidated the electronic properties, frontier molecular orbitals, and molecular electrostatic potential features relevant to protein-ligand interactions. Overall, this comprehensive computational investigation highlights several NPACT-derived phytochemicals as promising PAK1 inhibitors, providing valuable insights for future experimental validation and anticancer drug development.",
+      "venue": "Journal of molecular graphics & modelling",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 10.32,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 18.0,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Skim",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 13,
+      "title": "Discovery of novel MDM2 inhibitors from a Penicillium metabolome library: An integrated phylogenetic, machine learning, and molecular simulation approach.",
+      "authors": [
+        "Prince Danan Biniyam",
+        "Naomi Kayeri",
+        "Jesse Ayim Buabeng",
+        "Dickson Aboagye",
+        "Alberta Hammah",
+        "Syed Arslan Haider",
+        "Lawrence Kwame Nkrumah",
+        "Kwabena Adu-Adjei",
+        "Victoria Ohene-Adu",
+        "Michael Osei",
+        "Clifford Tignangnen Penajah",
+        "Peter Bedman Narh",
+        "Cedric Dzidzor Kodjo Amengor"
+      ],
+      "date": "2026-07-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42068607/",
+      "pdf_url": "",
+      "doi": "10.1016/j.jmgm.2026.109426",
+      "arxiv_id": "",
+      "pubmed_id": "42068607",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Restoring the tumor-suppressor function of p53 by inhibiting its negative regulator, MDM2, represents a significant therapeutic avenue for cancers that maintain wild-type p53. This research aimed to identify new MDM2 inhibitors through a phylogenetically guided strategy that involved the construction of a focused virtual library of metabolites derived from the Penicillium genus. A comprehensive computational framework was developed, employing machine learning-based quantitative structure-activity relationship (ML-QSAR) modeling, ensemble molecular docking, network pharmacology, molecular dynamics (MD) simulations, and ADMET profiling. The gradient boosting ML-QSAR model achieved a test set R",
+      "venue": "Journal of molecular graphics & modelling",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 10.305,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 17.145,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Skim",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 14,
       "title": "Balancing Revenue and Service in Urban Parking: A Reinforcement Learning-Based Capacity Management Approach",
       "authors": [
         "Thomas Müller",
@@ -823,7 +719,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 15,
       "title": "Hydrodynamic prediction and optimization of submarine hulls via a PointNet-based surrogate model and geometry-adaptive sampling",
       "authors": [
         "Lei Shi",
@@ -871,7 +767,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 18,
+      "rank": 16,
       "title": "Equivariant Graph Attention Network - 3D Conformers & Feature Fusion",
       "authors": [
         "Heesung Shim"
@@ -916,98 +812,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 19,
-      "title": "An Additive MLP-GNN Framework for Characterizing Chemical and Structural Contributions to Aqueous Solubility",
-      "authors": [
-        "Sampreeti Bhattacharya",
-        "Arkaprava Roy"
-      ],
-      "date": "2026-07-02",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.02212v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02212v1",
-      "doi": "",
-      "arxiv_id": "2607.02212v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Aqueous solubility is a key property in early-stage drug discovery, but most predictive models merge physicochemical descriptors and molecular graph information into a single representation, obscuring whether a prediction is driven by global chemistry, molecular structure, or both. We present an additive deep-learning framework that keeps these two sources of information separate throughout training: physicochemical descriptors are encoded by a multilayer perceptron (the chemical branch) and molecular graph topology by a graph neural network (the structural branch), with the two outputs combined only at the prediction stage through an additive model with an optional multiplicative interaction. This design provides a direct decomposition of chemical and structural components that can be examined separately after training. Furthermore, pretraining on the larger AqSolDB dataset and fine-tuning on the smaller BigSolDB2 dataset substantially improve accuracy and reduce run-to-run variations, indicating generalizability of the learned features from the data-rich settings. We further interpret the fitted model using best linear projections of the branch outputs, molecule-level embedding summaries across solubility classes, and atom-level GNNExplainer masks aggregated over functional groups. These analyses show that the chemical branch aligns with familiar physicochemical descriptors, while the structural branch captures graph-topological and functional-group patterns associated with solubility. Across both datasets, the framework attains competitive predictive performance while making the distinct roles of chemical and structural information more transparent.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery"
-      ],
-      "deterministic_score": 8.419,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 4.32,
-        "novelty": 2.8,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 20,
-      "title": "Seek to Segment: Active Perception for Panoramic Referring Segmentation",
-      "authors": [
-        "Song Tang",
-        "Shuming Hu",
-        "Xincheng Shuai",
-        "Henghui Ding",
-        "Yu-Gang Jiang"
-      ],
-      "date": "2026-07-02",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.02497v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02497v1",
-      "doi": "",
-      "arxiv_id": "2607.02497v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Existing referring segmentation models passively process static images captured from fixed perspectives, limiting their applicability in Embodied AI, where agents must perform active perception in the continuous 360$^\\circ$ environments. To bridge this gap, we introduce a novel task: Active Panoramic Referring Segmentation (APRS). In this setting, an agent is required to adjust its viewing direction ($Δθ, Δφ$) to explore the 360$^\\circ$ environment, seeking the object specified by a user instruction for segmentation. To tackle this challenging task, we propose PanoSeeker, a memory-augmented agent for efficient APRS. Rather than relying on heuristic scanning, PanoSeeker integrates a Vision-Language Model (VLM) with EgoSphere, an explicit spatial visual memory. By progressively integrating sequential local observations into a unified 360$^\\circ$ representation, EgoSphere enables the agent to plan efficient and non-redundant search trajectories. Once the target is found, the agent performs active viewpoint alignment and outputs the segmentation mask. Furthermore, we curate an expert-annotated search trajectory dataset with memory timelines for Supervised Fine-Tuning, followed by Reinforcement Learning post-training to explicitly optimize PanoSeeker's exploration efficiency. Extensive experiments on our newly established APRS benchmark demonstrate that PanoSeeker achieves superior search efficiency and segmentation accuracy, significantly outperforming adapted state-of-the-art baselines.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 8.367,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 2.7,
-        "novelty": 4.199999999999999,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.4949999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 21,
+      "rank": 17,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -1051,7 +856,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 18,
       "title": "IN SILICO SEARCH OF POTENT PHYTOECDYSTEROIDS TARGETING DIFFERENT CANCER PROTEINS",
       "authors": [
         "Nitesh Mallik",
@@ -1103,100 +908,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 23,
-      "title": "Artificial intelligence in clinical oncology: Multimodal integration and translational development.",
-      "authors": [
-        "Ruichong Lin",
-        "Zhenhui Zhao",
-        "Zhonghai Liu",
-        "Jin Kang",
-        "Kang Zhang",
-        "Xiaoying Huang",
-        "Yunfang Yu"
-      ],
-      "date": "2026-07-01",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41962624/",
-      "pdf_url": "",
-      "doi": "10.1016/j.canlet.2026.218493",
-      "arxiv_id": "",
-      "pubmed_id": "41962624",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Artificial intelligence (AI) is rapidly reshaping clinical oncology, as cancer care increasingly relies on integrating heterogeneous data streams spanning radiology, digital pathology, genomics, and longitudinal electronic health records. However, the sheer complexity and fragmentation of these multimodal inputs remain a major bottleneck for achieving truly personalized cancer management. Recent advances in AI, including foundation models, synthetic data generation, large language models, and agents, are enabling more robust representation learning, cross-modal reasoning, and clinically actionable decision support beyond what traditional single-modality systems can provide. AI-powered platforms are now accelerating molecular subtyping, refining risk stratification, and supporting individualized therapeutic recommendations by jointly modeling imaging, tissue architecture, and molecular landscapes. Moreover, emerging virtual cell and mechanistic foundation frameworks introduce a new computational paradigm for simulating cellular responses and drug-tumor interactions, offering predictive insights for treatment design and drug discovery. Despite these breakthroughs, critical challenges persist, including limited generalizability across patient populations and centers, insufficient prospective validation, regulatory uncertainty, scalability constraints, and ethical concerns surrounding fairness, transparency, and privacy. In this review, we synthesize the latest progress in multimodal oncology AI through a translational lens, emphasizing methodological trade-offs, validation readiness, and responsible deployment frameworks. We highlight how AI is moving from performance-driven benchmarking toward clinically trustworthy precision cancer care, with transformative implications for early detection, diagnosis, therapy optimization, drug development, and clinical trial design.",
-      "venue": "Cancer letters",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery"
-      ],
-      "deterministic_score": 7.672,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 4.32,
-        "novelty": 0.84,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 24,
-      "title": "Alignment Is All You Need For X-to-4D Generation",
-      "authors": [
-        "Qiaowei Miao",
-        "Kehan Li",
-        "Yawei Luo",
-        "Yi Yang"
-      ],
-      "date": "2026-07-02",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.02516v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02516v1",
-      "doi": "",
-      "arxiv_id": "2607.02516v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existing methods. This paper presents Align4D, a flexible framework that translates any-modal input into coherent video-3D pairs, using video to guide 4D motion and 3D data to shape 4D geometry. Align4D introduces three key techniques: (1) Object Distance Alignment, which searches Video-Aligned and Multiview-Aligned Object Distances (VAOD/MAOD), respectively, to reconcile 4D renderings with video and the priors of multiview diffusion models; (2) Motion-Geometry Joint Alignment, which constrains known and unknown views through synchronized video and 3D inputs, ensuring consistent 4D generation; and (3) Asynchronous Optimization, which decouples Gaussian attribute and deformation network training to enhance motion and geometry fidelity. We further propose the X4D dataset, which integrates prompt, image, video, and 3D data for benchmarking. Experiments on X4D and Consistent4D demonstrate that Align4D achieves state-of-the-art quality and consistency in X-to-4D generation. Project page: https://miaoqiaowei.github.io/Align4D/.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 7.447,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.911,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
+      "rank": 19,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -1245,7 +957,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 26,
+      "rank": 20,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -1289,7 +1001,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 21,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1337,7 +1049,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 22,
       "title": "When and how to partition airspace: a data-driven control framework for dynamic airspace sectorization based on multi-objective receding horizon optimization",
       "authors": [
         "Jinghan Du",
@@ -1382,7 +1094,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 23,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1429,7 +1141,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 30,
+      "rank": 24,
       "title": "Pharmacological potential of apigenin: a dietary flavonoid with emerging synergistic interactions in therapeutics",
       "authors": [
         "Arvind Kumar",
@@ -1478,6 +1190,276 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 25,
+      "title": "Overcoming Resistance in Triple-Negative Breast Cancer: A Translational Perspective on Next-Generation DNA Damage Response Inhibitors and Synthetic Lethality",
+      "authors": [
+        "Jakub Jończyk",
+        "Anna Czopek",
+        "U Kvinta",
+        "Aleksandra Skok",
+        "Agnieszka Zagórska"
+      ],
+      "date": "2026-07-01",
+      "source": "openalex",
+      "link": "https://doi.org/10.3390/molecules31132303",
+      "pdf_url": "https://www.mdpi.com/1420-3049/31/13/2303/pdf?version=1782899079",
+      "doi": "10.3390/molecules31132303",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7166796311",
+      "semantic_scholar_id": "",
+      "abstract": "Triple-negative breast cancer (TNBC), particularly when associated with breast cancer susceptibility gene 1/2 (BRCA1/2) alterations or homologous recombination deficiency (HRD), remains therapeutically challenging because DNA repair vulnerabilities coexist with molecular heterogeneity, resistance, and toxicity constraints. This narrative review synthesizes mechanistic, preclinical, clinical, and translational evidence on DNA damage response (DDR)-targeted and synthetic lethality-based strategies in TNBC. We summarize TNBC biological heterogeneity, current biomarker-guided treatment options, mechanisms of poly(ADP-ribose) polymerase (PARP) inhibition and resistance, and emerging DDR targets, including ataxia telangiectasia and Rad3-related/checkpoint kinase 1 (ATR/CHK1), WEE1, DNA-dependent protein kinase (DNA-PK), RAD51, DNA polymerase theta (POLQ), neddylation-related pathways, and targeted protein degradation. The review highlights that PARP inhibitors and platinum agents provide clinically validated examples of exploiting HRD in selected populations, whereas most next-generation DDR inhibitors remain preclinical, investigational, or in early clinical trials. Resistance mechanisms, including BRCA reversion, homologous recombination restoration, replication fork stabilization, and checkpoint adaptation, limit durable benefit. Safety, target selectivity, overlapping toxicities, and the lack of standardized functional biomarkers further constrain translation. Future progress will require prospective biomarker validation, dynamic HRD assessment, rational scheduling of combinations, and medicinal chemistry approaches that improve therapeutic index rather than a broad application of DDR inhibition across all TNBC.",
+      "venue": "Molecules",
+      "code_url": "",
+      "topic_tags": [
+        "molecular_glue_and_tpd",
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 5.95,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 10.26,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -8.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to molecular_glue_and_tpd, medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 26,
+      "title": "NeuroVLM: A generative vision-language framework for human neuroimaging",
+      "authors": [
+        "Hammonds, R.",
+        "Aguirre-Chavez, J.",
+        "Omoma-Edosa, B.",
+        "Patel, A.",
+        "Voytek, B."
+      ],
+      "date": "2026-07-01",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/01/2026.02.06.704508.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/01/2026.02.06.704508.source.xml",
+      "doi": "10.64898/2026.02.06.704508",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Neuroimaging research has produced tens-of-thousands of articles that pair natural language and activation coordinate tables. Recent advances in vision-language models (VLMs) have provided methods to model text and images simultaneously. In this work, we present NeuroVLM, a model architecture for learning from 30,826 human neuroimage-text pairs. The architecture supports contrastive and generative objectives. The contrastive model ranks similarity between neuroimages and text. The generative models include text-to-neuroimage and neuroimage-to-text. These models are evaluated on network images from a variety of atlases, statistical maps from diverse publications, and images created from coordinate tables. These models are capable of generating atlases or maps given a text corpus, generating text interpretations of neuroimages, labeling networks, finding publications most related to a neuroimage query, or finding neuroimages most related to a text query.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "generative_modeling_core"
+      ],
+      "deterministic_score": 5.599,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "Stress-response exhaustion in intervertebral disc degeneration",
+      "authors": [
+        "Jinghui Song",
+        "Tao Chen",
+        "Liang Ma"
+      ],
+      "date": "2026-07-02",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fcell.2026.1898234",
+      "pdf_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1898234/pdf",
+      "doi": "10.3389/fcell.2026.1898234",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7167055463",
+      "semantic_scholar_id": "",
+      "abstract": "Intervertebral disc degeneration (IVDD) is commonly framed as the cumulative result of extracellular matrix loss, inflammatory activation, oxidative damage, cellular senescence and cell death. This formulation is useful, but it also fragments the disease into parallel mechanisms and obscures a central paradox: nucleus pulposus and annulus fibrosus cells normally reside in a microenvironment that would be hostile to most mammalian cells. The healthy disc is avascular, diffusion limited, hypoxic, glycolytic, relatively acidic and mechanically loaded. These features are not simply pathological insults; they are defining ecological constraints to which disc cells are continuously adapted. Here we propose that IVDD can be productively reframed as a process of stress-response exhaustion. In this view, degeneration begins when the adaptive systems that maintain disc cell viability and matrix homeostasis under chronic microenvironmental stress lose amplitude, flexibility or recovery capacity. Hypoxia-inducible factor signalling, AMPK-mTOR metabolic sensing, autophagy and mitophagy, unfolded-protein and integrated stress responses, and redox buffering are initially protective. With ageing, endplate dysfunction, nutrient diffusion failure, acidosis, abnormal mechanical loading and organelle damage, these same systems can become insufficient or maladaptive, creating a degenerative tipping point. Downstream consequences include senescence, sterile inflammation, cell death, matrix collapse and neuroimmune conversion to painful disease. This framework does not replace established mechanisms of IVDD; rather, it orders them along a temporal axis from adaptation to exhaustion. It also suggests stage-specific therapeutic logic: preserve adaptive reserve early, prevent stress-response collapse, suppress senescence and sterile inflammation, and target neuroimmune sensitization in painful degeneration.",
+      "venue": "Frontiers in Cell and Developmental Biology",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 5.535,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "Metabolic reprogramming of myeloid cells in cancer: from lactate–NAMPT axis to AI-guided therapeutics",
+      "authors": [
+        "In-Gu Lee",
+        "Keehoon Jung"
+      ],
+      "date": "2026-07-01",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s12276-026-01759-3",
+      "pdf_url": "https://www.nature.com/articles/s12276-026-01759-3.pdf",
+      "doi": "10.1038/s12276-026-01759-3",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7166737216",
+      "semantic_scholar_id": "",
+      "abstract": "Myeloid cells-including macrophages, monocytes, neutrophils and dendritic cells-are metabolically plastic sentinels that shape the tumor microenvironment. Among the myriad metabolites in cancer, lactate and nicotinamide adenine dinucleotide (NAD⁺) stand out as central coordinators of myeloid cell fate. Lactate accumulation, driven by tumor glycolysis, profoundly reprograms myeloid metabolism through receptor-mediated signaling, monocarboxylate transport and histone lactylation, establishing immunosuppressive and pro-angiogenic phenotypes. Parallel to this, the nicotinamide phosphoribosyltransferase (NAMPT)-dependent NAD⁺ salvage pathway sustains redox homeostasis and epigenetic regulation in myeloid cells, controlling sirtuin-mediated deacetylation and transcriptional rewiring. Emerging evidence suggests a lactate-NAMPT feedback circuit that couples extracellular lactate availability with intracellular NAD⁺ turnover to maintain immunoregulatory states within tumors. In this Review, we integrate current knowledge on lactate metabolism and NAMPT signaling in tumor-associated myeloid cells, highlighting their convergence on metabolic and epigenetic checkpoints. We further discuss how artificial intelligence (AI)-through single-cell multi-omics integration, spatial metabolomic inference and graph-based modeling-can decode complex immunometabolic networks and accelerate drug discovery targeting these pathways. Finally, we outline therapeutic strategies combining lactate-targeting agents, NAMPT inhibitors and immunotherapies, emphasizing the promise of AI-guided precision immunometabolism. Understanding and modeling the lactate-NAMPT axis may unlock new avenues to reprogram myeloid immunity and overcome resistance in cancer therapy.",
+      "venue": "Experimental & Molecular Medicine",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery"
+      ],
+      "deterministic_score": 4.942,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 4.32,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 29,
+      "title": "Penumbria: Advanced 3D cell segmentation for biomedical imaging",
+      "authors": [
+        "Stockert, L.",
+        "Donovan, J.",
+        "Baier, H."
+      ],
+      "date": "2026-07-01",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/01/2026.06.30.735527.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/01/2026.06.30.735527.source.xml",
+      "doi": "10.64898/2026.06.30.735527",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Quantitative analysis of three-dimensional cellular architecture is fundamental to understanding tissue organization, disease progression, and drug response. There are effective approaches for 2D segmentation, yet 3D cell segmentation remains a critical bottleneck due to diverse cell morphologies, low signal-to-noise ratios, and data scarcity. We introduce Penumbria, a general-purpose 3D cell segmentation framework that achieves state-of-the-art accuracy across morphologically distinct cell populations and imaging conditions in volumetric microscopy. Penumbria formulates segmentation as a regression problem on distances to cell boundaries, supporting instance reconstruction without shape priors and permitting end-to-end GPU inference. A U-Net-based architecture with xLSTM bottleneck blocks and patch embeddings enables multi-scale feature extraction, long-range modeling of spatial context, and convolutional feature-volume tokenization. The model is extended with two modules: a Global Zernike Phase Layer, which learns Zernike-parameterized phase corrections in the frequency domain to deal with optical aberrations such as defocus and tilt, and a Scaled Geocaps Layer, which samples features at fixed grid locations across multiple spatial scales, routing evidence between them such that a detection is only confident where concordance holds across scales simultaneously. Across four diverse 3D datasets selected to probe the limits of existing methods, Penumbria outperforms Cellpose-SAM on all four and StarDist-3D on three, with comparable accuracy on the fourth, achieving up to a 38% improvement in mean average precision over the second-best method. Penumbrias strong boundary accuracy further supports downstream analyses such as quantifying membrane dynamics or protein localization. We also release a hand-labeled confocal dataset of 1,543 zebrafish neurons across seven volumes, on which Penumbria can be easily and quickly trained.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.87,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.9359999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Dynamic topology-aware multimodal hypergraph fusion network for load forecasting in novel power systems",
+      "authors": [
+        "Xiaolong Lv",
+        "Qin Ma",
+        "Jie Du"
+      ],
+      "date": "2026-07-02",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41598-026-59612-6",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-59612-6_reference.pdf",
+      "doi": "10.1038/s41598-026-59612-6",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7166872254",
+      "semantic_scholar_id": "",
+      "abstract": "Existing load forecasting methods for novel power systems face critical bottlenecks regarding insufficient multimodal data fusion along with weak dynamic topology adaptability and rigid modality weight allocation. A Dynamic Topology-Aware Multimodal Hypergraph Fusion Network (DTA-MHFN) is proposed to address these challenges. First, a Multimodal Hypergraph Network (MHN) is constructed. This network models user electricity consumption time series units and grid topology physical units as distinct hypernodes. Structural and behavioral hyperedges are then built based on physical connections and behavioral correlations. This design achieves explicit representation of cross-modal high-order associations and overcomes the limitation of traditional graph neural networks that only model pairwise correlations. Second, a Dynamic Topology Awareness Module (DTAM) is designed. It monitors topological time variations by calculating the cosine similarity of topological adjacency matrices across adjacent time windows. A gated recurrent unit is integrated to capture evolutionary features and adaptively update the hypergraph convolution weights. This mechanism resolves the issue of sudden prediction accuracy degradation under perturbation scenarios caused by static topology modeling. Finally, a Gradient-guided Adaptive Modality Weight mechanism (GAMW) is proposed. It quantifies the contribution of bimodal features using the proportion of backpropagation gradient magnitudes. Fusion weights are dynamically allocated through an attention mechanism. This strategy avoids feature redundancy or critical information loss triggered by static weights. Experimental results demonstrate that the proposed model reduces the MAPE by 7.2% on the IEEE 33-bus system and smart meter datasets. The prediction stability in dynamic topology scenarios improves by 12%. The comprehensive performance significantly outperforms existing mainstream methods. This provides technical support for load forecasting in new power systems and holds significant theoretical and practical value for advancing multimodal data fusion and adaptation to time-varying topologies.",
+      "venue": "Scientific Reports",
+      "code_url": "",
+      "topic_tags": [
+        "graph_algorithms_and_discrete_structures"
+      ],
+      "deterministic_score": 4.819,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 3.375,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to graph_algorithms_and_discrete_structures.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
 }
