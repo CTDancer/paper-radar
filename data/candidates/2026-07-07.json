@@ -1,9 +1,9 @@
 {
   "date": "2026-07-07",
   "stats": {
-    "raw_candidates": 153,
-    "deduplicated_candidates": 120,
-    "filtered_candidates": 120,
+    "raw_candidates": 107,
+    "deduplicated_candidates": 106,
+    "filtered_candidates": 106,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -78,6 +78,61 @@
     },
     {
       "rank": 2,
+      "title": "A multi-fidelity tabular prior-data fitted network model for accurate prediction and uncertainty quantification",
+      "authors": [
+        "Yan Shi",
+        "Cheng Liu",
+        "Aodi Yu",
+        "Zhenzhou Lu",
+        "Said Elias",
+        "Kai Cheng",
+        "Jiaqing Kou",
+        "Xin Chen",
+        "Yu Liu",
+        "H Huang",
+        "Michael Beer"
+      ],
+      "date": "2026-07-04",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41467-026-75163-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-75163-w_reference.pdf",
+      "doi": "10.1038/s41467-026-75163-w",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7167339923",
+      "semantic_scholar_id": "",
+      "abstract": "Accurate prediction of unknown labels from feature-label datasets using machine learning is critical for applications spanning drug discovery, disease diagnostics, and climate science. However, challenges persist with limited data, high-dimensional inputs, and multi-fidelity scenarios. We developed multi-fidelity tabular prior-data fitted network (MFTabPFN), a general-purpose multi-fidelity model integrating low- and high-fidelity data through a hierarchical transformer architecture to enhance prediction accuracy and uncertainty quantification (UQ). MFTabPFN captures cross-fidelity correlations while seamlessly adapting to single-fidelity data. An active learning framework further enhances scalability by prioritizing high-value data for model refinement, minimizing resource demands in resource-intensive tasks. Evaluated on various tasks such as forest fire burned area prediction, wine quality assessment, and computational fluid dynamics, MFTabPFN outperforms state-of-the-art methods, achieving varying degrees of prediction accuracy improvement. Its versatility and robust prediction and UQ capabilities across single- and multi-fidelity datasets position MFTabPFN as a promising tool for data-driven discovery in diverse applications. This paper presents MFTabPFN, a transformer-based multi-fidelity learning framework that integrates low- and high-fidelity data for improved prediction and uncertainty quantification. Across diverse benchmarks, it outperforms existing methods and supports efficient active learning for resource intensive applications.",
+      "venue": "Nature Communications",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "gflownet_related_methods",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 16.18,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 11.745000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.325,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Skim",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to ai_drug_discovery, gflownet_related_methods, black_box_combinatorial_and_expensive_optimization, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 3,
       "title": "ADMET Property Prediction with Quantum-Inspired Preprocessing",
       "authors": [
         "Mansour, B.",
@@ -120,54 +175,6 @@
       "paper_type": "benchmark_dataset",
       "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery, medicinal_and_synthetic_chemistry.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 3,
-      "title": "Tetrapeptide inhibitors of BACE-1 revealed by combined data-driven screening and physics-based free-energy refinement.",
-      "authors": [
-        "Trung Hai Nguyen",
-        "Hang N T Nguyen",
-        "Minh Quan Pham",
-        "Huong Thi Thu Phung"
-      ],
-      "date": "2026-07-06",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42406259/",
-      "pdf_url": "",
-      "doi": "10.1021/acschemneuro.0c00813",
-      "arxiv_id": "",
-      "pubmed_id": "42406259",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Alzheimer's disease remains a major global health challenge, and β-site amyloid precursor protein cleaving enzyme 1 (BACE-1) represents a critical therapeutic target as it catalyzes the rate-limiting step in amyloid-β production. While computational studies have extensively explored small-molecule BACE-1 inhibitors, large-scale screening combined with physics-based refinement has rarely been applied to peptide scaffolds. Here, we report an integrated machine learning (ML)-to- free energy perturbation (FEP) pipeline, combining XGBoost-based screening, molecular docking, replicate explicit-solvent molecular dynamics (MD), and absolute FEP calculations, as a multi-stage alternative to single-scoring approaches for tetrapeptide lead discovery against BACE-1. Screening a library of 16,000 tetrapeptides with an XGBoost model prioritized four candidates (HWRE, HWER, WHRR, and HWRQ) for structure-based evaluation. Molecular docking confirmed favorable positioning within the catalytic cleft, while replicate MD simulations revealed multivalent binding through hydrogen bonds, salt bridges to the catalytic dyad (Asp32/Asp228), and hydrophobic contacts with conserved pocket residues; interaction-fingerprint and hotspot analyses provided residue-level guidance for optimization. FEP calculations delivered quantitative thermodynamic ranking, separating three strong predicted binders (HWRE, WHRR, HWRQ; ΔG",
-      "venue": "Molecular diversity",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 12.512,
-      "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 18.0,
-        "novelty": 0.0,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -12.0
-      },
-      "priority": "Skim",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
       "rank": 4,
@@ -362,94 +369,55 @@
     },
     {
       "rank": 8,
-      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
+      "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
-        "Wei Guo",
-        "Yaqiong Dong"
+        "RADU CONSTANTIN Calinescu",
+        "Micah Bassett",
+        "Brendan Devlin-Hill",
+        "Simos Gerasimou",
+        "Sinem Getir Yaman",
+        "Kavan Fatehi",
+        "Gricel VAZQUEZ FLORES"
       ],
-      "date": "2028-09-22",
-      "source": "crossref",
-      "link": "https://doi.org/10.24425/ace.2025.155084",
-      "pdf_url": "",
-      "doi": "10.24425/ace.2025.155084",
+      "date": "2026-07-26",
+      "source": "openalex",
+      "link": "https://orcid.org/0000-0002-2678-9260>,",
+      "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/240654/1/CAV-2026_ULTIMATE-tool-paper.pdf",
+      "doi": "",
       "arxiv_id": "",
       "pubmed_id": "",
-      "openalex_id": "",
+      "openalex_id": "https://openalex.org/W7159896520",
       "semantic_scholar_id": "",
-      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
-      "venue": "Archives of Civil Engineering",
+      "abstract": "",
+      "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
       "code_url": "",
       "topic_tags": [
-        "multi_objective_optimization"
+        "stochastic_processes_probability_statistical_physics"
       ],
-      "deterministic_score": 7.844,
+      "deterministic_score": 7.322,
       "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.84,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.586,
+        "paper_type": "weak_match",
+        "direct_relevance": 8.100000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.0,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
+        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
+        "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
-        "penalties": -4.0
+        "penalties": -3.0
       },
       "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+      "paper_type": "weak_match",
+      "why_selected": "Selected as a possible match to stochastic_processes_probability_statistical_physics, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
       "rank": 9,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 10,
       "title": "Optimal Pre-Experimental Coil Sequence Selection for TMS Motor Mapping",
       "authors": [
         "Qiu, R.",
@@ -498,53 +466,54 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
-      "title": "Machine learning-guided discovery of spirocyclic inhibitors targeting Mycobacterium tuberculosis FtsZ.",
+      "rank": 10,
+      "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
-        "Rahul Singh",
-        "Vivek Dhar Dwivedi",
-        "Garima Chouhan"
+        "Victor Enescu",
+        "Assaad Zeghina",
+        "Matthieu Meignin",
+        "Nicolas Viltard",
+        "Cécile Mallet"
       ],
-      "date": "2026-07-06",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42406008/",
+      "date": "2026-09-13",
+      "source": "openalex",
+      "link": "https://hal.science/hal-05650358",
       "pdf_url": "",
-      "doi": "10.1371/journal.ppat.1010893",
+      "doi": "",
       "arxiv_id": "",
-      "pubmed_id": "42406008",
-      "openalex_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7164710863",
       "semantic_scholar_id": "",
-      "abstract": "Tuberculosis continues to pose serious threats to global public health and calls for the design of new drugs that can target key bacterial proteins. This research used an integrated approach involving computational techniques to discover new drugs that can inhibit the FtsZ protein of Mycobacterium tuberculosis using the Life Chemicals compound library as a starting point. Sequence analysis revealed very low sequence identity (~ 12-13%) between FtsZ and human cytoskeletal proteins, indicating substantial evolutionary divergence. Five lead compounds were discovered through structure-based screening, exhibiting good binding affinities in the range of - 7.18 to - 6.69 kcal/mol. Binding free energy studies showed that F3411-4559 was the most active compound (binding free energy = - 69.49 kcal/mol) compared with the reference (binding free energy = - 65.78 kcal/mol). A pharmacokinetics study suggested good drug-likeness in terms of excellent intestinal permeability and suitable physicochemical parameters. The quantum chemistry study demonstrated improved electronic reactivity for F3411-4594. The molecular dynamics studies proved that all the protein-ligand complexes were stable, with good structures and conformations. The predictive models also indicated high inhibition activity (pIC50 = 7.75-8.51). In conclusion, spirocyclic derivatives are promising candidates for the development of novel anti-tuberculosis drugs.",
-      "venue": "Folia microbiologica",
+      "abstract": "International audience",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
       "code_url": "",
       "topic_tags": [
-        "protein_ligand_affinity",
-        "computational_chemistry_biophysics_structural_biology"
+        "flow_matching_and_diffusion"
       ],
-      "deterministic_score": 5.64,
+      "deterministic_score": 6.386,
       "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 10.8,
-        "novelty": 0.84,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
+        "paper_type": "method",
+        "direct_relevance": 4.725,
+        "novelty": 0.0,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
+        "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
-        "penalties": -12.0
+        "penalties": -3.0
       },
       "priority": "Archive",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "title": "TCR-FramePose: a local-frame representation for decomposing global docking and CDR3 loop geometry in TCR-pMHC recognition",
       "authors": [
         "Kim, K. H.",
@@ -593,7 +562,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "title": "A Bottom-Up Platform for Quantitative Single-Molecule Tracking Through Bacterial Biofilm Mimics",
       "authors": [
         "Shepherd, J. W.",
@@ -635,7 +604,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 13,
       "title": "CryoROLE: describing large inter-domain rotation in single particle cryo-EM",
       "authors": [
         "Li, C.",
@@ -681,7 +650,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 14,
       "title": "FoxO3a and miR-34a-3p Are Involved in Oxidative Stress-Induced Dysfunction of Human Endothelial Progenitor Cells",
       "authors": [
         "Lin, Z.",
@@ -726,7 +695,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 15,
       "title": "Unbalanced Perturbation Dynamics For Cell Fate Design",
       "authors": [
         "Peng, Q.",
@@ -772,7 +741,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "title": "Computationally mapping olfactory receptors to odor percepts using docking energy scores",
       "authors": [
         "Guan, Y."
@@ -813,6 +782,53 @@
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to protein_ligand_affinity.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 17,
+      "title": "Comment on egusphere-2026-1087",
+      "authors": [
+        "Zhixiang Guo",
+        "Xinming Wu",
+        "Yimin Dou",
+        "Hui Gao",
+        "Guillaume Caumon"
+      ],
+      "date": "2026-07-05",
+      "source": "openalex",
+      "link": "https://doi.org/10.5194/egusphere-2026-1087-rc2",
+      "pdf_url": "",
+      "doi": "10.5194/egusphere-2026-1087-rc2",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7167427284",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract. Diffusion models provide a promising way to model the distribution of implicit structural models, potentially improving generalization across surveys. However, existing diffusion Transformer pipelines scale poorly to high-dimensional geophysical data because noise- or velocity-prediction objectives are often unstable at large patch sizes, forcing the use of small patches that lead to long token sequences and high computational cost. To reduce computation, most approaches rely on Variational autoencoders (VAEs) and latent diffusion, but robust pretrained VAEs are scarce in geophysics, and enforcing geological priors in latent space is difficult. To address these scalability bottlenecks and the difficulty of enforcing geological priors in latent space, we propose Latent-Compression-Free Generative Diffusion (LFD) with Geological Priors and Geophysical Regularization for implicit structural modeling. Built on flow matching, LFD generates implicit structural models directly in the data space, enabling efficient large-patch Vision Transformer (ViT) inference and allowing fault/horizon constraints and geophysical regularization to be applied explicitly during generation. To strengthen structural conditioning, we design a structure-enhanced Transformer that injects horizon and fault embeddings at multiple layers. We further introduce two prior-guided losses: a horizon loss to match the generated models to the input horizons, and a fault-aware bending-energy term that regularizes smoothness while ignoring stencils across faults. By enforcing these priors directly in the data space, the model is effectively constrained to generate geologically reasonable structures. Experiments on both synthetic data and real surveys validate the effectiveness of LFD for prior-guided implicit structural modeling. Benefiting from large-patch inference, LFD generates a 512x512 model in 1.56 s on an NVIDIA H20 GPU. With relative positional encoding, LFD can be extended to higher resolutions via simple adaptation without retraining. Overall, LFD offers new insights into deploying diffusion models for high-dimensional geophysical data, enabling efficient generation with interpretable, prior-guided constraints.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 4.091,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 4.725,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -8.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to flow_matching_and_diffusion, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
     },
     {
       "rank": 18,
@@ -1218,6 +1234,47 @@
     },
     {
       "rank": 27,
+      "title": "Selective state space U net for linear complexity globally coherent high resolution image segmentation",
+      "authors": [
+        "Adi Alhudhaif"
+      ],
+      "date": "2026-07-04",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41598-026-60465-2",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-60465-2_reference.pdf",
+      "doi": "10.1038/s41598-026-60465-2",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7167352987",
+      "semantic_scholar_id": "",
+      "abstract": "Accurate segmentation of high-resolution images requires the simultaneous preservation of fine-grained spatial details and the modeling of long-range contextual dependencies. Conventional convolutional neural networks efficiently capture local structures but are limited by restricted receptive fields, whereas transformer-based architectures provide global context at the cost of quadratic computational complexity. Recent selective state-space models (SSMs), particularly Mamba-based architectures, offer an attractive alternative by enabling global dependency modeling with linear computational complexity. However, existing vision-oriented implementations largely rely on empirical architectural choices, resulting in fragmented design strategies and limited reproducibility. Here, we introduce Selective State-Space U-Net (SSS-U-Net), a unified architectural framework that systematically formalizes the integration of selective state-space dynamics within encoder-decoder segmentation networks. The proposed framework establishes a comprehensive taxonomy of three macro-integration topologies-sequential, parallel, and bottleneck state-space routing-and defines multi-directional spatial scanning mechanisms that preserve two-dimensional structural coherence while leveraging one-dimensional state-space representations. Furthermore, we provide a standardized design protocol that maps continuous-time selective state-space dynamics onto high-resolution visual domains while maintaining strict linear-complexity scaling. The framework is validated across representative biomedical and industrial imaging benchmarks, including Kvasir-SEG for polyp segmentation and MVTec AD for anomaly detection. Experimental evaluation demonstrates strong predictive performance, achieving 94.2% mean Dice score on Kvasir-SEG and 98.6% pixel-level AUROC on MVTec AD, while maintaining substantially lower memory consumption and computational overhead than attention-based alternatives. Ablation analyses further reveal the complementary roles of selective state-space gating, multi-directional scanning, and hybrid CNN-Mamba feature fusion in improving segmentation fidelity and anomaly localization. These findings establish a reproducible architectural blueprint for integrating selective state-space models into dense prediction systems and provide practical design guidelines for scalable high-resolution image analysis across biomedical, industrial, and resource-constrained vision applications.",
+      "venue": "Scientific Reports",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 0.93,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.6599999999999997,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
       "title": "Connectome quality converges predictably to reveal optimal stopping points during proofreading",
       "authors": [
         "Martinez, H.",
@@ -1265,7 +1322,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "SPICE: A Robust Computational Framework for Identifying Copy Number Variations in Spatial Transcriptomics",
       "authors": [
         "Banerjee, K.",
@@ -1309,98 +1366,47 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
-      "title": "La diffusion des outils et services e-santé auprès de leurs utilisateurs : l’exemple de « Mon espace santé » en France",
-      "authors": [
-        "Said Hayar",
-        "Laurent Mériade"
-      ],
-      "date": "2050-04-21",
-      "source": "crossref",
-      "link": "https://doi.org/10.3917/gmp.pr1.0012",
-      "pdf_url": "",
-      "doi": "10.3917/gmp.pr1.0012",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Les pouvoirs publics souhaitent tirer parti des perspectives offertes par le numérique en santé pour améliorer l’information et la prise en charge des patients tout en luttant contre les inégalités de santé dans les territoires. Cependant, en France, si au cours des quinze dernières années, cette transformation digitale du secteur de la santé s’est particulièrement développée, elle a aussi connu des résultats très variables et parfois encore assez décevants. Pour notamment renforcer et accélérer cette transformation digitale, de nombreux travaux ont décrit en détail les modalités et facteurs favorisant l’adoption et l’appropriation des outils et services numériques en santé. En revanche, beaucoup moins de travaux ont porté leur attention sur la phase de diffusion aux utilisateurs de ces outils et services alors qu’elle détermine significativement leur adoption et appropriation. Pour combler ce manque, à partir de la théorie de la diffusion des innovations, nous proposons d’analyser les modalités de diffusion à ses utilisateurs de l’outil « Mon espace santé » proposé et mis en œuvre par la Caisse nationale d’assurance maladie en France. À partir d’une participation observante au sein des équipes chargées de la diffusion de cet outil, nous décrivons les éléments de diffusion de cette innovation digitale (système social, innovation, canaux de communication, temps). Les résultats de cette analyse nous permettent, dans un premier temps, sur le plan théorique, de proposer un premier cadre d’analyse de la diffusion des innovations digitales en santé. L’application de ce cadre d’analyse nous autorise ensuite une caractérisation des modalités de diffusion de l’innovation digitale en santé « centrée sur l’usager » aux côtés de celles relatives à sa conception déjà très illustrées dans la littérature. Ces modalités sont décrites à travers les principales composantes de la diffusion de « Mon espace santé » (différents rôles de l’usager, canaux de communication utilisés et étapes de diffusion) et trois de ses principes directeurs (usager-acteur, État-plateforme, déploiement incitatif centré sur l’usager). Sur le plan pratique, ces composantes et principes de diffusion représentent autant de pistes d’amélioration de la diffusion des innovations digitales en santé dans le secteur public.",
-      "venue": "Gestion et management public",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 0.681,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.0,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.09030899869919436,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
       "rank": 30,
-      "title": "Structure-guided discovery of a potent 2-aryl-4-aminoquinazoline-based inhibitor overcoming osimertinib resistance driven by EGFR C797S mutation in NSCLC.",
+      "title": "Comparing Machine Learning and MCDM Weighting Paradigms in Smart City Benchmarking",
       "authors": [
-        "Hao Chang",
-        "Cheng Zhang",
-        "Zhenyang Liang",
-        "Fang Liu",
-        "Yanhong Zhang",
-        "Jiaxin Tian",
-        "Zijie Xiao",
-        "Haohua Chi",
-        "Wenwen Du",
-        "Shu Li",
-        "Pengmei Li",
-        "Renzhong Qiao",
-        "Chao Li"
+        "Bartłomiej Kizielewicz",
+        "Aleksandra Bączkiewicz",
+        "Jarosław Wątróbski",
+        "Wojciech Sałabun"
       ],
       "date": "2026-07-05",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41950648/",
-      "pdf_url": "",
-      "doi": "10.1016/j.ejmech.2026.118818",
+      "source": "openalex",
+      "link": "https://aisel.aisnet.org/pacis2026/iot_smartcity/iot_smartcity/10",
+      "pdf_url": "https://aisel.aisnet.org/context/pacis2026/article/1149/viewcontent/1848_doc.pdf",
+      "doi": "",
       "arxiv_id": "",
-      "pubmed_id": "41950648",
-      "openalex_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7164708175",
       "semantic_scholar_id": "",
-      "abstract": "The C797S mutation in epidermal growth factor receptor (EGFR) is a major mechanism of resistance to third-generation tyrosine kinase inhibitors (TKIs), such as Osimertinib, in non-small cell lung cancer (NSCLC), creating an urgent need for effective therapeutic strategies. To address this challenge, we designed the structure-guided optimization of a 2-aryl-4-aminoquinazoline scaffold, leading to the discovery of a potent fourth-generation EGFR inhibitor, compound 6g. The design focused on introducing flexible nitrogen-rich side chains to enable effective non-covalent interaction with the mutant Ser797 residue. Compound 6g exhibited superior activity against EGFR",
-      "venue": "European journal of medicinal chemistry",
+      "abstract": "Smart city indices embedded in digital benchmarking platforms increasingly shape urban governance decisions, yet criteria weighting, a critical algorithmic design choice, remains underexamined. This study compares two paradigms for deriving criteria weights: objective multi-criteria decision-making (MCDM) methods and machine learning (ML) feature-importance approaches, applied to the IMD Smart City Index 2024 dataset covering 45 Asia-Pacific cities and 39 indicators. TOPSIS rankings are generated under weight configurations from four MCDM and four ML methods. Results reveal systematically different weight structures: Gini coefficients of 0.10–0.37 for MCDM versus 0.42–0.50 for tree-based ML methods, with ML approaches concentrating importance on digital service indicators and allocating 67–75% of weight to the Technology pillar. Despite these divergences, city rankings remain highly correlated, suggesting the disagreement is one of interpretability rather than decision outcomes. The study contributes a comparison framework for designing transparent, configurable IS artifacts for urban governance.",
+      "venue": "Journal of the Association for Information Systems",
       "code_url": "",
       "topic_tags": [],
-      "deterministic_score": 0.671,
+      "deterministic_score": 0.835,
       "score_breakdown": {
-        "paper_type": "method",
+        "paper_type": "benchmark_dataset",
         "direct_relevance": 0.0,
-        "novelty": 0.0,
+        "novelty": 2.2399999999999998,
         "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
+        "transferable_insight": 0.793,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
+        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
+        "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
         "penalties": -4.0
       },
       "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
