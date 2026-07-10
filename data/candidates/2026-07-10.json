@@ -1,9 +1,9 @@
 {
   "date": "2026-07-10",
   "stats": {
-    "raw_candidates": 338,
-    "deduplicated_candidates": 224,
-    "filtered_candidates": 224,
+    "raw_candidates": 334,
+    "deduplicated_candidates": 221,
+    "filtered_candidates": 221,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -83,53 +83,6 @@
     },
     {
       "rank": 2,
-      "title": "Bridging between Structure-Based and Data-Driven Affinity Prediction.",
-      "authors": [
-        "Alžbeta Kubincová",
-        "David L Mobley"
-      ],
-      "date": "2026-07-07",
-      "source": "pubmed+europe_pmc",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42411284/",
-      "pdf_url": "",
-      "doi": "10.1021/acs.jcim.6c00697",
-      "arxiv_id": "",
-      "pubmed_id": "42411284",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Protein-ligand binding affinity prediction is central in computer-aided drug design, and a wide range of physics-based, empirical, and machine learning (ML) tools have been developed for this purpose. Scientists are often tasked with choosing an optimal tool for a given discovery problem, which can be difficult. Physical models typically perform best in the absence of target-specific data but are often outperformed by ML models as the amount of data on a given target grows. Here, we introduce a method to smoothly transition from physics-based to knowledge-based predictions based on the uncertainty of each model. We apply this framework to combine docking scores with predictions from a Gaussian Process model trained on binding affinities from two industrial data sets. We show that combining structure-based and ML models significantly improves the prediction accuracy if training data is limited, whereas the weighting smoothly shifts from docking to ML as more data is acquired. We also show that structure-based methods, being insensitive to the distribution of binders across chemical space, can improve generalizability to new chemistries and increase the hit rate in active learning screens where the binder density varies among scaffolds in a virtual library. Thus, integrating predictions from multiple tools not only optimizes the use of limited experimental data but also ensures more robust performance compared to reliance on a single model.",
-      "venue": "Journal of chemical information and modeling",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity",
-        "gflownet_related_methods",
-        "black_box_combinatorial_and_expensive_optimization"
-      ],
-      "deterministic_score": 26.216,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 18.0,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 1.0499999999999998,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, protein_ligand_affinity, gflownet_related_methods, black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 3,
       "title": "Breaking the Synthesis Barrier for AI-Designed DNA Libraries",
       "authors": [
         "Sussex, S.",
@@ -181,7 +134,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "DiPhon: Diffusion on Graphons for Scalable Graph Generation",
       "authors": [
         "Sergio Rozada",
@@ -229,57 +182,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 5,
-      "title": "FLOWR.ROOT - A flow matching-based foundation model for joint multi-purpose structure-aware 3D ligand generation and affinity prediction.",
-      "authors": [
-        "Julian Cremer",
-        "Tuan Le",
-        "Mohammad M Ghahremanpour",
-        "Emilia Sługocka",
-        "Filipe Menezes",
-        "Djork-Arné Clevert"
-      ],
-      "date": "2026-07-06",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42409794/",
-      "pdf_url": "",
-      "doi": "10.1038/s41597-022-01288-4",
-      "arxiv_id": "",
-      "pubmed_id": "42409794",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "We present FLOWR.ROOT, an SE(3)-equivariant flow-matching foundation model that unifies pocket-aware 3D ligand generation with multi-endpoint binding affinity prediction (pIC",
-      "venue": "Nature communications",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion",
-        "protein_ligand_affinity",
-        "structure_based_drug_design"
-      ],
-      "deterministic_score": 20.905,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 15.66,
-        "novelty": 0.9799999999999999,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -3.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion, protein_ligand_affinity, structure_based_drug_design.",
-      "possible_concerns": "abstract is missing or too short to judge novelty well"
-    },
-    {
-      "rank": 6,
+      "rank": 4,
       "title": "PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides",
       "authors": [
         "Jain, S.",
@@ -328,7 +231,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
       "authors": [
         "Eric Zhu",
@@ -374,7 +277,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Artificial intelligence aided design of peptides with custom secondary structure motifs and reduced amino acid alphabets",
       "authors": [
         "Brown, S. M.",
@@ -419,7 +322,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Neural Operator-enabled Topology-informed Evolutionary Strategy for PDE-Constrained Optimization",
       "authors": [
         "Xiangming Huang",
@@ -466,7 +369,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Dynamic decision-support for engineering course evaluation and improvement: a case study of the electric machinery and drives course",
       "authors": [
         "Chengling Lu",
@@ -511,7 +414,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "Generative AI as a transformational logic for cognitive neuroscience",
       "authors": [
         "Christian Beste",
@@ -555,7 +458,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "CFD-based Bayesian Optimization of Stirring Strategies in Stirred Tank Cultures of Pluripotent Stem Cell Spheroids",
       "authors": [
         "Horiguchi, I.",
@@ -601,55 +504,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
-      "title": "Tetrapeptide inhibitors of BACE-1 revealed by combined data-driven screening and physics-based free-energy refinement.",
-      "authors": [
-        "Trung Hai Nguyen",
-        "Hang N T Nguyen",
-        "Minh Quan Pham",
-        "Huong Thi Thu Phung"
-      ],
-      "date": "2026-07-06",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42406259/",
-      "pdf_url": "",
-      "doi": "10.1021/acschemneuro.0c00813",
-      "arxiv_id": "",
-      "pubmed_id": "42406259",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Alzheimer's disease remains a major global health challenge, and β-site amyloid precursor protein cleaving enzyme 1 (BACE-1) represents a critical therapeutic target as it catalyzes the rate-limiting step in amyloid-β production. While computational studies have extensively explored small-molecule BACE-1 inhibitors, large-scale screening combined with physics-based refinement has rarely been applied to peptide scaffolds. Here, we report an integrated machine learning (ML)-to- free energy perturbation (FEP) pipeline, combining XGBoost-based screening, molecular docking, replicate explicit-solvent molecular dynamics (MD), and absolute FEP calculations, as a multi-stage alternative to single-scoring approaches for tetrapeptide lead discovery against BACE-1. Screening a library of 16,000 tetrapeptides with an XGBoost model prioritized four candidates (HWRE, HWER, WHRR, and HWRQ) for structure-based evaluation. Molecular docking confirmed favorable positioning within the catalytic cleft, while replicate MD simulations revealed multivalent binding through hydrogen bonds, salt bridges to the catalytic dyad (Asp32/Asp228), and hydrophobic contacts with conserved pocket residues; interaction-fingerprint and hotspot analyses provided residue-level guidance for optimization. FEP calculations delivered quantitative thermodynamic ranking, separating three strong predicted binders (HWRE, WHRR, HWRQ; ΔG",
-      "venue": "Molecular diversity",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 12.272,
-      "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 18.0,
-        "novelty": 0.0,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -12.0
-      },
-      "priority": "Skim",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, structure_based_drug_design, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
-    },
-    {
-      "rank": 14,
+      "rank": 11,
       "title": "De novo designed bifunctional proteins for targeted protein degradation",
       "authors": [
         "Mylemans, B.",
@@ -701,7 +556,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 12,
       "title": "Compiling Bioinformatics Recurrences",
       "authors": [
         "Bala Vinaithirthan",
@@ -748,7 +603,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 13,
       "title": "Reducing labeling effort in architecture technical debt detection through active learning and explainable AI",
       "authors": [
         "Edi Sutoyo",
@@ -794,7 +649,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 14,
       "title": "An allosteric pocket in KV1.3 defines a distinct chemical space for immunomodulator design",
       "authors": [
         "Luo, G.",
@@ -851,7 +706,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 15,
       "title": "Synthetic data for portfolios: a throw of the dice will never abolish chance",
       "authors": [
         "Adil Rengim Cetingoz",
@@ -895,7 +750,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 16,
       "title": "The RdRp Thumb-1 Pocket is a Conserved Target for Broad-Spectrum Antiviral Development",
       "authors": [
         "Woods, V.",
@@ -944,7 +799,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 17,
       "title": "NatCodon: protein-structure-informed de novo codon sequence design for efficient protein expression",
       "authors": [
         "Sheng Ye",
@@ -994,7 +849,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 21,
+      "rank": 18,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -1038,7 +893,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 19,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -1087,7 +942,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 23,
+      "rank": 20,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -1131,7 +986,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 21,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1179,7 +1034,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 22,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1226,7 +1081,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 26,
+      "rank": 23,
       "title": "The construction of cultural IP virtual characters and consumer identification based on generative adversarial networks",
       "authors": [
         "Huiya Xing",
@@ -1270,7 +1125,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 24,
       "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
       "authors": [
         "Shuailei Ma",
@@ -1339,53 +1194,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 28,
-      "title": "Machine learning-guided discovery of spirocyclic inhibitors targeting Mycobacterium tuberculosis FtsZ.",
-      "authors": [
-        "Rahul Singh",
-        "Vivek Dhar Dwivedi",
-        "Garima Chouhan"
-      ],
-      "date": "2026-07-06",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42406008/",
-      "pdf_url": "",
-      "doi": "10.1371/journal.ppat.1010893",
-      "arxiv_id": "",
-      "pubmed_id": "42406008",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Tuberculosis continues to pose serious threats to global public health and calls for the design of new drugs that can target key bacterial proteins. This research used an integrated approach involving computational techniques to discover new drugs that can inhibit the FtsZ protein of Mycobacterium tuberculosis using the Life Chemicals compound library as a starting point. Sequence analysis revealed very low sequence identity (~ 12-13%) between FtsZ and human cytoskeletal proteins, indicating substantial evolutionary divergence. Five lead compounds were discovered through structure-based screening, exhibiting good binding affinities in the range of - 7.18 to - 6.69 kcal/mol. Binding free energy studies showed that F3411-4559 was the most active compound (binding free energy = - 69.49 kcal/mol) compared with the reference (binding free energy = - 65.78 kcal/mol). A pharmacokinetics study suggested good drug-likeness in terms of excellent intestinal permeability and suitable physicochemical parameters. The quantum chemistry study demonstrated improved electronic reactivity for F3411-4594. The molecular dynamics studies proved that all the protein-ligand complexes were stable, with good structures and conformations. The predictive models also indicated high inhibition activity (pIC50 = 7.75-8.51). In conclusion, spirocyclic derivatives are promising candidates for the development of novel anti-tuberculosis drugs.",
-      "venue": "Folia microbiologica",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 5.4,
-      "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 10.8,
-        "novelty": 0.84,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -12.0
-      },
-      "priority": "Archive",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
-    },
-    {
-      "rank": 29,
+      "rank": 25,
       "title": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
       "authors": [
         "Vladislav Beliaev"
@@ -1428,7 +1237,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 26,
       "title": "Coherent Signal Detection with Pruning -- I. Finding Short-Period Binary Pulsars in Circular Orbits",
       "authors": [
         "Pravir Kumar",
@@ -1467,6 +1276,189 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "Face-trace: Open-Set Attribution and Progressive Discovery of Synthetic Face Generators",
+      "authors": [
+        "Alessia Infantino",
+        "Claudio Schiavella",
+        "Irene Amerini"
+      ],
+      "date": "2026-07-08",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2607.07545v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07545v1",
+      "doi": "",
+      "arxiv_id": "2607.07545v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Recent advances in generative Artificial Intelligence have made synthetic face images increasingly realistic, creating new challenges for multimedia forensics. Source attribution methods should not only identify the generator of an image when the source is known, but also handle samples produced by previously unseen models. However, most existing approaches address synthetic face attribution in a closed-set setting, where all possible generators are available during training. This assumption does not hold in real-world scenarios, where new generators continuously appear and rejected samples should be organized rather than simply discarded. In this work we propose a pipeline for open-set synthetic face source attribution that combines known generator classification, energy-based OOD rejection, and unknown generator discovery. A classifier is trained on known generators using frozen I-JEPA embeddings, while rejected samples are represented by combining projected I-JEPA features with Forensic Self-Descriptors and then clustered to discover groups of unknown generators. We also extend the discovery stage to an incremental scenario, where rejected samples arrive over time. Experiments on the WILD dataset show that the proposed method achieves 96.73% closed-set attribution accuracy. In the open-set setting, energy-based rejection reaches 71.25% balanced accuracy, while rejected samples are clustered into meaningful unknown-generator groups, obtaining an ARI of 0.81, an NMI of 0.90, and an overall clustering purity of 87.74%. In the incremental setting, the discovered generator space is progressively extended while maintaining a final purity of 99.23%. Cross-dataset experiments suggest that the pipeline can operate beyond the original dataset distribution, although post-processing remains challenging.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 5.165,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "Reliable mechanistic operator recovery with biologically-informed neural networks: principles for architecture and optimisation design",
+      "authors": [
+        "Rebecca M. Crossley",
+        "Yuan Yin",
+        "Sarah L. Waters",
+        "Ruth E. Baker"
+      ],
+      "date": "2026-07-08",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2607.07425v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07425v1",
+      "doi": "",
+      "arxiv_id": "2607.07425v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Many biological processes are governed by complex dynamical mechanisms that remain incompletely understood despite increasing volumes of experimental data. Biologically-informed neural networks (BINNs) seek to address this challenge by embedding mechanistic differential equations into neural network training, enabling interpretable constitutive operators to be recovered directly from sparse and noisy observations. However, reliable operator recovery depends sensitively on network architecture, optimisation strategy, and data informativeness. Here, we present a systematic empirical study of how these factors influence mechanistic inference using BINNs applied to canonical one-dimensional advection-diffusion-reaction partial differential equation models. Across a suite of benchmark problems, we investigate how network expressivity, learning rate, loss weighting, and batch size influence optimisation behaviour and operator recovery. We show that successful mechanistic inference depends on balancing competing objectives rather than maximising any single aspect of the model or optimisation. Moderately expressive architectures outperform overly complex networks, intermediate learning rates improve optimisation stability, balanced data and PDE losses are essential for accurate operator recovery, and intermediate batch sizes provide the best compromise between computational efficiency and reproducibility. We further identify practical diagnostics for recognising common failure modes, including over-fitting, unstable optimisation, and poor mechanistic recovery when the ground truth is unavailable. Together, these findings provide evidence-based guidelines for deploying BINNs as credible tools for biological model discovery.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 5.071,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 2.38,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.4949999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "Beyond the Black Box: Mapping the Ontogenesis of AI-Generated Images Through Latent Space Analysis",
+      "authors": [
+        "Huoston Rodrigues Batista"
+      ],
+      "date": "2026-07-07",
+      "source": "openalex",
+      "link": "https://doi.org/10.1007/s13347-026-01141-1",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13347-026-01141-1.pdf",
+      "doi": "10.1007/s13347-026-01141-1",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7167620890",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract This paper develops a theoretical and empirical framework for understanding AI-generated images through Gilbert Simondon's philosophy of individuation. Against approaches that treat generative AI outputs as either unprecedented creations or recombinations of training data, we argue that AI image generation constitutes a process of ontogenesis: the coming-into-being of individuals from a preindividual field of potentials. Drawing on Simondon's concepts of metastability, transduction, and individuation, we analyze the latent space of diffusion models as a structured field of tensions whose resolution produces individuated images. Our methodology combines computational experiments on Stable Diffusion 2.1 with three artistic case studies (Refik Anadol, Sougwen Chung, Holly Herndon) to demonstrate how Simondonian concepts illuminate both the technical operations and aesthetic dimensions of AI image generation. Empirically, we show that latent space exhibits metastable structure (effective dimensionality compressed to a participation ratio of 52.9, roughly ninefold below the isotropic prior), that denoising trajectories follow transductive dynamics with identifiable phase transitions, and that variations from identical prompts display structured semantic coherence (mean intra-prompt CLIP similarity 0.827, intra-prompt vs. intra-category d = 1.385) inconsistent with the 'error' interpretation. We propose that what are commonly termed 'hallucinations' are better understood as alternative individuations: legitimate resolutions of preindividual potentials rather than failures. This reconceptualization has implications for debates about AI creativity, authorship, and the ontological status of machine-generated artifacts. By mapping the ontogenesis of AI images, we contribute to emerging dialogues between philosophy of technology and computational practice, offering a 'technical philosophy' that neither reduces AI to mechanism nor inflates it into artificial consciousness.",
+      "venue": "Philosophy & Technology",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 5.0,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.8,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Structure-function studies of HRIKD-{triangleup}KI, a Minimal Kinase Domain of Human Heme-Regulated Inhibitor Kinase",
+      "authors": [
+        "Rajasekaran, M. B.",
+        "Booth, J.",
+        "Crepin, D. F.",
+        "Roe, S. M.",
+        "Zhou, L.",
+        "Gianga, T.-M.",
+        "Siligardi, G.",
+        "Gonzalez-Mendez, R.",
+        "Staikopoulou, M.",
+        "Hassan, H.",
+        "Oliver, A.",
+        "Mancini, E.",
+        "Spencer, J."
+      ],
+      "date": "2026-07-07",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/07/2026.07.06.735516.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/07/2026.07.06.735516.source.xml",
+      "doi": "10.64898/2026.07.06.735516",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "EIF2alpha kinase heme-regulated inhibitor (HRI) is a novel target for haematological malignancies with modulators reported to trigger cell death via the HRI-eIF2alpha-ATF4 pathway. We report a protocol for producing the minimal kinase domain of full-length human HRI, termed HRIKD-delta-KI, where the unstructured 140 amino acid (aa) kinase insert (KI) within HRI kinase domain (HRIKD) is replaced with a 2aa glycine/serine (GS) linker. X-ray crystal structures were determined of apo-HRIKD-delta-KI and of its complex with ATP at 2.1 & 2.5 Angstrom resolution respectively. Both structures display a canonical bi-lobal kinase fold. However, they remain in a non-productive state with a displaced C-helix, disassembled R-spine, and a disordered activation segment hindering the substrate site. Biophysical assays (fluorescence based thermal shift & Synchrotron Radiation Circular Dichroism) demonstrate HRIKD-delta-KI retains its functional ligand-binding conformation. All together, these findings define structural and ligand-binding features of HRI to support ongoing drug discovery efforts in blood cancer.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery"
+      ],
+      "deterministic_score": 4.755,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 4.32,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.325,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
