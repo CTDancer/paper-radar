@@ -1,9 +1,9 @@
 {
   "date": "2026-07-11",
   "stats": {
-    "raw_candidates": 341,
-    "deduplicated_candidates": 221,
-    "filtered_candidates": 221,
+    "raw_candidates": 342,
+    "deduplicated_candidates": 222,
+    "filtered_candidates": 222,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -235,6 +235,53 @@
     },
     {
       "rank": 5,
+      "title": "Bridging between Structure-Based and Data-Driven Affinity Prediction.",
+      "authors": [
+        "Alžbeta Kubincová",
+        "David L Mobley"
+      ],
+      "date": "2026-07-07",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42411284/",
+      "pdf_url": "",
+      "doi": "10.1021/acs.jcim.6c00697",
+      "arxiv_id": "",
+      "pubmed_id": "42411284",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Protein-ligand binding affinity prediction is central in computer-aided drug design, and a wide range of physics-based, empirical, and machine learning (ML) tools have been developed for this purpose. Scientists are often tasked with choosing an optimal tool for a given discovery problem, which can be difficult. Physical models typically perform best in the absence of target-specific data but are often outperformed by ML models as the amount of data on a given target grows. Here, we introduce a method to smoothly transition from physics-based to knowledge-based predictions based on the uncertainty of each model. We apply this framework to combine docking scores with predictions from a Gaussian Process model trained on binding affinities from two industrial data sets. We show that combining structure-based and ML models significantly improves the prediction accuracy if training data is limited, whereas the weighting smoothly shifts from docking to ML as more data is acquired. We also show that structure-based methods, being insensitive to the distribution of binders across chemical space, can improve generalizability to new chemistries and increase the hit rate in active learning screens where the binder density varies among scaffolds in a virtual library. Thus, integrating predictions from multiple tools not only optimizes the use of limited experimental data but also ensures more robust performance compared to reliance on a single model.",
+      "venue": "Journal of chemical information and modeling",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "protein_ligand_affinity",
+        "gflownet_related_methods",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 25.626,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 18.0,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.7020000000000001,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.5599999999999999,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, protein_ligand_affinity, gflownet_related_methods, black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 6,
       "title": "Evolving CRBN ligands enhance the drug-like properties of protein degraders",
       "authors": [
         "X Ji",
@@ -281,7 +328,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "AlphaGo-driven generative machine learning framework for inverse topology synthesis and optimization of planar antennas",
       "authors": [
         "Xiaobo Wang",
@@ -328,7 +375,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Beyond creative generation: a deep generative framework for high-fidelity pseudo-virtual prototyping and design evaluation",
       "authors": [
         "S Lee",
@@ -374,7 +421,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "GenSBI: Generative Methods for Simulation-Based Inference in JAX",
       "authors": [
         "Amerio, Aurelio"
@@ -418,7 +465,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Translation from dual-polarization complex-valued SAR to optical satellite images",
       "authors": [
         "Ke Peng",
@@ -464,7 +511,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Integrating Boolean Satisfiability Algorithms into Bayesian Networks for Accelerated Deterministic Inference",
       "authors": [
         "Efraín Díaz-Macías",
@@ -510,7 +557,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "Statistical Efficiency and Inference of Quantile Distributional Reinforcement Learning",
       "authors": [
         "Zijie Cheng",
@@ -556,7 +603,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "title": "Data, model weights, generated videos, and code archive for non-invasive visualization of boiling from sound using a generative model",
       "authors": [
         "Do Yeong Lim",
@@ -600,7 +647,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "Structured Decomposition-Based HybridMetaheuristic for Multi-Objective ResourceOptimization in Healthcare Edge Networks",
       "authors": [
         "Avijit Mondal"
@@ -644,7 +691,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
       "authors": [
         "Yiwei Zhou"
@@ -687,7 +734,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 16,
       "title": "Quality-Constrained Preference Fading Model for Discrete Diffusion Recommendation",
       "authors": [
         "Weisong Zhang",
@@ -733,7 +780,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "Computational screening of plant-derived compounds against SARS-CoV-2: methodological trends, limitations, and opportunities",
       "authors": [
         "Alejandra Ojeda-Pérez",
@@ -781,7 +828,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "Bayesian Experimental Design via Score Matching",
       "authors": [
         "Angus Phillips",
@@ -826,7 +873,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
       "authors": [
         "Cheng-De Fan",
@@ -875,7 +922,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
       "authors": [
         "Kaifeng Zhao",
@@ -921,7 +968,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 21,
       "title": "Reprogramming a Protein Ligase for Genetic Code Expansion",
       "authors": [
         "Giovanni Gallo",
@@ -969,7 +1016,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "NatCodon: protein-structure-informed de novo codon sequence design for efficient protein expression",
       "authors": [
         "Sheng Ye",
@@ -1019,7 +1066,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -1063,7 +1110,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "Learning Adaptive Solvers for Distributed Factor Graph Optimization on Matrix Lie Groups",
       "authors": [
         "Jaeho Shin",
@@ -1108,7 +1155,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -1157,7 +1204,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "AutoAnchor: Stable Diffusion Unlearning Using Cross-Attention as a Manifold Surrogate",
       "authors": [
         "Siyuan Wen",
@@ -1200,7 +1247,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -1244,7 +1291,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1292,7 +1339,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1339,7 +1386,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
       "authors": [
         "Chuning Zhu",
@@ -1385,56 +1432,6 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to transferable_insights, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 30,
-      "title": "Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction",
-      "authors": [
-        "Weijian Chen",
-        "Weibo Yao",
-        "Yuhang Zhang",
-        "Xiaolin Tang",
-        "Guo Wang",
-        "Weijun Zhang",
-        "Xitong Gao",
-        "Yihao Chen",
-        "Hongde Qin",
-        "Lu Qi"
-      ],
-      "date": "2026-07-09",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.08769v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08769v1",
-      "doi": "",
-      "arxiv_id": "2607.08769v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Scaling 3D Gaussian Splatting (3DGS) to large outdoor scenes is costly in both data acquisition and computation. Adopting panoramic images with equirectangular projection (ERP) can reduce capture effort via their full $360^{\\circ}$ field of view, yet the resulting omnipresent visibility invalidates existing partitioning strategies that rely on local camera frustums, causing block-wise optimization to degenerate into global training. Thus, we propose PanoLOG, a two-stage coarse-to-fine framework equipped with a Geometry and Gradient-based Partitioning Strategy tailored for large-scale panoramic 3DGS reconstruction. In the global coarse stage, PanoLOG leverages sky-sphere modeling and panoramic monocular depth supervision for reliable geometry, while in the refinement stage, G$^2$PS builds adaptive bounding volumes via parallax-driven uncertainty and assigns cameras via gradient-based importance scoring. Furthermore, we construct Pano360, the first benchmark on large-scale panoramic dataset for outdoor scene reconstruction. Extensive experiments demonstrate that G$^2$PS achieves state-of-the-art rendering quality while maintaining scalable, block-parallel training. Our models, training code, and dataset are publicly available.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 6.179,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 4.199999999999999,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.4949999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
 }
