@@ -1,9 +1,9 @@
 {
   "date": "2026-07-16",
   "stats": {
-    "raw_candidates": 257,
-    "deduplicated_candidates": 137,
-    "filtered_candidates": 137,
+    "raw_candidates": 256,
+    "deduplicated_candidates": 136,
+    "filtered_candidates": 136,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -124,57 +124,6 @@
     },
     {
       "rank": 3,
-      "title": "PAIRMAP: A Unified Geometry-Aware Pairwise-Map Framework for Molecular Representation Learning.",
-      "authors": [
-        "Zhejiong Wang",
-        "Zhengjun Hu",
-        "Lichen Zhu",
-        "Yifei Wu",
-        "Yanhong Chen",
-        "Yinghui Jiang",
-        "Haotong Sun",
-        "Ying Yu"
-      ],
-      "date": "2026-07-13",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42312896/",
-      "pdf_url": "",
-      "doi": "10.1021/acs.jcim.6c00702",
-      "arxiv_id": "",
-      "pubmed_id": "42312896",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Molecular representation learning is fundamental to drug discovery, yet existing methods have key limitations: they often miss the pairwise interactions that determine molecular properties, rely on fixed geometric basis functions unable to adapt across tasks, and lack explicit physical constraints. To address this, we propose PAIRMAP, a unified framework centered on geometry-informed atom pair embeddings. PAIRMAP introduces three synergistic innovations: (1) learnable geometric encoding with task-adaptive basis functions, (2) geometric triangular attention incorporating physical constraints such as the triangle inequality and cosine law as learnable biases, and (3) hierarchical pair pooling to aggregate interactions across chemically meaningful distance scales. The E(3)-equivariant framework is broadly applicable to 2D graphs, 3D conformations, and protein-ligand complexes. On 20 benchmarks, PAIRMAP achieves state-of-the-art performance, including an 80.08% average ROC-AUC on MoleculeNet classification, a 29.9% MAE improvement on the QM8 quantum benchmark, and a 1.140 kcal/mol RMSE in binding affinity prediction. Under stringent protein sequence identity constraints (≤30%) on the ATOM3D LBA benchmark, PAIRMAP achieves the lowest RMSE among all methods (1.308 kcal/mol) and substantially outperforms conventional geometric GNNs in Pearson correlation, confirming that its physical constraints generalize to structurally novel proteins. Crucially, PAIRMAP outperforms large-scale pretrained models without requiring expensive conformational pretraining.",
-      "venue": "Journal of chemical information and modeling",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 23.993,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 15.66,
-        "novelty": 3.6399999999999992,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery, protein_ligand_affinity.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 4,
       "title": "Generation and posterior inference of spatiotemporal turbulent flows using latent neural fields",
       "authors": [
         "Xiu Xiao",
@@ -219,7 +168,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Bgolearn: a unified Bayesian optimization framework for accelerating materials discovery",
       "authors": [
         "Bin Cao",
@@ -279,7 +228,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "LatentFlow: A General Framework for Conditioning Stochastic Processes",
       "authors": [
         "Louis Sharrock",
@@ -324,7 +273,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Label-Free Single Protein Dynamics Revealed by Metasurface-Enhanced Raman Spectroscopy",
       "authors": [
         "MohammadReza Aghdaee",
@@ -374,7 +323,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
       "authors": [
         "Gianluca Galletti",
@@ -425,7 +374,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "CRC-LS-MOCBO: Safe multi-objective causal Bayesian optimization under uncertain causal structures",
       "authors": [
         "Wu JunJie"
@@ -470,7 +419,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Molecular docking approaches in drug repurposing: A mini review",
       "authors": [
         "Murtaza R .",
@@ -520,7 +469,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "title": "Formal Verification-Integrated Reinforcement Learning for Automated ORM Schema Synthesis",
       "authors": [
         "Md Rashedul Hasan",
@@ -565,7 +514,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 11,
       "title": "Optimal photostimulation selection for iterative activity maps",
       "authors": [
         "Jacob J. Morra",
@@ -612,7 +561,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "title": "Conditional diffusion model for probabilistic disaggregation of PV systems and heat pumps",
       "authors": [
         "Marc Jené-Vinuesa",
@@ -658,7 +607,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 13,
       "title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
       "authors": [
         "Harsha Vardhan Khurdula",
@@ -704,7 +653,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 14,
       "title": "Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification",
       "authors": [
         "Héctor Carrión",
@@ -748,7 +697,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 15,
       "title": "Assessment of simulation-based inference methods for stochastic compartmental models in epidemiological research",
       "authors": [
         "Vincent Wieland",
@@ -795,7 +744,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "title": "A New One-Machine Decomposition Technique for Solving the Permutation Flow-Shop Scheduling Problem",
       "authors": [
         "Mehrdad Amirghasemi",
@@ -842,7 +791,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 17,
       "title": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
       "authors": [
         "Jakub Kowalski",
@@ -888,7 +837,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 18,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -932,7 +881,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 19,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -981,7 +930,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
       "authors": [
         "Ruoran Xu",
@@ -1026,7 +975,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 21,
       "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
       "authors": [
         "Zhouchonghao Wu",
@@ -1075,7 +1024,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 22,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -1119,7 +1068,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 23,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1167,7 +1116,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 24,
       "title": "What Does Goodness Measure? A Likelihood-Ratio Account of Forward-Forward Learning",
       "authors": [
         "Paolo Giannitrapani"
@@ -1210,7 +1159,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 25,
       "title": "Machine learning-driven identification of DLL3 as a molecular target and development of a DLL3-binding cyclic peptide for glioblastoma",
       "authors": [
         "Dan Xu",
@@ -1271,7 +1220,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 27,
+      "rank": 26,
       "title": "DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation",
       "authors": [
         "Yu Fang",
@@ -1323,7 +1272,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 27,
       "title": "ANGLE: Angular Neural Generative Learning via Engression",
       "authors": [
         "Rajdeep Pathak",
@@ -1368,7 +1317,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 28,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1415,7 +1364,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "title": "Learning to rotate and diffuse: unified fractional operators for nonstationary graph dynamics",
       "authors": [
         "Zhiwen Ren",
@@ -1460,6 +1409,56 @@
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "AI-Driven Design and Clinical Translation of Nucleotide-Peptide and Peptide-Drug Conjugates.",
+      "authors": [
+        "Kshipra Pandey",
+        "Raj Dave",
+        "Ritu Patel",
+        "Sandeep Verma",
+        "Raghu Solanki",
+        "Amit Yadav",
+        "Nidhi Gour",
+        "Dhiraj Bhatia"
+      ],
+      "date": "2026-07-13",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42228500/",
+      "pdf_url": "",
+      "doi": "10.1021/acsbiomaterials.6c00187",
+      "arxiv_id": "",
+      "pubmed_id": "42228500",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "While nucleotide-peptide conjugates and peptide-drug conjugates demonstrate a considerable evolution as next-generation therapeutics, the successful translation of these complex agents relies on advances in bioconjugation strategies. By anchoring nucleotides or pharmaceutical payloads to multifaceted peptide scaffolds, researchers have engineered molecular platforms with dual mechanisms of action. However, to fully realize the potential of these hybrid systems, further refinements are required to ensure both in vivo stability and retention of the desired biological activities over time. This comprehensive review examines ongoing progress toward optimizing conjugation chemistry for the development of stable and efficacious NPC and PDC candidates. Through evaluation of fundamental design principles and their clinical relevance, it aims to accelerate the journey of these multilayered biomolecular constructs from theory to practice. It details various strategies to mitigate challenges such as enzymatic degradation and rapid systemic clearance, including covalent linkages (e.g., aminoacylation and thiol oxidation) and noncovalent interactions (e.g., ligand-receptor binding). Central to this emerging field is the integration of artificial intelligence and deep learning, which are rapidly transforming the design and development of NPCs and PDCs. AI-driven tools enable predictive modeling of peptide-drug interactions, intelligent linker optimization, and in silico screening of bioactive scaffolds-thus redefining the pipeline for precision therapeutics with improved selectivity and translatability. The potential of hybrid nanostructures formed by peptide-DNA conjugates for advanced drug delivery and diagnostic applications is also discussed. Furthermore, the clinical translation of PDCs demonstrates their promise in treating conditions such as cancer, neurodegenerative diseases, and inflammatory disorders, alongside the ongoing challenges regarding peptide availability, linker optimization, and scalable synthesis. The review concludes by discussing future directions of NPCs and PDCs, highlighting the role of interdisciplinary approaches in advancing precision medicine and addressing complex therapeutic needs.",
+      "venue": "ACS biomaterials science & engineering",
+      "code_url": "",
+      "topic_tags": [
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 6.172,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 3.24,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
     }
   ]
 }
