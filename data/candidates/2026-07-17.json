@@ -1,9 +1,9 @@
 {
   "date": "2026-07-17",
   "stats": {
-    "raw_candidates": 334,
-    "deduplicated_candidates": 221,
-    "filtered_candidates": 221,
+    "raw_candidates": 248,
+    "deduplicated_candidates": 141,
+    "filtered_candidates": 141,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -229,98 +229,6 @@
     },
     {
       "rank": 5,
-      "title": "BBB-Nuke: Transport-Aware Prediction of Blood-Brain Barrier Penetration in Small Molecules",
-      "authors": [
-        "Abasciano, N.",
-        "Hadipour, H.",
-        "Poddar, A.",
-        "Rudrum, J.",
-        "Sobodu, T."
-      ],
-      "date": "2026-07-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/14/2026.07.13.738280.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/14/2026.07.13.738280.source.xml",
-      "doi": "10.64898/2026.07.13.738280",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Predicting blood-brain barrier (BBB) penetration remains a central challenge in CNS drug discovery. Existing computational models rely on physicochemical descriptors and are blind to active transport biology; the efflux pumps and carrier proteins that dominate drug exclusion at the BBB in vivo. We present BBB-Nuke, a modular prediction pipeline that integrates physicochemical scoring with explicit efflux transporter substrate modeling. The system computes ten molecular descriptors, predicts ionization state via a graph convolutional network, scores CNS-MPO desirability, and estimates substrate probability for seven efflux transporters (P-gp/MDR1, BCRP/ABCG2, MRP1, MRP2, MRP4, MATE1, OAT3) using Random Forest classifiers trained on curated ChEMBL bioactivity data. A gradient-boosted classifier trained on 67 features; ten physicochemical, seven efflux transporter probabilities, and fifty fingerprint-derived principal components ;achieves an area under the receiver operating characteristic curve (AUROC) of 0.933 +/- 0.006 under five-fold cross-validation on 9,262 labeled compounds, and 0.810 on a fully held-out benchmark of 470 clinically validated compounds. In head-to-head comparisons, BBB-Nuke outperforms CNS-MPO, LightBBB, ADMETlab 2.0, and BBB-Score on both cross-validation and external test sets. We apply the pipeline to screen over one billion commercially available compounds from the Enamine REAL library and PubChem, identifying enriched regions of BBB-penetrant chemical space and characterizing the structural features that distinguish permeable from excluded molecules. BBB-Nuke is freely available as a Python package, REST API, and Model Context Protocol server.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "enamine_real_and_reaction_based_design"
-      ],
-      "deterministic_score": 17.463,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 2.38,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 2.5,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery, enamine_real_and_reaction_based_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 6,
-      "title": "MolMAE: A Surface-Centric Multimodal Masked Autoencoder for Molecular Representation Learning",
-      "authors": [
-        "Li, J."
-      ],
-      "date": "2026-07-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/14/2026.07.11.737987.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/14/2026.07.11.737987.source.xml",
-      "doi": "10.64898/2026.07.11.737987",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Molecular representation learning has become a central component of modern computational drug discovery. Existing molecular foundation models mainly rely on SMILES strings, two-dimensional molecular graphs, or three-dimensional atomic coordinates. However, many molecular properties are ultimately governed by the molecular surface, where intermolecular recognition, solvation, electrostatic complementarity, and ligand-protein interactions occur. In this work, we propose MolMAE, a surface-guided multimodal masked autoencoder for molecular representation learning. MolMAE takes molecular surface point clouds, three-dimensional molecular graphs, and SMILES-derived fragment and functional-group tokens as complementary input modalities, and learns a unified multimodal molecular embedding through functional-group-aligned masked autoencoding. During pretraining, chemically corresponding local regions are jointly masked across surface, graph, fragment, and functional-group views, forcing the model to reconstruct missing geometric, physicochemical, structural, and semantic information from the remaining context. While molecular surface reconstruction serves as the primary pretraining objective, graph-, fragment-, and functional-group-level reconstruction tasks provide complementary supervision that encourages the model to capture molecular topology, bonding patterns, stereochemistry, local chemical environments, and substructure organization. In addition to reconstructing surface geometry, MolMAE reconstructs surface-associated physicochemical fields, including electrostatic potential and Fukui-related descriptors, enabling the model to learn chemically meaningful surface representations. Pretrained on approximately 261K lead-like bioactive molecules, MolMAE achieves strong performance on the ESOL benchmark under scaffold splitting and competitive performance across multiple molecular property prediction tasks. These results suggest that molecular surface-guided pretraining can complement conventional graph-, sequence-, and atom-coordinate-based molecular representations, especially for property prediction tasks influenced by exposed surface geometry and surface-associated physicochemical patterns.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "small_molecule_design"
-      ],
-      "deterministic_score": 17.144,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 8.370000000000001,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery, small_molecule_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 7,
       "title": "Where Relevance Emerges: A Layer-Wise Study of Internal Attention for Zero-Shot Re-Ranking",
       "authors": [
         "Haodong Chen",
@@ -368,7 +276,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Base Station Selection with 3GPP TR 38,901 Channel Model Based Multiobjective NSGA-II Algorithm",
       "authors": [
         "Hüsamettin Çelik"
@@ -411,7 +319,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders",
       "authors": [
         "Zhihao Xie",
@@ -458,7 +366,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Discovering interpretable drug formulation behavior patterns via a mechanistic-augmented conditional variational autoencoder",
       "authors": [
         "El-Sayed Khafagy",
@@ -504,7 +412,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "Heavy-Tailed Flow Matching via Random Clocks",
       "authors": [
         "Zhouhao Yang",
@@ -551,7 +459,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "Formal Verification-Integrated Reinforcement Learning for Automated ORM Schema Synthesis",
       "authors": [
         "anonymous authors"
@@ -595,7 +503,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 11,
       "title": "Sail membranes for optomechanical accelerometry",
       "authors": [
         "Atkin D. Hyatt",
@@ -643,7 +551,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 12,
       "title": "Linear Independent Component Analysis via Optimal Transport",
       "authors": [
         "Ashutosh Jha",
@@ -688,7 +596,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 13,
       "title": "Optimal photostimulation selection for iterative activity maps",
       "authors": [
         "Jacob J. Morra",
@@ -735,7 +643,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "Conditional diffusion model for probabilistic disaggregation of PV systems and heat pumps",
       "authors": [
         "Marc Jené-Vinuesa",
@@ -781,7 +689,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 15,
       "title": "Hybrid Evolutionary-RL for Multi-objective Task Scheduling in Smart Grid Edge Computing",
       "authors": [
         "Runjing Zhang",
@@ -830,71 +738,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 18,
-      "title": "Minimal Data, Maximal Insight (MDMI): A Structure-guided Pipeline for Discovering Functional Alternatives in Peptide-Protein Interfaces",
-      "authors": [
-        "Bayat, P.",
-        "Perkins, S. J.",
-        "Clancy, S.",
-        "Patel, S. S.",
-        "Yin, R. F.",
-        "Bozovicar, K.",
-        "Singh, S.",
-        "Shrestha, S.",
-        "Moustafa, Z.",
-        "Zayani, R.",
-        "IWE, I.",
-        "Bayat, S.",
-        "Kelly, P.",
-        "Vigar, J. R. J.",
-        "White, V. Y.",
-        "Xie, M.",
-        "Simchi, M.",
-        "Palter, S.",
-        "Nguyen, J.",
-        "Zeisler, I. Y.",
-        "Wu, B.",
-        "Pardee, K."
-      ],
-      "date": "2026-07-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/14/2026.07.13.737974.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/14/2026.07.13.737974.source.xml",
-      "doi": "10.64898/2026.07.13.737974",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Discovering functional peptides across vast sequence space remains a formidable challenge, particularly when experimental training data is scarce. We present Minimal Data Maximal Insight (MDMI), a two-stage structure-guided computational pipeline that designs functional peptide variants using only a small, annotated dataset. Rather than relying on sequence information alone, MDMI integrates three-dimensional structural features derived from predicted peptide-protein complexes into a machine learning model that captures interface geometry and binding energetics. This structure-aware predictor, paired with a genetic algorithm for sequence exploration, reduced false positives from 70% to close to zero in an all-negative benchmark panel compared with a sequence-only model in computational benchmarking, and produced approximately four-fold more high-confidence in silico binders than state-of-the-art peptide/protein design baselines. Using the split-GFP system as a testbed, where fluorescence provides a direct functional readout of peptide-protein complementation, MDMI identified peptides with up to 38% sequence divergence from wild-type in Stage 1 while retaining measurable activity. In Stage 2, motif-guided recombination of successful Stage 1 variants produced highly divergent yet functional peptides bearing over 50% sequence difference from wild-type, revealing two distinct functional clusters in sequence space. As further validation, a top-performing candidate expressed as a full-length GFP fusion retained a GFP-like emission profile, supporting formation of a fluorescent GFP-like scaffold. These results demonstrate that structure-informed pipelines can uncover remote functional sequence space from minimal data, with broad implications for peptide and therapeutic analog discovery.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 9.729,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 4.199999999999999,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.17,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 19,
+      "rank": 16,
       "title": "Entropy, the Paradoxical Predicate of Order, Mind, and the Intellectual Beauty of Discovered Truth",
       "authors": [
         "Richard J. DiRocco",
@@ -939,7 +783,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 20,
+      "rank": 17,
       "title": "OptiRanker: a simulation and optimization framework for efficient in vivo validation of drug prioritization algorithms",
       "authors": [
         "Ohad Landau",
@@ -984,7 +828,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 18,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -1028,7 +872,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 19,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -1077,51 +921,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 23,
-      "title": "Advancing Knotted Protein Design with ESM3: Guided Generation and Topological Insights",
-      "authors": [
-        "Marsalkova, E.",
-        "Simecek, P."
-      ],
-      "date": "2026-07-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/14/2026.05.07.723606.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/14/2026.05.07.723606.source.xml",
-      "doi": "10.64898/2026.05.07.723606",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Multimodal protein language models have transformed protein design, yet their capacity to capture complex topological features remains poorly understood. We use knotted proteins, rare structures in which the backbone forms a nontrivial topological knot, as a test case to probe this capacity using ESM3, a generative protein language model. ESM3's guided generation produces knotted proteins with an 89% success rate (95% CI: 81-94%), compared to ~0.5% for unguided diffusion-based approaches. Knot topology is remarkably robust to sequence perturbation: on average 84% of the protein sequence must be altered before the knot breaks, and the loss follows a sharp threshold rather than gradual degradation. Strikingly, structural drift accumulates well before topological disruption, suggesting that topology is more robust than specific three-dimensional arrangement. Generated proteins show no close sequence similarity to known knotted proteins, arguing against simple memorization. These findings have implications for protein engineering and, more speculatively, for discussions of biosecurity in the era of generative biological AI.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 7.031,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 0.0,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.8839999999999999,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to protein_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
+      "rank": 20,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -1165,7 +965,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 21,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1213,7 +1013,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 22,
       "title": "BEAR: Towards Beam-Search-Aware Optimization for Recommendation with Large Language Models",
       "authors": [
         "Weiqin Yang",
@@ -1261,7 +1061,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 23,
       "title": "Exact Decomposition of Adversarial Dual-Objective Value Functions, with Applications to Optimal Drug Dosing",
       "authors": [
         "Dylan Hirsch",
@@ -1306,7 +1106,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 24,
       "title": "Reshaping quantum annealing landscapes with diagonal catalysts",
       "authors": [
         "Andrés N. Cáliz",
@@ -1355,7 +1155,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 25,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1402,7 +1202,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 30,
+      "rank": 26,
       "title": "DAGR: State-Conditioned Goal Representations via Difference-Aware Goal Cross-Attention",
       "authors": [
         "Xing Lei",
@@ -1445,6 +1245,196 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "AI-Driven Design and Clinical Translation of Nucleotide-Peptide and Peptide-Drug Conjugates.",
+      "authors": [
+        "Kshipra Pandey",
+        "Raj Dave",
+        "Ritu Patel",
+        "Sandeep Verma",
+        "Raghu Solanki",
+        "Amit Yadav",
+        "Nidhi Gour",
+        "Dhiraj Bhatia"
+      ],
+      "date": "2026-07-13",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42228500/",
+      "pdf_url": "",
+      "doi": "10.1021/acsbiomaterials.6c00187",
+      "arxiv_id": "",
+      "pubmed_id": "42228500",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "While nucleotide-peptide conjugates and peptide-drug conjugates demonstrate a considerable evolution as next-generation therapeutics, the successful translation of these complex agents relies on advances in bioconjugation strategies. By anchoring nucleotides or pharmaceutical payloads to multifaceted peptide scaffolds, researchers have engineered molecular platforms with dual mechanisms of action. However, to fully realize the potential of these hybrid systems, further refinements are required to ensure both in vivo stability and retention of the desired biological activities over time. This comprehensive review examines ongoing progress toward optimizing conjugation chemistry for the development of stable and efficacious NPC and PDC candidates. Through evaluation of fundamental design principles and their clinical relevance, it aims to accelerate the journey of these multilayered biomolecular constructs from theory to practice. It details various strategies to mitigate challenges such as enzymatic degradation and rapid systemic clearance, including covalent linkages (e.g., aminoacylation and thiol oxidation) and noncovalent interactions (e.g., ligand-receptor binding). Central to this emerging field is the integration of artificial intelligence and deep learning, which are rapidly transforming the design and development of NPCs and PDCs. AI-driven tools enable predictive modeling of peptide-drug interactions, intelligent linker optimization, and in silico screening of bioactive scaffolds-thus redefining the pipeline for precision therapeutics with improved selectivity and translatability. The potential of hybrid nanostructures formed by peptide-DNA conjugates for advanced drug delivery and diagnostic applications is also discussed. Furthermore, the clinical translation of PDCs demonstrates their promise in treating conditions such as cancer, neurodegenerative diseases, and inflammatory disorders, alongside the ongoing challenges regarding peptide availability, linker optimization, and scalable synthesis. The review concludes by discussing future directions of NPCs and PDCs, highlighting the role of interdisciplinary approaches in advancing precision medicine and addressing complex therapeutic needs.",
+      "venue": "ACS biomaterials science & engineering",
+      "code_url": "",
+      "topic_tags": [
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 5.932,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 3.24,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.5599999999999999,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 28,
+      "title": "AI-assisted 6G-IoT system for environmental monitoring and risk management in mining sites",
+      "authors": [
+        "Khalid F. Alsirhani",
+        "Aymen Hlali",
+        "Anis Sahbani",
+        "Turki M. Alanazi"
+      ],
+      "date": "2026-07-15",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41598-026-61649-6",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-61649-6_reference.pdf",
+      "doi": "10.1038/s41598-026-61649-6",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7168351714",
+      "semantic_scholar_id": "",
+      "abstract": "This paper presents a 6G-IoT-enabled framework for environmental monitoring and risk management in mining sites, built around a terahertz gas sensor integrating graphene, black phosphorus, and vanadium dioxide. The proposed structure is rigorously analyzed using the Wave Concept Iterative Process, which provides accurate and computationally efficient full-wave modeling of multilayer planar devices incorporating isotropic and anisotropic two-dimensional materials. The formulation is validated against analytical results, confirming both its accuracy and its significantly reduced computational cost with respect to conventional approaches.The sensor, composed of six coupled spiral resonators, exhibits distinct simulated spectral responses under single-gas conditions for hazardous gases relevant to mine safety, including NO \\(_2\\) , CH \\(_4\\) , CO, H \\(_2\\) S, and SO \\(_2\\) . In its initial configuration, it achieves a sensitivity of 0.947 THz/RIU and a figure of merit of 16.33 RIU \\(^{-1}\\) . To further enhance performance, a deep neural network surrogate model is developed from WCIP-generated data for rapid prediction and parametric optimization. The model shows high predictive fidelity, with low error metrics and an \\(R^2\\) value close to 0.998, outperforming several conventional machine learning methods. DNN-guided optimization increases the sensitivity to 1.81 THz/RIU for SO \\(_2\\) , while preserving excellent agreement with full-wave simulations. A conceptual 6G-enabled IoT architecture is finally introduced to support real-time transmission, edge–cloud intelligence, anomaly detection, and decision support for mine safety. The proposed framework establishes an integrated route toward intelligent, high-performance, and scalable gas monitoring in next-generation smart mining systems.",
+      "venue": "Scientific Reports",
+      "code_url": "",
+      "topic_tags": [
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 5.486,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.1850000000000005,
+        "novelty": 0.84,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "From Pixels to States: Rethinking Interactive World Models as Game Engines",
+      "authors": [
+        "Zhen Li",
+        "Zian Meng",
+        "Shuwei Shi",
+        "Mingliang Zhai",
+        "Jiaming Tan",
+        "Chuanhao Li",
+        "Kaipeng Zhang"
+      ],
+      "date": "2026-07-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2607.14076v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14076v1",
+      "doi": "",
+      "arxiv_id": "2607.14076v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Building interactive worlds that respond coherently to player actions has long been a shared goal of computer graphics, games, and artificial intelligence. Recent video generative models provide a data-driven route toward this goal by predicting future observations conditioned on user actions, and are increasingly regarded as potential next-generation game engines. Realizing a genuinely interactive game world, however, requires interaction outcomes that follow rules over evolving game conditions, consequences that persist over long horizons, and a generation loop that operates in real time. Conventional game engines realize these properties through a recurrent action-state-observation loop, in which player actions update an explicit game state according to predefined rules and observations are rendered from the resulting state. Taking this loop as an organizing lens, this paper examines interactive game world modeling along four dimensions: player action control, game state dynamics, state-observation persistence, and real-time interactive generation. For each dimension, we start from the capabilities required by an interactive game world, group existing approaches into representative families, and discuss the strengths and trade-offs of each family. Complementing this analysis, we present a scalable data engine for Black Myth: Wukong that collects over 90 hours of gameplay with frame-aligned player actions, ground-truth game states, and visual observations, together with structured and semantic annotations, as a resource for state-aware game world modeling. We hope this paper offers a clear picture of where the field stands and fosters progress toward interactive game worlds.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "generative_modeling_core"
+      ],
+      "deterministic_score": 5.249,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.9799999999999999,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "A hybrid TEO–PSO framework for improving the performance of base-isolated structures under continuous seismic hazard",
+      "authors": [
+        "Mohammad Hasan Haddad",
+        "Mohammadreza Mashayekhi",
+        "Ali Majdi",
+        "Ataallah Sadeghi-Movahhed",
+        "Majid Movahedi Rad"
+      ],
+      "date": "2026-07-15",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fbuil.2026.1835647",
+      "pdf_url": "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2026.1835647/pdf",
+      "doi": "10.3389/fbuil.2026.1835647",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7168410203",
+      "semantic_scholar_id": "",
+      "abstract": "In this study, a novel hybrid metaheuristic method combining thermal exchange optimization and particle swarm optimization has been introduced. The suggested method has been applied to a base isolation optimization problem. The optimization of base-isolated systems is to find the optimum design of lead–rubber which minimizes the acceleration of the roof. Unlike previous studies, which aimed to reduce the structural acceleration response at a specific hazard level (e.g., under earthquakes with return periods of 475 years and 2,475 years), this study considers a continuous hazard level. The endurance time method is employed to represent this continuous hazard level. In this method, the structure is subjected to a series of progressively intensifying acceleration functions and the structural response at each time instant is interpreted as the response corresponding to a specific intensity level. The cost function of the optimization problem is to find the minimum area under the curve of roof acceleration versus time generated by the endurance time function. The constraints come from both structural factors, like inter-story drift, and geometric limitations. The proposed method, comprising the optimization algorithm and objective function, was applied to two four-, and eight-story structures. The optimization results show that compared with the non-isolated case, the base isolation system reduces roof acceleration by 66% and 38% (for the four- and eight-story frames, respectively), whereas inter-story drift displacement is reduced by approximately 38% and 33% (compared with the fixed-base and manually designed cases), demonstrating effective seismic shock absorption across a continuous hazard range.",
+      "venue": "Frontiers in Built Environment",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.704,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.68,
+        "methodological_insight": 2.048,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
