@@ -1,9 +1,9 @@
 {
   "date": "2026-07-18",
   "stats": {
-    "raw_candidates": 324,
-    "deduplicated_candidates": 218,
-    "filtered_candidates": 218,
+    "raw_candidates": 273,
+    "deduplicated_candidates": 162,
+    "filtered_candidates": 162,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -1083,56 +1083,6 @@
     },
     {
       "rank": 23,
-      "title": "Characterising AlphaFold 3s ability to predict T cell antigen specificity",
-      "authors": [
-        "McMaster, B.",
-        "Elmoselhy, A.",
-        "Ilievski, I.",
-        "Thorpe, C. J.",
-        "La Gruta, N. L.",
-        "Rossjohn, J.",
-        "Deane, C.",
-        "Koohy, H."
-      ],
-      "date": "2026-07-15",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/15/2026.07.08.737208.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/15/2026.07.08.737208.source.xml",
-      "doi": "10.64898/2026.07.08.737208",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "T cells are a key part of the adaptive immune system. Using their surface-bound T cell antigen receptors (TCRs), these cells scan peptides and other antigens pre{-}sented to them by major histocompatibility complex molecules (MHCs) on the sur{-}face of cells, searching for abnormalities. Although determining the map between TCRs and their target antigens is of vital importance for the design of safe and effective T cell-based vaccines and therapeutics, decoding these interactions is chal{-}lenging. Experimental methods are not scalable, and sequence-based computational methods have issues generalising to new antigens. The IMMREP25 benchmark of methods for predicting T cell antigen specificity showed that AlphaFold-based methods promise improved generalisation to novel antigens. However, the ability of structure prediction models to predict T cell antigen specificity has not been robustly evaluated previously. In this work, we characterise AlphaFolds ability to predict T cell antigen specificity. We created a pipeline for high-throughput pre{-}diction of TCR:peptide-MHC (pMHC) structures using AlphaFold that is > 100 fold faster than the default implementation and used it to benchmark AlphaFold 3 (AF3) and similar models at predicting T cell antigen specificity. We investigated the underlying correlates of AlphaFold-derived binding scores and found that the models predictive power is related to the positioning of TCRs over the pMHC and not chemical interactions. Furthermore, we refine the AlphaFold-derived binding scores by training a machine learning model we call the PAE Aggregator. We then investigate AF3s ability to uncover the clustering rules of TCR repertoires and re{-}capitulate mutational scanning experiments. These analyses show that AlphaFold3 clusters sequence-similar TCRs according to their binding mode and detects dis{-}rupting point mutations accurately. Our results highlight both the promise and the current limitations of structure-based approaches for predicting TCR specificity, guiding the development of more reliable immunological prediction methods.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 6.555,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.46799999999999997,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1179,7 +1129,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 25,
+      "rank": 24,
       "title": "Interpretable reinforcement learning with structured policies for prescriptive supply chain analytics",
       "authors": [
         "Yixuan Huang",
@@ -1223,7 +1173,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 25,
       "title": "Tamed Stochastic Gradient Hamiltonian Monte Carlo",
       "authors": [
         "Zhuoran Wang",
@@ -1265,7 +1215,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 26,
       "title": "Demystifying Computational Biology: A Scalable Drug Discovery Framework for Medical Curricula",
       "authors": [
         "Christopher O Campbell"
@@ -1309,7 +1259,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "title": "Analyzing Post-transcriptional Regulation in Stochastic Gene Expression Models Using Partitioned Poisson Arrivals",
       "authors": [
         "Kenny Wong",
@@ -1357,7 +1307,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 28,
       "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
       "authors": [
         "Mingfei Chen",
@@ -1402,57 +1352,97 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
-      "title": "Gut microbiome derived folate metabolite suppresses colorectal cancer progression",
+      "rank": 29,
+      "title": "Delocalization of bias in unadjusted Hamiltonian Monte Carlo and underdamped Langevin",
       "authors": [
-        "Danner, R.",
-        "Cho, J.",
-        "Detwiler, Z.",
-        "Williams, J.",
-        "Han, J. A.",
-        "Yang, C.",
-        "Diebold, X.",
-        "Maeder, K.",
-        "Van Vraken, J. G.",
-        "Walker, A. S.",
-        "Lesser, C.",
-        "Chaudhari, S. N."
+        "Yifan Chen",
+        "Xiaoou Cheng",
+        "Jonathan Niles-Weed",
+        "Jonathan Weare"
       ],
-      "date": "2026-07-15",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/15/2026.07.14.738490.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/15/2026.07.14.738490.source.xml",
-      "doi": "10.64898/2026.07.14.738490",
-      "arxiv_id": "",
+      "date": "2026-07-16",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2607.15208v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15208v1",
+      "doi": "",
+      "arxiv_id": "2607.15208v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "The gut microbiota influences colorectal cancer (CRC) progression, primarily through the secretion of small molecule metabolites. While numerous microbial products are known to drive CRC, endogenous protective mechanisms remain largely uncharacterized. Utilizing a folate metabolomics platform, we demonstrate that the healthy gut microbiota produces folinic acid (FA), a known chemotherapeutic adjuvant also known as leucovorin. This microbially derived folinic acid is progressively depleted in mouse models of colitis-associated CRC and in human clinical metagenomic cohorts with advancing disease severity. Mechanistically, folinic acid acts as a signaling molecule that directly binds and inhibits the intracellular protease calpain-2. This interaction stabilizes epithelial E-cadherin protein expression and suppresses CRC epithelial-to-mesenchymal transition driving metastasis. Genetically manipulating gut microbial production of FA is sufficient to modulate CRC in vivo, even in the presence of chronic inflammation. This study reframes folinic acid from a chemotherapeutic enhancer to an endogenous microbial metabolite that actively suppresses CRC progression.",
-      "venue": "biorxiv",
+      "abstract": "Unadjusted samplers such as unadjusted Hamiltonian Monte Carlo and underdamped Langevin are well-known to be biased. Metropolis--Hastings adjustment has been conventionally incorporated into Hamiltonian Monte Carlo to eliminate the bias. However, this adjustment can significantly increase the iteration complexity due to the small step size required for reasonable Metropolis acceptance rates. In this work, we extend the \\emph{delocalization of bias} phenomenon, previously established for the overdamped Langevin algorithm, to these two unadjusted algorithms. We show that to control the $W_2$ bias of any $K$-dimensional marginal of a high-dimensional distribution, $O(\\sqrt{K})$ integration steps suffice up to $\\log d$ terms, assuming either weak or sparse interactions among variables. The discrete-time integrators here introduce technical difficulties beyond those of the overdamped setting, which we address through a broadly applicable matrix-polynomial framework that characterizes their propagators. Our result for the underdamped Langevin algorithm is valid for all large friction parameters, implying that the Leimkuhler-Matthews integrator for the overdamped Langevin dynamics also exhibits delocalization of bias.",
+      "venue": "",
       "code_url": "",
       "topic_tags": [
-        "small_molecule_design"
+        "stochastic_processes_probability_statistical_physics"
       ],
-      "deterministic_score": 3.74,
+      "deterministic_score": 3.416,
       "score_breakdown": {
-        "paper_type": "application",
+        "paper_type": "method",
         "direct_relevance": 4.050000000000001,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
+        "source_credibility": 0.5599999999999999,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
         "penalties": -4.0
       },
       "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to stochastic_processes_probability_statistical_physics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Design and Synthesis of Novel Isoflavene TANK-Binding Kinase 1 Inhibitors With Anti-Inflammatory Activity.",
+      "authors": [
+        "Valerio Falasca",
+        "W Samantha N Jayasekara",
+        "Dominic De Nardo",
+        "Daniel S Wenholz",
+        "Michael P Gantier",
+        "Naresh Kumar"
+      ],
+      "date": "2026-07-14",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437703/",
+      "pdf_url": "",
+      "doi": "10.1002/cmdc.70376",
+      "arxiv_id": "",
+      "pubmed_id": "42437703",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Chronic inflammation accounts for more than half of all global deaths, and is associated with many diseases including cancer, heart disease or diabetes. Here a novel series of TANK-binding kinase 1 (TBK1) inhibitors based on isoflavonoid derivatives was synthesised via the multicomponent Petasis reaction. TBK1 is a key mediator of several inflammatory pathways, and its inhibition shows great promise for overcoming autoimmune diseases, hyper-inflammatory diseases, neurodegenerative diseases, and cancer resistance. Molecular modelling and SAR studies were conducted on isoflavonoid derivatives with established anti-inflammatory activity to generate a library of novel analogues with improved biological activity. A series of TBK1 inhibitors were synthesised, with the lead compound 7a exhibiting potent inhibitory activity against NF-κB and type I IFN inflammatory signalling pathways (IC",
+      "venue": "ChemMedChem",
+      "code_url": "",
+      "topic_tags": [
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 3.32,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 3.24,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.5599999999999999,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
       "paper_type": "application",
-      "why_selected": "Selected as a possible match to small_molecule_design, but Codex should verify novelty before final inclusion.",
+      "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
