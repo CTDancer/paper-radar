@@ -1,9 +1,9 @@
 {
   "date": "2026-07-19",
   "stats": {
-    "raw_candidates": 329,
-    "deduplicated_candidates": 214,
-    "filtered_candidates": 214,
+    "raw_candidates": 224,
+    "deduplicated_candidates": 175,
+    "filtered_candidates": 175,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -234,99 +234,6 @@
     },
     {
       "rank": 5,
-      "title": "Optimal Self-Distillation for Rectified Flow via Linear Probing",
-      "authors": [
-        "Saptarshi Roy",
-        "Debepsita Mukherjee",
-        "Pratik Patil"
-      ],
-      "date": "2026-07-16",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.14947v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14947v1",
-      "doi": "",
-      "arxiv_id": "2607.14947v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Modern generative models are increasingly trained using model-generated signals, creating both opportunities for self-improvement and risks of collapse. We study optimal self-distillation (SD) for rectified flow (RF): given a suboptimal teacher velocity field, can a student trained on a mixture of true RF velocities and teacher velocities provably improve the teacher? For linear RF with ridge regularization on fixed interpolation pairs, we prove an exact affine path identity, derive the optimal mixing coefficient in closed form, and show strict improvement in integrated velocity risk whenever the teacher risk is nonstationary along the regularization path. The optimal coefficient obeys a sign rule: positive mixing corrects under-regularized teachers, while negative mixing corrects over-regularized teachers. We also give one-shot generalized cross-validation (GCV) and validation tuning procedure that avoids grid search over mixing weights and repeated refitting. Combining this theorem with RF Wasserstein convergence bounds, we show that optimal self-distillation improves the velocity estimation terms controlling continuous-time and finite-step generation error. Experiments with Gaussian models, Gaussian mixtures, and image data show that optimal self-distillation improves velocity risk, mode recovery, and finite-step generation relative to both the teacher and pure distillation.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "generative_modeling_core",
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 15.185,
-      "score_breakdown": {
-        "paper_type": "transferable_method",
-        "direct_relevance": 8.774999999999999,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.65,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "transferable_method",
-      "why_selected": "Selected because it may contain a transferable modeling or optimization idea related to generative_modeling_core, flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 6,
-      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
-      "authors": [
-        "Yushi Huang",
-        "Xiangxin Zhou",
-        "Jun Zhang",
-        "Liefeng Bo",
-        "Tianyu Pang"
-      ],
-      "date": "2026-07-16",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.15273v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15273v1",
-      "doi": "",
-      "arxiv_id": "2607.15273v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In particular, DiffusionNFT offers an efficient forward-process RL framework that does not require reverse-process trajectories or likelihood estimation. However, applying such RL methods to MeanFlow remains underexplored. DiffusionNFT optimizes instantaneous velocities, whereas MeanFlow samples with average velocities. To bridge this gap, we introduce MeanFlowNFT. Inspired by the MeanFlow identity, which bridges average and instantaneous velocities, we construct an induced instantaneous-velocity predictor. We apply the DiffusionNFT objective to this predictor, making reward optimization well-defined for MeanFlow. Sampling remains based on the average velocity, preserving MeanFlow's fast few-step generation. We further prove that MeanFlowNFT inherits DiffusionNFT's strict policy-improvement guarantee. Experiments on image and video generation show that MeanFlowNFT consistently improves baselines. Moreover, it outperforms prior state-of-the-art RL-tuned few-step generators on most metrics ($6$ of $8$ on SD3.5-M), and can even surpass multi-step RL-tuned diffusion while using only a few sampling steps. For instance, on Wan 2.1, $4$-step MeanFlowNFT reaches a VBench score of $84.33$, surpassing $50$-step LongCat-Video RL ($82.57$).",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 10.147,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 2.7,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.911,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 7,
       "title": "Screening of core targets for Di(2-ethylhexyl) Phthalate-related gastric cancer based on machine learning, molecular docking, and SHAP analysis",
       "authors": [
         "Shenghao Li",
@@ -375,7 +282,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Selective Targeting Through Chemical Remodeling of Protein Neosurfaces",
       "authors": [
         "Weizhi Wang",
@@ -430,7 +337,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Artificial Intelligence for Antenna Design, Surrogate Modeling, And Optimization: A Review of Methods, Trends, And Open Challenges",
       "authors": [
         "Abinaya Sree R. J.",
@@ -476,7 +383,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Uncovering the spatiotemporal structure of neural avalanches through optimal transport and dynamic time warping",
       "authors": [
         "Novicky, F.",
@@ -521,7 +428,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "Combinatorial screening of biological degrader modules identifies heterobifunctional molecules that efficiently destroy MYC, leading to rapid tumour cell death in vitro and in vivo",
       "authors": [
         "Ascanelli, C.",
@@ -581,7 +488,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "A surrogate-assisted framework for the subject-specific scalable design of compliant prosthetic wrists",
       "authors": [
         "Arif Sugiharto",
@@ -629,7 +536,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 11,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -673,7 +580,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 12,
       "title": "Pharmacologically regulated bioorthogonal stabilization domain for regulation of CAR T cells",
       "authors": [
         "Rihtar, E.",
@@ -720,7 +627,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 13,
       "title": "A lightweight, integrated generative AI assistant for accelerated early-stage drug discovery on constrained-resource hardware.",
       "authors": [
         "Tarandeep Kaur Bhatia",
@@ -766,7 +673,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -815,7 +722,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 17,
+      "rank": 15,
       "title": "A cell-based kinetic framework enables TCR specificity prediction",
       "authors": [
         "Martin Culka",
@@ -870,59 +777,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
-      "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
-      "authors": [
-        "Zezhong Qian",
-        "Xiaowei Chi",
-        "Chak-Wing Mak",
-        "Tianze Zhou",
-        "Ruibin Yuan",
-        "Yuhan Rui",
-        "Hengzhe Sun",
-        "Zhuoqun Wu",
-        "Yuming Li",
-        "Siyuan Qian",
-        "Sirui Han",
-        "Shanghang Zhang"
-      ],
-      "date": "2026-07-16",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.15278v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15278v1",
-      "doi": "",
-      "arxiv_id": "2607.15278v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising. Both paradigms struggle to achieve logical consistency and low-latency streaming for complex reasoning tasks. We propose HDR (Hierarchical Denoising for Visual Reasoning), a unified framework that integrates hierarchical latents into causal video generation for multi-step reasoning. HDR organizes video latents into a tree-structured hierarchy, enabling coarse-to-fine reasoning before streaming output. Coarse denoising layers preserve uncertain hypotheses for global planning, while finer layers progressively refine them into concrete visual states. A sparse hierarchical attention pattern (SHAP) further reduces temporal attention costs. We introduce a level-stratified multi-step video reasoning benchmark with out-of-distribution cases, covering six tasks: maze navigation, Tower of Hanoi, one-line drawing, sliding puzzle, Sokoban, and water pouring. Compared with streaming autoregressive diffusion baselines, HDR improves success from 34.22 to 60.29 (76.2% relative gain) and increases average progress from 76.00 to 89.56, demonstrating more consistent reasoning trajectories. HDR maintains low-latency streaming at 0.70 seconds per latent, achieving 54.2 times faster inference than bidirectional diffusion. It also retains 82.9% of full-data performance with only 2% training data, compared with 52.0% for bidirectional diffusion. Real-world robot experiments further demonstrate HDR's potential for physical interaction and world modeling. Project demo: https://hierarchical-diffusion-reasoning.github.io/.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 7.125,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 4.199999999999999,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.729,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 19,
+      "rank": 16,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -966,7 +821,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 17,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1014,7 +869,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 18,
       "title": "Multi-GraphDDI: Multi-Feature Fusion and Interaction for Graph-Based Drug-Drug Interaction Prediction.",
       "authors": [
         "Xiaodan Wang",
@@ -1059,7 +914,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 19,
       "title": "A Spin-Glass Metabolic Hamiltonian optimized by Quantum Annealing Reveals Thermodynamic Phases of Cancer Metabolism",
       "authors": [
         "Sung, J.-Y.",
@@ -1106,7 +961,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 20,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1153,7 +1008,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 24,
+      "rank": 21,
       "title": "Parallel DNA Holliday Junctions: Myth or Reality? An Atomistic Molecular Dynamics Study",
       "authors": [
         "Lemmens, T.",
@@ -1200,7 +1055,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 25,
+      "rank": 22,
       "title": "BrainNormalizer: anatomy-informed pseudo-healthy brain reconstruction from tumor MRI via edge-guided ControlNet",
       "authors": [
         "Min Gu Kwak",
@@ -1245,94 +1100,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
-      "title": "Tamed Stochastic Gradient Hamiltonian Monte Carlo",
-      "authors": [
-        "Zhuoran Wang",
-        "Ying Zhang"
-      ],
-      "date": "2026-07-16",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.14862v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14862v1",
-      "doi": "",
-      "arxiv_id": "2607.14862v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "In this paper, we propose a novel tamed stochastic gradient Hamiltonian Monte Carlo (tSGHMC) algorithm for sampling and stochastic optimization problems with superlinearly growing stochastic gradients. Under a certain continuity in average condition and a strong convexity condition, we establish a non-asymptotic error bound in Wasserstein-2 distance for tSGHMC with the rate of convergence equal to $1/4$. Then, we derive an upper estimate for the associated expected excess risk, which provides a theoretical guarantee for the performance of tSGHMC. To illustrate the effectiveness of the proposed algorithm, we apply tSGHMC to practical examples, including a newsvendor problem and a Conditional Value-at-Risk minimization problem, using synthetic and real-world datasets. Numerical results support our theoretical findings. Furthermore, we compare tSGHMC with its first-order counterpart, namely, the tamed unadjusted stochastic Langevin algorithm. Simulation results demonstrate that tSGHMC achieves lower root mean square error and expected excess risk across a range of tasks.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.965,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.261,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
-      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
-      "authors": [
-        "Mingfei Chen",
-        "Zijun Cui",
-        "Ruoke Zhang",
-        "Hyeonggon Ryu",
-        "Eli Shlizerman"
-      ],
-      "date": "2026-07-16",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.15265v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15265v1",
-      "doi": "",
-      "arxiv_id": "2607.15265v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combining a global semantic embedding with object-centric semantic-spatial slots. This representation explicitly captures object-level semantics, spatial attributes, and uncertainty. We further propose SceneBind Matching, a semantic-spatial matching scheme that integrates global scene similarity with object alignment, supporting cross-modal scene retrieval and object grounding. To train and evaluate SceneBind, we curate a novel real-world binaural audio-visual dataset with structured semantic and spatial annotations, and propose a training protocol for aligning semantic and spatial signals across modalities. SceneBind is compatible with large-scale pretrained semantic encoders, adds lightweight spatial modeling with only a few additional tokens. It achieves state-of-the-art scene and spatial retrieval while enabling strong zero-shot transfer to downstream tasks such as audio-visual localization.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.194,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 28,
+      "rank": 23,
       "title": "Network accuracy across levels of analysis using stochastic block models.",
       "authors": [
         "Alexander P. Christensen",
@@ -1376,7 +1144,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 24,
       "title": "HEC-NAS-FDS: hybrid expert-conditioned exhaustive neural network architecture search over finite design space",
       "authors": [
         "Eva Holasová",
@@ -1419,7 +1187,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 25,
       "title": "Gastrointestinal axis in post-traumatic sepsis: from molecular mechanisms to translational perspectives",
       "authors": [
         "Xiang-yu Liu",
@@ -1466,6 +1234,245 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 26,
+      "title": "Feedback between filament spacing, crosslinker binding, and self-organization in cytoskeletal bundles",
+      "authors": [
+        "Steckhahn, D.",
+        "Betterton, M."
+      ],
+      "date": "2026-07-16",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.14.738536.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.14.738536.source.xml",
+      "doi": "10.64898/2026.07.14.738536",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The lateral spacing between filaments in crosslinked cytoskeletal bundles is a critical yet poorly understood physical parameter that affects force generation, transport, and bundle architecture. We develop a biophysical model of crosslinkers and crosslinking motors on filament pairs. Motor/crosslinker binding sets the filament spacing, which in turn biases which motors/crosslinkers can bind. Crosslinking motors generate pulling forces that bring antiparallel filaments closer together, while non-motor crosslinkers with a preferred binding angle exert repulsive torques that maintain larger spacing. We demonstrate these principles in a model of the fission yeast anaphase mitotic spindle midzone, where microtubules form a square array with nearest-neighbor spacing 2-5 times smaller than the length of crosslinking proteins. Our model shows that motor-crosslinker interactions alone are sufficient to drive self-organization into this experimentally observed geometry. Furthermore, the feedback between geometry and binding creates strong indirect cooperativity, because crosslinkers establish spacing that favors binding of similar-length proteins, leading to history-dependent states that persist long after individual protein binding equilibration. This feedback mechanism in which crosslinkers control geometry and geometry controls crosslinker binding should operate in any multi-crosslinker-filament system and represents a general self-organizing principle for cytoskeletal networks.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "molecular_glue_and_tpd"
+      ],
+      "deterministic_score": 3.47,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 3.7800000000000002,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to molecular_glue_and_tpd, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "Diversifying particle-orientation distributions in cryo-EM with LEA protein additives",
+      "authors": [
+        "Abe, K. M.",
+        "Grant, T.",
+        "Lim, C. J."
+      ],
+      "date": "2026-07-16",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.09.737610.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.09.737610.source.xml",
+      "doi": "10.64898/2026.07.09.737610",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Preferential orientation at the air-water interface (AWI) remains a persistent challenge in cryo-electron microscopy, often requiring extensive optimization or specialized grid preparation strategies. Here, we show that late embryogenesis abundant (LEA) proteins, previously shown to protect fragile samples from AWI-induced damage, can be leveraged to resolve sample orientation bias. The addition of LEA proteins can yield either new orientation distributions or more isotropic ones in samples suffering from orientation biases. These findings establish LEA proteins as a practical class of cryo-EM additives that can reduce AWI-induced damage and improve particle-orientation distributions in single-particle analysis.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.281,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "A high-throughput, 3D microtissue platform for multiparametric analysis of tissue remodeling.",
+      "authors": [
+        "Vasan, A.",
+        "Nguyen, Q.",
+        "Davis, E.",
+        "Karakan, M. C.",
+        "Westphal, E.",
+        "Shah, V.",
+        "Wong, W.",
+        "Lejeune, E.",
+        "Eyckmans, J."
+      ],
+      "date": "2026-07-16",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.15.738540.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.15.738540.source.xml",
+      "doi": "10.64898/2026.07.15.738540",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Extracellular matrix (ECM) remodeling and force generation are fundamental drivers of tissue morphogenesis and repair, yet scalable methods to quantitatively interrogate these dynamic mechanical processes remain limited. Here, we present a high-throughput screening platform that integrates engineered three-dimensional (3D) microtissues within a standardized 96-well format. We introduce a robust mold-casting fabrication process and a layer-by-layer surface modification strategy, that ensures long-term tissue stability and prevents detachment (95% tissue formation success; stable in culture for more than 10 days). This system enables simultaneous, longitudinal quantification of tissue closure, tissue contractility, and tissue compaction from a phase-contrast imaging modality. The computational data analysis tools that accompany this framework ensure reproducibility through deterministic computation and accelerate data extraction 80-fold relative to manual annotation. Using pharmacological compounds, we show that tissue closure dynamics, force generation, and compaction represent independent variables of ECM-driven tissue remodeling, challenging assumptions embedded in commonly used contraction-based assays. Furthermore, benchmarking against reported clinical drug responses demonstrates that the 3D platform better aligns with clinical outcomes (Kendall{tau} -b = 0.72, p=0.045, n =8/10) than a conventional two-dimensional scratch wound assay (Kendall{tau} -b = 0.52, p=0.25, n =4/10). Together, this work establishes a scalable assay for functional screening and quantitative assessment of tissue remodeling dynamics in three-dimensional systems.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.958,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.8,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "Carbohydrate-active enzymes of giant viruses: Molecular and biochemical characterization of glycosyl hydrolases from algae-infecting chloroviruses",
+      "authors": [
+        "Oliveira, E.",
+        "Fajtova, P. A. L.",
+        "Sa Magalhaes Serafim, M.",
+        "Souza, S.",
+        "Filho, C.",
+        "Carvalho, J. V.",
+        "Gomes, A.",
+        "Santos, D.",
+        "Motta, M.",
+        "Bleicher, L.",
+        "Nagem, R.",
+        "O Donoghue, A.",
+        "Rodrigues, R."
+      ],
+      "date": "2026-07-16",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.15.738767.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.15.738767.source.xml",
+      "doi": "10.64898/2026.07.15.738767",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Microbial hydrolases are considered to be promising enzymes for pathogen control. Bacterial and viral chitinases of the glycosyl hydrolase (GH) 18 family are important biological macromolecules with antifungal and anti-insect activity. Chloroviruses, nucleocytoplasmic large DNA viruses (NCLDVs) that infect unicellular green algae have a considerable number of genes involved in carbohydrate metabolism, including the chitinase GH18 family. In this study, we investigated the abundance and diversity of chitinases in chlorovirus genomes using a combination of silico and in vitro strategies, and characterized these enzymes at a molecular and biochemical level. Different enzymatic profiles were observed in Chlorovirus subgenera revealing the different viral machinery related to host species. We performed a comprehensive biochemical characterization of three heterologous expressed GH18 domains, which revealed their endo and exochitinase activity and thermostability. Crystallographic analysis of the GH18 domain by X-ray diffraction yielded a structure at 1.0 angstrom resolution, representing the highest-resolution structure reported to date for a giant viral protein and showing lower predominancy of residue coevolution compared GH18 chitinases from other organisms. Additionally, our binding site characterization predicted high conservation in betachloroviruses and gammachloroviruses, and less so in alphachloroviruses. Lastly, these enzymes did not inhibit fungal growth of medical and agricultural importance species in vitro but exhibited high inhibitory activity against different algae at nanogram/mL range. Together, our experimental and computational data show that evolutionary events may contribute to maintaining viral chitinases enzymatic activity and specificity. These findings highlight the potential of virus-derived enzymes as promising new biotechnological tools for microbial control against different algal strains.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "structure_based_drug_design"
+      ],
+      "deterministic_score": 2.585,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 3.375,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -7.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to structure_based_drug_design, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "HSeeker: an algorithm for systematic H-DNA sequence identification",
+      "authors": [
+        "Provatas, K.",
+        "Wang, G.",
+        "Chantzi, N.",
+        "Patil, A.",
+        "del Mundo, I. M.",
+        "Chan, C. S.",
+        "Georgakopoulos-Soares, I.",
+        "Vasquez, K. M."
+      ],
+      "date": "2026-07-16",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.10.737678.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/16/2026.07.10.737678.source.xml",
+      "doi": "10.64898/2026.07.10.737678",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "H-DNA is a naturally occurring intramolecular DNA triplex structure formed by Hoogsteen hydrogen bonds at homopurine-homopyrimidine mirror repeats and has functional roles in gene regulation, genome instability, and human disease. The existing H-DNA detection tools capture only a subset of H-DNA sequences, often missing relevant sequence features or failing to assess key aspects of structural stability. To address this gap, we present HSeeker, a state-of-the-art computational tool that compiles a three-part algorithm to identify and score potential H-DNA-forming sequences. Using a center-outward search algorithm approach, HSeeker evaluates candidate hinge positions and spacer lengths while allowing configurable mirror mismatches and purine-pyrimidine composition thresholds. The greedy overlap removal phase resolves overlapping candidates by retaining the longest and most compact motif within each overlapping region. Finally, the thermodynamic stability scoring algorithm evaluates the candidate motifs using an experimentally informed scoring model that incorporates Hoogsteen G-G and A-A bonds, consecutive-pair stacking, and imposes penalties for mismatches and disrupted stacks. The scoring procedure also optimizes motif boundaries by trimming weak terminal positions and reassigning unstable arm positions to the spacer. HSeeker reports genomic coordinates, sequence information, pairing and stacking components, and an overall stability score. HSeeker is also user-friendly, available as a Python package and as a web application, supporting configurable, high-throughput analysis and exportability of predicted H-DNA motifs. HSeeker provides an accessible and reproducible framework for investigating the distribution and potential stability of H-DNA-forming sequences across genomic datasets.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.515,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
 }
