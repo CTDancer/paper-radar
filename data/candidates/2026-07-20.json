@@ -1,9 +1,9 @@
 {
   "date": "2026-07-20",
   "stats": {
-    "raw_candidates": 171,
-    "deduplicated_candidates": 118,
-    "filtered_candidates": 118,
+    "raw_candidates": 227,
+    "deduplicated_candidates": 173,
+    "filtered_candidates": 173,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -30,6 +30,59 @@
   "candidates": [
     {
       "rank": 1,
+      "title": "PFM: perturbed flow matching for structure-based drug design",
+      "authors": [
+        "Yu, Y.",
+        "Xu, G.",
+        "Xie, Z.",
+        "Yang, Y.",
+        "Jiang, Y.",
+        "Zhou, X.",
+        "Li, K."
+      ],
+      "date": "2026-07-17",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.11.737913.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.11.737913.source.xml",
+      "doi": "10.64898/2026.07.11.737913",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Generating 3D molecules that bind to specific protein targets via generative models has shown great promise in structure-based drug design. Recently, diffusion-based methods have achieved promising results, but their reliance on high sampling steps poses risks of slowing the drug discovery process due to increased time and computational costs. In this work, we propose a novel method named Perturbed Flow Matching (PFM), which significantly reduces sampling steps by leveraging a Flow Matching framework. PFM introduces a unique perturbed conditional probability path design that incorporates pocket binding site information and atom type-coordinate coupled information to enhance molecular generation performance. Experiments on CrossDocked2020 dataset demonstrate that PFM generates molecules with competitive 3D structures and state-of-the-art (SOTA) binding affinities towards the protein targets, achieving an Avg. of -7.12. Additionally, PFM accelerates the generation of valid molecules by a factor of 21.3, while demonstrating potential for further improvement. The code is available at https://github.com/kurisu92725/PFM.",
+      "venue": "biorxiv",
+      "code_url": "https://github.com/kurisu92725/PFM",
+      "topic_tags": [
+        "generative_modeling_core",
+        "flow_matching_and_diffusion",
+        "ai_drug_discovery",
+        "small_molecule_design",
+        "structure_based_drug_design"
+      ],
+      "deterministic_score": 32.93,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 18.0,
+        "novelty": 4.199999999999999,
+        "methodological_insight": 1.536,
+        "transferable_insight": 2.704,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.5,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to generative_modeling_core, flow_matching_and_diffusion, ai_drug_discovery, small_molecule_design.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 2,
       "title": "AI-assisted fragment-based drug discovery of SARS-CoV-2 macrodomain binders validated by NMR and X-ray crystallography",
       "authors": [
         "Elnaz Aledavood",
@@ -93,7 +146,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "A lightweight, integrated generative AI assistant for accelerated early-stage drug discovery on constrained-resource hardware",
       "authors": [
         "Tarandeep Kaur Bhatia",
@@ -142,7 +195,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Deep generative models for 3D structure-based drug design and molecular optimisation: a comprehensive survey.",
       "authors": [
         "Yin Zhang",
@@ -193,7 +246,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Integrated Phytotherapeutic Approach in Preventing Neuroleptic-Induced Cardiotoxicity and Parkinsonism: In Silico Study and Molecular Biomechanisms of Crataegus monogyna and Agrimonia eupatoria Phytocomplexes",
       "authors": [
         "Alessandro Careglio"
@@ -238,7 +291,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "A Glycan-Aware Diffusion Model for Carbohydrate and Glycoprotein Structure Prediction",
       "authors": [
         "Sundar, K.",
@@ -283,7 +336,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Enhancing Offline Model-Based RL via Active Model Selection: A Bayesian Optimization Perspective",
       "authors": [
         "Yuwei Yang",
@@ -333,7 +386,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Multi-objective optimization framework for dynamic energy management in hybrid microgrids using NSGA-III",
       "authors": [
         "Mohd Bilal",
@@ -381,7 +434,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "GenSBI: Generative Methods for Simulation-Based Inference in JAX",
       "authors": [
         "Aurelio Amerio"
@@ -425,7 +478,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Fluorescence cross-correlation spectroscopy quantifies affinity, cooperativity, and kinetic stability in ternary protein complexes",
       "authors": [
         "S.H. Mueller",
@@ -473,7 +526,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "A tailored CoA ligase–N-acyltransferase cascade for on-DNA amide bond formation gives access to broad substrate scope",
       "authors": [
         "Daniela Schaub",
@@ -526,7 +579,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.",
       "authors": [
         "Wenjuan Zhao",
@@ -587,7 +640,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "title": "Selective Targeting Through Chemical Remodeling of Protein Neosurfaces",
       "authors": [
         "Weizhi Wang",
@@ -642,7 +695,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "Parameter Optimization and Smooth Adaptive Control of VSG-Based Grid-Connected Converters via MO-POACS",
       "authors": [
         "Yifei Jia",
@@ -689,7 +742,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
       "authors": [
         "Wei Guo",
@@ -733,7 +786,54 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 16,
+      "title": "Photo-thermal Bidirectional Coupling Model for Transcranial Photobiomodulation",
+      "authors": [
+        "Zhang, T.",
+        "Chen, Y.",
+        "Zeng, X.",
+        "Zhang, G.",
+        "Wang, F.",
+        "Guo, D.",
+        "Yao, D."
+      ],
+      "date": "2026-07-17",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.11.737905.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.11.737905.source.xml",
+      "doi": "10.64898/2026.07.11.737905",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Background: Accurate optical-field simulation is critical for precise dosage delivery in transcranial photobiomodulation (tPBM). Current simulations neglect photon absorption-induced tissue heating which leads to temperature-dependent alterations of the optical field, thus fails to account for the bidirectional photo-thermal coupling effect. Objective: This paper aims to establish a dynamic photo-thermal couple model that rigorously quantifies the bidirectional interaction between tissue heating and light propagation, and improves the optical dose prediction. Model: We propose a Photo-Thermal bidirectional coupling Model (PTM). First, the Pennes Bioheat Equation (PBE) is employed to model the thermal response induced by photon absorption. Second, a Real-time temperature-dependent Absorption coefficient Model (RAM) is newly developed to quantify the thermal effect. Third, the PBE and RAM are integrated into the photon diffusion equation, forming the PTM. Finally, this coupled framework is solved temporally by an unconditionally stable Crank-Nicolson scheme. Simulations: Benchmarking against an analytical solution (two-layer cylindrical domain) demonstrates that PTM reduces the temperature prediction error by over 2.35% compared to the uncoupled baseline. Simulations using a realistic head model reveal that, compared to PTM, uncoupled modeling underestimates energy deposition by 150 J\\/m^3 and overestimates photon fluence by 3 J\\/m^2 within just one minute, and such discrepancies will be amplified with increasing exposure duration and power. Furthermore, the PTM identifies a 1.43-mm advantage in penetration depth for pulsed-wave over continuous-wave modality under iso-energy conditions, a key insight enabled by the coupled modeling approach. Conclusion: The PTM provides a high-fidelity simulation framework that captures the dynamic, bidirectional photo-thermal coupling in tPBM, explicitly quantifying the thermal feedback ignored by current models and thereby enabling more reliable treatment optimization and safer clinical translation.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 7.377,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.911,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 17,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -782,7 +882,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "title": "AutoSurrogate: An LLM-driven multi-agent framework for autonomous construction of deep learning surrogate models in subsurface flow",
       "authors": [
         "Jiale Liu",
@@ -826,7 +926,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 19,
       "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
       "authors": [
         "Eghbal Sekhavati",
@@ -870,7 +970,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 20,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -918,7 +1018,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 21,
       "title": "Multi-GraphDDI: Multi-Feature Fusion and Interaction for Graph-Based Drug-Drug Interaction Prediction.",
       "authors": [
         "Xiaodan Wang",
@@ -963,7 +1063,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 22,
       "title": "Multi-Objective Numerical Design of Phase-Change-Material-Enabled Tunable Solar Management Structures",
       "authors": [
         "Aslı Tiktaş"
@@ -1006,7 +1106,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 23,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1053,7 +1153,156 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 22,
+      "rank": 24,
+      "title": "Chaperoning through time - defining DNAJA2 co-chaperone client selectivity via pulse-SILAC and BioID.",
+      "authors": [
+        "Kamat, S.",
+        "Calabrese, G.",
+        "Emnacen-Pankhurst, V.",
+        "Shacham Dupont, C.",
+        "Hui, E.",
+        "Eng, H.",
+        "Chandhok, S.",
+        "Mayor, T."
+      ],
+      "date": "2026-07-17",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.739051.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.739051.source.xml",
+      "doi": "10.64898/2026.07.16.739051",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Molecular chaperones are a major driving force ensuring efficient protein folding and regulating proteostasis in the cell. However, it remains unclear how their clients are selected in most cases, especially after the release of nascent protein chains from ribosomes. Here, we present a novel approach that combines pulse metabolic labelling with SILAC and BioID mass spectrometry to temporally resolve protein-protein interactions of a co-chaperone. Using the Hsp70 co-chaperone DNAJA2 as a benchmark, we reveal that two distinct pools of proteins are enriched. In particular, DNAJA2 displays a preferential association with highly structured recently synthesized proteins enriched in {beta} strands. In contrast, pre-existing proteins captured in our assay exhibit higher intrinsic disorder. In both cases, these proteins tend to be longer and contain a lower net charge compared to the proteome. Notably, these preferential associations are retained upon heat-shock, while interactions with the 'older' pool of proteins become more prevalent under these conditions. Through this methodology, we gain novel insights on how co-chaperone-client interactions may occur over the lifespan of a protein to preserve proteostasis.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 6.198,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 3.24,
+        "novelty": 2.8,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to medicinal_and_synthetic_chemistry.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 25,
+      "title": "A deployable microfluidic platform for parallel and longitudinal hyperpolarised magnetic resonance metabolic phenotyping",
+      "authors": [
+        "Gomez-Cabeza, D.",
+        "Mangas-Florencio, L.",
+        "Matajsz, G.",
+        "Azagra, M.",
+        "Herrero-Gomez, A.",
+        "Eills, J.",
+        "Marco-Rius, I."
+      ],
+      "date": "2026-07-17",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738913.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738913.source.xml",
+      "doi": "10.64898/2026.07.16.738913",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Hyperpolarised magnetic resonance (MR) enables real-time measurement of metabolic flux in living systems but remains difficult to deploy for cell-based studies because each hyperpolarisation event typically interrogates a single biological condition, limiting throughput, replication and longitudinal experimentation. Here we present a deployable microfluidic platform for parallel and longitudinal hyperpolarised 13C metabolic phenotyping using standard MRI instrumentation. By combining microfluidics with spatially resolved MR spectroscopic imaging, the platform converts a single hyperpolarised preparation into multiple independent metabolic measurements without dedicated radiofrequency receive arrays or specialised instrumentation. We demonstrate reproducible discrimination of metabolically active and inactive samples, resolve cell-type-specific metabolic phenotypes, quantify biochemical and pharmacological perturbations, and recover metabolic exchange kinetics from parallel samples. Beyond increasing throughput, the platform enables repeated, non-destructive metabolic interrogation of the same recirculating three-dimensional cell cultures, allowing longitudinal phenotyping of living constructs rather than endpoint comparisons of independent samples. Across this study, 186 HP-MR measurements were acquired using only 44 polarisation events, corresponding to an approximately 4-fold increase in experimental throughput, while longitudinal monitoring reduced biological sample preparation 5-fold by following the same constructs over time. By lowering the technical barrier to hyperpolarised metabolic imaging while enabling both parallel and longitudinal metabolic phenotyping, this platform provides an accessible framework for drug discovery, microphysiological systems and patient-derived models.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery"
+      ],
+      "deterministic_score": 5.969,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.32,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 26,
+      "title": "Gravitropism Shapes the Pareto Front of Root System Architecture",
+      "authors": [
+        "Garza, A.",
+        "Altman, K.",
+        "Koenig, A.",
+        "Richards, K.",
+        "Rahmati-Ishka, M.",
+        "Lobet, G.",
+        "Julkowska, M. M.",
+        "Chandrasekhar, A."
+      ],
+      "date": "2026-07-17",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738932.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738932.source.xml",
+      "doi": "10.64898/2026.07.16.738932",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The root systems of wild tomatoes (S. Pimpinellifolium) can be understood as biological networks in which the lateral roots branch from a single main root and together balance two competing objectives: minimizing the material cost of building the network (wiring cost) and minimizing the transport time from the root tips to the shoot (conduction delay). Our prior work showed that S. Pimpinellifolium root architectures cluster near the Pareto-optimal front defined by these two objectives, with morphological diversity resolving into four qualitative topologies. That framework assumed lateral roots grow as straight lines - ignoring gradual onset of lateral root gravitropism, the tendency of roots to curve toward the gravity vector. Because curved trajectories are longer than straight lines, gravitropism directly increases both wiring cost and conduction delay, constraining which architectures are physically realizable and thereby reshaping the Pareto front itself. Here we extend the model to explicitly incorporate lateral root gravitropism, producing predicted architectures that align much more closely with observed S. Pimpinellifolium root systems. We present a computational method to infer gravitropic sensitivity directly from anatomical tracing data - without reorientation assays - and apply it to numarbors arbors across different root topologies, growth conditions, and hormone treatments. Incorporating gravitropism reveals variation invisible to the straight-line model: notably, lateral roots show reduced gravitropic sensitivity under salt stress, mirroring a phenomenon previously described only for main roots and overlooked in lateral roots until now.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 5.82,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 1.4,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
       "title": "Physics-constrained machine-learning surrogates for the colebrook friction factor: monotonic gradient boosting, uncertainty quantification, and open benchmarking",
       "authors": [
         "Tevfik Denizhan Müftüoğlu"
@@ -1096,7 +1345,7 @@
       "possible_concerns": "classified as weak_match"
     },
     {
-      "rank": 23,
+      "rank": 28,
       "title": "Reconstructing sequence-grammar trajectories enables interpretable and tunable cis-regulatory element design",
       "authors": [
         "Ma, M.",
@@ -1158,7 +1407,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 29,
       "title": "Optimal Design of Evaporation Performance for Evaporator Tubes Based on a Small-Sample Agent Model",
       "authors": [
         "Junzi Zhang",
@@ -1205,218 +1454,40 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
-      "title": "Impact of zero‑output crisp range recentering on the performance of FPIDD2 controllers for multi-area LFC–AVR systems",
+      "rank": 30,
+      "title": "Protein-based, live-cell PAINT microscopy with fluorogenic exchangeable HaloTag ligands",
       "authors": [
-        "Mohamed H. T. Omar",
-        "Ragi A. Hamdy",
-        "Hossam Kotb"
-      ],
-      "date": "2026-07-17",
-      "source": "openalex",
-      "link": "https://doi.org/10.1038/s41598-026-61334-8",
-      "pdf_url": "https://www.nature.com/articles/s41598-026-61334-8.pdf",
-      "doi": "10.1038/s41598-026-61334-8",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7169523541",
-      "semantic_scholar_id": "",
-      "abstract": "Abstract Modern interconnected power systems with high penetration of renewable energy sources (RES) and large‑scale use of electric vehicles (EVs) experience recurring frequency and voltage disturbances. Accordingly, the main objective in this work is to overcome this limitation in a power system under coordinated load frequency control (LFC) and automatic voltage regulation (AVR), which requires highly accurate control strategies. Fuzzy logic‑based controllers are among the most promising approaches for disturbance rejection, control precision, system stability, and robust performance. However, their performance is often limited because the selection of crisp ranges (i.e., the universes of discourse of the fuzzy variables) is usually set heuristically. In this paper, the crisp output range of a Fuzzy Proportional Integral Derivative Double Derivative (FPIDD 2 ) controller, which is based on a previous study, is reconfigured while maintaining the original rule base and membership function structure unchanged. This reconfiguration is presented to change the controller’s response by recentering (shifting) the zero output membership function rightward, thereby improving control sensitivity and dynamic performance. The effectiveness of the proposed approach is validated via MATLAB simulation on a multi‑area interconnected power system under realistic operating conditions, including stochastic input fluctuations due to renewable energy source penetration and electric vehicle participation, as well as nonlinear constraints such as generation ramp‑rate limits and governor dead zones. Several metaheuristic optimizers, including Particle Swarm Optimization (PSO), Gorilla Troops Optimizer (GTO), and Marine Predators Algorithm (MPA), are used to further evaluate the robustness of the proposed method. The results demonstrate that optimized FLC configuration with modified crisp ranges significantly improves controller sensitivity, damping characteristics, and robustness. Consequently, the Integral of Time- Absolute Error (ITAE) is reduced by up to 69% compared to the original controller configuration.",
-      "venue": "Scientific Reports",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.284,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.2599999999999998,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.586,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 26,
-      "title": "A hybrid approach combining a phylogenetic method and Approximate Bayesian Computation Random Forest for phylogenetic network inference: application to the rice domestication process in Asia",
-      "authors": [
-        "Charles‐Elie Rabier",
-        "Vincent Berry",
-        "J. C. Glaszmann"
-      ],
-      "date": "2026-07-17",
-      "source": "openalex",
-      "link": "https://doi.org/10.64898/2026.07.13.738130",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/17/2026.07.13.738130.full.pdf",
-      "doi": "10.64898/2026.07.13.738130",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7169526445",
-      "semantic_scholar_id": "",
-      "abstract": "Asian rice is one of the best documented crops in terms of genetic diversity. The domestication process, that probably started 9000 years ago in China, remains difficult to infer since the main vertical signal is blurred by horizontal signals related to gene flow among cultivars and wild relatives. Consequently, a large number of hypotheses on the domestication process of rice have been published. Besides, most of the methods used to infer these scenarios do not model all the known biological phenomena at stake. Here, we present a methodological study based on a rich stochastic model, that incorporates introgression events, incomplete lineage sorting, and mutations that happen over time. The global evolutionary scenario is represented by a phylogenetic network. Furthermore, each locus scenario is modeled according to a locus tree through the Multispecies Network Coalescent. More importantly, for inferring the phylogenetic network, we propose a new hybrid approach combining a phylogenetic network method and a machine learning technique. In particular, our hybrid approach, named Snarf, benefits from advantages of a mathematical phylogenetic method, SnappNet, and from the potential of a powerful machine learning classifier, i.e. Approximate Bayesian Computation Random Forest (ABC-RF). These two methods are complementary since SnappNet reconstructs network accurately, whereas ABC-RF is able to handle a large amount of data. The originality is twofold. First, prior distributions required for ABC-RF are calibrated thanks to SnappNet's estimates. Secondly, ABC-RF relies on summary statistics inspired by phylogenetic network literature. We show, on simulated data, that the Snarf hybrid approach enjoys very good performances. On rice real data, it infers a scenario with a unique domestication (that of Japonica), followed by three reticulation events involving early Japonica. It highlights two introgression events at the origin of Indica and cAus, and one admixture event responsible for the emergence of cBas.",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.15,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 2.8,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.9359999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
-      "title": "When Can AI Models Explain Learning? Validity Criteria for AI as Cognitive Models in Education",
-      "authors": [
-        "Peng Wang",
-        "Olga Viberg",
-        "Effie Lai-Chong Law",
-        "Samuel Greiff"
-      ],
-      "date": "2026-07-18",
-      "source": "openalex",
-      "link": "https://doi.org/10.1007/s10648-026-10202-y",
-      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-026-10202-y.pdf",
-      "doi": "10.1007/s10648-026-10202-y",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7169613397",
-      "semantic_scholar_id": "",
-      "abstract": "Abstract Traditional verbal theories in educational psychology often remain underspecified at the mechanistic level. While they offer rich descriptive constructs and conceptual insights, they provide limited accounts of how learning processes unfold dynamically and causally. Here, “verbal” denotes theories stated in prose and qualitative relations rather than as formal, computational process models. This lack of mechanistic precision constrains rigorous theory testing, limits integration across levels of analysis, and reduces the potential to design interventions grounded in explanatory understanding of learning processes. In this Review, we synthesize an emerging paradigm that treats artificial intelligence (AI) systems not merely as predictive tools or instructional technologies, but as cognitive models of learners, explicit, runnable instantiations of theoretical assumptions about cognition and learning. Our central question is not whether AI systems can serve as cognitive models, but when they should be allowed to count as such. We therefore organize the Review around explicit validity criteria, theoretical grounding, construct validity, mechanistic transparency, alignment with human learning trajectories, error-signature matching, causal-intervention tests, ecological validity, and instructional usefulness, that an AI system must satisfy before its cognitive-model status is granted rather than assumed. We examine how major families of AI models, including neural networks, reinforcement learning agents, cognitive architectures, and large language models, have been used to operationalize core educational constructs such as memory, strategy use, motivation, self-regulation, and social learning. Across these approaches, we highlight how mechanistic transparency, interpretability, and alignment with human learning trajectories and error patterns are essential for explanatory validity. We further discuss methodological tools, such as representation analysis, ablation, and trajectory-level comparison, that enable causal inference about learning mechanisms within models. Finally, we outline key challenges and future directions, including construct validity, ecological realism, individual differences, and ethical accountability. By positioning AI as a theoretical instrument rather than solely an engineering solution, this Review argues that AI-based cognitive models can, when they satisfy these criteria, help transform abstract learning theories into precise, testable, and educationally actionable accounts of how students learn.",
-      "venue": "Educational Psychology Review",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 4.002,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 2.7,
-        "novelty": 1.4,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to transferable_insights, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 28,
-      "title": "Naphthalimide-functionalized alginate for danshensu delivery and selective fluorescence detection of nitrofurazone in vascular calcification",
-      "authors": [
-        "Yue Wang",
-        "Wenhua Li",
-        "Liu Zm",
-        "Lei Xiao",
-        "Lei Qi"
-      ],
-      "date": "2026-07-18",
-      "source": "openalex",
-      "link": "https://doi.org/10.25259/ajc_197_2026",
-      "pdf_url": "https://arabjchem.org/content/184/2026/0/1/pdf/AJC_197_2026.pdf",
-      "doi": "10.25259/ajc_197_2026",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7169682796",
-      "semantic_scholar_id": "",
-      "abstract": "A multifunctional alginate-based platform ( 1-Alg-2@DSS ) was developed to integrate therapeutic drug delivery with fluorescence-based safety monitoring. A bioactive microbial-derived modifier and a naphthalimide fluorophore were covalently grafted onto an alginate backbone to construct a stable carrier for Danshensu (DSS) loading. The obtained composite displayed favorable physicochemical stability, mesoporosity, and environment-sensitive fluorescence properties. In a β-glycerophosphate-induced vascular smooth muscle cell (VSMC) calcification model, DSS-loaded 1-Alg-2 exhibited good biocompatibility and effectively attenuated senescence and osteogenic phenotypic switching. Relative to free DSS, it more strongly reduced the expression of osteogenic and senescence-related markers, including Runt-related transcription factor 2 (Runx2), alkaline phosphatase (ALP) p21, interleukin-6 (IL-6), and restored sirtuin 1 (SIRT1) expression. In addition, the naphthalimide-functionalized alginate framework achieved highly selective fluorescence sensing of nitrofurazone (NFZ), with a Stern–Volmer quenching constant of 9.87 × 10 5 M⁻ 1 and a response time of 1 min, together with excellent reversibility and anti-interference capability. These results demonstrate a versatile alginate-based platform that combines vascular protective therapy with fluorescence monitoring of harmful antibiotic residues.",
-      "venue": "Arabian Journal of Chemistry",
-      "code_url": "",
-      "topic_tags": [
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 3.945,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.5100000000000007,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.325,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "GW182 silencing domain engages the tristetraprolin-binding pocket of CNOT1 to recruit CNOT1 into multiprotein condensates",
-      "authors": [
-        "Bialobrzewski, M. K.",
-        "Cieplak-Rotowska, M. K.",
-        "Michas, A.",
-        "Staszalek, Z.",
-        "Sonenberg, N.",
-        "Dadlez, M.",
-        "Niedzwiecka, A."
+        "Zhan, T.",
+        "Gerstner, N. C.",
+        "Martin, J. G.",
+        "McCann, J. T.",
+        "Lynch, M. C.",
+        "Wu, H.-J.",
+        "Xu, K.",
+        "Miller, E. W."
       ],
       "date": "2026-07-17",
       "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738963.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738963.source.xml",
-      "doi": "10.64898/2026.07.16.738963",
+      "link": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738981.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/17/2026.07.16.738981.source.xml",
+      "doi": "10.64898/2026.07.16.738981",
       "arxiv_id": "",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "GW182 recruits the CCR4-NOT deadenylase complex through its CIM1 region, yet the CNOT1 surface mediating this interaction has remained unknown. Using hydrogen-deuterium exchange mass spectrometry, we map CIM1 binding to a hydrophobic groove within CNOT1 residues 800-999. Unexpectedly, this groove coincides with the tristetraprolin (TTP)-binding pocket. CIM1 and the C-terminal TTP peptide engage this surface through a shared RL(P/{zeta})X{Omega} sequence pattern despite lacking overall homology, suggesting a convergently evolved short linear motif (SLiM). We further show that the GW182 silencing domain (GW182 SD) and TTP compete for CNOT1 binding using orthogonal in vitro assays, including a reconstituted liquid-liquid phase separation system in which GW182 SD acts as a scaffold and recruits CNOT1 as a client through specific binding. These findings define a shared CNOT1 recognition site and reveal SLiM-mediated competition as a molecular principle governing CCR4-NOT engagement, with consequences for GW182-driven silencing condensate assembly in vitro.",
+      "abstract": "We report a generalizable method for single-molecule localization super-resolution microscopy in living cells. Live-cell protein-based PAINT (points accumulation for imaging in nanoscale topography) is achieved by pairing exceptionally fluorogenic bis-trifluoromethyl rhodamine (BF) dyes with reversible HaloTag ligands. This far-red small molecule update to protein-based PAINT is readily incorporated into existing super-resolution microscopy workflows: pairing with photoactivatable fluorescent proteins further enables simultaneous two-color live-cell super-resolution microscopy and single-molecule diffusivity mapping (SMdM).",
       "venue": "biorxiv",
       "code_url": "",
       "topic_tags": [
-        "structure_based_drug_design"
+        "small_molecule_design"
       ],
-      "deterministic_score": 3.065,
+      "deterministic_score": 4.486,
       "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.375,
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
         "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.23399999999999999,
         "drug_discovery_relevance": 2.4,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 0.0,
@@ -1428,53 +1499,9 @@
         "penalties": -4.0
       },
       "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to structure_based_drug_design, but Codex should verify novelty before final inclusion.",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to small_molecule_design.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Benchmarking Classical, Hybrid, and Quantum Annealing Workflows on a Structured Control QUBO",
-      "authors": [
-        "Hamze Alavirad",
-        "Maryam Bahrami Zanjani"
-      ],
-      "date": "2026-07-17",
-      "source": "openalex",
-      "link": "https://doi.org/10.21203/rs.3.rs-10328048/v1",
-      "pdf_url": "https://www.researchsquare.com/article/rs-10328048/latest.pdf",
-      "doi": "10.21203/rs.3.rs-10328048/v1",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7169604263",
-      "semantic_scholar_id": "",
-      "abstract": "",
-      "venue": "Research Square",
-      "code_url": "",
-      "topic_tags": [
-        "stochastic_processes_probability_statistical_physics"
-      ],
-      "deterministic_score": 2.352,
-      "score_breakdown": {
-        "paper_type": "weak_match",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 1.4,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -7.0
-      },
-      "priority": "Archive",
-      "paper_type": "weak_match",
-      "why_selected": "Selected as a possible match to stochastic_processes_probability_statistical_physics, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     }
   ]
 }
