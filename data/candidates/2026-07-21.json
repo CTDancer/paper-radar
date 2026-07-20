@@ -1,9 +1,9 @@
 {
   "date": "2026-07-21",
   "stats": {
-    "raw_candidates": 202,
-    "deduplicated_candidates": 150,
-    "filtered_candidates": 150,
+    "raw_candidates": 203,
+    "deduplicated_candidates": 151,
+    "filtered_candidates": 151,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -927,6 +927,56 @@
     },
     {
       "rank": 20,
+      "title": "From data to scent: validating an ensemble AI model that predicts novel insect odourant interactions.",
+      "authors": [
+        "Leroy Bird",
+        "Brady Owen",
+        "Alaigne Mare",
+        "WenJuan Huo",
+        "Sarah Wilson",
+        "Andrew Kralicek",
+        "Jonathan Good",
+        "Colm Carraher"
+      ],
+      "date": "2026-07-17",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42467279/",
+      "pdf_url": "",
+      "doi": "10.1021/acsami.8b19433",
+      "arxiv_id": "",
+      "pubmed_id": "42467279",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Insects navigate the world through odourant receptor (OR)-mediated chemo-sensation. While of primary importance, insect chemo-sensation is poorly understood due to the lack of experimental structures surveying the binding between ORs and their ligands. Computational approaches empowered by deep learning can, in principle, provide an accurate prediction of OR structures and an understanding of the key determinants shaping OR-ligand interaction. However, a comprehensive survey of these models' capabilities is missing. Here, we evaluate the ability of different models to predict OR structures and their binding. We found that while AlphaFold2 and Boltz2 can accurately predict the structure and pose of insect ORs, existing deep learning models struggle to accurately predict ligand binding affinity and differentiate between binders and nonbinders: with high prediction variability even between very similar targets. To increase accuracy and ameliorate the identified limitations, we tested a weighted combination of models, demonstrating a meta-model with improved accuracy. We show that, when applied to the prediction of naphthalene binding, this approach can efficiently predict binding affinities to a series of highly responsive ORs, with empirical validation of the computational predictions. These results not only demonstrate the opportunity for meta-models to increase accuracy of insect OR prediction but provide insights on the generalised prediction of membrane protein complexes and ligands.",
+      "venue": "Journal of molecular modeling",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity"
+      ],
+      "deterministic_score": 3.86,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 3.7800000000000002,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.5599999999999999,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to protein_ligand_affinity, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 21,
       "title": "Structural Snapshots of B12-Dependent Methionine Synthase's Catalytic Conformations",
       "authors": [
         "Mendoza, J.",
@@ -976,7 +1026,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "MAS-SNN: Adaptive Sampling and Representation via Memory-Augmented Recurrent Spiking Neural Networks for Event-Based Object Detection",
       "authors": [
         "Wenying Xu",
@@ -1024,7 +1074,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Charged amino acid propensities and solubility: lysine is elevated at the termini of helices in E. coli proteins.",
       "authors": [
         "Zhang, S.",
@@ -1068,7 +1118,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "Quantitative physics-driven framework for evaluating CIGS solar cell simulation tools",
       "authors": [
         "A. Komilov",
@@ -1112,7 +1162,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "Learning to read a second language establishes a parallel L2 representation alongside the native one in the VWFA",
       "authors": [
         "Fan, S.",
@@ -1161,7 +1211,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "InsectDCT: A generalized pipeline for detection, taxonomic classification, and tracking of insects in camera-trap recordings",
       "authors": [
         "Bjerge, K.",
@@ -1206,7 +1256,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "Whole-genome resequencing identified loci underwent divergent selection and improved local adaptability in groundnut (Arachis hypogaea)",
       "authors": [
         "Jahanzaib, M.",
@@ -1255,7 +1305,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "A Beta-Binomial Model for Estimating Zero- or One-inflated Pain Trajectories",
       "authors": [
         "Liu, Y.",
@@ -1301,7 +1351,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "Long-read transcriptomics highlights venom gland specialization and Inhibitor Cystine Knot (ICK) rich toxin diversity in Philippine tarantulas",
       "authors": [
         "Ragasa, L. R. P.",
@@ -1350,7 +1400,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "A quantum-classical hybrid framework for optimal energy storage systems planning",
       "authors": [
         "M Shihab Hasan",
@@ -1395,58 +1445,6 @@
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "PrimeKG-Plus: a literature-derived expansion of a multimodal precision medicine knowledge graph",
-      "authors": [
-        "Nguyen, T. T. D.",
-        "Nguyen-Phuong, T.",
-        "Nguyen, Q.-H.",
-        "Abbasi, A. M.",
-        "Le Phan, H.-D.",
-        "Nguyen, L. B.-A.",
-        "Phan, N.-T.",
-        "Curabaz, N. N.",
-        "Hauser, A. S.",
-        "Tanoli, Z.",
-        "Nguyen, D. T.",
-        "Kooistra, A. J."
-      ],
-      "date": "2026-07-18",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/18/2026.07.14.738415.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/18/2026.07.14.738415.source.xml",
-      "doi": "10.64898/2026.07.14.738415",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Biomedical knowledge evolves rapidly, yet most disease-centered knowledge graphs remain unchanged after publication. We present PrimeKG-Plus, an extension of PrimeKG that updates all 20 original data resources to releases available as of Dec 2025 and incorporates additional resources, including OpenTargets, RepurposeDrugs, and nSIDES. The graph is further expanded with relations extracted from 637 PubMed abstracts and PMC full-text articles using a large-language-model-assisted curation workflow. Extracted relations were refined through normalization, UMLS-based synonym mapping, SapBERT embedding based similarity ranking, and human expert review to ensure data quality. This literature-driven expansion focuses on rare neurological disorders, including Canavan disease, Niemann-Pick disease type C, Tay-Sachs disease and Batten disease. Network topology analyses indicate that the expanded graph improves indirect drug-disease connectivity of 3-6 hops through the graph while adding 447,288 Drug-Protein-Disease paths linking drug-disease pairs that were previously unreachable. Temporal FDA validation captured 55 new molecular entities after the June 2021 PrimeKG data cut-off as drug nodes, 46 absent from the original PrimeKG. By integrating newly incorporated and updated resources with systematically curated literature-derived associations, PrimeKG-Plus provides an up-to-date knowledge graph for network-based drug repurposing and precision medicine applications. Data and code are publicly available.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.09,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 0.0,
-        "novelty": 1.4,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
     }
   ]
 }
