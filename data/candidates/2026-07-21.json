@@ -1,9 +1,9 @@
 {
   "date": "2026-07-21",
   "stats": {
-    "raw_candidates": 203,
-    "deduplicated_candidates": 151,
-    "filtered_candidates": 151,
+    "raw_candidates": 170,
+    "deduplicated_candidates": 120,
+    "filtered_candidates": 120,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -927,106 +927,6 @@
     },
     {
       "rank": 20,
-      "title": "From data to scent: validating an ensemble AI model that predicts novel insect odourant interactions.",
-      "authors": [
-        "Leroy Bird",
-        "Brady Owen",
-        "Alaigne Mare",
-        "WenJuan Huo",
-        "Sarah Wilson",
-        "Andrew Kralicek",
-        "Jonathan Good",
-        "Colm Carraher"
-      ],
-      "date": "2026-07-17",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42467279/",
-      "pdf_url": "",
-      "doi": "10.1021/acsami.8b19433",
-      "arxiv_id": "",
-      "pubmed_id": "42467279",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Insects navigate the world through odourant receptor (OR)-mediated chemo-sensation. While of primary importance, insect chemo-sensation is poorly understood due to the lack of experimental structures surveying the binding between ORs and their ligands. Computational approaches empowered by deep learning can, in principle, provide an accurate prediction of OR structures and an understanding of the key determinants shaping OR-ligand interaction. However, a comprehensive survey of these models' capabilities is missing. Here, we evaluate the ability of different models to predict OR structures and their binding. We found that while AlphaFold2 and Boltz2 can accurately predict the structure and pose of insect ORs, existing deep learning models struggle to accurately predict ligand binding affinity and differentiate between binders and nonbinders: with high prediction variability even between very similar targets. To increase accuracy and ameliorate the identified limitations, we tested a weighted combination of models, demonstrating a meta-model with improved accuracy. We show that, when applied to the prediction of naphthalene binding, this approach can efficiently predict binding affinities to a series of highly responsive ORs, with empirical validation of the computational predictions. These results not only demonstrate the opportunity for meta-models to increase accuracy of insect OR prediction but provide insights on the generalised prediction of membrane protein complexes and ligands.",
-      "venue": "Journal of molecular modeling",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 3.86,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 3.7800000000000002,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to protein_ligand_affinity, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 21,
-      "title": "Structural Snapshots of B12-Dependent Methionine Synthase's Catalytic Conformations",
-      "authors": [
-        "Mendoza, J.",
-        "Yamada, K.",
-        "Castillo, C.",
-        "Greenwood, V.",
-        "Pramanik, S.",
-        "Salampuriya, R.",
-        "Wilhelm, C. A.",
-        "Koutmos, M."
-      ],
-      "date": "2026-07-19",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/19/2024.08.29.610163.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/19/2024.08.29.610163.source.xml",
-      "doi": "10.1101/2024.08.29.610163",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Cobalamin (vitamin B12) and its derivatives play an essential role in biological methylation, with cobalamin-dependent methionine synthase (MS) serving as a canonical example. MS catalyzes multiple methyl transfers within a single, dynamic multi-domain architecture that has proven challenging to study, hampering efforts to elucidate its catalytic mechanism(s). Utilizing a thermostable MS homolog and non-native cobalamin cofactors, we have captured crystal structures of transient conformational states of MS, including those directly involved in folate demethylation and homocysteine methylation. These snapshots reveal the mechanistic significance of five-coordinate, His-off methylcobalamin in homocysteine methylation and highlight the crucial role of the folate-binding domain and interdomain linkers in orchestrating the intricate structural rearrangements required for catalysis. This expanded conformational ensemble, including the unexpected capture of novel 'Cap-on' conformations, underscores the remarkable plasticity of MS, exceeding previous estimations. Our findings provide crucial insights into the catalytic mechanism of MS, laying the foundation for harnessing cobalamin's biocatalytic potential and elucidating how nature exploits protein dynamics to facilitate complex transformations.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 3.62,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.5100000000000007,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 22,
       "title": "MAS-SNN: Adaptive Sampling and Representation via Memory-Augmented Recurrent Spiking Neural Networks for Event-Based Object Detection",
       "authors": [
         "Wenying Xu",
@@ -1074,51 +974,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
-      "title": "Charged amino acid propensities and solubility: lysine is elevated at the termini of helices in E. coli proteins.",
-      "authors": [
-        "Zhang, S.",
-        "Warwicker, J."
-      ],
-      "date": "2026-07-19",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/19/2026.07.13.738247.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/19/2026.07.13.738247.source.xml",
-      "doi": "10.64898/2026.07.13.738247",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "An emerging result in the relationship between amino acid sequence and protein solubility is a preference, on average, for lysine over arginine in more soluble proteins. The termini of helices are known to be prone to partial unfolding, often employing N- and C-cap amino acids to maintain stability. Hypothesising that lysine/arginine differences in relation to solubility may be evident at helical termini, their propensities and predicted charge interactions in helices were examined. There is enrichment of lysine over arginine at helical termini in AlphaFold models of Escherichia coli proteins, more so (on average) for the most soluble proteins. Similar effects are seen for the sum of charged amino acids at helical termini. Regions other than helical termini also show correlation of lysine composition, and overall charged amino acid composition, with solubility. These results suggest that protein design protocols could improve solubility through targeting lysine enrichment in regions such as helical termini, in addition to the more conventional consideration of helix capping interactions.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 3.335,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to protein_design, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
+      "rank": 21,
       "title": "Quantitative physics-driven framework for evaluating CIGS solar cell simulation tools",
       "authors": [
         "A. Komilov",
@@ -1162,7 +1018,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 22,
       "title": "Learning to read a second language establishes a parallel L2 representation alongside the native one in the VWFA",
       "authors": [
         "Fan, S.",
@@ -1211,7 +1067,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 23,
       "title": "InsectDCT: A generalized pipeline for detection, taxonomic classification, and tracking of insects in camera-trap recordings",
       "authors": [
         "Bjerge, K.",
@@ -1256,7 +1112,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 24,
       "title": "Whole-genome resequencing identified loci underwent divergent selection and improved local adaptability in groundnut (Arachis hypogaea)",
       "authors": [
         "Jahanzaib, M.",
@@ -1305,7 +1161,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 25,
       "title": "A Beta-Binomial Model for Estimating Zero- or One-inflated Pain Trajectories",
       "authors": [
         "Liu, Y.",
@@ -1351,7 +1207,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 26,
       "title": "Long-read transcriptomics highlights venom gland specialization and Inhibitor Cystine Knot (ICK) rich toxin diversity in Philippine tarantulas",
       "authors": [
         "Ragasa, L. R. P.",
@@ -1400,7 +1256,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 27,
       "title": "A quantum-classical hybrid framework for optimal energy storage systems planning",
       "authors": [
         "M Shihab Hasan",
@@ -1439,6 +1295,146 @@
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "PrimeKG-Plus: a literature-derived expansion of a multimodal precision medicine knowledge graph",
+      "authors": [
+        "Nguyen, T. T. D.",
+        "Nguyen-Phuong, T.",
+        "Nguyen, Q.-H.",
+        "Abbasi, A. M.",
+        "Le Phan, H.-D.",
+        "Nguyen, L. B.-A.",
+        "Phan, N.-T.",
+        "Curabaz, N. N.",
+        "Hauser, A. S.",
+        "Tanoli, Z.",
+        "Nguyen, D. T.",
+        "Kooistra, A. J."
+      ],
+      "date": "2026-07-18",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/18/2026.07.14.738415.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/18/2026.07.14.738415.source.xml",
+      "doi": "10.64898/2026.07.14.738415",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Biomedical knowledge evolves rapidly, yet most disease-centered knowledge graphs remain unchanged after publication. We present PrimeKG-Plus, an extension of PrimeKG that updates all 20 original data resources to releases available as of Dec 2025 and incorporates additional resources, including OpenTargets, RepurposeDrugs, and nSIDES. The graph is further expanded with relations extracted from 637 PubMed abstracts and PMC full-text articles using a large-language-model-assisted curation workflow. Extracted relations were refined through normalization, UMLS-based synonym mapping, SapBERT embedding based similarity ranking, and human expert review to ensure data quality. This literature-driven expansion focuses on rare neurological disorders, including Canavan disease, Niemann-Pick disease type C, Tay-Sachs disease and Batten disease. Network topology analyses indicate that the expanded graph improves indirect drug-disease connectivity of 3-6 hops through the graph while adding 447,288 Drug-Protein-Disease paths linking drug-disease pairs that were previously unreachable. Temporal FDA validation captured 55 new molecular entities after the June 2021 PrimeKG data cut-off as drug nodes, 46 absent from the original PrimeKG. By integrating newly incorporated and updated resources with systematically curated literature-derived associations, PrimeKG-Plus provides an up-to-date knowledge graph for network-based drug repurposing and precision medicine applications. Data and code are publicly available.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 1.09,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 29,
+      "title": "Metabolic inhibition can enable compact physical integration of microbial partners",
+      "authors": [
+        "Krishnan, N.",
+        "Garay, J.",
+        "Kun, A.",
+        "Broom, M.",
+        "Zachar, I."
+      ],
+      "date": "2026-07-18",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/18/2026.07.13.738165.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/18/2026.07.13.738165.source.xml",
+      "doi": "10.64898/2026.07.13.738165",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Microbes often generate by-products that inhibit own or consortial growth. Such imposing constraints can be alleviated by symbiotic partnerships where the partner consumes the limiting factor resulting in mutually beneficial cooperation. Theories of mitochondrial origin envisage such metabolic syntrophy of partners as the initial interaction, often coupled with mechanistic membrane gymnastics to trap the alphaproteobacterial symbiont to ensure vertical inheritance and as a prerequisite or vestibule of endosymbiosis. Yet we do not know how this happened. Here, using a mathematical model, we investigate how such metabolic self-inhibition enables and facilitates the evolution of compact physical integration between syntrophic partners. We show that when one species produces a metabolite that is self-inhibitory, selection favors increasingly tight spatial association of a detoxifying partner to mitigate local accumulation of the self-limiting product. Under a broad parameter range, this process drives the emergence of surface-associated configurations promoting morphological adaptations such as membrane protrusions or invaginations that increase inter-partner contact area. Our results prove that such costly host membrane contortions can evolve as a means to improve benefits of inhibition reduction by protective syntrophic ectosymbionts. Additionally, a unilateral syntrophic interaction between parties is sufficient for the transition; a mutualistic (or bilateral) one is not necessary. Our model establishes a direct evolutionary link between metabolic coupling and physical integration, suggesting that the need to alleviate (self-generated) inhibition can be a primary driver of ectosymbiotic attachment and its transition toward more intimate associations. Our findings provide a general theoretical framework for understanding how microbial consortia evolve structural complexity from initially loose metabolic interactions, with implications for the origins of stable symbioses and the early steps toward cellular integration.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 1.024,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Complexity of graph-state preparation by Clifford circuits",
+      "authors": [
+        "Soh Kumabe",
+        "Ryuhei Mori",
+        "Yusei Yoshimura"
+      ],
+      "date": "2026-07-18",
+      "source": "openalex",
+      "link": "https://doi.org/10.22331/q-2026-07-18-2165",
+      "pdf_url": "https://quantum-journal.org/papers/q-2026-07-18-2165/pdf/",
+      "doi": "10.22331/q-2026-07-18-2165",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W4391710066",
+      "semantic_scholar_id": "",
+      "abstract": "In this work, we study the complexity of graph-state preparation in a general model of quantum algorithms that allows measurements in the computational basis, single-qubit Clifford operations, and two-qubit Clifford operations. We define the CZ-complexity of a graph state | G &#x27E9; as the minimum number of two-qubit Clifford operations required to generate | G &#x27E9; from | 0 &#x27E9; &#x2297; ( n + s ) for some s &#x2265; 0 . Equivalently, every optimal algorithm can be taken to use only controlled-Z (CZ) gates as its two-qubit Clifford operations. We then give a combinatorial characterization of graph-state transformations. Specifically, | G &#x27E9; can be generated from another graph state | H &#x27E9; by an algorithm of CZ-complexity at most t if and only if G can be obtained from H by vertex deletions, local complementations and at most t elementary edge-complementations. Here, an elementary edge-complementation toggles either a single edge, all edges between one vertex and the neighborhood of another, or all edges between the neighborhoods of two non-adjacent vertices. Using this characterization, we relate CZ-complexity to rank-width. For any graph G with n vertices and rank-width r , the CZ-complexity is O ( r n ) , and if G is connected then it is at least n + r &#x2212; 2 . We also show that these bounds are close to optimal. Finally, for interval graphs and circle graphs, whose rank-width is unbounded, we present preparation algorithms with CZ-complexity O ( n ) and O ( n log &#x2061; n ) , respectively.",
+      "venue": "Quantum",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 0.974,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.38,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.7020000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.09030899869919436,
         "penalties": -4.0
       },
       "priority": "Archive",
