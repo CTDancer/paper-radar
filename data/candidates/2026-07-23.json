@@ -1,9 +1,9 @@
 {
   "date": "2026-07-23",
   "stats": {
-    "raw_candidates": 263,
-    "deduplicated_candidates": 177,
-    "filtered_candidates": 177,
+    "raw_candidates": 185,
+    "deduplicated_candidates": 112,
+    "filtered_candidates": 112,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -124,52 +124,6 @@
     },
     {
       "rank": 3,
-      "title": "UniFlow: Unifying protein conformational ensemble generation and machine-learned force fields with a scalable normalizing Flow",
-      "authors": [
-        "Liu, Y.",
-        "Chen, M.",
-        "Lin, G."
-      ],
-      "date": "2026-07-20",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/20/2026.07.17.739266.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/20/2026.07.17.739266.source.xml",
-      "doi": "10.64898/2026.07.17.739266",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "AO_SCPLOWBSTRACTC_SCPLOWMolecular dynamics (MD) provides a principled method for modeling equilibrium protein conformational energy landscapes, but its computational cost limits access to long timescales and larger protein systems. Recently, generative protein ensemble models and machine-learned coarse-grained force fields have emerged as complementary approaches for accelerating conformational sampling. However, they are typically developed separately despite modeling the same underlying equilibrium distribution. We introduce UniFlow, the first scalable generative model that unifies protein ensemble generation and machine-learned coarse-grained force fields for molecular dynamics simulation within a single framework. UniFlow employs an internal-coordinate normalizing flow that supports efficient i.i.d. sampling, exact likelihood evaluation, and differentiable energy and force computation. Across diverse protein systems, UniFlow generates ensembles that closely match reference MD simulations, generalizes to proteins beyond its training dataset, and samples substantially faster than diffusion-based ensemble-generation baselines. The same learned density further enables stable long-timescale molecular dynamics simulations. Together, UniFlow paves the way for a unified class of models that bridges generative ensemble modeling with physics-based molecular simulation. Codehttps://github.com/Harrydirk41/UniFlow.git",
-      "venue": "biorxiv",
-      "code_url": "https://github.com/Harrydirk41/UniFlow.git",
-      "topic_tags": [
-        "generative_modeling_core",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 24.136,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 11.07,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.8199999999999998,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to generative_modeling_core, computational_chemistry_biophysics_structural_biology.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 4,
       "title": "Penalization method to convert Bayesian optimization methods into batch multi-objective Bayesian optimization methods",
       "authors": [
         "Adelle Holder",
@@ -216,7 +170,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "ROMS-IMLE: A Minimalist Approach to Competitive Single-Step Generative Modelling",
       "authors": [
         "Chirag Vashist",
@@ -261,7 +215,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis",
       "authors": [
         "Yuan Wang",
@@ -310,7 +264,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Prioritizing neuroactive ligands using motif-guided virtual discovery and zebrafish profiling",
       "authors": [
         "Ari B. Ginsparg",
@@ -362,7 +316,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Abstract B049: Discovery of a small-molecule degrader targeting the intracellular immune checkpoint CISH",
       "authors": [
         "Hao Xie",
@@ -410,56 +364,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
-      "title": "CovSite: A High-Throughput Blind Covalent Screening Framework for Reactive Site Detection",
-      "authors": [
-        "Hu, A.",
-        "Bailey, J. S.",
-        "Spina, S. C.",
-        "Rajagopal, G.",
-        "Phan, N.",
-        "Kimmel, B. R."
-      ],
-      "date": "2026-07-20",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/20/2026.07.17.739288.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/20/2026.07.17.739288.source.xml",
-      "doi": "10.64898/2026.07.17.739288",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Targeted covalent inhibitors are a powerful, yet underexplored, class of therapeutics, and current computational covalent screeners are constrained in early drug discovery due to the need for prior knowledge of the target site and limited throughput. We present CovSite, a blind covalent screening tool that identifies candidate reactive residues across the entire protein surface, utilizing only the protein structure and electrophile SMILES. CovSite applies a pipeline of four orthogonal physicochemical filters (nucleophile identification, solvent accessibility, environment-dependent deprotonation prediction, and semi-quantum-mechanical reactivity ranking) to identify potential small-molecule candidate inhibitors. Validated against 2,062 diverse covalent protein-ligand complexes spanning six nucleophilic residue types, CovSite achieves a 98.5% blind target site hit on a held-out benchmark set of 207 cysteine-targeted complexes while reducing the search space by 97.8%. The target-site hit detection exceeds the 53-62% accuracy of popular covalent screening tools operating under non-blind conditions on the same benchmark set. By extending nucleophilic coverage beyond cysteine to include serine, threonine, lysine, histidine, and tyrosine, and completing a screening of a 200-residue protein in two to three minutes on standard hardware, CovSite serves as a platform technology with the potential to address critical gaps in throughput, generalizability, and accuracy in this field of covalent screening. We demonstrate this capability by using CovSite as a blind, ligand-specific approach that enables iterative, machine-learning-driven covalent inhibitor generation that is impractical with existing tools, establishing a foundation for computationally guided covalent drug discovery for novel and understudied targets. TOC Figure O_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=100 SRC=\"FIGDIR/small/739288v1_ufig1.gif\" ALT=\"Figure 1\"> View larger version (27K): org.highwire.dtl.DTLVardef@10c329corg.highwire.dtl.DTLVardef@1cecd70org.highwire.dtl.DTLVardef@118c95org.highwire.dtl.DTLVardef@24a3e1_HPS_FORMAT_FIGEXP M_FIG C_FIG",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 18.228,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.0,
-        "transferable_insight": 1.118,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery, protein_ligand_affinity.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "AI-Driven Multi-Objective Optimization of Floating Photovoltaic-Thermal Systems with MATLAB-HOMER Pro Validation",
       "authors": [
         "Okwe Gerald",
@@ -507,56 +412,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
-      "title": "Experimentally Tuned Protein-RNA Rosetta Score Function using Bayesian Optimization",
-      "authors": [
-        "Joe Bailey",
-        "Nathan Phan",
-        "Soren C. Spina",
-        "Rachel B. Getman",
-        "Joel A. Paulson",
-        "Blaise R. Kimmel"
-      ],
-      "date": "2026-07-20",
-      "source": "openalex+biorxiv",
-      "link": "https://doi.org/10.64898/2026.07.17.739244",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/20/2026.07.17.739244.full.pdf",
-      "doi": "10.64898/2026.07.17.739244",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7169794412",
-      "semantic_scholar_id": "",
-      "abstract": "Protein-RNA complexes drive fundamental cellular processes such as transcription and translation. Despite the prevalence and importance of protein-RNA interactions, the field lacks reliable and accessible methods to quantify the energetic favorability of these interactions. We propose an experimentally tuned protein-RNA score function that can be directly implemented into ROSETTA. Fine-tuning these score functions for predictive tasks requires repeated evaluations on a set of protein-RNA complexes, which can be computationally expensive given the number of parameters to tune. We used Bayesian Optimization to efficiently improve the energetic agreement between ROSETTA and experimentation. We observe significant interactions for specific RNA subclasses, serving as further confirmation of the physical validity of the score function. Beyond protein-RNA interaction prediction, we establish a framework to efficiently fine-tune ROSETTA score functions for any protein-class interaction using Bayesian Optimization. TOC FIGURE O_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=100 SRC=\"FIGDIR/small/739244v1_ufig1.gif\" ALT=\"Figure 1\"> View larger version (18K): org.highwire.dtl.DTLVardef@158b3bforg.highwire.dtl.DTLVardef@80ef73org.highwire.dtl.DTLVardef@e875a3org.highwire.dtl.DTLVardef@1834be1_HPS_FORMAT_FIGEXP M_FIG C_FIG",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "code_url": "",
-      "topic_tags": [
-        "optimization_methods",
-        "black_box_combinatorial_and_expensive_optimization"
-      ],
-      "deterministic_score": 17.64,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.235,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.9799999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to optimization_methods, black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 12,
+      "rank": 9,
       "title": "Multi-Objective Optimization of Studs in Steel–Concrete Composite Beams",
       "authors": [
         "Shuai Song",
@@ -603,7 +459,56 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 10,
+      "title": "Experimentally Tuned Protein-RNA Rosetta Score Function using Bayesian Optimization",
+      "authors": [
+        "Joe Bailey",
+        "Nathan Phan",
+        "Soren C. Spina",
+        "Rachel B. Getman",
+        "Joel A. Paulson",
+        "Blaise R. Kimmel"
+      ],
+      "date": "2026-07-20",
+      "source": "openalex",
+      "link": "https://doi.org/10.64898/2026.07.17.739244",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/20/2026.07.17.739244.full.pdf",
+      "doi": "10.64898/2026.07.17.739244",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7169794412",
+      "semantic_scholar_id": "",
+      "abstract": "Protein-RNA complexes drive fundamental cellular processes such as transcription and translation. Despite the prevalence and importance of protein-RNA interactions, the field lacks reliable and accessible methods to quantify the energetic favorability of these interactions. We propose an experimentally tuned protein-RNA score function that can be directly implemented into ROSETTA. Fine-tuning these score functions for predictive tasks requires repeated evaluations on a set of protein-RNA complexes, which can be computationally expensive given the number of parameters to tune. We used Bayesian Optimization to efficiently improve the energetic agreement between ROSETTA and experimentation. We observe significant interactions for specific RNA subclasses, serving as further confirmation of the physical validity of the score function. Beyond protein-RNA interaction prediction, we establish a framework to efficiently fine-tune ROSETTA score functions for any protein-class interaction using Bayesian Optimization.",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "code_url": "",
+      "topic_tags": [
+        "optimization_methods",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 17.15,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 8.235,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to optimization_methods, black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 11,
       "title": "AI-driven computational drug design: tools, workflow and challenges.",
       "authors": [
         "Ryena Dhir",
@@ -615,7 +520,7 @@
       "source": "pubmed",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42482806/",
       "pdf_url": "",
-      "doi": "10.1039/d6ra02374f",
+      "doi": "10.1080/15265161.2020.1863516",
       "arxiv_id": "",
       "pubmed_id": "42482806",
       "openalex_id": "",
@@ -650,7 +555,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 12,
       "title": "Multi-objective dynamic operation scheduling framework: practical application of digital twin in an edible oil processing plant",
       "authors": [
         "Chia-Jen Lin",
@@ -695,7 +600,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 13,
       "title": "Preliminary Assessment of p-Anisidinium-Based Ionic Solids as Potential DNA Staining Agents: DFT and Molecular Docking Studies",
       "authors": [
         "Vuyolwethu Tokoyi",
@@ -743,7 +648,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "From vehicles to wildlife: transferable deep learning for trajectory generation",
       "authors": [
         "Julien Patras",
@@ -797,51 +702,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
-      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
-      "authors": [
-        "Wei Guo",
-        "Yaqiong Dong"
-      ],
-      "date": "2028-09-22",
-      "source": "crossref",
-      "link": "https://doi.org/10.24425/ace.2025.155084",
-      "pdf_url": "",
-      "doi": "10.24425/ace.2025.155084",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
-      "venue": "Archives of Civil Engineering",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 7.844,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.84,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.586,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 18,
+      "rank": 15,
       "title": "Kernel-Based Learning of Safety Barriers",
       "authors": [
         "Oliver Schön",
@@ -886,7 +747,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 16,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -935,7 +796,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 20,
+      "rank": 17,
       "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
       "authors": [
         "Priyank Agrawal",
@@ -984,7 +845,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 18,
       "title": "InstructMixup: Instruction-Guided Salient Patch Editing for Robust Data Augmentation",
       "authors": [
         "Khawar Islam",
@@ -1030,7 +891,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 19,
       "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
       "authors": [
         "Yuchen Jiao",
@@ -1075,51 +936,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
+      "rank": 20,
       "title": "Assessing the Stability of Molecular Glues with Weighted Ensemble Simulations.",
       "authors": [
         "Seref Berk Atik",
@@ -1164,7 +981,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 25,
+      "rank": 21,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1212,7 +1029,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 22,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1259,7 +1076,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 27,
+      "rank": 23,
       "title": "OmniReasoner: Thinking with Long Audio-Video via Native Tool Use",
       "authors": [
         "Yu Chen",
@@ -1312,7 +1129,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 24,
       "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
       "authors": [
         "Lizhe Fang",
@@ -1358,7 +1175,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 25,
       "title": "Optimizing Regret",
       "authors": [
         "Irene Aldridge"
@@ -1401,7 +1218,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 26,
       "title": "ISO: An RLVR-Native Optimization Stack",
       "authors": [
         "Hanqing Zhu",
@@ -1451,6 +1268,203 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "The use of artificial intelligence in advancing molecular biology in Africa: a narrative review.",
+      "authors": [
+        "Daniel Awuah",
+        "Alphonse Hounkpe",
+        "Jesse Anane-Asamoah",
+        "William Kanmwaa Dakubo",
+        "Isaac Kofi Adu",
+        "Prince Amoah Barnie",
+        "Emmanuel Owusu Ansah",
+        "Kwadwo Fosu",
+        "Cara Obenewaa Aidoo",
+        "Victoria Essien",
+        "Yakubu Adam",
+        "Ernest Ninson",
+        "Richard Quansah",
+        "Foster Kyei"
+      ],
+      "date": "2026-07-22",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42481850/",
+      "pdf_url": "",
+      "doi": "10.1038/s42003-026-09711-x",
+      "arxiv_id": "",
+      "pubmed_id": "42481850",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Artificial intelligence (AI) is rapidly becoming a core methodological pillar of molecular biology and precision medicine, and Africa is a uniquely consequential setting for this transition because the continent combines the world's greatest human genomic diversity with the most severe underrepresentation of that diversity in the datasets and reference resources on which AI models are built and benchmarked. This narrative review examines, for a genetics and genomics readership, where AI-driven methods are already strengthening African molecular biology, where the supporting evidence remains preliminary, and what is required to translate technical capability into scientifically robust and equitable benefit. The central argument is that AI is especially consequential in African molecular biology, not simply because it automates analysis, but because it can help unlock insight from African genomic diversity, pathogen biology, and clinically relevant multi-omics data that remain underrepresented in global models. Across core molecular domains, AI is accelerating protein structure prediction, high-throughput variant calling and pan-genomic reference construction, genome-wide association analysis, transcriptomic interpretation, drug discovery, and CRISPR guide design. African initiatives such as H3Africa, the African Genome Variation Project, H3ABioNet, and the H3D Centre show that locally generated datasets and African-led computational pipelines can already support meaningful discovery, from improved variant interpretation to structure-guided therapeutic prioritization. At the same time, persistent barriers remain, including underrepresentation of African genomes in training data and reference genomes, uneven computational infrastructure, limited interdisciplinary training, fragmented governance, and the risk that AI-derived benefits will remain inaccessible to the populations whose data enable them. We conclude that the future impact of AI in African molecular biology will depend less on adopting global tools in the abstract and more on building African-led datasets, validation pipelines, governance frameworks, and translational pathways that make molecular discovery both scientifically robust and equitably useful. Looking ahead, the central perspective offered by this review is that Africa's exceptional genomic diversity should be treated as a scientific asset rather than an analytical liability: realising this will require population-representative pan-genome references, sustained computational capacity, and governance structures that ensure African populations are not only the source of the underlying data but also the principal beneficiaries of the discoveries it enables.",
+      "venue": "Molecular genetics and genomics : MGG",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "protein_design"
+      ],
+      "deterministic_score": 4.377,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 7.965000000000001,
+        "novelty": 0.0,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -8.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to ai_drug_discovery, protein_design, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 28,
+      "title": "Structure-guided targeting of the GATAD2A-CHD4 interaction within the MBD2-NuRD complex results in high levels of HbF in adult erythroid cells",
+      "authors": [
+        "Shengzhe Shang",
+        "Sangam Giri Goswami",
+        "Tory Li",
+        "Wang He",
+        "Christopher R. Travis",
+        "Mikhail G. Dozmorov",
+        "David C. Williams",
+        "Gordon D. Ginder"
+      ],
+      "date": "2026-07-20",
+      "source": "openalex",
+      "link": "https://doi.org/10.64898/2026.07.17.739209",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/20/2026.07.17.739209.full.pdf",
+      "doi": "10.64898/2026.07.17.739209",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7169762010",
+      "semantic_scholar_id": "",
+      "abstract": "Fetal hemoglobin (HbF) expression is silenced postnatally in adult erythroid cells. Sufficiently increased expression of HbF has been shown to overcome the pathophysiologic sequelae of both sickle cell disease and beta-thalassemia. As the MBD2a-NuRD chromatin remodeling complex is required for silencing of HbF, the present studies were aimed at exploring a potential therapeutic approach for disrupting this complex. AlphaFold 3 and a recent crystal structure were employed to predict the critical interaction domains linking GATAD2A in the histone deacetylase core subcomplex (HDCC) of NuRD and the CHD4 ATPase which has been shown to be required for silencing of the fetal gamma-globin (HBG) genes. The two predicted critical domains, the CR2 helical domain of GATAD2A and the C-terminal domains 1 and 2 (C1b and C2ab) of CHD4, were validated by in vitro biophysical studies. Mutation of two amino acids in the CR2 helical domain of the endogenous GATAD2A gene in HUDEP-2 cells resulted in dissociation of CHD4, loss of repressive chromatin over the HBG promoter and ~40% HbF levels compared to < 1% in control cells. Strikingly, enforced expression of a peptide containing the helical portion of the CR2 domain of GATAD2A in both HUDEP-2 cells and primary adult erythroid cells resulted in high levels of HbF, with up to ~75% HbF compared to mutant peptide control level of ~9% in the latter without perturbing erythroid differentiation. These results suggest that targeting the critical interaction domains of GATAD2A and CHD4 with a macrocyclic peptide or small molecule may lead to much needed small molecule therapeutics for sickle cell disease.",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "code_url": "",
+      "topic_tags": [
+        "small_molecule_design"
+      ],
+      "deterministic_score": 3.74,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to small_molecule_design, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "Stochastic Polynomial Surrogate Models for Uncertainty Quantification of Offshore Plate Anchor Capacity",
+      "authors": [
+        "Negin Yousefpour",
+        "B Z Wang",
+        "Changjian Zhou",
+        "Alessio Mentani"
+      ],
+      "date": "2026-07-21",
+      "source": "openalex",
+      "link": "https://doi.org/10.1007/s10706-026-03824-0",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10706-026-03824-0.pdf",
+      "doi": "10.1007/s10706-026-03824-0",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7169877680",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract Uncertainty quantification (UQ) is essential for the reliable design of offshore plate anchors, where prediction accuracy is influenced by uncertainties in model parameters, soil properties, loading conditions, and numerical modelling. This paper presents a unified UQ framework that integrates Bayesian inference with stochastic Polynomial Chaos Expansion (PCE) surrogate modelling to efficiently quantify multiple sources of uncertainty in plate anchor capacity under combined vertical–horizontal–moment (V–H–M) loading. While surrogate modelling techniques have been applied to selected offshore foundation problems, their application to comprehensive uncertainty quantification of plate anchors under combined loading remains limited. In particular, addressing model parameter, soil strength and loading uncertainties, as well as numerical approximation error effects within a single framework has not previously been investigated. The proposed UQ framework is demonstrated through a simplified plate anchor case study and comprises two complementary workflows: (1) Workflow A, this method integrates Bayesian calibration of an analytical yield-surface model with a PCE surrogate, providing a controlled validation of the PCE methodology prior to its deployment on finite element simulations. This method enables evaluation of the impacts of yield surface model parameter uncertainty, undrained shear strength uncertainty, and numerical approximation error (mesh discretisation) on the estimated anchor capacities; (2) Workflow B, this method applies PCE directly to replace the computationally expensive finite element simulation of plate anchor for efficient uncertainty quantification, particularly focusing on the effects of undrained shear strength and loading inclination uncertainty on the estimated anchor capacities. The PCE surrogates in both workflows achieved excellent predictive performance with RMSE between 0.5 to 2.1 kN/m for workflow A and less than 0.5 kN/m for workflow B, over both vertical and horizontal capacities, while significantly reducing computational cost. The results demonstrate that uncertainties in both soil strength and loading inclination led to significant uncertainty in the predicted anchor capacities. Also, mesh discretisation (numerical approximation error) influenced the inferred phenomenological yield-surface parameters and introduced considerable uncertainty into the estimated anchor capacities. Although demonstrated for offshore plate anchors, the proposed framework is readily transferable to uncertainty quantification problems across a broad range of geotechnical engineering applications.",
+      "venue": "Geotechnical and Geological Engineering",
+      "code_url": "",
+      "topic_tags": [
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 3.712,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.1850000000000005,
+        "novelty": 0.42,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Deep learning-based prediction of time-resolved adhesive forces in viscoelastic Hertzian contacts",
+      "authors": [
+        "Ali Maghami",
+        "Merten Stender",
+        "Michele Ciavarella",
+        "Antonio Papangelo"
+      ],
+      "date": "2026-07-21",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2607.19060v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19060v1",
+      "doi": "",
+      "arxiv_id": "2607.19060v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Fast prediction of the response of adhesive soft viscoelastic contacts represents a current challenge in soft robotics and for gripping and manipulation tasks. Determining the complete time-resolved force trajectory requires full numerical simulations, whose computational cost is strongly parameter-dependent, making them impractical for real-time application or design-optimization loops. In this work, we overcome this limitation by training a scalar-conditioned, stateful, sequence-to-sequence deep learning model to predict the full force evolution from a prescribed displacement history for both short- and long-range adhesion regimes. The data set spans four orders of magnitude in loading and unloading rates and includes varied dwell times, with the Tabor parameter ranging from $0.2$ to $3.2$. To enable learning across these heterogeneous time scales, we introduce a fixed-measurement-step (FMS) representation that converts variable-length trajectories into fixed-length sequences while preserving their physical-time information. Different architectures were trained, including long short-term memory (LSTM) networks, temporal convolutional neural (TCN) networks, and time-distributed dense layers with three different Tabor-conditioning mechanisms. The models were compared using global waveform and error metrics. We found that the best-performing model has an LSTM architecture with concatenated conditioning, which achieves a held-out mean-squared error of $5.0\\times10^{-4}$, a median pull-off-force error of $\\approx2.2\\%$, and a median hysteresis error of $\\approx1.1\\%$. For the held-out protocols, the model predicts a complete force trajectory with a median inference time of $0.16$ s. The model is tested across unseen parameter combinations and against analytical limiting cases, providing a rapid surrogate for repeated numerical evaluations with potential use in control-oriented applications.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.657,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
