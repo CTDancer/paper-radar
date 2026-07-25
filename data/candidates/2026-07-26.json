@@ -1,9 +1,9 @@
 {
   "date": "2026-07-26",
   "stats": {
-    "raw_candidates": 183,
-    "deduplicated_candidates": 168,
-    "filtered_candidates": 168,
+    "raw_candidates": 167,
+    "deduplicated_candidates": 153,
+    "filtered_candidates": 153,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -319,51 +319,6 @@
     },
     {
       "rank": 7,
-      "title": "Expanding Flow Maps",
-      "authors": [
-        "Sophia Tang",
-        "Pranam Chatterjee"
-      ],
-      "date": "2026-07-23",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.21585v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21585v1",
-      "doi": "",
-      "arxiv_id": "2607.21585v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Flow-based generative models have enabled remarkable progress in fast and controllable generation across continuous and discrete state spaces, yet existing parameterizations are constrained to fixed dimensions or fixed sequence lengths. Here, we introduce Expanding Generative Flows (EFlows), which define flows between distributions of increasing dimensionality along an expanding interpolant that grows the state by augmenting it with conditional noise. Building on this construction, we propose Expanding Flow Maps (EFMs), a new class of flow maps that distill the expanding interpolant into efficient few-step generative models. Each EFM factors the map between any two timesteps into two learnable operations: an expand operator, which augments the state space with new coordinates or tokens conditioned on the current state, and a transport map, which pushes the expanded state forward along the interpolant. Composing these operators yields a single map that jointly expands and denoises the state, recovering existing fixed-canvas flows and flow maps as the special case in which the expand operator is the identity. We further extend the framework to the discrete simplex, enabling variable-size graph generation and variable-length sequence generation. Across both continuous and discrete modalities, we establish EFlows and EFMs as a principled framework for settings in which output size is itself a learned, controllable degree of freedom.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "generative_modeling_core",
-        "continuous_generative_modeling"
-      ],
-      "deterministic_score": 16.193,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 3.6399999999999992,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core, continuous_generative_modeling.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 8,
       "title": "Drug Discovery of Allosteric Molecular Glue Degraders (aMGDs): Expanding the Landscape of Targeted Protein Degradation",
       "authors": [
         "Yu Xue",
@@ -410,7 +365,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Integrated CADD, Molecular Docking and ADMET Prediction in Anti-Inflammatory Lead Discovery: A Review",
       "authors": [
         "Dr. Ravi U. Kurhade Vikas M. Mohanale",
@@ -458,54 +413,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 10,
-      "title": "Unified Video Dense Prediction from Disjoint Data",
-      "authors": [
-        "Yihong Sun",
-        "Seoung Wug Oh",
-        "Jiahui Huang",
-        "Bharath Hariharan",
-        "Joon-Young Lee"
-      ],
-      "date": "2026-07-23",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.21592v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21592v1",
-      "doi": "",
-      "arxiv_id": "2607.21592v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Scene understanding requires simultaneous prediction about geometry, appearance, and semantics. However, existing task-specific annotations are fragmented across incompatible, domain-specific datasets. Current unified systems circumvent this by restricting training to fully co-annotated data, or by incurring the large computational cost of pseudo-labeling. To mitigate this, we introduce UniD, a unified video model that jointly predicts eight dense scene properties-depth, surface normals, semantic segmentation, boundaries, human parts, albedo, shading, and materials-all learned from disjoint, domain-specific datasets. We propose a simple yet effective distillation step in which per-task experts supervise a unified backbone through lightweight task projectors, eliminating the need for annotation overlap or pseudo-labeling. Our key insight is that the strong visual priors of a pretrained diffusion model are sufficient to bridge the domain gaps introduced by disjoint training sources, enabling robust generalization to scene-task combinations never seen during training. UniD achieves competitive performance against per-task specialists and multi-task baselines, with strong generalization to out-of-distribution scenarios and enhanced temporal and cross-task consistency. Code and video results are available at https://unid-video.github.io/.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 13.47,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.725,
-        "novelty": 2.8,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.261,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 11,
+      "rank": 9,
       "title": "Calmodulin controls spatial and temporal specificity of calcium-induced calcium release",
       "authors": [
         "Jedrzejewska-Szmek, J.",
@@ -549,54 +457,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
-      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
-      "authors": [
-        "Sicheng Mo",
-        "Yuheng Li",
-        "Ziyang Leng",
-        "Krishna Kumar Singh",
-        "Bolei Zhou"
-      ],
-      "date": "2026-07-23",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.21594v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21594v1",
-      "doi": "",
-      "arxiv_id": "2607.21594v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registers: learnable tokens that store shared world information, track individual agent status, and are dynamically updated after each generated chunk. We ground these registers with supervision signals spanning individual agent status, global state views including bird's-eye views, and scene text. We further improve the architecture with a Mixture-of-Transformers design that uses separate weights for world state modeling and visual frame modeling. Extensive experiments in two-agent Minecraft video generation show that explicit world-state modeling improves logical consistency and generation quality.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 10.67,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.725,
-        "novelty": 0.9799999999999999,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 13,
+      "rank": 10,
       "title": "NeuroCon-AutismNet: a privacy-preserving multimodal framework toward autism screening via diffusion-regularized EEG biomarkers and empathy-aware multilingual dialogue",
       "authors": [
         "J. Revathy",
@@ -642,7 +503,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 11,
       "title": "Functional restoration of conformational (R175H) and contact (R273H) mutant p53 by Bacillus-derived Hydroxymycotrienin A in non-small cell lung cancer: a computational approach",
       "authors": [
         "Adeline Celina Rufus",
@@ -692,7 +553,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 15,
+      "rank": 12,
       "title": "Morphomechanically-Informed Spatial Curvature Sequencing in Prostate Cancer",
       "authors": [
         "Kordic, I.",
@@ -747,51 +608,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
-      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
-      "authors": [
-        "Wei Guo",
-        "Yaqiong Dong"
-      ],
-      "date": "2028-09-22",
-      "source": "crossref",
-      "link": "https://doi.org/10.24425/ace.2025.155084",
-      "pdf_url": "",
-      "doi": "10.24425/ace.2025.155084",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
-      "venue": "Archives of Civil Engineering",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 7.844,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.84,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.586,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 17,
+      "rank": 13,
       "title": "A Tool for the Verification and Synthesis of Stochastic World Models",
       "authors": [
         "RADU CONSTANTIN Calinescu",
@@ -840,51 +657,7 @@
       "possible_concerns": "classified as weak_match; abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 18,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 19,
+      "rank": 14,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -932,7 +705,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 15,
       "title": "Enhanced Power Loss Reduction Through Optimal RDG Location and Size Using Bi-GRU Integrated Golden Eagle Optimization",
       "authors": [
         "S. Jayachandra",
@@ -976,7 +749,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 16,
       "title": "Comparative evaluation of parallel optimization algorithms for urban drainage modeling using OSTRICH-SWMM",
       "authors": [
         "Zia Ul Hassan",
@@ -1026,7 +799,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 17,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1073,7 +846,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 23,
+      "rank": 18,
       "title": "High resolution structure of plant Light-Harvesting Complex II (LHCII) provides insight into lutein conformations and energy quenching",
       "authors": [
         "Spurgeon, T.",
@@ -1118,49 +891,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
-      "title": "Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning",
-      "authors": [
-        "Rogerio Guimaraes",
-        "Pietro Perona"
-      ],
-      "date": "2026-07-23",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.21591v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21591v1",
-      "doi": "",
-      "arxiv_id": "2607.21591v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Diffusion and flow-matching models dominate conditional image generation, yet inference-time scaling for these models is far less developed than for autoregressive language models. Because final quality is highly sensitive to the initial noise seed, many approaches spend extra compute on seed search or resampling under a black-box reward, but typically maintaining a constant memory footprint throughout inference. We show that relaxing this constraint enables an underexplored inference-time scaling axis: by front-loading exploration, evaluating many seeds early, and pruning aggressively, we can use a fixed compute budget more effectively. \\emph{Progressive Seed Pruning} (\\PSP) scores intermediate denoised estimates and progressively narrows the candidate set so that only promising trajectories are fully denoised, while keeping the total number of model evaluations fixed. Across diffusion and flow-matching backbones, \\PSP \\ consistently improves reward-guided selection and achieves higher GenEval scores (automated) and better human evaluation on prompt-alignment than best-of-$N$, importance-sampling, and tree-search baselines at matched compute. Project page: https://www.vision.caltech.edu/psp. Code: https://github.com/rogerioagjr/psp.",
-      "venue": "",
-      "code_url": "https://github.com/rogerioagjr/psp",
-      "topic_tags": [],
-      "deterministic_score": 4.402,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.0,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.118,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
+      "rank": 19,
       "title": "Pilot-Wave Simulator: Exact Classical Sampling from Ideal and Noisy Quantum Circuits up to Hundreds of Qubits",
       "authors": [
         "Gleb Kalachev",
@@ -1207,7 +938,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 20,
       "title": "The use of artificial intelligence in advancing molecular biology in Africa: a narrative review.",
       "authors": [
         "Daniel Awuah",
@@ -1264,7 +995,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 27,
+      "rank": 21,
       "title": "Synthesis, Thermal Behavior and Metal Selectivity of New Benzyloxy-Pyridine Compound",
       "authors": [
         "Serhat Koçoğlu"
@@ -1307,7 +1038,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 22,
       "title": "In silico pipeline for GSK 3β inhibitor discovery in Alzheimer’s disease using pharmacophore screening, docking, ADME filtering, and MD validation",
       "authors": [
         "Mahmoud S. Elkotamy",
@@ -1361,7 +1092,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 29,
+      "rank": 23,
       "title": "Dynamic Intelligent Method for Voltage Violation Management in High-Renewable-Penetration Distribution Networks",
       "authors": [
         "Hua Zhang",
@@ -1407,7 +1138,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 24,
       "title": "Structural and functional heterogeneity in cardiac RyR signalling nanodomains revealed with quantitative single molecule mapping toolkit",
       "authors": [
         "Köhler, R.",
@@ -1448,6 +1179,289 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 25,
+      "title": "GridTradeRL: a multi-agent deep reinforcement learning framework for decentralized peer-to-peer energy trading in smart grid prosumer networks",
+      "authors": [
+        "Md. Irfan Hossain",
+        "Md Shahedul Islam",
+        "Hridya Sudeepon Roy",
+        "Sagor Ahmed",
+        "Abdullah Rakib Akand",
+        "Sayed Esmat Mirja",
+        "Mithila Arman",
+        "Samuel Kim",
+        "Haewon Byeon"
+      ],
+      "date": "2026-07-23",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41598-026-58710-9",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-58710-9_reference.pdf",
+      "doi": "10.1038/s41598-026-58710-9",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7170176945",
+      "semantic_scholar_id": "",
+      "abstract": "The accelerating penetration of distributed photovoltaic (PV) generation and battery storage at the residential edge of the distribution network is converting passive consumers into active prosumers , exposing the limits of the unidirectional buy-from-utility / sell-to-utility settlement model. Peer-to-peer (P2P) energy trading promises to internalize the bid-ask spread of time-of-use (ToU) tariffs within local communities, but its decentralized, non-stationary, and partially observable nature makes hand-engineered control strategies brittle. This manuscript presents GridTradeRL , a multi-agent deep reinforcement learning framework for decentralized P2P energy trading in smart-grid prosumer networks. We formulate the trading problem as a partially observable stochastic game over a heterogeneous community of N prosumers and solve it with a multi-agent extension of Twin-Delayed Deep Deterministic Policy Gradient (MA-TD3) under the centralized-training, decentralized-execution (CTDE) paradigm. Each agent learns an independent actor that selects a continuous battery-dispatch and bid-aggressiveness action from local observations alone, while training is coordinated by a centralized twin critic with full access to the joint observation-action space. The local market clears via a uniform-price double auction at each hour. On a simulated 8-prosumer community with time-of-use tariffs, the trained policy reduces net daily community electricity expenditure by 42.7% versus a no-trade baseline and by 24.2% versus a rule-based heuristic, while routing 18.3% of all energy through bilateral peer-to-peer trades. Against learned baselines, it improves on independent DDPG by 29.7% and on MADDPG by 10.4%, and it attains performance within 11.5% of a perfect-foresight model-predictive-control oracle without requiring forecasts or disclosure of private prosumer data. We further establish convergence stability over a 2000-episode, five-seed training protocol; characterize sensitivity to the reward-shaping coefficients, robustness to observational noise and communication dropout, and scalability to communities of up to 64 prosumers; and prove that the midpoint clearing rule distributes surplus equitably (Gini coefficient 0.039). A fast 350-episode configuration that attains 97.8% of converged performance completes in 224 s on a single CPU core in pure NumPy without any GPU acceleration, demonstrating the suitability of the framework for nightly retraining on edge gateways. The full source code, trained policies, and an interactive simulation dashboard accompany this manuscript.",
+      "venue": "Scientific Reports",
+      "code_url": "",
+      "topic_tags": [
+        "transferable_insights"
+      ],
+      "deterministic_score": 3.256,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 2.7,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 26,
+      "title": "A Digital Twin Framework for Fuzzy Multi-Objective Routing of Electric Delivery Fleets in Urban Hypermarket Logistics",
+      "authors": [
+        "Zornitsa Yordanova Hamed Nozari"
+      ],
+      "date": "2026-07-23",
+      "source": "openalex",
+      "link": "https://doi.org/10.59543/jidmis.v3.829",
+      "pdf_url": "https://jidmis.org/index.php/jidmis/article/download/829/199",
+      "doi": "10.59543/jidmis.v3.829",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7170148698",
+      "semantic_scholar_id": "",
+      "abstract": "This research presents an integrated framework for electric delivery fleet routing in urban logistics, in which the dynamics of the real environment are modeled through digital twin and operational uncertainties with a fuzzy approach. The proposed model is designed as a multi-objective model and simultaneously optimizes energy consumption, delivery time, operational cost, and environmental impact. The results show that the use of digital twin leads to a significant reduction in delivery time, cost, and delay compared to static routing, and significantly improves the quality of service. Scenario analyses also showed that in high-density conditions, performance indicators increase nonlinearly, while the proposed framework was able to control these effects. Also, the difference of less than 3.18% with the reference solutions confirms the high accuracy of the model. These findings indicate that the proposed approach can be used as an effective tool to improve the efficiency and sustainability of urban logistics systems.",
+      "venue": "Journal of Intelligent Decision Making and Information Science",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 3.251,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.84,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "FDA Approval of the First-Ever PROTAC: Vepdegestrant (ARV-471) Marks a New Era in Targeted Protein Degradation",
+      "authors": [
+        "Anil Kumar",
+        "Saghir Ali",
+        "Qiang Shen",
+        "Jia Zhou"
+      ],
+      "date": "2026-07-23",
+      "source": "openalex",
+      "link": "https://doi.org/10.1021/acs.jmedchem.6c02076",
+      "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jmedchem.6c02076?ref=article_openPDF",
+      "doi": "10.1021/acs.jmedchem.6c02076",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7170192108",
+      "semantic_scholar_id": "",
+      "abstract": "",
+      "venue": "Journal of Medicinal Chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "molecular_glue_and_tpd"
+      ],
+      "deterministic_score": 3.17,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 7.5600000000000005,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 2.5,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -11.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to molecular_glue_and_tpd, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review; abstract is missing or too short to judge novelty well"
+    },
+    {
+      "rank": 28,
+      "title": "Structural quality-tier assessment for TCR-pMHC functional enrichment",
+      "authors": [
+        "Alex Ascunce-París",
+        "Miguel Romero‐Durana",
+        "Alfonso Valencia",
+        "Roc Farriol-Duran",
+        "Vı́ctor Guallar"
+      ],
+      "date": "2026-07-24",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fimmu.2026.1869810",
+      "pdf_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1869810/pdf",
+      "doi": "10.3389/fimmu.2026.1869810",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7170774228",
+      "semantic_scholar_id": "",
+      "abstract": "T cell receptor (TCR) recognition of peptide-MHC complexes (pMHCs) is central to adaptive immunity. Structural insights into TCR-pMHC interactions are critical for understanding antigen specificity and T-cell function. However, progress remains limited by the scarcity of experimentally resolved structures (275 TCR-pMHC class I structures in the PDB, Jan 2026). Although protein structure modelling tools have advanced rapidly, accurate structural modelling of TCRs remains challenging due to CDR loop hypervariability and conformational flexibility. In addition, there is a lack of reliable quality assessment strategies that do not rely on comparisons with experimental references. To address this, we benchmarked four general-purpose (AlphaFold2.3-Multimer, AlphaFold3, Boltz-2, Chai-1) and three TCR-specific (TCRmodel2, tFold-TCR, TCRdock) protein modelling algorithms by recalculating all experimentally determined TCR-pMHC class I complexes in the PDB. AlphaFold3 demonstrated superior performance across metrics (mean TCR-iRMSD = 3.59 Å and DockQ = 0.54), whereas the other algorithms displayed lower accuracy. Built on AlphaFold3 structures, we present a scalable and interpretable ML framework for the quality assessment of TCR-pMHC structural models without matched experimental references. We trained a random forest classifier integrating multiple confidence metrics (pLDDT, ipTM, ipSAE, iPAE, iPDE, pDockQv1-2) derived from 1325 modelled structures of 265 experimentally determined PDB TCR-pMHC class I complexes. The classifier reliably stratifies structural models into low-, acceptable-, medium-, and high-quality tiers defined by comparisons to their experimental reference structures, outperforming single metrics. These quality-tier predictions further enable the prioritization of high-confidence TCR-pMHC interactions. This was demonstrated across two held-out datasets comprising a total of 4,090 AlphaFold3-modelled TCR-pMHC complexes (20,450 models, 5 models per complex): a re-evaluated set of TCR-pMHC class I complexes from VDJdb (n = 606) and the reference IMMREP23 dataset (n = 3,484). We profiled the first dataset to reduce false-positive TCR-pMHC interactions erroneously annotated in VDJdb, and the second to enrich for biologically validated TCR-pMHC interactions amongst higher-quality structural models over their synthetic negative counterparts. Altogether, our structural quality-tier framework provides a scalable and interpretable approach that complements structural modelling and functional analyses of TCR-pMHC class I complexes, with direct translational applications in T-cell immunology and TCR-based immunotherapies.",
+      "venue": "Frontiers in Immunology",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.958,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 2.8,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "Organ identity shapes autophagy dynamics and selectivity in plants",
+      "authors": [
+        "Dauphinee, A. N.",
+        "Holla, S.",
+        "Mazumdar, S.",
+        "Ballhaus, F. I. M.",
+        "Ohlsson, J. A.",
+        "Impens, F.",
+        "Maia, T.",
+        "Timmerman, E.",
+        "Dagdas, Y.",
+        "Lofke, C.",
+        "Dalman, K.",
+        "Schumacher, K.",
+        "Bozhkov, P. V.",
+        "Minina, E. A."
+      ],
+      "date": "2026-07-23",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/23/2026.07.22.740030.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/23/2026.07.22.740030.source.xml",
+      "doi": "10.64898/2026.07.22.740030",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Plants, with their unique evolutionary trajectory and complex physiological adaptations, have developed organ-specific mechanisms to cope with various environmental stresses. Autophagy, an essential catabolic process, plays an important role in maintaining plant growth, immunity, and overall fitness. In this study, we reveal the spatio-temporal dynamics of autophagic responses in Arabidopsis thaliana roots and shoots under different stress conditions, including AZD8055 treatment and carbon and nitrogen depletion. Our findings demonstrate that roots exhibit stronger autophagic activity than shoots under all three conditions, highlighting the unique adaptations of these two organs. Furthermore, we dissect the selectivity of autophagy in targeting organelles, revealing immediate, delayed, and no uptake categories. Additionally, we observe organelles coexisting within autophagic bodies, shedding light on the complexity of cargo selection. This study enhances our understanding of plant specific autophagy dynamics, emphasizing its role in sustaining the source-sink functions and offering insights into plant adaptation to diverse stressors.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 2.63,
+      "score_breakdown": {
+        "paper_type": "transferable_method",
+        "direct_relevance": 3.24,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "transferable_method",
+      "why_selected": "Selected because it may contain a transferable modeling or optimization idea related to medicinal_and_synthetic_chemistry.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Ant Colony Optimization applied to the Traveling Santa Problem",
+      "authors": [
+        "Elliot Fisher",
+        "Robin Smith"
+      ],
+      "date": "2026-07-23",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fams.2026.1773581",
+      "pdf_url": "https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2026.1773581/pdf",
+      "doi": "10.3389/fams.2026.1773581",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7170161722",
+      "semantic_scholar_id": "",
+      "abstract": "The hypothetical global delivery schedule of Santa Claus must follow strict rolling night-time windows that vary with the Earth's rotation and obey an energy budget that depends on payload size and cruising speed. Given the vast number of permutations of city-to-city legs, different payload drop-offs at each location, and the necessity of delivering gifts during the hours of darkness, to minimize energy expenditure, a heuristic-based optimization was applied. To design this schedule, the Traveling-Santa Ant-Colony Optimization (TSaP–ACO) framework was developed. This heuristic framework constructs potential routes via a population of artificial ants that iteratively extend partial paths. Ants make their decisions much like they do in nature, following pheromones left by other ants, but with a degree of permitted exploration. This approach: (i) embeds local darkness feasibility directly into the pheromone heuristic, (ii) seeks to minimize aerodynamic work via a shrinking sleigh cross-sectional area depending on current payload, (iii) uses a low-cost “rogue-ant” reversal to capture direction-sensitive time-zones, and (iv) tunes leg-specific cruise speeds on the fly. On benchmark sets of 15 and 30 capital cities, the TSaP–ACO eliminates all daylight violations and reduces total work by up to 10% compared to a distance-only Ant-Colony Optimization (ACO). In a 40-capital-city stress test, it cuts energy use by 89% and shortens tour length by 60%. Population-first routing emerges naturally from work minimization (50% served by leg 11 of 40). These results demonstrate that rolling-window, energy-aware ACO has potential applications in more realistic global delivery scenarios.",
+      "venue": "Frontiers in Applied Mathematics and Statistics",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.515,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
