@@ -1,9 +1,9 @@
 {
   "date": "2026-07-30",
   "stats": {
-    "raw_candidates": 218,
-    "deduplicated_candidates": 137,
-    "filtered_candidates": 137,
+    "raw_candidates": 266,
+    "deduplicated_candidates": 186,
+    "filtered_candidates": 186,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -951,6 +951,58 @@
     },
     {
       "rank": 20,
+      "title": "Machine learning-assisted directed evolution of plant Rubisco",
+      "authors": [
+        "Julie L. McDonald",
+        "Jiacheng Lin",
+        "Y ZHAO",
+        "Brian Hie",
+        "Rosemary Birch",
+        "Mary Gehring",
+        "Bryan D Bryson",
+        "Spencer M. Whitney",
+        "Matthew D. Shoulders",
+        "Robert H. Wilson"
+      ],
+      "date": "2026-07-27",
+      "source": "openalex+biorxiv",
+      "link": "https://doi.org/10.64898/2026.07.25.740226",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/27/2026.07.25.740226.full.pdf",
+      "doi": "10.64898/2026.07.25.740226",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7171418930",
+      "semantic_scholar_id": "",
+      "abstract": "Ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) is foundational to life on Earth, catalyzing carbon dioxide (CO2) fixation to generate biomass. However, Rubisco is a slow and inefficient enzyme that has proven challenging to engineer. We applied the structure-informed machine learning (ML) model ESM-IF1 to identify plausible amino acid sites in the large subunit of Nicotiana tabacum Rubisco to target for directed evolution. ML-assisted library design followed by selection in Rubisco-dependent Escherichia coli identified multiple enriched variants displaying improved catalytic efficiency. Several improved variants carried amino acid changes not found in the evolutionary lineage of plants, despite being assembly competent in plant chloroplasts, demonstrating that ML-assisted protein design can explore functional sequence space beyond what is observed from natural sequence diversity. Most prominently, the T391I substitution improved carboxylation rate by 29% and aerobic carboxylation efficiency by 43%. Our findings demonstrate the utility of ML-assisted evolution for engineering Rubisco with improved carboxylation efficiency and potential for enhancing crop productivity.",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "code_url": "",
+      "topic_tags": [
+        "protein_design"
+      ],
+      "deterministic_score": 5.925,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 3.6450000000000005,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.9799999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to protein_design, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 21,
       "title": "Dual-layer GWO-ALO optimization with EGT for solar and wind hybrid energy system planning aligned with SDG-7",
       "authors": [
         "Mohini Reddy",
@@ -992,7 +1044,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "Re-thinking Mammography Transfer Learning: The Dataset-Informed Transfer Learning (DITL) Framework for Breast Cancer Screening and Lesion Diagnosis",
       "authors": [
         "Adarsh Bhandary Panambur",
@@ -1035,7 +1087,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Dynamic structural changes and inhibition of insect delta and epsilon glutathione S-transferases by ethacrynic acid and permethrin",
       "authors": [
         "Sharma, M.",
@@ -1081,7 +1133,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "Dual-module aCAR-iCAR NK cells for solid tumors: cascade resistance mechanisms, AI-driven engineering, and precision stratification",
       "authors": [
         "Chenru Ma",
@@ -1124,58 +1176,6 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 24,
-      "title": "Machine learning-assisted directed evolution of plant Rubisco",
-      "authors": [
-        "Julie L. McDonald",
-        "Jiacheng Lin",
-        "Y ZHAO",
-        "Brian Hie",
-        "Rosemary Birch",
-        "Mary Gehring",
-        "Bryan D Bryson",
-        "Spencer M. Whitney",
-        "Matthew D. Shoulders",
-        "Robert H. Wilson"
-      ],
-      "date": "2026-07-27",
-      "source": "openalex",
-      "link": "https://doi.org/10.64898/2026.07.25.740226",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/27/2026.07.25.740226.full.pdf",
-      "doi": "10.64898/2026.07.25.740226",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171418930",
-      "semantic_scholar_id": "",
-      "abstract": "Ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) is foundational to life on Earth, catalyzing carbon dioxide (CO2) fixation to generate biomass. However, Rubisco is a slow and inefficient enzyme that has proven challenging to engineer. We applied the structure-informed machine learning (ML) model ESM-IF1 to identify plausible amino acid sites in the large subunit of Nicotiana tabacum Rubisco to target for directed evolution. ML-assisted library design followed by selection in Rubisco-dependent Escherichia coli identified multiple enriched variants displaying improved catalytic efficiency. Several improved variants carried amino acid changes not found in the evolutionary lineage of plants, despite being assembly competent in plant chloroplasts, demonstrating that ML-assisted protein design can explore functional sequence space beyond what is observed from natural sequence diversity. Most prominently, the T391I substitution improved carboxylation rate by 29% and aerobic carboxylation efficiency by 43%. Our findings demonstrate the utility of ML-assisted evolution for engineering Rubisco with improved carboxylation efficiency and potential for enhancing crop productivity.",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "code_url": "",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 5.435,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to protein_design, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
       "rank": 25,
@@ -1224,6 +1224,51 @@
     },
     {
       "rank": 26,
+      "title": "From whole-slide histology to ADC maps: Fast diffusion MRI simulation with neural operators",
+      "authors": [
+        "Kohler, I. A.",
+        "Goedicke, O.",
+        "Kuder, T. A.",
+        "Ladd, M. E.",
+        "Hesser, J."
+      ],
+      "date": "2026-07-27",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/07/27/2026.07.22.740029.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/27/2026.07.22.740029.source.xml",
+      "doi": "10.64898/2026.07.22.740029",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Background and Objective: Simulation of diffusion MRI signals from tissue microstructure is a fundamental problem in quantitative imaging, as it enables controlled study of how cellular architecture influences measured signals. However, physics-based simulations at clinically relevant scales are challenging due to a scale mismatch between imaging and histology: clinical diffusion MRI spans centimeter-scale fields of view with millimeter-scale voxels, whereas histology resolves structure at micrometer scales. Capturing voxel-wise signal formation therefore requires repeated simulations over heterogeneous microstructure, which becomes computationally and memory intensive in classical solvers. We propose a neural operator framework that amortizes this cost by learning local microstructure-signal mappings once and applying them across large tissue regions. Methods: We train a Fourier Neural Operator on finite-element simulations of histology-derived cell segmentations to predict magnetization fields from diffusivity and permeability maps. The model is embedded in a subdomain tiling strategy that enables scalable inference over whole-slide histology images. Unlike most conventional simulation pipelines, inference operates directly on regular grids derived from cell segmentations and does not require meshing. Results: The proposed framework enables simulation of apparent diffusion coefficient maps over 2D liver histology spanning 28.224 mm x 18.144 mm. It achieves over 2,600-fold acceleration compared with CPU-based finite-element simulation, reducing runtime from an estimated 217 days to under 2 hours. The network yields mean relative signal errors of 0.34%-0.43% at high diffusion weighting and 0.03% at low diffusion weighting, with maximum errors below 5%. On manually segmented datasets with greater morphological variability, mean errors increased slightly to 1.37%-1.79%. Conclusions: Neural operators enable computationally practical, mesh-free diffusion MRI simulation by amortizing expensive physics-based computation into a reusable operator applied across local subdomains. This makes large-scale histology-based diffusion MRI modeling feasible while preserving high accuracy.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.952,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
       "title": "Wonder: Video World Model Done Better",
       "authors": [
         "Jiacong Xu",
@@ -1269,7 +1314,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "Optimization under Persistent State-Dependent Bias: Gradient-based Method and Complexity Analysis",
       "authors": [
         "Zhaoxian Wu",
@@ -1313,7 +1358,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information",
       "authors": [
         "Kaneyoshi Hiratsuka",
@@ -1356,7 +1401,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "MeFluHyA: a novel fluorescent screening tool for high-throughput identification of HDAC6-selective inhibitors",
       "authors": [
         "Klingl, Y. E.",
@@ -1384,50 +1429,6 @@
       "openalex_id": "",
       "semantic_scholar_id": "",
       "abstract": "The cytosolic histone deacetylase 6 (HDAC6) plays a key role not only in cancer but also in neurodegenerative diseases, including amyotrophic lateral sclerosis (ALS) peripheral neuropathies. Pharmacological inhibition as well as genetic silencing of HDAC6 is able to rescue several defects. Therefore, developing pharmacological compounds targeting this enzyme is of crucial interest. Here, we report the design, synthesis, and characterization of Methyl Fluorescent Hydroxamic Acid (MeFluHyA), a novel fluorescent HDAC6-selective probe designed for cell imaging. By integrating a Cy5 fluorophore into a phenyl hydroxamic acid scaffold, MeFluHyA shows binding to the catalytically active CD2 domain of HDAC6 without significantly inhibiting its deacetylating function in the sub-micromolar range. Biochemical enzymatic activity assays confirmed its selectivity over other HDAC isoforms. Fluorescent imaging studies in HeLa cells demonstrated strong colocalization with HDAC6-eGFP and a commercial HDAC6 antibody. Competitive binding assays revealed that MeFluHyA effectively identifies known HDAC6 inhibitors, with reduced probe-binding serving as a readout for successful target engagement. MeFluHyA is a cell-permeable, fast and easy to use probe that can be added organism-independent, and its red-shifted fluorophore makes it compatible with multiplex, live and fixed imaging. Overall, we provide a novel tool for screening platforms aimed at identifying novel HDAC6-targeting inhibitors.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "medicinal_and_synthetic_chemistry"
-      ],
-      "deterministic_score": 3.35,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 3.24,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Functional Deorphanization and Subtype-Selective Pharmacology of Three Tyramine Receptors in the Disease Vector, Aedes aegypti",
-      "authors": [
-        "Afifi, S.",
-        "Paluzzi, J.-P. V."
-      ],
-      "date": "2026-07-27",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/27/2026.07.24.740580.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/27/2026.07.24.740580.source.xml",
-      "doi": "10.64898/2026.07.24.740580",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Biogenic amines such as tyramine (TA) and octopamine (OA) are central regulators of insect physiology and behaviour, acting through G protein-coupled receptors (GPCRs) to control reproduction, locomotion, metabolism, olfaction and hydromineral homeostasis. Although TA was once considered solely a biosynthetic precursor to OA, it is now recognized as an independent signaling molecule acting through distinct tyramine receptors (TARs). Owing to their invertebrate-specific roles and absence in vertebrates, TARs represent promising molecular targets for selective insecticide development. In the mosquito Aedes aegypti, a major arboviral vector of dengue and Zika viruses, the functional and pharmacological properties of TARs have not been characterized. Here, we functionally deorphanized and comparatively characterized three putative A. aegypti tyramine receptors (AaTAR1-AaTAR3) using a heterologous assay, revealing subtype-specific pharmacological profiles and antagonist sensitivities. All three receptors were robustly activated by TA in a concentration-dependent manner, whereas OA exhibited significantly lower potency on each receptor subtype, consistent with a strong preference for TA. All three TARs were unresponsive to dopamine and serotonin, even when using supraphysiological concentrations, indicating high ligand specificity. Antagonist profiling revealed pronounced subtype-specific pharmacology: yohimbine strongly suppressed AaTAR1, phentolamine most effectively inhibited AaTAR2, whereas AaTAR3 exhibited reduced sensitivity to several classical aminergic antagonists, suggesting a pharmacologically distinct subtype. These findings establish that AaTAR1, AaTAR2 and AaTAR3 are bona fide functional tyramine receptors, define their ligand selectivity and subtype-specific pharmacology, and provide a comparative framework for understanding mosquito tyraminergic signaling, highlighting their potential as targets for next-generation vector control strategies.",
       "venue": "biorxiv",
       "code_url": "",
       "topic_tags": [
