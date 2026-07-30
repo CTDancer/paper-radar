@@ -1,9 +1,9 @@
 {
   "date": "2026-07-30",
   "stats": {
-    "raw_candidates": 266,
-    "deduplicated_candidates": 186,
-    "filtered_candidates": 186,
+    "raw_candidates": 271,
+    "deduplicated_candidates": 189,
+    "filtered_candidates": 189,
     "sources_checked": [
       "arxiv",
       "openalex",
