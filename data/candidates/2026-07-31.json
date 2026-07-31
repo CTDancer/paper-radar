@@ -1,9 +1,9 @@
 {
   "date": "2026-07-31",
   "stats": {
-    "raw_candidates": 255,
-    "deduplicated_candidates": 178,
-    "filtered_candidates": 178,
+    "raw_candidates": 271,
+    "deduplicated_candidates": 192,
+    "filtered_candidates": 192,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -30,55 +30,6 @@
   "candidates": [
     {
       "rank": 1,
-      "title": "COMPASS: A Computational Pipeline to Identify Linkers Predicting Ubiquitinable PROTAC-Induced Ternary Complexes.",
-      "authors": [
-        "Sébastien Sueron",
-        "Sayyed Jalil Mahdizadeh",
-        "Eric Chevet",
-        "Xavier Guillory",
-        "François-Hugues Porée",
-        "Leif A Eriksson"
-      ],
-      "date": "2026-07-29",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42457586/",
-      "pdf_url": "",
-      "doi": "10.1038/s42004-024-01263-7",
-      "arxiv_id": "",
-      "pubmed_id": "42457586",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "PROteolysis TArgeting Chimeras (PROTACs) are bifunctional molecules designed to induce targeted protein degradation by forming a transient ternary complex between an E3 ubiquitin ligase and a protein of interest (POI), leading to the E3-mediated ubiquitination of the POI and its subsequent proteasomal degradation. Although PROTACs have emerged as highly promising therapeutic tools, rational design remains challenging due to limited structural understanding of the resulting assemblies, the dynamic nature of the ternary interface, and the critical role of the linker. Herein, we present COMPASS (COmputational Modeling of PROTAC Assembly with Structure-based Screening), a computational pipeline that allows the screening of linker libraries by assessing both ternary complex formation and ubiquitination potential. COMPASS functions as a high-sensitivity negative filter, identifying linkers that cannot form productive complexes and enabling their elimination before synthesis. Benchmarking against 20 crystallographic structures yielded <6 Å Cα-RMSD across all systems, outperforming existing methods. Retrospective validation across 8 distinct E3/POI systems (112 PROTACs) yielded 93% recall against degradation endpoints. Discriminative power is strongest when linker geometry is rate-limiting, a regime complementary to the stability and cooperativity effects that static structural modeling cannot capture.",
-      "venue": "ChemMedChem",
-      "code_url": "",
-      "topic_tags": [
-        "molecular_glue_and_tpd",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 25.614,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 18.0,
-        "novelty": 0.9799999999999999,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 2.5,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to molecular_glue_and_tpd, computational_chemistry_biophysics_structural_biology.",
-      "possible_concerns": "high priority may not be justified by novelty evidence"
-    },
-    {
-      "rank": 2,
       "title": "Can Artificial intelligence meaningfully shorten drug discovery timelines? Current evidence, roadblocks and future directions.",
       "authors": [
         "Juan Luis Fernández-Martínez"
@@ -122,7 +73,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Optimization of Activated Sludge State Models using Hyperparameters and Bayesian Inference",
       "authors": [
         "David Barahona Anguisaca",
@@ -176,7 +127,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Convergence of cryo-electron microscopy and artificial intelligence in integrative structural biology: A critical review of advances, synergies, and implications for molecular biophysics and drug discovery.",
       "authors": [
         "Abinawanto",
@@ -224,52 +175,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 5,
-      "title": "A Preparation-Free Mixture-of-Experts Framework for Protein-Ligand Affinity Prediction",
-      "authors": [
-        "Huiming Bao",
-        "Shouliang Dong"
-      ],
-      "date": "2026-07-28",
-      "source": "openalex",
-      "link": "https://doi.org/10.64898/2026.07.24.740495",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/28/2026.07.24.740495.full.pdf",
-      "doi": "10.64898/2026.07.24.740495",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171499890",
-      "semantic_scholar_id": "",
-      "abstract": "Protein-ligand affinity (PLA) prediction is central to AI-driven drug discovery, but precise interaction-based methods require costly conformation preparation and data encoding, limiting their throughput. To reconcile accuracy with efficiency, we first investigate whether pre-trained molecular representation models can replace complex encoders. A unified and diverse assessment of sequence‑, graph‑, and image‑based representations reveals both strong overall performance and family‑wise variability, delivering the first practical guidance for encoder selection in PLA tasks. Next, to achieve high computational efficiency without sacrificing expressiveness, we adopt the mixture‑of‑experts (MoE) strategy from large language models. Systematic ablation studies uncover key design principles for deploying MoE in molecular prediction. The resulting model, HydrAffinity, is an interaction‑free, dynamic sparse model that uses pre-trained encoders and MoE for parameter‑efficient learning. It outperforms all interaction‑free methods and matches state‑of‑the‑art interaction‑based methods on CASF‑2016. Routing analysis confirms that MoE develops distinct, family‑specific activation patterns, providing interpretable evidence of dynamic parameterization across protein classes. Zero‑shot tests on DUDE‑Z and LIT‑PCBA further show strong EF5% performance, making HydrAffinity a practical, scalable solution acting as an effective early‑stage pre‑filter.",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 17.481,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 11.879999999999999,
-        "novelty": 0.84,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to ai_drug_discovery, protein_ligand_affinity, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 6,
+      "rank": 4,
       "title": "A Computational Foundation Toward Targeting the ELMO1/DOCK2 Complex",
       "authors": [
         "Das, S.",
@@ -315,36 +221,41 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
-      "title": "EcoNet-Multi: optimising deep learning frameworks for robust waste detection in diverse global environments",
+      "rank": 5,
+      "title": "Recent advances in multimodal foundation model-enabled peptide screening and optimization for smart biomaterials and functional tissue engineering",
       "authors": [
-        "Alok Kumar Shukla",
-        "Shubhra Dwivedi"
+        "Chen Ding",
+        "Yuxi Luo",
+        "Ximiao Yu",
+        "Yingying Lei",
+        "Wenping Zhang",
+        "Xun Wang",
+        "Jiadi Gan"
       ],
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "source": "openalex",
-      "link": "https://doi.org/10.3389/fpls.2026.1878199",
-      "pdf_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1878199/pdf",
-      "doi": "10.3389/fpls.2026.1878199",
+      "link": "https://doi.org/10.3389/fbioe.2026.1884032",
+      "pdf_url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1884032/pdf",
+      "doi": "10.3389/fbioe.2026.1884032",
       "arxiv_id": "",
       "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171505529",
+      "openalex_id": "https://openalex.org/W7171673546",
       "semantic_scholar_id": "",
-      "abstract": "In the current era of technological advancement, the increasing demand for automated environmental monitoring and smart recycling systems plays a crucial role in maintaining a healthy environment for both humans and nature. Deep learning and artificial intelligence-based waste classification have attracted significant attention for effective waste segregation. In the existing literature, several deep learning algorithms are available for image classification in waste management systems. However, hyperparameter optimisation remains a dual challenge: maximising classification accuracy whilst preserving balanced class detection across highly imbalanced waste categories. Addressing these challenges, this paper proposes a Surrogate-Assisted Hybrid Multi-Objective Binary Bat with Cuckoo Search algorithm, termed SMOBBCS (Multi-Objective Binary Bat-Cuckoo Search), which simultaneously minimises classification error and the complement of the macro-F1 score for waste category detection. The algorithm fuses the inertia-weighted frequency-modulated velocity update of the Binary Bat Algorithm with the Lévy-flight perturbation mechanism of Cuckoo Search, governed by a smooth adaptive transition gate that facilitates population evolution from global exploration to local exploitation. A lightweight k -NN surrogate model reduces the number of true fitness evaluations without sacrificing solution quality. Experimental results validate the proposed approach against five state-of-the-art surrogate-assisted multi-objective optimisers (SMEPO, SMWOA, SMBCS, SMPSO, and SMBAT) across four real-world waste detection benchmarks: HGCD, TrashNet, WasteNet, and Realwaste. Four deep learning classifiers (CNN, DNN, GRU, and CNN-DNN) are employed for comprehensive evaluation. The proposed SMOBBCS method achieves mean accuracy of 92.71%, mean Macro-F1 score of 0.9209, mean precision of 0.9225, mean recall of 0.9205, and mean Matthews Correlation Coefficient (MCC) of 0.9052, demonstrating superior performance in automated waste classification tasks.",
-      "venue": "Frontiers in Plant Science",
+      "abstract": "Peptides are important bioactive molecules for smart biomaterials and functional tissue engineering because they can provide targeting, antimicrobial, adhesive, immunomodulatory, and differentiation-regulating functions. However, conventional peptide discovery remains limited by high experimental cost, incomplete exploration of sequence space, and the difficulty of balancing bioactivity with stability, safety, manufacturability, and material compatibility. These limitations become more pronounced when peptides must retain function after chemical modification, immobilization, hydrogel incorporation, crosslinking, printing, or construct maturation. Recent advances in protein language models and multimodal foundation models provide new opportunities for peptide screening, generation, property prediction, and material-aware prioritization. This review summarizes foundation model-assisted strategies for peptide representation learning, candidate retrieval, de novo generation, interaction and property prediction, multi-objective optimization, benchmarking, developability assessment, and staged material-level validation. We also discuss representative applications in antimicrobial biomaterials, targeting systems, immunomodulatory materials, peptide-functionalized hydrogels, hydrogel bioinks, and three-dimensional bioprinted constructs. Overall, foundation model-assisted peptide design should be viewed as a candidate-prioritization framework rather than a substitute for experimental validation. Its future value will depend on standardized material-context data, transparent benchmarking, and validation across solution, material, biofabrication, and construct-level settings.",
+      "venue": "Frontiers in Bioengineering and Biotechnology",
       "code_url": "",
       "topic_tags": [
         "multi_objective_optimization",
-        "black_box_combinatorial_and_expensive_optimization"
+        "peptide_design"
       ],
-      "deterministic_score": 15.353,
+      "deterministic_score": 15.904,
       "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.235,
-        "novelty": 0.84,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
+        "paper_type": "review",
+        "direct_relevance": 7.830000000000001,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
@@ -354,62 +265,13 @@
         "citation_signal": 0.0,
         "penalties": -0.0
       },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization, black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+      "priority": "Skim",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to multi_objective_optimization, peptide_design, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
     },
     {
-      "rank": 8,
-      "title": "Optimal design and validation of a heavy-duty wave compensation parallel platform utilizing the NSGA-III algorithm",
-      "authors": [
-        "Tianzhong Huang",
-        "Renjie Luo",
-        "Lifeng Mao",
-        "Jia Wang",
-        "Zhou Fei",
-        "Guoxing Zhang"
-      ],
-      "date": "2026-07-28",
-      "source": "openalex",
-      "link": "https://doi.org/10.5194/ms-17-783-2026",
-      "pdf_url": "https://ms.copernicus.org/articles/17/783/2026/ms-17-783-2026.pdf",
-      "doi": "10.5194/ms-17-783-2026",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171596296",
-      "semantic_scholar_id": "",
-      "abstract": "Abstract. The optimal design indices of heavy-duty wave compensation parallel mechanisms usually involve trade-off relationships, making multi-objective optimization of great significance for practical engineering applications. This study proposes a multi-objective optimization approach tailored for a heavy-duty wave compensation parallel platform, which integrates an artificial neural network (ANN) surrogate model with an enhanced NSGA-III algorithm. Firstly, a decision-making model is constructed, incorporating the topological parameters and performance indices of the mechanism. Secondly, an explicit surrogate model is developed to establish the relationship between structural parameters and the physical responses of the system using an ANN, thereby enhancing the computational efficiency of the pose-space traversal of the parallel platform. Finally, the NSGA-III algorithm, integrated with reference points and an interference penalty mechanism, is utilized for high-dimensional parameter optimization, while the technique for order preference by similarity to ideal solution (TOPSIS) is employed to achieve collaborative optimization across different objectives. Comparative results indicate that NSGA-III outperforms the traditional NSGA-II algorithm in terms of evaluation metrics. Compared to the initial baseline design, the optimal solution achieves an 18.12 % improvement in dexterity, an 11.78 % reduction in peak driving force, and a 6.85 % enhancement in the condition number, all while reducing actuator stroke. This study provides a valuable reference for the optimal design and prototype development of heavy-duty wave compensation parallel platforms.",
-      "venue": "Mechanical sciences",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization",
-        "black_box_combinatorial_and_expensive_optimization"
-      ],
-      "deterministic_score": 15.353,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.235,
-        "novelty": 0.84,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization, black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "title": "When Do Learned Diffusion Proposals Help Constraint Solving? A Controlled Study on Continuous Algebraic Systems",
       "authors": [
         "Quang Bui",
@@ -455,7 +317,102 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 7,
+      "title": "Interpretable multimodal fusion for skin lesion classification using dermoscopic images and patient metadata",
+      "authors": [
+        "Emrullah Sonuç",
+        "Qusay Saihood",
+        "Yusuf Yargı Baydi̇lli̇",
+        "Ender Özcan"
+      ],
+      "date": "2026-07-29",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fmed.2026.1871689",
+      "pdf_url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1871689/pdf",
+      "doi": "10.3389/fmed.2026.1871689",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7171674036",
+      "semantic_scholar_id": "",
+      "abstract": "Introduction Accurate and early classification of skin lesions is essential for the early detection of disease and improved clinical outcomes. However, automated multiclass classification is still hindered by severe class imbalance, high inter-class visual similarity, and the comparatively under-explored use of complementary clinical metadata relative to image-only pipelines, despite growing interest in such metadata fusion. In line with the growing demand for artificial intelligence (AI) tools that integrate heterogeneous data in clinical scenarios, this study presents a multimodal machine learning-based computer-aided diagnosis (ML-CAD) framework that fuses dermoscopic images with patient metadata. Methods The framework follows a five-phase pipeline. A structured multimodal balancing strategy combines class-wise Synthetic Minority Oversampling Technique for Nominal and Continuous features (SMOTENC) for metadata with controlled image augmentation. This is followed by cross-modal alignment to preserve clinical consistency. A fine-tuned Vision Transformer (ViT-B/16) at reduced input resolution performs feature extraction and late fusion with encoded metadata, yielding an 800-dimensional multimodal representation. Individual and stacked ensemble classifiers are subsequently trained on the fused features, with Bayesian optimization based on Gaussian process surrogates used for hyperparameter tuning. Gradient-weighted Class Activation Mapping (Grad-CAM) provides a visual interpretation across all seven lesion categories. Results Experiments on the HAM10000 dataset demonstrate that the proposed SVM+KNN stacking ensemble achieved an accuracy of 98.55% and a ROC-AUC of 99.88%, achieving competitive accuracy among recently reported methods under broadly similar balanced settings. Discussion The findings underscore the necessity of an AI framework that integrates imaging and clinical data to provide interpretable clinical decision support. This framework represents a step toward providing clinicians with multimodal, interpretable decision support. We emphasize, however, that external and prospective clinical validation remain necessary before translation into routine dermatological practice.",
+      "venue": "Frontiers in Medicine",
+      "code_url": "",
+      "topic_tags": [
+        "optimization_methods",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 14.75,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 8.235,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to optimization_methods, black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 8,
+      "title": "Structured evidence-guided discrete diffusion for image-conditioned radiology report generation",
+      "authors": [
+        "Shuifa Sun",
+        "Ronghang Li",
+        "Zhanglin Su",
+        "Ben Wang",
+        "Yanlong Wang",
+        "Yan Sun"
+      ],
+      "date": "2026-07-29",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41598-026-60948-2",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-60948-2_reference.pdf",
+      "doi": "10.1038/s41598-026-60948-2",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7171516195",
+      "semantic_scholar_id": "",
+      "abstract": "Radiology report generation (RRG) converts chest X-rays into structured findings and impressions, but autoregressive systems can propagate early entity, negation, or anatomical errors, and language-model-based systems may rely on language priors when visual evidence is weak. We propose SEDRRG, structured evidence-guided discrete diffusion for radiology report generation, an image-conditioned framework that refines the whole report sequence through discrete token denoising. SEDRRG combines Swin-V2 hierarchical global and patch-level evidence with denoising-time global-local gating, and uses multi-factor structured supervision to align token recovery with report-derived medical token/phrase cues, image-text alignment, and section organization. Experiments on IU X-Ray and MIMIC-CXR show competitive benchmark-level performance against representative autoregressive, knowledge-enhanced, expert-token-based, and language-model-assisted baselines under reproduced and literature-reported comparison settings. A complementary CheXbert-based 14-observation clinical-efficacy evaluation on MIMIC-CXR yields precision of 0.322, recall of 0.375, and F1 of 0.346. Ablation and controlled analyses support the contributions of hierarchical evidence encoding, gated conditioning, and structured supervision. These results position SEDRRG as a benchmark-oriented algorithmic framework, not as evidence of clinical deployment readiness.",
+      "venue": "Scientific Reports",
+      "code_url": "",
+      "topic_tags": [
+        "discrete_generative_modeling"
+      ],
+      "deterministic_score": 14.105,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 4.59,
+        "novelty": 3.6399999999999992,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to discrete_generative_modeling.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 9,
       "title": "BayesAME: Bayesian Active Model Evaluation",
       "authors": [
         "Paula Cordero Encinar",
@@ -502,52 +459,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
-      "title": "A geometric rotation-equivariant spherical convolutional and gaussian radial basis network for predicting protein-ligand binding affinity",
-      "authors": [
-        "Bin Wan",
-        "Gai‐Li Li",
-        "Ruisheng Zhang"
-      ],
-      "date": "2026-07-28",
-      "source": "openalex",
-      "link": "https://doi.org/10.1007/s00530-026-02570-w",
-      "pdf_url": "",
-      "doi": "10.1007/s00530-026-02570-w",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171559318",
-      "semantic_scholar_id": "",
-      "abstract": "",
-      "venue": "Multimedia Systems",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 8.25,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 7.5600000000000005,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -3.0
-      },
-      "priority": "Skim",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to protein_ligand_affinity, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "abstract is missing or too short to judge novelty well"
-    },
-    {
-      "rank": 12,
+      "rank": 10,
       "title": "Experimental analysis and optimization of driving smoothness simulation of the SUV vehicle based on ADAMS/car",
       "authors": [
         "熊巨龙",
@@ -592,7 +504,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 11,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -640,7 +552,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 12,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -687,7 +599,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 15,
+      "rank": 13,
       "title": "AMPBench-MT: A Homology-Controlled Benchmark for Antimicrobial Peptide Potency, Spectrum, and Safety Prediction",
       "authors": [
         "Ziheng Zhou",
@@ -736,7 +648,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -779,36 +691,33 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 17,
-      "title": "Dual-module aCAR-iCAR NK cells for solid tumors: cascade resistance mechanisms, AI-driven engineering, and precision stratification",
+      "rank": 15,
+      "title": "A hierarchical federated learning framework with FedNova, game-theoretic matching, and QKD-assisted privacy for the internet of vehicles",
       "authors": [
-        "Chenru Ma",
-        "Yafei Zhuang",
-        "Seunghyo Han",
-        "Shuping Li",
-        "Qiang Dai"
+        "L. Jai Vinita",
+        "V. Vetriselvi"
       ],
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "source": "openalex",
-      "link": "https://doi.org/10.3389/fimmu.2026.1863734",
-      "pdf_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1863734/pdf",
-      "doi": "10.3389/fimmu.2026.1863734",
+      "link": "https://doi.org/10.3389/frai.2026.1861374",
+      "pdf_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1861374/pdf",
+      "doi": "10.3389/frai.2026.1861374",
       "arxiv_id": "",
       "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171524217",
+      "openalex_id": "https://openalex.org/W7171697364",
       "semantic_scholar_id": "",
-      "abstract": "Chimeric antigen receptor-engineered natural killer (CAR-NK) cells have emerged as a promising off-the-shelf platform for cancer immunotherapy, with a favorable safety profile in early clinical trials and potent antitumor activity demonstrated in relapsed/refractory (R/R) hematologic malignancies. However, their clinical efficacy in solid tumors remains severely limited by interconnected resistance mechanisms. In this review, we systematically dissect the pathological basis of CAR-NK therapy failure in solid tumors and propose an integrative cascade resistance framework that delineates three core bottlenecks: tumor microenvironment (TME)-mediated functional exhaustion, structural defects of non-natural killer (NK)-cell-adapted chimeric antigen receptors (CARs), and trogocytosis-driven immune escape. We further characterize the context-dependent regulatory roles of the natural killer group 2 member A–human leukocyte antigen E (NKG2A-HLA-E) immune checkpoint axis and the intercellular adhesion molecule 1/lymphocyte function-associated antigen 1 (ICAM-1/LFA-1) adhesion pathway within this cascade model, with clear stratification of evidence strength across all mechanistic conclusions. Centered on the activating-inhibitory dual-module CAR (aCAR-iCAR) system, we summarize its design principles, preclinical validation status, and potential to mitigate cascade resistance, with explicit distinction between killer cell immunoglobulin-like receptor (KIR)-based (Level 1 evidence) and NKG2A-based (Level 2–3 evidence) inhibitory CAR backbones. We then outline an end-to-end artificial intelligence (AI)-driven rational design framework covering target screening, structural optimization, and signaling balance calibration, and introduce the AI-nanosymbiont concept as an exogenous synergistic strategy to address TME delivery barriers. Building on the molecular heterogeneity of solid tumors, we propose a four-subtype precision stratification framework to match tumor features with tailored therapeutic regimens, and summarize core translational challenges including manufacturing constraints, regulatory gaps, and safety considerations. Overall, this review provides a balanced, evidence-graded theoretical framework for next-generation CAR-NK development against solid tumors, and generates testable hypotheses for future mechanistic and clinical investigations.",
-      "venue": "Frontiers in Immunology",
+      "abstract": "The Internet of Vehicles (IoV) supports essential intelligent transportation applications but encounters challenges in federated learning (FL) due to non-independent and identically distributed (non-IID) data, vehicle mobility, resource heterogeneity, and strict privacy requirements in latency-sensitive scenarios such as misbehavior detection and accident response. Traditional FL methods, such as random client selection and standard FedAvg, often experience slow convergence and reduced performance under non-IID conditions. We introduce a hierarchical federated learning framework for software-defined vehicular fog computing. The framework incorporates FedNova (a normalized-averaging aggregation method for heterogeneous federated optimization) to produce normalized model updates under data heterogeneity, a Reward-Based Payoff Strategy (RBPS) for incentive-aware client selection, and game-theoretic vehicle-aggregator matching based on the college admissions problem. Privacy is strengthened through quantum key distribution (QKD)-assisted secure key establishment and classical gradient masking, with quantum circuit simulation used to assess future enhancements. The three-layer architecture includes vehicles, Roadside Unit (RSU)/ Base Station (BS)-level aggregators, and a Software-Defined Network Controller (SDNC) global aggregator. The framework uses both monetary and service-based incentives, such as toll exemptions, to encourage vehicle participation. Hybrid simulations using OMNeT++, Veins, SUMO, and the VeReMi misbehavior detection dataset show that the proposed approach achieves 94.8% classification accuracy [95% Confidence Interval (CI): 92.7–97.0 over 10 runs], converges in 120 rounds (33% faster than FedAvg), and reduces average latency by 29% (320 ms compared to 450 ms for FedAvg), with statistically significant improvements ( p &lt; 0.05). These gains enable faster model adaptation to evolving attacks (5–10 min shorter training cycles) and support real-time safety applications where delays above 400 ms can compromise road safety. Ablation studies confirm the complementary roles of FedNova, RBPS, and matching. Although quantum operations are currently simulated classically, the design remains compatible with future quantum hardware.",
+      "venue": "Frontiers in Artificial Intelligence",
       "code_url": "",
       "topic_tags": [],
-      "deterministic_score": 5.522,
+      "deterministic_score": 5.641,
       "score_breakdown": {
-        "paper_type": "review",
+        "paper_type": "benchmark_dataset",
         "direct_relevance": 0.0,
         "novelty": 3.2199999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.4949999999999999,
+        "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
@@ -819,12 +728,12 @@
         "penalties": -4.0
       },
       "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 16,
       "title": "Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?",
       "authors": [
         "Perry Dong",
@@ -870,7 +779,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 17,
       "title": "Knowledge before Reasoning: EC-Reason-Bench, a Training-Free Diagnostic Benchmark for LLM Enzyme Classification",
       "authors": [
         "Linyu Li",
@@ -919,7 +828,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 18,
       "title": "Improving Item Discoverability in e-Commerce Search via Related Intent Generation",
       "authors": [
         "Ji Xin",
@@ -968,7 +877,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 19,
       "title": "Think Short, Defer Smart, Act, and Repeat: Calibrated Reasoning and Uncertainty-Aware Deferral for Edge LLM Agents",
       "authors": [
         "Amirmohammad Farzaneh",
@@ -1012,7 +921,53 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 20,
+      "title": "Dual-Scale Grid-Based Adaptive Trajectory Planning for UAVs in Urban Low-Altitude Airspace",
+      "authors": [
+        "Xin Zhang",
+        "Guang Cheng",
+        "Chao Wang",
+        "Yu Liu",
+        "Guanwang Jiang",
+        "Ziye Jia"
+      ],
+      "date": "2026-07-28",
+      "source": "openalex",
+      "link": "https://doi.org/10.3390/math14152700",
+      "pdf_url": "https://www.mdpi.com/2227-7390/14/15/2700/pdf?version=1785217634",
+      "doi": "10.3390/math14152700",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7171485188",
+      "semantic_scholar_id": "",
+      "abstract": "With the rapid growth of the low-altitude economy, the number of unmanned aerial vehicles (UAVs) has grown rapidly. It is challenging to plan substantial UAV trajectories in complex urban low-altitude airspace, considering the airspace capacity, inter-vehicle safety, and communication reliability. To deal with this challenge, we propose a dual-scale grid-based trajectory planning approach that separates the global routing and local refinement. Specifically, we discretize the three-dimensional airspace into coarse macro-grids for capacity-constrained routing and high-quality communication-aided fine micro-grids for collision-free trajectory refinement. Both consider an altitude-dependent energy model. To handle the complex dual-scale grid trajectory planning of UAVs, we propose a priority-driven dual-grid Theta* with adaptive relaxation (DGTAR) to balance the global planning efficiency and local obstacle avoidance accuracy. First, we design a priority-driven capacity allocation mechanism to enforce safe separation among UAVs. Then, a combined planner is proposed, which integrates a Theta*-enhanced global search with a sampling-based refinement algorithm, invoking on-demand boundary relaxation to ensure the feasibility. Simulation results reveal that the proposed method DGTAR achieves reductions in many aspects compared with benchmark mechanisms, while maintaining a high planning success rate in congested scenarios.",
+      "venue": "Mathematics",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.895,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 21,
       "title": "Identifying spatially variable genes by projecting to morphologically relevant curves",
       "authors": [
         "Nicol, P. B.",
@@ -1057,7 +1012,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 22,
       "title": "Advancing Nano-Flow Cytometry: High-Precision Sorting and Analysis of Extracellular Vesicles",
       "authors": [
         "Castrosin, I.",
@@ -1107,7 +1062,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 23,
       "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion",
       "authors": [
         "Zador Pataki",
@@ -1150,7 +1105,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 24,
       "title": "Perpetuating misogyny with generative AI: How model personalization normalizes gendered harm",
       "authors": [
         "Laura A. Wagner",
@@ -1190,6 +1145,56 @@
       "paper_type": "benchmark_dataset",
       "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 25,
+      "title": "Organo-modified layered double hydroxides for wastewater treatment: Opportunities, challenges, and environmental sustainability",
+      "authors": [
+        "Aline Simoura de Jesus",
+        "Guilherme Max Dias Ferreira",
+        "Guilherme Max Dias Ferreira",
+        "Lohayne Ligya Barbosa Silva Nascimento",
+        "Gabriel Max Dias Ferreira",
+        "Gabriel Max Dias Ferreira",
+        "André E. Nogueira",
+        "Aparecida Barbosa Mageste"
+      ],
+      "date": "2026-07-28",
+      "source": "openalex",
+      "link": "https://doi.org/10.1016/j.clay.2026.108332",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0169131726002140/pdf",
+      "doi": "10.1016/j.clay.2026.108332",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7171530542",
+      "semantic_scholar_id": "",
+      "abstract": "Given the growing challenge of treating complex effluents from industrial, agricultural, and urban activities, there is an intensified search for innovative technologies capable of efficient and low-cost water purification. This is especially important considering that many of the contaminants present in these effluents are toxic to living organisms and cannot be satisfactorily removed using conventional techniques. One promising emerging approach involves the use of layered double hydroxides modified with organic compounds (organo-LDH). These hybrid materials exhibit high surface areas, ordered lamellar structures, ion-exchange capacity, and the ability to be chemically functionalized to enhance selectivity for the removal of specific pollutants. Their applications include use as adsorbents, catalysts, and filtration membranes, among other technologies. Although organo-LDH have shown high efficiency under laboratory conditions, few studies have assessed their performance under real conditions and their economic feasibility. Furthermore, life cycle assessment (LCA) is essential to ensure that the environmental benefits provided by these materials are not offset by secondary impacts. This review provides a critical discussion of advances in water decontamination using organo-LDH, highlighting new perspectives that could contribute to consolidating their role in environmental remediation.",
+      "venue": "Applied Clay Science",
+      "code_url": "",
+      "topic_tags": [
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 3.05,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 3.24,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
     },
     {
       "rank": 26,
@@ -1248,6 +1253,49 @@
     },
     {
       "rank": 27,
+      "title": "Transformer-based Discovery of Antimicrobial Peptides and Prediction of their Antibacterial Activity",
+      "authors": [
+        "Shuwen Pan",
+        "Eason Soo",
+        "Konken Wong"
+      ],
+      "date": "2026-07-28",
+      "source": "openalex",
+      "link": "https://doi.org/10.70917/ijcisim-2026-3793",
+      "pdf_url": "https://cspub-ijcisim.org/index.php/ijcisim/article/download/3793/3044",
+      "doi": "10.70917/ijcisim-2026-3793",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7171547019",
+      "semantic_scholar_id": "",
+      "abstract": "With the worsening crisis of antimicrobial resistance, many researchers are now exploring new types of antibacterial agents, and antimicrobial peptides (AMPs) have begun to attract much attention. However, the experimental identification of AMPs in the large space of natural and synthetic sequences is still slow, expensive and labour-intensive. AMP-Transformer is a two-stage deep learning framework that combines self-supervised pre-training on large-scale unlabelled protein corpora with supervised fine-tuning on curated AMP datasets in this study. The model is a multi-layer bidirectional Transformer encoder that learns contextual residue representations via masked residue modelling, and is then fine-tuned for two coupled tasks: binary discrimination of AMPs from non-AMPs and regression of minimum inhibitory concentration (MIC) values. We used the benchmark datasets built by DBAASP v3, DRAMP 4.0 and other recently published experimental collections for evaluation. On an independent test set, AMP-Transformer had an accuracy of 95.3%, a Matthews correlation coefficient of 0.906, and an area under the receiver operating characteristic curve (AUC-ROC) of 0.986, and outperformed the support vector machine, random forest, convolutional, recurrent and hybrid baselines significantly. Ablation studies show that self-supervised pre-training and multi-head self-attention are the two main contributors, accounting for about 4% of the accuracy increase. Analysis of the learned attention maps shows that the model has independently learned the amphipathic periodicity and cationic residue enrichment characteristic of membrane-active peptides, thereby providing a degree of mechanistic interpretability that is rare among black-box predictors. A subsequent screening of metagenomic open reading frames also produced a ranked list of candidate AMPs with low sequence identity to any training examples, demonstrating the value of the framework for early-stage discovery. Based on the above results, Transformer-based protein language models are relatively stable, interpretable and scalable paradigms for AMP discovery and activity prediction, and they can help establish a practical computational pipeline that selects promising peptide candidates for experimental validation at a lower cost compared with traditional methods.",
+      "venue": "International Journal of Computer Information Systems and Industrial Management Applications",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.91,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
       "title": "ProNA3D: Distance-Based Analysis of Nucleic Acid-Containing Interfaces",
       "authors": [
         "Genz, L. R.",
@@ -1291,7 +1339,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "SeasonStereo: Robust Dense Stereo Matching for Multi-Date Satellite Imagery via Generative AI",
       "authors": [
         "Álvaro Díaz-Laureano",
@@ -1336,7 +1384,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "PIKS: Universal Physics-Informed Kernel Methods",
       "authors": [
         "Joachim Bona-Pellissier",
@@ -1367,51 +1415,6 @@
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
-      "authors": [
-        "Peter Tisnikar",
-        "Maja Swieczkowska",
-        "Benteng Ma",
-        "Gerard Canal",
-        "Matteo Leonetti"
-      ],
-      "date": "2026-07-29",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2607.27177v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27177v1",
-      "doi": "",
-      "arxiv_id": "2607.27177v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most current ad-hoc teamwork (AHT) approaches assume that agents will collaborate on a single, fixed task and that the partner's capabilities, their ability to successfully execute the desired action, are already known. In reality, a partner's true capabilities are often hidden, and human collaborators may act sub-optimally on tasks with multiple valid strategies. To address these limitations, we extend ad-hoc teamwork into a multi-task setting by re-framing it as a problem of joint planning with decentralised execution under hidden partner capabilities. We introduce CE-CM (Capability Estimation via Contextual Models), an approximate Bayesian method that infers task-invariant capability vectors. By using simulation-based sampling, the agent estimates capabilities and induces a contextual Multi-agent Markov Decision Processes for planning. This approach requires no population pre-training and refines its beliefs online from just a few tasks. To account for human unpredictability, we propose CE-CM-Div, an extension that evaluates capability hypotheses against diverse planner rollouts rather than a single optimal trajectory. Simulated experiments demonstrate that CE-CM rapidly recovers hidden capabilities, reduces infeasible action assignments, and adapts to changes over time. Furthermore, in an offline human study of 225 trajectories from 15 participants, CE-CM-Div substantially improved capability estimates over the baseline CE-CM method. Our results suggest capability-based modelling is a promising interpretable, task-agnostic representation in the studied settings, demonstrating that accounting for behavioural diversity is essential for robust human-AI teaming.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.54,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.9359999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
         "source_credibility": 0.5599999999999999,
         "code_availability": 0.0,
