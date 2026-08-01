@@ -1,9 +1,9 @@
 {
   "date": "2026-08-02",
   "stats": {
-    "raw_candidates": 277,
-    "deduplicated_candidates": 197,
-    "filtered_candidates": 197,
+    "raw_candidates": 291,
+    "deduplicated_candidates": 210,
+    "filtered_candidates": 210,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -137,6 +137,55 @@
     },
     {
       "rank": 3,
+      "title": "COMPASS: A Computational Pipeline to Identify Linkers Predicting Ubiquitinable PROTAC-Induced Ternary Complexes.",
+      "authors": [
+        "Sébastien Sueron",
+        "Sayyed Jalil Mahdizadeh",
+        "Eric Chevet",
+        "Xavier Guillory",
+        "François-Hugues Porée",
+        "Leif A Eriksson"
+      ],
+      "date": "2026-07-29",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42457586/",
+      "pdf_url": "",
+      "doi": "10.1038/s42004-024-01263-7",
+      "arxiv_id": "",
+      "pubmed_id": "42457586",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "PROteolysis TArgeting Chimeras (PROTACs) are bifunctional molecules designed to induce targeted protein degradation by forming a transient ternary complex between an E3 ubiquitin ligase and a protein of interest (POI), leading to the E3-mediated ubiquitination of the POI and its subsequent proteasomal degradation. Although PROTACs have emerged as highly promising therapeutic tools, rational design remains challenging due to limited structural understanding of the resulting assemblies, the dynamic nature of the ternary interface, and the critical role of the linker. Herein, we present COMPASS (COmputational Modeling of PROTAC Assembly with Structure-based Screening), a computational pipeline that allows the screening of linker libraries by assessing both ternary complex formation and ubiquitination potential. COMPASS functions as a high-sensitivity negative filter, identifying linkers that cannot form productive complexes and enabling their elimination before synthesis. Benchmarking against 20 crystallographic structures yielded <6 Å Cα-RMSD across all systems, outperforming existing methods. Retrospective validation across 8 distinct E3/POI systems (112 PROTACs) yielded 93% recall against degradation endpoints. Discriminative power is strongest when linker geometry is rate-limiting, a regime complementary to the stability and cooperativity effects that static structural modeling cannot capture.",
+      "venue": "ChemMedChem",
+      "code_url": "",
+      "topic_tags": [
+        "molecular_glue_and_tpd",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 25.374,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 18.0,
+        "novelty": 0.9799999999999999,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 2.5,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.5599999999999999,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to molecular_glue_and_tpd, computational_chemistry_biophysics_structural_biology.",
+      "possible_concerns": "high priority may not be justified by novelty evidence"
+    },
+    {
+      "rank": 4,
       "title": "How Bias Shapes the Leaderboard: Scoring Function Performance Under Scrutiny",
       "authors": [
         "Graber, D.",
@@ -186,7 +235,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Beyond Generic Signal Peptides: ApexSP Enables Cargo-Specific Secretion Design",
       "authors": [
         "Yang, C.",
@@ -239,7 +288,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Structure-free, site-resolved contrastive learningextends small-molecule discovery beyond the reachof structure-based modeling",
       "authors": [
         "Fondrie, W. E.",
@@ -296,7 +345,56 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "Integrating machine learning and molecular simulations for the design of potent HDAC2 inhibitors in diffuse large B-cell lymphoma.",
+      "authors": [
+        "Josiah Joseph Isah",
+        "Adamu Uzairu",
+        "Sani Uba",
+        "Muhammad Tukur Ibrahim"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41722288/",
+      "pdf_url": "",
+      "doi": "10.1016/j.compbiolchem.2026.108949",
+      "arxiv_id": "",
+      "pubmed_id": "41722288",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Histone deacetylase 2 (HDAC2) plays a critical role in the pathogenesis of diffuse large B-cell lymphoma (DLBCL), positioning it as an attractive therapeutic target. In this study, we applied an integrated computational strategy that combined machine learning-based quantitative structure-activity relationship (QSAR) modelling, molecular docking, ADMET filtering, and molecular dynamics (MD) simulations to identify and optimize potential HDAC2 inhibitors. A dataset of 1995 HDAC2-active molecules was assembled and reduced to 25 key molecular descriptors, enabling the development of a robust Random Forest QSAR model (R",
+      "venue": "Computational biology and chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 22.679,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 17.145,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, computational_chemistry_biophysics_structural_biology.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 8,
       "title": "Can Artificial intelligence meaningfully shorten drug discovery timelines? Current evidence, roadblocks and future directions.",
       "authors": [
         "Juan Luis Fernández-Martínez"
@@ -340,7 +438,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "CENO: A Genome-Scale World Model for Evolutionary Sequence Interpretation and Programmable Regulatory Design",
       "authors": [
         "Ma, M.",
@@ -398,7 +496,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Proteomic Profiling Identifies CLDN3 as a Tumor-Selective Therapeutic Target in Small Cell Lung Cancer",
       "authors": [
         "Schroeder, B. A.",
@@ -479,7 +577,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 11,
       "title": "Evaluation of Multi-Scenario Distribution Network Planning Based on Bayesian Optimization of Heterogeneous Stacked Ensemble Learning",
       "authors": [
         "CHEN  Guo, XIONG  Wei, ZHANG  Chao, YUAN  Xufeng, LU  Zhiyang, LUO  Ning"
@@ -523,7 +621,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 12,
       "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
       "authors": [
         "Jiacheng Tao",
@@ -571,7 +669,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 13,
       "title": "Enhanced Wolpertinger architecture for solving optimal control problems of reconfigurable battery systems",
       "authors": [
         "Changyou Geng",
@@ -621,7 +719,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 14,
       "title": "LNMGAT: a laplacian regularized pseudo-negative mining graph attention network for robust drug–target interaction prediction under multi-scenario cold-start settings",
       "authors": [
         "Shuai Guo",
@@ -669,7 +767,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 15,
       "title": "Exploring the use of Cyrene for the amidation of E3 ligase recruiters: efficient access to PROTAC precursors",
       "authors": [
         "Michela Galli",
@@ -716,7 +814,60 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 16,
+      "title": "Discovery of potent ALK tyrosine kinase inhibitors for thyroid cancer via machine learning modeling, molecular docking, MD simulations, and DFT study.",
+      "authors": [
+        "Muhammad Naveed Anjum",
+        "Sumaira Nadeem",
+        "Md Al-Amin",
+        "Muhammad Saalim",
+        "Farhan Siddique",
+        "Samina Afzal",
+        "Nida Nisar"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41720062/",
+      "pdf_url": "",
+      "doi": "10.1016/j.compbiolchem.2026.108960",
+      "arxiv_id": "",
+      "pubmed_id": "41720062",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The ever-increasing need for effective therapeutic management of thyroid cancer (TC) necessitates the exploration of novel approaches for advanced drug discovery. The current study employed a robust computational pipeline integrating Machine Learning (ML) algorithms, QSAR modeling, molecular docking, molecular dynamics (MD), density functional theory (DFT), and network pharmacology to identify novel Anaplastic Lymphoma Kinase (ALK) tyrosine kinase inhibitors. An initial library of 3546 compounds from the CHEMBL4247 database was systematically filtered to 578. This screening utilized Lipinski's rule of five, aided by QSAR and detailed PaDEL descriptor analysis. An ensemble ML model, specifically a Voting Classifier (VC) combining XGBoost, LightGBM, and ExtraTrees algorithms, attained high predictive accuracy (ROC-AUC = 0.99), facilitating a strong classification and prioritization of active leads. Molecular docking experiment identified five top hit ligands (60, 63, 124, 130, 204) having docking score ranging from -9.0 to -10.4 kcal/mol and also confirmed their strong binding affinities, which surpassed the native co-crystallized ligand used as a standard. Later on, ADMET studies were executed to explore their physicochemical properties. MD simulation trajectories and MM/PBSA analyses validated the notably conformational stability and favorable binding free energies of these hit complexes. Network pharmacology was incorporated to understand tentative mechanisms of action and potential off-targets, generating a protein-protein interaction (PPI) network. DFT-based frontier molecular orbital (FMO) analysis showed Ligand124 possessed the highest electrophilicity and optimal polarizability, consistent with its marked interaction stability in MD simulations. In addition, the molecular mechanisms of hit compounds against TC were elucidated using a network pharmacology approach, which revealed a compound-target network with crucial hub targets like AKT1 and TP53. Significant correlations with cancer-related pathways, such as PI3K-Akt and MAPK signaling, as well as key involvement in kinase activity, phosphorylation, and membrane signaling complexes, were observed by the enrichment analysis of the main targets. These comprehensive results imply that investigated hit compounds probably modulate the oncogenic signaling networks, especially those controlling cell survival, proliferation, and drug resistance, in order to achieve its anti-TC therapeutic actions. These findings highlight the fundamental ability of integrating ML and computational chemistry to accelerate therapeutic development for TC.",
+      "venue": "Computational biology and chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 10.74,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 18.0,
+        "novelty": 0.84,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Skim",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 17,
       "title": "Generation of antifungals to combat drug resistance using language models and diffusion models.",
       "authors": [
         "Yeji Wang",
@@ -769,7 +920,53 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 18,
+      "title": "CoAff-DTI: Fine-grained drug-target interaction prediction using pre-trained language models and affinity-guided mechanisms.",
+      "authors": [
+        "Jia Peng",
+        "Xiaoyu Liu",
+        "Lei Wang",
+        "Xianyou Zhu"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42391908/",
+      "pdf_url": "",
+      "doi": "10.1016/j.jbi.2026.105076",
+      "arxiv_id": "",
+      "pubmed_id": "42391908",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Accurate prediction of drug-target interactions (DTI) is essential for drug discovery. Despite the success of pre-trained language models (PLMs) in learning robust molecular and protein representations, a fundamental challenge remains in characterizing the fine-grained, localized biochemical interactions between drug substructures and protein binding sites. Such critical interaction patterns are often underrepresented in conventional global embedding approaches, thereby limiting both predictive accuracy and biological interpretability. To address this challenge, we propose CoAff-DTI, an end-to-end deep learning framework designed to enhance multi-scale interaction modeling for DTI prediction. The model introduces three key components. First, a token-level decomposition strategy is employed to transform global embeddings into pharmacophore- and residue-level representations, facilitating the capture of localized features. Second, an Affinity-Guided Cross-Attention (AGCA) module is designed to explicitly model fine-grained interactions between ligand substructures and protein residues. Third, an Affinity-Gating Fusion (AGF) module is proposed to enhance cross-modal feature integration by dynamically modeling element-wise interactions. Extensive experiments on multiple benchmark datasets demonstrate that CoAff-DTI consistently outperforms state-of-the-art methods. In addition, attention-based visualization results suggest improved interpretability, as the model's learned attention patterns align effectively with experimentally verified binding regions.",
+      "venue": "Journal of biomedical informatics",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery"
+      ],
+      "deterministic_score": 8.233,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 4.32,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 19,
       "title": "Machine learning-accelerated inverse design of energy materials: A critical review of graph neural networks, physics-informed models, and generative AI for batteries, perovskite solar cells, and electrocatalysts",
       "authors": [
         "Ignatius Echezona Ekengwu",
@@ -814,7 +1011,51 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 16,
+      "rank": 20,
+      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
+      "authors": [
+        "Wei Guo",
+        "Yaqiong Dong"
+      ],
+      "date": "2028-09-22",
+      "source": "crossref",
+      "link": "https://doi.org/10.24425/ace.2025.155084",
+      "pdf_url": "",
+      "doi": "10.24425/ace.2025.155084",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
+      "venue": "Archives of Civil Engineering",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 7.844,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.84,
+        "methodological_insight": 2.048,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.42,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 21,
       "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
       "authors": [
         "Jiawei Xu",
@@ -861,7 +1102,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 22,
       "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
       "authors": [
         "Qiushi Sun",
@@ -926,7 +1167,51 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 23,
+      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
+      "authors": [
+        "Eghbal Sekhavati",
+        "Reza Jalilzadeh Yengejeh"
+      ],
+      "date": "2121-10-01",
+      "source": "crossref",
+      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
+      "pdf_url": "",
+      "doi": "10.32598/jaehr.9.4.1229",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
+      "venue": "Journal of Advances in Environmental Health Research",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 6.949,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.42,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.27092699609758303,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 24,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -974,7 +1259,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 25,
       "title": "On-Policy and Off-Policy Learning for Large Action Spaces",
       "authors": [
         "Imad Aouali"
@@ -1015,7 +1300,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 20,
+      "rank": 26,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1062,7 +1347,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 21,
+      "rank": 27,
       "title": "A manufacturability-informed topology framework for AI-guided design of fibrous network materials",
       "authors": [
         "Yunhao Yang",
@@ -1111,7 +1396,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 28,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1154,7 +1439,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 23,
+      "rank": 29,
       "title": "In Silico to In Cerebro—Development of the Orexin Receptor Antagonist “Photorexant” for Photomodulation In Vitro and in Mouse Brains",
       "authors": [
         "Marcus Angermann",
@@ -1209,7 +1494,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 24,
+      "rank": 30,
       "title": "The Human Bindome: A Proteome-scale Atlas of Designed Binder Candidates",
       "authors": [
         "Wenckstern, J.",
@@ -1271,279 +1556,6 @@
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to protein_design.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
-      "title": "DIGITAL-TWIN-EMBEDDED DEEP REINFORCEMENT LEARNING FOR ADAPTIVE SCHEDULING AND REPLANNING IN SMART MANUFACTURING UNDER COMPOUND DISTURBANCE",
-      "authors": [],
-      "date": "2026-07-31",
-      "source": "openalex",
-      "link": "https://doi.org/10.58257/ijprems54436",
-      "pdf_url": "https://doi.org/10.58257/ijprems54436",
-      "doi": "10.58257/ijprems54436",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7172009528",
-      "semantic_scholar_id": "",
-      "abstract": "Smart manufacturing environments are increasingly dynamic and uncertain, with stochastic job arrivals, unplanned machine breakdowns and shifting order priorities placing continuous pressure on production scheduling.Classical and metaheuristic scheduling methods offer no continuous adaptation once a disturbance occurs, existing digital-twin scheduling systems improve disturbance perception but leave the rescheduling decision itself threshold-or ruletriggered, and current deep-reinforcement-learning (DRL) scheduling studies validate hand-crafted, single-disturbance policies on one shop-floor configuration only.This paper proposes an adaptive scheduling and replanning framework that embeds a Proximal Policy Optimization (PPO) agent, conditioned on a graph-neural-network (GNN) state encoder and a digital-twin-supplied belief state, directly inside the decision-and-control layer of a six-part smartmanufacturing architecture.The scheduling problem is formalised as a Markov Decision Process / Partially Observable Markov Decision Process (MDP/POMDP) that jointly represents job-arrival, machine-breakdown and priority-change disturbances, individually and in combination, and the agent is trained across varying shop-floor configurations and disturbance combinations rather than a single fixed setting.The proposed agent was benchmarked in a discrete-event shop-floor simulator against a classical priority-dispatching baseline, a digital-twin rule-triggered pipeline, and four representative DRL scheduling models re-implemented under a shared protocol.Across single-and compound-disturbance scenarios the proposed agent achieved the lowest makespan and tardiness and the highest machine utilisation of all seven models, degraded the least under compound disturbance, generalised to unseen shopfloor scales with the smallest performance gap, remained within a real-time-adequate decision latency, and produced trace-level, auditable justifications for the large majority of sampled dispatch decisions, a capability absent from every reviewed comparator.An ablation study attributes these gains jointly to the graph encoder, the belief-state mechanism, and the multi-disturbance training regime rather than to the learning algorithm alone.All reported results are simulation-based; sim-to-real transfer and operator-in-the-loop evaluation are identified as future work.",
-      "venue": "International Journal of Progressive Research in Engineering Management and Science",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 5.493,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 2.7,
-        "novelty": 0.84,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 26,
-      "title": "Probabilistic surrogate modeling for gas foil bearing stability",
-      "authors": [
-        "Matheus de Moraes",
-        "Marian Franz Sarrazin",
-        "Robert Liebich",
-        "Hélio Fiori de Castro"
-      ],
-      "date": "2026-07-31",
-      "source": "openalex",
-      "link": "https://doi.org/10.1007/s40430-026-06500-9",
-      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40430-026-06500-9.pdf",
-      "doi": "10.1007/s40430-026-06500-9",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171782460",
-      "semantic_scholar_id": "",
-      "abstract": "Abstract In the context of Industry 4.0, improving the reliability and efficiency of rotating machinery remains a relevant challenge, particularly for systems employing Gas Foil Bearings (GFBs). This paper investigates the development of surrogate models based on Bayesian Neural Networks (BNNs) and Random Forests (RF) to predict GFB stability, addressing the high computational cost associated with their strongly coupled fluid–structure interactions and nonlinear dynamic behavior. A comprehensive dataset is generated using physics-based numerical simulations, representing the dynamic response of GFBs with different geometrical configurations under identical operating conditions. This dataset is used to train and validate surrogate models. The proposed framework combines BNNs and RF models to exploit their complementary characteristics. BNNs are employed for probabilistic modeling, using Monte Carlo dropout to approximate Bayesian inference and to provide predictive uncertainty estimates. RF models are used as an ensemble-based alternative, offering robust predictions and supporting sensitivity analysis and the identification of influential input parameters. The implementation of these two strategies represents the main methodological contribution to this work, given their high computational efficiency. The surrogate models show high predictive capability in estimating GFB stability metrics. The BNN ensemble captures the main trends of simulation data while providing consistent confidence intervals associated with the predictions. Comparisons with conventional Artificial Neural Networks (ANNs) and other Gradient Boosting approaches demonstrate the advantages of incorporating uncertainty quantification into the modeling framework. In addition, a reliability analysis is performed by evaluating the area under the probability density function (PDF) of the predicted stability indicator, enabling a quantitative assessment of instability risk.",
-      "venue": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
-      "code_url": "",
-      "topic_tags": [
-        "black_box_combinatorial_and_expensive_optimization"
-      ],
-      "deterministic_score": 5.441,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 4.1850000000000005,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
-      "title": "Quantifying per-match Reliability in Library Matching for Untargeted Metabolomics Workflows",
-      "authors": [
-        "Charria-Giron, E.",
-        "van IJcken, J.",
-        "Della Vedova, L.",
-        "Torres-Ortega, L. R.",
-        "van der Hooft, J. J. J."
-      ],
-      "date": "2026-07-30",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/30/2026.07.30.741704.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/30/2026.07.30.741704.source.xml",
-      "doi": "10.64898/2026.07.30.741704",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Tandem mass spectrometry has become central to untargeted metabolomics. The translation of unknown spectra into biological insight depends on assigning chemical identities to detected metabolites. Structural characterization typically begins with mass spectral library matching, in which experimental spectra are compared against reference libraries and candidate annotations are ranked by their spectral similarity to the query. As spectral libraries and experimental datasets grow, however, more candidates achieve comparable similarity scores for a single query, and similarity scores give no indication of how reproducible a candidate match is or how sensitive it is to the underlying fragment evidence. Existing false-discovery-rate approaches can indicate annotation error at the dataset level but do not provide a per-match estimate of reliability. Here, we introduce a SpecReBoot-inspired query-focused bootstrapping approach that resamples the fragment evidence of each query spectrum. This approach relies on recomputing query similarity to candidate library spectra across bootstrap replicates, which provides a statistical distribution of scores rather than a single value. From this distribution we define the match support, a per-match reliability estimate quantifying the reproducibility of a match under spectral perturbation, together with measures of ranking stability that describe how often a candidate remains among the top-ranked matches across replicates. Applied to a forensic drug-of-abuse case, match support distinguished previously identified annotations from high-scoring false positives: a distinction cosine similarity failed to make. Furthermore, match support values remained stable as the reference library was expanded, whereas ranking stability metrics shifted significantly. In a cross-instrument endogenous metabolite library search, match support further revealed metric-specific annotation behavior, identifying metabolites consistently supported across different similarity metrics, while flagging annotations whose reliability depended strongly on the chosen scoring metric. Benchmarking against a natural-product reference library demonstrated that ranking based on match support values promoted true matches by four ranks on average compared with cosine-based ranking, without promoting analogs. Under controlled spectral perturbation experiments, match support flagged incorrect annotations with an AUROC of 0.75, whereas the cosine similarity score alone of the same match reached only 0.56. Query-focused bootstrapping thus provides a practical, per-match measure of annotation reliability, bringing the field a step toward reliable annotations at scale. We anticipate that incorporation of our annotation reliability scoring into computational metabolomics workflows will further promote the growth of spectral libraries and enhance their applicability across scientific disciplines.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 5.383,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 2.8,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 28,
-      "title": "Leishmanial GP63 acts as a protease for the small pore forming toxin aerolysin",
-      "authors": [
-        "Haram, C. S.",
-        "Salinas, S.",
-        "Sheikh, S. W.",
-        "Zhang, K.",
-        "Keyel, P. A."
-      ],
-      "date": "2026-07-30",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/30/2026.07.29.741567.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/30/2026.07.29.741567.source.xml",
-      "doi": "10.64898/2026.07.29.741567",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "The eukaryotic pathogen Leishmania major causes disfiguring cutaneous lesions, whose resolution can be complicated by secondary bacterial infections. Bacteria, including Aeromonas spp., also interact with L. major promastigotes in the sandfly midgut. The mechanisms by which L. major competes with bacteria and resists their toxins are poorly defined. Prior work proposed that L. major resists the Aeromonas-produced pore-forming toxin aerolysin using an altered GPI-anchor. However, we found that L. major is sensitive to aerolysin. Here, we determined the mechanism by which L. major promastigotes are sensitive to aerolysin, using flow cytometry and biochemical approaches to analyze promastigotes genetically deficient in enzymes that produce key membrane components. The virulence factor lipophosphoglycan protected L. major from aerolysin cytotoxicity. The metalloproteinase GP63 exerted the necessary furin-like protease activity to activate aerolysin. Leishmanial GPI-anchored proteins were necessary for aerolysin heptamerization and killing of L. major promastigotes. Finally, mutation of the GPI-anchor binding domain of aerolysin crippled its cytotoxicity, consistent with its reliance on the GPI-anchor binding site to engage GPI anchors on the surface of L. major promastigotes. Taken together, we propose the L. major virulence factor lipophosphoglycan defends against pore-forming toxins made by bacterial competitors, while the GP63 metalloproteinase activates pro-aerolysin like furin. Overall, this study highlights approaches microbes use to compete with each other.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "structure_based_drug_design"
-      ],
-      "deterministic_score": 4.699,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 3.375,
-        "novelty": 1.4,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to structure_based_drug_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "Computational Modeling of Functionalized Graphene Quantum Dots Binding to Tau Fibrils in Alzheimers Disease",
-      "authors": [
-        "Walton-Raaby, M.",
-        "Kalyaanamoorthy, S."
-      ],
-      "date": "2026-07-30",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/30/2026.07.29.741532.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/30/2026.07.29.741532.source.xml",
-      "doi": "10.64898/2026.07.29.741532",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "The aggregation of Tau protein into straight filaments (SFs) and paired helical filaments (PHFs) is central to Alzheimer's disease (AD) pathology and a key target for therapeutic inhibition. Graphene quantum dots (GQDs) are biocompatible nanomaterials that have shown promise in inhibiting amyloidogenic protein aggregation across related neurological pathologies. The effect of GQD functionalization on interactions with Tau aggregates (TAs) is poorly understood, though recent evidence suggests that anionic GQDs are effective TA inhibitors. In this study, we survey how GQD functionalization influences binding to SFs and PHFs to guide future development of therapeutic GQDs. We identify binding sites in SFs and PHFs, dock our GQD library to these sites, and perform molecular dynamics simulations on promising complexes, totaling 28 s of sampling. We discover that anionic GQDs preferentially bind to the positively charged SF large protofilament interface, whereas in PHFs, anionic GQDs have a modest binding preference for the C-shaped curve region. Binding of GQDs at the C-shaped curve in both TAs induces distinct protofilament conformational dynamics resembling a pinching motion to capture the GQD. Together, these binding modes may represent early intermediates of the TA disaggregation mechanism. We find that functional groups capable of possessing a negative charge (e.g., COO-, O-, and S-) produce impressive binding affinities. We propose that enriching these functionalizations during GQD synthesis and preparation, particularly sulfur as it is less studied, may yield more potent TA inhibitors and generalize to other amyloid pathologies with positively charged fibril cores.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 4.6,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 3.5100000000000007,
-        "novelty": 1.4,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 30,
-      "title": "Benchmarking and developing large language models using one million clinical trials",
-      "authors": [
-        "Zifeng Wang",
-        "Jiacheng Lin",
-        "Qiao Jin",
-        "Junyi Gao",
-        "Jathurshan Pradeepkumar",
-        "Pengcheng Jiang",
-        "Zhiyong Lu",
-        "Jimeng Sun"
-      ],
-      "date": "2026-07-31",
-      "source": "openalex",
-      "link": "https://doi.org/10.1038/s41746-026-02933-7",
-      "pdf_url": "https://www.nature.com/articles/s41746-026-02933-7_reference.pdf",
-      "doi": "10.1038/s41746-026-02933-7",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7172028371",
-      "semantic_scholar_id": "",
-      "abstract": "Abstract Developing artificial intelligence (AI) for clinical research requires a comprehensive data foundation for model benchmarking and development. Here, we introduce , a large-scale structured resource aggregating 1.6M clinical trial records from fifteen global registries linked with biomedical ontologies and literature. Using this resource, we construct 152K training and testing samples spanning eight clinical research tasks, including systematic review, trial design, and trial optimization. Benchmarking cutting-edge large language models (LLMs) reveals limited clinical reasoning capability in generic LLMs. In contrast, an 8B LLM developed on using supervised fine-tuning and reinforcement learning outperforms 70B generic counterparts across all eight tasks, with relative improvements of 73.7, 67.6, 38.4, 37.8, 26.5, 20.7, 20.0, 18.1, and 5.2%, respectively. These results demonstrate the potential of domain-adapted AI to improve evidence synthesis and clinical trial design, establishing as a foundation for scaling AI in clinical research.",
-      "venue": "npj Digital Medicine",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 4.514,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 2.7,
-        "novelty": 1.4,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to transferable_insights, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
     }
   ]
 }
