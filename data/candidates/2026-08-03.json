@@ -1,9 +1,9 @@
 {
   "date": "2026-08-03",
   "stats": {
-    "raw_candidates": 160,
-    "deduplicated_candidates": 149,
-    "filtered_candidates": 149,
+    "raw_candidates": 156,
+    "deduplicated_candidates": 146,
+    "filtered_candidates": 146,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -198,6 +198,55 @@
     },
     {
       "rank": 4,
+      "title": "Integrating machine learning and molecular simulations for the design of potent HDAC2 inhibitors in diffuse large B-cell lymphoma.",
+      "authors": [
+        "Josiah Joseph Isah",
+        "Adamu Uzairu",
+        "Sani Uba",
+        "Muhammad Tukur Ibrahim"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41722288/",
+      "pdf_url": "",
+      "doi": "10.1016/j.compbiolchem.2026.108949",
+      "arxiv_id": "",
+      "pubmed_id": "41722288",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Histone deacetylase 2 (HDAC2) plays a critical role in the pathogenesis of diffuse large B-cell lymphoma (DLBCL), positioning it as an attractive therapeutic target. In this study, we applied an integrated computational strategy that combined machine learning-based quantitative structure-activity relationship (QSAR) modelling, molecular docking, ADMET filtering, and molecular dynamics (MD) simulations to identify and optimize potential HDAC2 inhibitors. A dataset of 1995 HDAC2-active molecules was assembled and reduced to 25 key molecular descriptors, enabling the development of a robust Random Forest QSAR model (R",
+      "venue": "Computational biology and chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 22.679,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 17.145,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, computational_chemistry_biophysics_structural_biology.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 5,
       "title": "Can Artificial intelligence meaningfully shorten drug discovery timelines? Current evidence, roadblocks and future directions.",
       "authors": [
         "Juan Luis Fernández-Martínez"
@@ -241,7 +290,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Machine Learning–Driven Discovery of Dietary Polyphenol DPP-4 Inhibitors via Molecular Docking",
       "authors": [
         "Nur Laily Harfita",
@@ -290,7 +339,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Power system emulation for rapid exploration of water-energy policies",
       "authors": [
         "Adil Ashraf",
@@ -339,7 +388,60 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "Discovery of potent ALK tyrosine kinase inhibitors for thyroid cancer via machine learning modeling, molecular docking, MD simulations, and DFT study.",
+      "authors": [
+        "Muhammad Naveed Anjum",
+        "Sumaira Nadeem",
+        "Md Al-Amin",
+        "Muhammad Saalim",
+        "Farhan Siddique",
+        "Samina Afzal",
+        "Nida Nisar"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41720062/",
+      "pdf_url": "",
+      "doi": "10.1016/j.compbiolchem.2026.108960",
+      "arxiv_id": "",
+      "pubmed_id": "41720062",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The ever-increasing need for effective therapeutic management of thyroid cancer (TC) necessitates the exploration of novel approaches for advanced drug discovery. The current study employed a robust computational pipeline integrating Machine Learning (ML) algorithms, QSAR modeling, molecular docking, molecular dynamics (MD), density functional theory (DFT), and network pharmacology to identify novel Anaplastic Lymphoma Kinase (ALK) tyrosine kinase inhibitors. An initial library of 3546 compounds from the CHEMBL4247 database was systematically filtered to 578. This screening utilized Lipinski's rule of five, aided by QSAR and detailed PaDEL descriptor analysis. An ensemble ML model, specifically a Voting Classifier (VC) combining XGBoost, LightGBM, and ExtraTrees algorithms, attained high predictive accuracy (ROC-AUC = 0.99), facilitating a strong classification and prioritization of active leads. Molecular docking experiment identified five top hit ligands (60, 63, 124, 130, 204) having docking score ranging from -9.0 to -10.4 kcal/mol and also confirmed their strong binding affinities, which surpassed the native co-crystallized ligand used as a standard. Later on, ADMET studies were executed to explore their physicochemical properties. MD simulation trajectories and MM/PBSA analyses validated the notably conformational stability and favorable binding free energies of these hit complexes. Network pharmacology was incorporated to understand tentative mechanisms of action and potential off-targets, generating a protein-protein interaction (PPI) network. DFT-based frontier molecular orbital (FMO) analysis showed Ligand124 possessed the highest electrophilicity and optimal polarizability, consistent with its marked interaction stability in MD simulations. In addition, the molecular mechanisms of hit compounds against TC were elucidated using a network pharmacology approach, which revealed a compound-target network with crucial hub targets like AKT1 and TP53. Significant correlations with cancer-related pathways, such as PI3K-Akt and MAPK signaling, as well as key involvement in kinase activity, phosphorylation, and membrane signaling complexes, were observed by the enrichment analysis of the main targets. These comprehensive results imply that investigated hit compounds probably modulate the oncogenic signaling networks, especially those controlling cell survival, proliferation, and drug resistance, in order to achieve its anti-TC therapeutic actions. These findings highlight the fundamental ability of integrating ML and computational chemistry to accelerate therapeutic development for TC.",
+      "venue": "Computational biology and chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 10.74,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 18.0,
+        "novelty": 0.84,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Skim",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 9,
       "title": "Generation of antifungals to combat drug resistance using language models and diffusion models.",
       "authors": [
         "Yeji Wang",
@@ -392,7 +494,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "A Problem-Setup-Centric Framework for Mixed-Variable Chemical Formulation Optimization with Customized Constraints",
       "authors": [
         "Yingjun Zhang",
@@ -439,7 +541,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 11,
       "title": "Discovery of an NRAS isoform and activation-state selective macrocyclic peptide",
       "authors": [
         "Hallenbeck, K. K.",
@@ -500,7 +602,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 12,
       "title": "Beyond Economic Efficiency: A Strategic Communication and Digital Governance Framework for Saudi Arabia’s Unified Health Insurance Reform toward Vision 2030",
       "authors": [
         "Kholod Saleh Huneiti Ahmed AlHasan"
@@ -544,7 +646,53 @@
       "possible_concerns": "classified as weak_match"
     },
     {
-      "rank": 11,
+      "rank": 13,
+      "title": "CoAff-DTI: Fine-grained drug-target interaction prediction using pre-trained language models and affinity-guided mechanisms.",
+      "authors": [
+        "Jia Peng",
+        "Xiaoyu Liu",
+        "Lei Wang",
+        "Xianyou Zhu"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42391908/",
+      "pdf_url": "",
+      "doi": "10.1016/j.jbi.2026.105076",
+      "arxiv_id": "",
+      "pubmed_id": "42391908",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Accurate prediction of drug-target interactions (DTI) is essential for drug discovery. Despite the success of pre-trained language models (PLMs) in learning robust molecular and protein representations, a fundamental challenge remains in characterizing the fine-grained, localized biochemical interactions between drug substructures and protein binding sites. Such critical interaction patterns are often underrepresented in conventional global embedding approaches, thereby limiting both predictive accuracy and biological interpretability. To address this challenge, we propose CoAff-DTI, an end-to-end deep learning framework designed to enhance multi-scale interaction modeling for DTI prediction. The model introduces three key components. First, a token-level decomposition strategy is employed to transform global embeddings into pharmacophore- and residue-level representations, facilitating the capture of localized features. Second, an Affinity-Guided Cross-Attention (AGCA) module is designed to explicitly model fine-grained interactions between ligand substructures and protein residues. Third, an Affinity-Gating Fusion (AGF) module is proposed to enhance cross-modal feature integration by dynamically modeling element-wise interactions. Extensive experiments on multiple benchmark datasets demonstrate that CoAff-DTI consistently outperforms state-of-the-art methods. In addition, attention-based visualization results suggest improved interpretability, as the model's learned attention patterns align effectively with experimentally verified binding regions.",
+      "venue": "Journal of biomedical informatics",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery"
+      ],
+      "deterministic_score": 8.233,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 4.32,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 14,
       "title": "Overcoming the data desert: generative AI techniques for synthesising anonymised deployment logs in regulated public sectors",
       "authors": [
         "Nuviadenu Nuviadenu",
@@ -590,7 +738,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 15,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -638,7 +786,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 16,
       "title": "Associative Memory and Generative Diffusion in the Zero-Noise Limit",
       "authors": [
         "Joshua Hess",
@@ -682,7 +830,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 17,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -729,7 +877,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 15,
+      "rank": 18,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -772,7 +920,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 16,
+      "rank": 19,
       "title": "Systematic modeling of phenotypic drug response profiles inpatient-derived organoids",
       "authors": [
         "Kim, S.",
@@ -832,7 +980,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 20,
       "title": "Probabilistic surrogate modeling for gas foil bearing stability",
       "authors": [
         "Matheus de Moraes",
@@ -878,7 +1026,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 21,
       "title": "PlumageParts: A fine-grained avian plumage segmentation dataset and benchmark for ecological image analysis",
       "authors": [
         "He, Y.",
@@ -925,7 +1073,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 22,
       "title": "Prompting Beyond Pairs: Decoupled Semantic Supervision for Knowledge-Guided Multiplex Virtual Staining",
       "authors": [
         "Hu, Y.",
@@ -969,7 +1117,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 23,
       "title": "Predicting Macroscopic Axon Topology from Microscopic Kinematics: An Interactive Tracking and Random Walk Pipeline for Substrate-Dependent Cortical Neurospheres",
       "authors": [
         "Kim, C.",
@@ -1018,7 +1166,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 24,
       "title": "Gradient‐Free Online Learning of Subgrid‐Scale Dynamics With Neural Emulators",
       "authors": [
         "Hugo Frezat",
@@ -1062,7 +1210,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 25,
       "title": "A workflow for residual stress control in laser powder bed fusion manufacturing",
       "authors": [
         "Shixiang Zhou",
@@ -1113,7 +1261,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 23,
+      "rank": 26,
       "title": "Genetic parser and deep residual bivariate Pascal-based energy-aware routing and scheduling for edge-enabled smart grids",
       "authors": [
         "R. Nallakumar",
@@ -1159,7 +1307,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 27,
       "title": "FCD-11: A First-in-Class COMPASS Inhibitor in Cancer Therapeutics",
       "authors": [
         "Zhao, Z.",
@@ -1215,7 +1363,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 28,
       "title": "Integrated computational and in vitro analysis reveals the toxic mechanisms of PFAS in female diminished ovarian reserve",
       "authors": [
         "Hengbing Li",
@@ -1263,7 +1411,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 26,
+      "rank": 29,
       "title": "Computational identification and characterization of high-risk human KRAS nsSNPs: Impacting structure, ligand binding, and cancer prognosis",
       "authors": [
         "M. M. Hossain",
@@ -1313,7 +1461,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 27,
+      "rank": 30,
       "title": "An efficient motion planning framework for four-wheel steering autonomous vehicles using Lazy Edge-Based A* and adaptive RK4-MPC",
       "authors": [
         "Deyndrawan Sutrisno",
@@ -1359,141 +1507,6 @@
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 28,
-      "title": "Immune vascular dialogue coordinates muscle maintenance following damage in Drosophila",
-      "authors": [
-        "Ammar, N.",
-        "Josse, O.",
-        "Guillou, A.",
-        "Leroux, E.",
-        "Mace, K.",
-        "Perochon, J.",
-        "Boukhatmi, H."
-      ],
-      "date": "2026-07-31",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/07/31/2025.06.25.661466.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/07/31/2025.06.25.661466.source.xml",
-      "doi": "10.1101/2025.06.25.661466",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "In skeletal muscle, immune and vascular responses are essential for regeneration, yet the cellular and molecular mechanisms that coordinate their activities to restore tissue function remain unclear. Here, using Drosophila, we uncover a multi-organ signaling program that integrates muscle fibers, macrophages, vascular-like tracheal cells, and the extracellular matrix (ECM) to maintain muscle function in response to acute damage. Muscle injury induces rapid macrophage recruitment and secretion of the FGF like ligand Branchless (Bnl), which activates FGF/FGFR signalling in tracheal cells and promotes their targeted expansion toward damaged muscle. Concomitantly, macrophages deposit ECM components on the damaged muscle, including Collagen IV, forming a localized microenvironment that restricts Bnl ligand diffusion and facilitates directed tracheal remodelling. Genetic disruption of macrophage derived Bnl or macrophage mediated ECM deposition abolishes tracheal remodelling and compromises muscle function following injury. Together, these findings reveal a novel immune vascular communication program in which macrophages coordinate fibroblast growth factor signalling and ECM organization to shape muscle microenvironment and preserve muscle function following acute damage.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 3.481,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.42,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "A Neural Input Optimization Framework for Structure Search in Dynamical Systems",
-      "authors": [
-        "Ricardo A. Calix",
-        "Ajaykumar Rejith",
-        "Taehoon Kim"
-      ],
-      "date": "2026-07-31",
-      "source": "openalex",
-      "link": "https://doi.org/10.3390/dynamics6030027",
-      "pdf_url": "https://www.mdpi.com/2673-8716/6/3/27/pdf?version=1785491542",
-      "doi": "10.3390/dynamics6030027",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171946155",
-      "semantic_scholar_id": "",
-      "abstract": "The world consists of many dynamical and chaotic systems whose underlying functions can be highly nonlinear. Traditional engineering and scientific methods emphasize simplifying problems, sometimes to the point that valuable information may be lost. Instead, understanding of these systems may require analysis of the underlying dynamics. In the past, the technique of discovering and analyzing strange attractors has yielded some success. However, much work is still needed. Machine learning (ML)-based models such as deep neural networks which are based on nonlinear functions may provide a great set of techniques to help in the discovery of structure in dynamical systems. In this paper, we propose an ML-based approach to search for structure in dynamical systems using Neural Input Optimization (NIO). We discuss our methodology and present promising results. Quantitative results help to validate our proposed NIO methodology for structure discovery.",
-      "venue": "Dynamics",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 3.26,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.118,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Dynamic structural profiling of PINK1 mutations (T313M and L347P) reveals a vital molecular perturbation namely phospho-Serine 65 ubiquitin recognition point in mitophagy mediated autosomal recessive Parkinson’s disease (ARPD)",
-      "authors": [
-        "Deborah Vincent",
-        "C. Sudandiradoss"
-      ],
-      "date": "2026-07-31",
-      "source": "openalex",
-      "link": "https://doi.org/10.3389/fnmol.2026.1875988",
-      "pdf_url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2026.1875988/pdf",
-      "doi": "10.3389/fnmol.2026.1875988",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7171975012",
-      "semantic_scholar_id": "",
-      "abstract": "Introduction Autosomal recessive Parkinson’s disease (ARPD) arises from impaired mitophagy due to dysfunction of the PINK1/Parkin pathway, where PINK1-mediated phosphorylation of ubiquitin at Ser65 is essential for pathway activation. However, experimental limitations obscure the effects of disease-associated mutations on intrinsically disordered regions (IDRs) and post-translational modification (PTM) dynamics. Methods An integrated computational pipeline was employed to screen 825 PINK1 missense variants, identifying two high-confidence deleterious mutations, T313M and L347P, within the kinase domain. Variant prioritization was complemented by conserved residue, IDR, and PTM analyses, followed by protein–protein docking, molecular dynamics simulations, MM/PBSA binding free-energy calculations, principal component analysis (PCA), and dynamic cross-correlation matrix (DCCM) analysis. Results T313M overlapped a conserved phosphorylation site, whereas L347P mapped to conserved active-site residues, with complementary support from IDR analysis. Docking analysis revealed a progressive reduction in binding affinity from the wild type (–88.4 ± 8.2) to L347P (–81.9 ± 3.4) and T313M (–77.4 ± 4.9), accompanied by decreased electrostatic stabilization (–357.6 → –260.6 → –235.5 kcal/mol) and buried surface area (1741.6 → 1624.1 → 1547.4 Å 2 ). Molecular dynamics simulations demonstrated that T313M produced the greatest structural and dynamic perturbations, whereas L347P induced moderate destabilization with increased solvent exposure. Although MM/PBSA analysis indicated broadly comparable binding energetics across all systems, PCA and DCCM analyses revealed increased conformational flexibility and altered residue communication in the mutant complexes, particularly T313M. Discussion These findings establish a mechanistic link between mutation-induced structural dynamics and impaired PINK1–ubiquitin recognition at Ser65, providing a mutation-specific framework for understanding early mitophagy impairment in ARPD and supporting future molecular assessment and targeted therapeutic development.",
-      "venue": "Frontiers in Molecular Neuroscience",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 3.18,
-      "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 11.07,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -12.0
-      },
-      "priority": "Archive",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches protein_ligand_affinity, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     }
   ]
 }
