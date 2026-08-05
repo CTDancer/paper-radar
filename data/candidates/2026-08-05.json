@@ -1,9 +1,9 @@
 {
   "date": "2026-08-05",
   "stats": {
-    "raw_candidates": 275,
-    "deduplicated_candidates": 195,
-    "filtered_candidates": 195,
+    "raw_candidates": 155,
+    "deduplicated_candidates": 145,
+    "filtered_candidates": 145,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -85,64 +85,6 @@
     },
     {
       "rank": 2,
-      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
-      "authors": [
-        "Jiajun Liang",
-        "Yucheng Liao",
-        "Yukang Cao",
-        "Jiazhe Wei",
-        "Ken Li",
-        "Wende Tan",
-        "Jiankun Zhang",
-        "ZY Cui",
-        "Jingkang Yang",
-        "Liucheng Guo",
-        "Shiqi Yang",
-        "B. Yang",
-        "Caifeng Shan",
-        "Ziwei Liu",
-        "Chenyang Si"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02602v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02602v1",
-      "doi": "",
-      "arxiv_id": "2608.02602v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity. Instead of simplifying the representation to suit the generative model, we preserve a high-capacity, decodable text latent and design the diffusion model to learn its distribution directly. We introduce AURORA-LM, a continuous-latent diffusion language model that separates the construction of a decodable text representation from the modeling of its distribution. A Query-based Encoder-Decoder organizes text into a high-capacity, prefix-aligned latent sequence, and a Block-causal Diffusion Transformer learns its distribution through flow matching, generating blocks left to right while denoising positions within each block in parallel. Because such a latent is harder for diffusion to model, AURORA-LM restricts only the noisy-input pathway while retaining the full clean-latent prediction target, accommodating full-width latents without reducing decoder-facing capacity. We further calibrate the noise-level distribution to the latent width, and introduce self-trajectory consistency to bridge independently sampled training noise and iterative denoising at inference. AURORA-LM achieves the strongest performance among evaluated continuous and diffusion-based language models on OpenWebText free generation and XSum summarization. Scaling to 1B parameters with about 1500 EFLOPs of total compute yields further gains, surpassing a larger publicly released latent-diffusion language model under a matched evaluation protocol. All experiments are conducted on Ascend NPUs.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "generative_modeling_core",
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 26.803,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 17.549999999999997,
-        "novelty": 1.4,
-        "methodological_insight": 2.048,
-        "transferable_insight": 2.145,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core, flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 3,
       "title": "Artificial intelligence: Catalyzing a new era in pancreatic cancer cure.",
       "authors": [
         "Jun Wang",
@@ -201,7 +143,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "From generation to validation: Deep generative models for antimicrobial peptide discovery.",
       "authors": [
         "Zehua Sun",
@@ -249,7 +191,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "HVLGAN: hybrid hierarchical scaled attention-enabled latent model for structure-based drug discovery.",
       "authors": [
         "Shreyas Rajendra Hole",
@@ -295,6 +237,55 @@
       "priority": "Strong Skim",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, structure_based_drug_design.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 5,
+      "title": "Integrating machine learning and molecular simulations for the design of potent HDAC2 inhibitors in diffuse large B-cell lymphoma.",
+      "authors": [
+        "Josiah Joseph Isah",
+        "Adamu Uzairu",
+        "Sani Uba",
+        "Muhammad Tukur Ibrahim"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41722288/",
+      "pdf_url": "",
+      "doi": "10.1016/j.compbiolchem.2026.108949",
+      "arxiv_id": "",
+      "pubmed_id": "41722288",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Histone deacetylase 2 (HDAC2) plays a critical role in the pathogenesis of diffuse large B-cell lymphoma (DLBCL), positioning it as an attractive therapeutic target. In this study, we applied an integrated computational strategy that combined machine learning-based quantitative structure-activity relationship (QSAR) modelling, molecular docking, ADMET filtering, and molecular dynamics (MD) simulations to identify and optimize potential HDAC2 inhibitors. A dataset of 1995 HDAC2-active molecules was assembled and reduced to 25 key molecular descriptors, enabling the development of a robust Random Forest QSAR model (R",
+      "venue": "Computational biology and chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 22.439,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 17.145,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.5599999999999999,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, computational_chemistry_biophysics_structural_biology.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
@@ -397,100 +388,6 @@
     },
     {
       "rank": 8,
-      "title": "A Unified Kullback--Leibler Divergence Analysis of Generative Diffusion Models via Entropy Production Rate",
-      "authors": [
-        "Han Wu",
-        "Zhiwen Zhang"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02406v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02406v1",
-      "doi": "",
-      "arxiv_id": "2608.02406v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "We introduce a unified framework for the error analysis of generative models based on the entropy production rate of the forward-reverse diffusion process pair. For a pair of continuity equation flows, the rate admits a closed velocity form identity whose time integral decomposes the terminal Kullback--Leibler (KL) divergence into the sum of an initialization error, a score approximation error, and a time-discretization error. By analyzing the entropy production at the level of marginal distributions, rather than in path space, our framework yields a sharp convergence rate of $\\mathcal{O}(h^2)$ for the Euler-Maruyama sampler, where $h$ is the step size. This improves upon the $\\mathcal{O}(h)$ rates typically obtained from Girsanov's path-space analyses. Furthermore, our framework unifies the analysis of score-based SDEs, probability-flow ODEs, and stochastic interpolants by varying diffusion coefficients within a single inequality, revealing the trade-off between deterministic and stochastic sampling. Numerical experiments confirm the predicted scaling with step size and terminal time.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "generative_modeling_core",
-        "stochastic_processes_probability_statistical_physics"
-      ],
-      "deterministic_score": 20.751,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 12.150000000000002,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.677,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core, stochastic_processes_probability_statistical_physics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 9,
-      "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
-      "authors": [
-        "Qiushi Lin",
-        "Chaojie Zhang",
-        "Íñigo Goiri",
-        "Aditya Akella",
-        "Ricardo Bianchini",
-        "Jovan Stojkovic"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02569v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02569v1",
-      "doi": "",
-      "arxiv_id": "2608.02569v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the shelf, however, it falls short on three fronts. It is not formal: with no structured, searchable statement of the problem, the search has little structure to exploit and hard constraints are not guaranteed. It is not transferable: each task is solved from scratch, so nothing learned on one task carries to the next. Finally, it is not systematic: relying on the LLM as the sole source of candidates, it explores a narrow slice of the design space and settles into local optima. We introduce AtumAI, a framework that generates datacenter control-plane policies with agentic AI, making the process formal, transferable, and systematic. From a goal stated in plain language, AtumAI autonomously proposes, tests, and refines candidate policies until one satisfies the request. It does so through two components. The Datacenter Task Compiler automates problem formulation: it compiles the request into a formal, machine-checkable, and searchable specification of the task's objectives, constraints, decision variables, and evaluation methodology. The Evolutionary Design Discovery Loop then searches this specification, expanding the search beyond the LLM itself via a diffusion model, an evolutionary algorithm, and a surrogate model. Together, they reduce onboarding a new task from months of engineering to writing its description. We evaluate AtumAI on three control-plane tasks with distinct problem scopes, design spaces, and trade-offs: workload placement, resource scaling, and power management. Across all tasks, the policies generated by AtumAI consistently outperform expert-engineered baselines.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion",
-        "black_box_combinatorial_and_expensive_optimization"
-      ],
-      "deterministic_score": 20.451,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.91,
-        "novelty": 3.08,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.677,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion, black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 10,
       "title": "PG-MLD: Physics-Guided Molecular Representation Learning via Dynamic 3D Trajectory Distillation",
       "authors": [
         "liu, Z.",
@@ -539,7 +436,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "Hierarchical Bayesian optimization of an aircraft-based multi-agent system-of-systems",
       "authors": [
         "Paul Saves",
@@ -590,53 +487,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 12,
-      "title": "Computational and Statistical Guarantees of the \\textit{c}-Rectified flow",
-      "authors": [
-        "Leda Wang",
-        "Zhehao Xu",
-        "Qiang Liu",
-        "Harrison H. Zhou"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02487v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02487v1",
-      "doi": "",
-      "arxiv_id": "2608.02487v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Recently, rectified flow has emerged as a fundamental framework for large-scale image generation, powering state-of-the-art systems such as FLUX.1 and Stable Diffusion 3. Despite its remarkable empirical success, the computational and statistical guarantees of iterative rectified flow have remained largely unexplored. We address this problem by studying \\textit{c}-rectified flow, a cost-aware class of rectified flow that projects velocity fields onto a gradient class while preserving endpoint marginals. The ordinary rectified flow can fail to recover the optimal transport coupling: in a Gaussian case study, the iteration converges to the optimal coupling if and only if the source and target covariance matrices commute. In contrast, under suitable compactness and uniform-integrability assumptions, iterative \\textit{c}-rectified flow always converges to the optimal transport coupling. We further establish quantitative one-step contraction and exponential convergence guarantees under projection-stability assumptions for both quadratic and strongly convex displacement costs. Finally, under a Hölder ball assumption, we develop new minimax-optimal score estimation rates and show that, when combined with iterative \\textit{c}-rectified flow, they yield a rate-optimal estimator of the optimal transport for the dimension \\(d \\ge 3\\) and a nearly parametric rate for \\(d=1,2\\).",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "flow_matching_and_diffusion"
-      ],
-      "deterministic_score": 15.021,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 9.45,
-        "novelty": 0.84,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 13,
+      "rank": 10,
       "title": "Elucidating enzyme-substrate specificity through co-folding foundation model",
       "authors": [
         "Cheng, X.",
@@ -688,52 +539,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
-      "title": "Fermat Active Laplace Learning for Semi-Supervised Hyperspectral Image Classification",
-      "authors": [
-        "Vutichart Buranasiri",
-        "James M. Murphy"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02483v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02483v1",
-      "doi": "",
-      "arxiv_id": "2608.02483v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Two active learning algorithms for hyperspectral image (HSI) classification are proposed that combine density-aware Fermat distances with Poisson-reweighted harmonic label propagation. Our methods actively query points using an uncertainty-based acquisition function, extending Poisson ReWeighted Laplace Learning (PWLL). Our first algorithm, Fermat Active Laplace Learning (FALL), builds an affinity matrix using Fermat distances between all data points. Then, PWLL is run with a diagonal perturbation using the minimum-norm acquisition function. In contrast, Approximate FALL (A-FALL) computes Fermat distances between each data point and landmark pixels selected via farthest-point sampling and constructs the affinity matrix using landmark multidimensional scaling. After several query rounds, A-FALL selects the Fermat exponent $p$ using a leave-one-out cross-validation variant. FALL and A-FALL leverage Fermat distances and subsequent harmonic label propagation to provide a density-aware estimation of the data manifold, improving labeling accuracy. Experiments on Salinas A and Pavia show the effectiveness of FALL and the scalability of A-FALL to large HSI scenes.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "gflownet_related_methods",
-        "black_box_combinatorial_and_expensive_optimization"
-      ],
-      "deterministic_score": 14.136,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 11.61,
-        "novelty": 0.42,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to gflownet_related_methods, black_box_combinatorial_and_expensive_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 15,
+      "rank": 11,
       "title": "AI-Driven Digital Twin Framework for Multi-Objective Optimization of Hybrid Cooling Channels in Intelligent Mechanical Systems",
       "authors": [
         "MD AZIZUL HAKIM ABIR",
@@ -779,7 +585,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 16,
+      "rank": 12,
       "title": "Bayesian equivariant interatomic potential with iterative restratification of many-body message passing",
       "authors": [
         "Soohaeng Yoo Willow",
@@ -833,7 +639,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 13,
       "title": "Sandaracopimaric acid against the MAO-B/LRRK2 axis in Parkinson’s disease",
       "authors": [
         "Oussama Khibech",
@@ -885,7 +691,60 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 14,
+      "title": "Discovery of potent ALK tyrosine kinase inhibitors for thyroid cancer via machine learning modeling, molecular docking, MD simulations, and DFT study.",
+      "authors": [
+        "Muhammad Naveed Anjum",
+        "Sumaira Nadeem",
+        "Md Al-Amin",
+        "Muhammad Saalim",
+        "Farhan Siddique",
+        "Samina Afzal",
+        "Nida Nisar"
+      ],
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41720062/",
+      "pdf_url": "",
+      "doi": "10.1016/j.compbiolchem.2026.108960",
+      "arxiv_id": "",
+      "pubmed_id": "41720062",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The ever-increasing need for effective therapeutic management of thyroid cancer (TC) necessitates the exploration of novel approaches for advanced drug discovery. The current study employed a robust computational pipeline integrating Machine Learning (ML) algorithms, QSAR modeling, molecular docking, molecular dynamics (MD), density functional theory (DFT), and network pharmacology to identify novel Anaplastic Lymphoma Kinase (ALK) tyrosine kinase inhibitors. An initial library of 3546 compounds from the CHEMBL4247 database was systematically filtered to 578. This screening utilized Lipinski's rule of five, aided by QSAR and detailed PaDEL descriptor analysis. An ensemble ML model, specifically a Voting Classifier (VC) combining XGBoost, LightGBM, and ExtraTrees algorithms, attained high predictive accuracy (ROC-AUC = 0.99), facilitating a strong classification and prioritization of active leads. Molecular docking experiment identified five top hit ligands (60, 63, 124, 130, 204) having docking score ranging from -9.0 to -10.4 kcal/mol and also confirmed their strong binding affinities, which surpassed the native co-crystallized ligand used as a standard. Later on, ADMET studies were executed to explore their physicochemical properties. MD simulation trajectories and MM/PBSA analyses validated the notably conformational stability and favorable binding free energies of these hit complexes. Network pharmacology was incorporated to understand tentative mechanisms of action and potential off-targets, generating a protein-protein interaction (PPI) network. DFT-based frontier molecular orbital (FMO) analysis showed Ligand124 possessed the highest electrophilicity and optimal polarizability, consistent with its marked interaction stability in MD simulations. In addition, the molecular mechanisms of hit compounds against TC were elucidated using a network pharmacology approach, which revealed a compound-target network with crucial hub targets like AKT1 and TP53. Significant correlations with cancer-related pathways, such as PI3K-Akt and MAPK signaling, as well as key involvement in kinase activity, phosphorylation, and membrane signaling complexes, were observed by the enrichment analysis of the main targets. These comprehensive results imply that investigated hit compounds probably modulate the oncogenic signaling networks, especially those controlling cell survival, proliferation, and drug resistance, in order to achieve its anti-TC therapeutic actions. These findings highlight the fundamental ability of integrating ML and computational chemistry to accelerate therapeutic development for TC.",
+      "venue": "Computational biology and chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "protein_ligand_affinity",
+        "structure_based_drug_design",
+        "medicinal_and_synthetic_chemistry",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 10.5,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 18.0,
+        "novelty": 0.84,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.5599999999999999,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Skim",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, protein_ligand_affinity, structure_based_drug_design, medicinal_and_synthetic_chemistry, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 15,
       "title": "Interpretable Machine Learning Model of Receptor Dynamics Reveals AT1R Allostery and a Negative Allosteric Modulator",
       "authors": [
         "Chen, H.",
@@ -940,7 +799,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 19,
+      "rank": 16,
       "title": "Automatic design of convolutional neural network architectures using multi-objective metaheuristics for classification of medical databases",
       "authors": [
         "María Susana Ávila-García",
@@ -986,7 +845,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 17,
       "title": "Generation of antifungals to combat drug resistance using language models and diffusion models.",
       "authors": [
         "Yeji Wang",
@@ -1039,7 +898,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 18,
       "title": "Benchmarking Deep Learning Predictions of Mutation-Induced Fold Switching",
       "authors": [
         "Felbinger, N.",
@@ -1086,183 +945,53 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
-      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
+      "rank": 19,
+      "title": "CoAff-DTI: Fine-grained drug-target interaction prediction using pre-trained language models and affinity-guided mechanisms.",
       "authors": [
-        "Wei Guo",
-        "Yaqiong Dong"
+        "Jia Peng",
+        "Xiaoyu Liu",
+        "Lei Wang",
+        "Xianyou Zhu"
       ],
-      "date": "2028-09-22",
-      "source": "crossref",
-      "link": "https://doi.org/10.24425/ace.2025.155084",
+      "date": "2026-08-01",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42391908/",
       "pdf_url": "",
-      "doi": "10.24425/ace.2025.155084",
+      "doi": "10.1016/j.jbi.2026.105076",
       "arxiv_id": "",
-      "pubmed_id": "",
+      "pubmed_id": "42391908",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
-      "venue": "Archives of Civil Engineering",
+      "abstract": "Accurate prediction of drug-target interactions (DTI) is essential for drug discovery. Despite the success of pre-trained language models (PLMs) in learning robust molecular and protein representations, a fundamental challenge remains in characterizing the fine-grained, localized biochemical interactions between drug substructures and protein binding sites. Such critical interaction patterns are often underrepresented in conventional global embedding approaches, thereby limiting both predictive accuracy and biological interpretability. To address this challenge, we propose CoAff-DTI, an end-to-end deep learning framework designed to enhance multi-scale interaction modeling for DTI prediction. The model introduces three key components. First, a token-level decomposition strategy is employed to transform global embeddings into pharmacophore- and residue-level representations, facilitating the capture of localized features. Second, an Affinity-Guided Cross-Attention (AGCA) module is designed to explicitly model fine-grained interactions between ligand substructures and protein residues. Third, an Affinity-Gating Fusion (AGF) module is proposed to enhance cross-modal feature integration by dynamically modeling element-wise interactions. Extensive experiments on multiple benchmark datasets demonstrate that CoAff-DTI consistently outperforms state-of-the-art methods. In addition, attention-based visualization results suggest improved interpretability, as the model's learned attention patterns align effectively with experimentally verified binding regions.",
+      "venue": "Journal of biomedical informatics",
       "code_url": "",
       "topic_tags": [
-        "multi_objective_optimization"
+        "ai_drug_discovery"
       ],
-      "deterministic_score": 7.844,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.84,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.586,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 23,
-      "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
-      "authors": [
-        "Shengzhi Deng",
-        "Chenqi Ye",
-        "Yanze Guo"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02575v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02575v1",
-      "doi": "",
-      "arxiv_id": "2608.02575v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Diffusion models rely on stochastic inputs, yet on finite-precision hardware, the \"randomness\" they consume is realized as deterministic numerical orbits generated by pseudorandom rules. Accessible orbit structure can become a learnable input and affect both training and generation because the realized loss and its gradient depend on the concrete pseudorandom values consumed at each optimization step. A small multilayer perceptron predicts the next value of an orbit from its recent history, measuring general sequence predictability. A diffusion probe replaces real images with online random tensors while preserving the diffusion architecture and training objective, measuring whether the target system can exploit orbit structure. After controlling marginal statistics and screening out clear dynamical and finite-precision failures, the remaining orbits still produce markedly different diffusion losses and generation quality on MNIST and CIFAR-10. Both measures show strong rank correlations with macroscopic generation degradation, although their local rankings differ. After normalization by the IID baseline, the probe loss and the real-data diffusion loss approximately follow an empirical power law, with different exponents on the two datasets. These results suggest that a pseudorandom source is not only a distributional choice, but also a model-dependent structured input.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 7.773,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 2.048,
-        "transferable_insight": 2.145,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
-      "title": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
-      "authors": [
-        "Brandon Wang",
-        "Andrei S. Tyrin",
-        "Daniil A. Boiko"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02595v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02595v1",
-      "doi": "",
-      "arxiv_id": "2608.02595v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abilities is difficult, as scientific capabilities require a mixture of both problem-solving skills and domain-specific intuition. Existing evaluations rarely measure the capabilities required to make reliable decisions in a physical laboratory and often rely on public data that may have appeared in model training corpora. We introduce onepot-Bench 0, a proprietary benchmark suite for evaluating language models on synthetic chemistry capabilities relevant to wet-lab execution. onepot-Bench 0 comprises three complementary evaluations: ChemAbacus measures tool-free cheminformatics literacy and numerical reasoning; SynthRefusal characterizes safety and refusal behavior across a variety of benign, controlled, and designer-drug targets; and SynthBench evaluates reaction-outcome prediction and catalyst selection using private experimental data generated in our laboratory. Together, these evaluations probe basic competency, reliability, and deeper knowledge, all skills which are required for reliable performance in the lab.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "medicinal_and_synthetic_chemistry"
-      ],
-      "deterministic_score": 7.339,
+      "deterministic_score": 7.993,
       "score_breakdown": {
         "paper_type": "benchmark_dataset",
-        "direct_relevance": 3.24,
-        "novelty": 2.8,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.0270000000000001,
+        "direct_relevance": 4.32,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.793,
         "drug_discovery_relevance": 2.4,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
+        "source_credibility": 0.7,
         "code_availability": 0.0,
-        "recency": 0.8,
+        "recency": 0.5599999999999999,
         "citation_signal": 0.0,
         "penalties": -4.0
       },
       "priority": "Skim",
       "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to medicinal_and_synthetic_chemistry.",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 26,
+      "rank": 20,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1310,7 +1039,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 21,
       "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
       "authors": [
         "Victor Enescu",
@@ -1357,7 +1086,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 28,
+      "rank": 22,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1400,50 +1129,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 29,
-      "title": "Benchmarking Sheaf Neural Networks for Inductive Tasks",
-      "authors": [
-        "Stefano Fiorini",
-        "Edoardo Coppola",
-        "Pietro Liò"
-      ],
-      "date": "2026-08-03",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.02558v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02558v1",
-      "doi": "",
-      "arxiv_id": "2608.02558v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Sheaf Neural Networks (SNNs) generalize message passing by replacing scalar edge weights of standard Graph Neural Networks (GNNs) with learnable, edge-dependent restriction maps between node stalks. Despite their strong theoretical foundations and promising transductive results, SNNs have been evaluated almost exclusively on transductive node classification, leaving their behaviour under inductive protocols unknown. We address this gap through the first systematic benchmark of the sheaf design space, evaluating three diffusion mechanisms (neural sheaf diffusion, sheaf attention, and sheaf attention with Graph Attention Network v2), three restriction-map parameterizations, three stalk dimensions, and six modern GNN architectural components, within a message-passing reformulation that never assembles the heavy sheaf Laplacian, making the full design space trainable under cross-graph batching. Across $1{,}890$ controlled experiments on 14 inductive datasets, multiple insights emerge: restriction maps are the dominant design choice and general maps are preferable, larger stalks add capacity but not long-range reach, architectural components explain more performance variation than the entire sheaf-specific design space itself. Under a matched protocol, SNNs transfer to inductive settings but do not reach the strongest baselines, with gaps being dataset-dependent. Practically, a single sheaf configuration can generalize across datasets, so effort is better spent tuning the surrounding architectural recipe than the sheaf operator itself.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 5.213,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.7799999999999994,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.261,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
+      "rank": 23,
       "title": "PG-LLM: Benchmarking General-Purpose Language Models for Protein Variant Ranking",
       "authors": [
         "Arora, R. K.",
@@ -1485,6 +1171,316 @@
       "priority": "Archive",
       "paper_type": "benchmark_dataset",
       "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 24,
+      "title": "Characterization of a novel R98Q mutation that confers resistance to sulfentrazone in common ragweed (Ambrosia artemisiifolia) populations from MichiganShort title: PPO resistance in common ragweed",
+      "authors": [
+        "Alvarez Rodriguez, S.",
+        "Ozolins, M.",
+        "Porri, A.",
+        "Lerchl, J.",
+        "Patterson, E."
+      ],
+      "date": "2026-08-03",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/03/2026.07.31.742095.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/03/2026.07.31.742095.source.xml",
+      "doi": "10.64898/2026.07.31.742095",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "BACKGROUND: In 2023, soybean growers in Eaton County, Michigan, reported repeated failures to control common ragweed (Ambrosia artemisiifolia L.) with (PPO)-inhibiting herbicides, sulfentrazone and fomesafen, in non-genetically modified soybeans. This study aimed to investigate resistance levels and mechanisms of resistance in two suspected resistant populations (R1 and R2). RESULTS: Dose response assays revealed resistance to sulfentrazone in both populations, with LD50 values 24 and 36-fold higher than the susceptible population and reduced sensitivity to fomesafen. Nanopore sequencing identified two PPO2 target-site substitutions at codon 98: Arg-98-Leu (R98L) and a novel Arg-98-Gln (R98Q) mutation. Both substitutions were associated with reduced herbicide binding affinity in computational modelling simulations. R98Q substitution conferred strong and selective resistance in the PPO2 enzyme inhibition assays, supporting its role as a key resistance mechanism. CONCLUSION: This study reports the first field occurrence of the R98Q substitution in PPO2 of A. artemisiifolia populations and demonstrates its association with to PPO inhibitor resistance. These findings highlight the rapid evolution of target-site resistance and the need for continued monitoring and rapid diagnostic tools to detect emerging mutations. Further research is needed to clarify the contribution of additional resistance mechanisms.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity"
+      ],
+      "deterministic_score": 3.89,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 3.7800000000000002,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to protein_ligand_affinity, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 25,
+      "title": "Acaricidal activity of silver nanoparticles biosynthesized from unripe fruits of Solanum elaeagnifolium Cav. against Tetranychus urticae Koch",
+      "authors": [
+        "Salwa M. El-Sayed",
+        "Amany M. Ahmed",
+        "Heba M. Emam"
+      ],
+      "date": "2026-08-02",
+      "source": "openalex",
+      "link": "https://doi.org/10.1186/s40538-026-01031-w",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40538-026-01031-w.pdf",
+      "doi": "10.1186/s40538-026-01031-w",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172119822",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract Background Tetranychus urticae Koch, is a globally significant agricultural pest. Its rapid development of resistance to conventional acaricides poses a major challenge to effective control. Recently, nanotechnology has emerged as a transformative approach in agriculture, particularly through the synthesis of eco-friendly nanoparticles using natural plant extracts. This study evaluates the acaricidal efficacy of silver nanoparticles (AgNPs) synthesized from Solanum elaeagnifolium unripe fruit extract against adult females of T . urticae . Characterization via UV-Vis, FT-IR, DLS, TEM, and zeta potential analysis confirmed the formation of stable, well-dispersed AgNPs. Results The reaction color of silver nanoparticles (AgNPs) from pale-brown to dark brown indicated that the nanoparticles were successfully formed. TEM image of silver nanoparticles (AgNPs) exhibited spherical shapes with a zeta potential of − 11.8 mV. The results indicated an increasing trend of mortality percentage along with the increasing concentrations of silver nanoparticles (AgNPs) synthesized from unripe S. elaeagnifolium fruit extract. Silver nanoparticles of synthesized from unripe S. elaeagnifolium were significantly effective against T. urticae . The highest mortality 85 ± 0.20% was observed for 20 µg/mL concentration after 72 h. Whereas, lowest mortality percentage were recorded 5 ± 0.78 and 10 ± 0.35% respectively after 24 h at concentrations 5 and 10 (µg/mL). Also, the average number of immature stages produced by the surviving T. urticae females were sharply decreased after treatment with varying concentrations of silver nanoparticles (AgNPs) synthesized from unripe S. elaeagnifolium fruits. The LC 50 value dropped significantly from 25.559 µg/mL after 24 h while, reaching its lowest value of 8.937 µg/mL after 72 h of exposure. A similar decreasing trend was observed for LC 90 values, which declined from 80.788 µg/mL (24 h) to 44.669 µg/mL (72 h) against T. urticae . The toxicity index was recorded 100% and The Resistance Ratio (RR) = (1.00) after 72 h of treatment. T. urticae exhibited an RR value of 2.86 at 24 h. Biochemically, silver nanoparticles (AgNPs) at 20 µg/mL significantly inhibited acetylcholinesterase (AChE) activity, while glutathione-S-transferase (GST) levels increased significantly after 72 h. Docking findings demonstrated that S. elaeagnifolium -mediated AgNPs support a possible role of enzymatic disruption (AChE and GST) of T. urticae . The components of unripe S. elaeagnifolium fruits were analyzed using gas chromatography–mass spectrometry (GC–MS). The major constituents are oleic acid, 13-octadecenoic acid, Z-2-tridecen-1-ol and Z, Z-2,5-pentadecadien-1-ol and α-tocopherol. Conclusion Prolonged exposure ensures continuous absorption and accumulation of the active ingredients of plant extract within the biological system of T. urticae , shifting the individuals from a state of relative tolerance at 24 h to complete susceptibility at 72 h. This study proved that application of silver nanoparticles synthesized from unripe S. elaeagnifolium at fruits high concentrations and over extended exposure durations could be effective for control of T . urticae population. These results provided baseline data regarding the lethal thresholds of the silver nanoparticles of synthesized from S . elaeagnifolium , reinforcing its potential as a highly potent for targeted pest management strategy. S. elaeagnifolium -mediated silver nanoparticles (AgNPs) exhibit strong acaricidal activity against T. urticae through enzymatic disruption mechanisms. The IC 50 value obtained for Vero cells was approximately 24–68-fold higher than the LC 50 values recorded against mite, demonstrating a favorable safety margin and selective toxicity of the synthesized silver nanoparticles (AgNPs) toward the target mite relative to mammalian cells. These findings suggest that S. elaeagnifolium -mediated silver nanoparticles (AgNPs) serve as a potent and sustainable biopesticide for managing T. urticae populations.",
+      "venue": "Chemical and Biological Technologies in Agriculture",
+      "code_url": "",
+      "topic_tags": [
+        "protein_ligand_affinity"
+      ],
+      "deterministic_score": 3.47,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 3.7800000000000002,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to protein_ligand_affinity, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 26,
+      "title": "Genome-scale prediction of context-specific synthetic lethality beyond protein interaction networks",
+      "authors": [
+        "Baskar, P.",
+        "Parnika, S.",
+        "Lakhdive, A.",
+        "Bej, S.",
+        "Shameer, S.",
+        "Vijayan, K."
+      ],
+      "date": "2026-08-03",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/03/2026.07.31.742101.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/03/2026.07.31.742101.source.xml",
+      "doi": "10.64898/2026.07.31.742101",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Identifying synthetic lethal (SL) interactions offers a principled framework for discovering disease-specific therapeutic targets. However, current machine learning approaches heavily rely on curated protein-protein interaction networks. Because these networks cover only ~7,500 proteins, they severely restrict the search space of human gene pairs and introduce systematic biases toward well-characterized genes. To circumvent these limitations, we developed SLxGO, a network-independent machine learning framework that predicts SL interactions directly from semantic representations of Gene Ontology annotations encoded via BioBERT-derived embeddings. Benchmarked across multiple cross-validation schemes against eight state-of-the-art methods, SLxGO consistently achieved superior predictive ranking performance, maintaining robustness under cold-start conditions for previously unseen genes. Integrating cell line-specific transcriptional profiles extended this framework to context-dependent SL prediction across six distinct cell lines. Notably, we experimentally confirmed a context-specific EFNA1-SLC29A1 SL interaction in HeLa cells, alongside synergistic pharmacological validation of an ACVR1-SLC29A1 vulnerability. All predictions are hosted on SLiGO, an open-access database encompassing 30 million human gene pairs, establishing a comprehensive, genome-scale resource for context-specific vulnerability mapping across the human interactome.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.955,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 0.0,
+        "novelty": 0.84,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.325,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "CritiFlip: an efficient bit-flip attack based on critical weight identification",
+      "authors": [
+        "Jianing Wang",
+        "Xue Tian",
+        "Hongxia Ma",
+        "Jing Yu",
+        "Chi Chen"
+      ],
+      "date": "2026-08-03",
+      "source": "openalex",
+      "link": "https://doi.org/10.1186/s42400-026-00610-6",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1186/s42400-026-00610-6.pdf",
+      "doi": "10.1186/s42400-026-00610-6",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172205142",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract Recent studies have demonstrated that deep neural networks (DNNs) are highly vulnerable to bit-flip attacks (BFAs), where modifying only a few bits in memory can severely degrade model performance. However, existing BFA techniques typically rely on exhaustive searches over the entire parameter space and overemphasize single-bit flipping capability, leading to limited effectiveness in the presence of modern defenses. To address this challenge, we propose CritiFlip, an efficient BFA framework based on critical-weight identification. CritiFlip locates critical parameters through gradient computation and random perturbation, and performs targeted bit flips on them. By constraining the search to less than 0.1% of the total parameters, the framework greatly improves attack efficiency without compromising destructive power. Furthermore, we demonstrate that multi-bit flipping per iteration yields stronger degradation than single-bit strategies, especially when attacking defense-hardened models enhanced with weight reconstruction. Extensive experiments on multiple architectures and datasets confirm that CritiFlip maintains high attack potency with drastically reduced computation, even against hardened quantized models. These results indicate that exploiting non-uniform parameter sensitivity can provide a practical and effective avenue for evaluating and strengthening DNN robustness at the hardware level.",
+      "venue": "Cybersecurity",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.935,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "PBPK-iPINNs: Inverse Physics-Informed Neural Networks for Physiologically Based Pharmacokinetic Brain Models",
+      "authors": [],
+      "date": "2026-08-02",
+      "source": "openalex",
+      "link": "https://doi.org/10.62476/amma112275",
+      "pdf_url": "https://api.jomardpublishing.com/api/main/articles/download?source=storage/journals/advanced-mathematical-models-applications/issues/pdf/2026/pbpk-ipinns-inverse-physics-informed-neural-networks-for-physiologically-based-pharmacokinetic-brain-models.pdf",
+      "doi": "10.62476/amma112275",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172212252",
+      "semantic_scholar_id": "",
+      "abstract": "Physics-Informed Neural Networks (PINNs) integrate machine learning with differential equations to solve forward and inverse problems while ensuring that predictions adhere to physical laws.Physiologically based pharmacokinetic (PBPK) modeling advances beyond classical compartmental approaches by employing a mechanistic, physiology-focused framework.Such models involve many unknown parameters that are difficult to measure directly in humans due to ethical and practical constraints.PBPK models are constructed as systems of ordinary differential equations (ODEs) and these parametric ODEs are often stiff, and traditional numerical and statistical methods frequently fail to converge.In this study, we consider a permeability-limited, four-compartment PBPK brain model that mimics human brain functionality in drug delivery.We introduce PBPK-iPINN, a method for estimating drug-specific or patient-specific parameters and drug concentration profiles using inverse PINNs.We also conducted parameter identifiability analysis to determines whether the parameters can be uniquely and reliably estimated from the available data.We demonstrate that, for the inverse problem to converge to the correct solution, the components of the loss function (data loss, initial condition loss, and residual loss) must be appropriately weighted, and the hyperparameters including the number of layers and neurons, activation functions, learning rate, optimizer, and collocation points must be carefully tuned.The performance of the PBPK-iPINN approach is then compared with established numerical and statistical methods.PBPK-iPINN achieved parameter errors on the order of 10 -8 for volumes, outperforming traditional methods.Accurate parameter estimation yields precise drug concentration-time profiles, which in turn enable the calculation of pharmacokinetic metrics.These metrics support drug developers and clinicians in designing and optimizing therapies for brain cancer.",
+      "venue": "Advanced mathematical models & applications.",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.49,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "AtmosChemNet-AI for chemistry-informed urban air pollution forecasting using spatiotemporal deep learning",
+      "authors": [
+        "Gajula Ramesh",
+        "P. Dileep Kumar Reddy",
+        "A. Jayanthi",
+        "Lipika Goel",
+        "Y. Lakshmi Prasanna",
+        "B. J. D. Kalyani"
+      ],
+      "date": "2026-08-03",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41598-026-64476-x",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-64476-x_reference.pdf",
+      "doi": "10.1038/s41598-026-64476-x",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172327052",
+      "semantic_scholar_id": "",
+      "abstract": "Urban air pollution prognosis is an important public health protection and environmental management challenge that continues to endure due to the complex, nonlinear interactions among emissions, meteorology, transport, and atmospheric chemistry. Recent deep learning techniques have been designed to directly improve short-term predictive skill by learning spatiotemporal correlations from historical data. However, these data-driven, often implicit approaches essentially bypass chemical processes. Consequently, they tend to perform poorly under regime shifts, i.e., high-pollution episodes, photochemically active conditions, and unobserved meteorological patterns, thereby limiting their robustness and interpretability. In this paper, we propose AtmosChemNet-AI, a reaction-kinetics-aware deep learning framework, to circumvent these limitations and enable the atmospheric science community to predict the dynamics of urban atmospheric pollution. Our new method incorporates chemistry-inspired reaction-kinetics-aware proxy descriptors into learning via kinetics-informed feature construction, kinetics-conditioned gating in a spatiotemporal sequence model, and physics-constrained regularisation during training. Coupled, these mechanisms constrain representation learning to chemically feasible pollutant evolution while maintaining the expressiveness of modern deep neural networks. Validation is performed across a range of pollutants, forecast horizons, and operating regimes using real data, urban air quality observations, and meteorological reanalysis. Experimental evaluation under the considered datasets, forecasting horizons, and baseline comparisons demonstrates consistent improvements in predictive performance, including 15–20% relative reductions in mean absolute error and root mean square error, together with higher coefficients of determination. Ablation and regime analyses corroborate the finding that knowledge of reaction kinetics increases robustness during high-pollution events, under reaction-favourable conditions, and in untrained meteorological regimes. The main results show that incorporating reaction-kinetics domain knowledge into deep learning models notably increases forecast accuracy, stability, and generalisation. This framework provides a promising foundation for future real-time air quality forecasting and urban environmental decision-support applications, subject to further deployment-oriented validation and system-level evaluation.",
+      "venue": "Scientific Reports",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.47,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.9359999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Discovery of a buried charge-network GFP-fold family spanning prokaryotes and eukaryotes (Draft manuscript)",
+      "authors": [
+        "Zimmer, M.",
+        "Schneider, T. L."
+      ],
+      "date": "2026-08-02",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/02/2026.07.29.741452.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/02/2026.07.29.741452.source.xml",
+      "doi": "10.64898/2026.07.29.741452",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The GFP fold has long been viewed as a specialized fluorescent scaffold found principally in marine animals. A structure-first search reveals a rare buried charge-network GFP-fold family spanning bacteria, fungi, and corals. Its members retain the eleven-stranded barrel and conserved chromophore-forming machinery but replace the canonical central tyrosine with methionine or other hydrophobic residues. Ancestral reconstruction supports a non-tyrosine state early in the lineage. Instead of a conventional chromophore, the barrel encloses an invariant five-residue network of two arginines, two glutamates, and Tyr168, whereas the chromophore-equivalent residue varies. The network is more conserved than the protein surface, occupies the most strongly constrained evolutionary sites, and remains formed across independent structure predictions and explicit-solvent molecular-dynamics trajectories. Fold-independent searches identify the same two-cation/two-anion/tyrosine network in 238 members of DUF2490, an unrelated outer-membrane beta-barrel family, consistent with convergent evolution of the buried network. These findings expand the known sequence and chemical space of the GFP barrel, although the biochemical function of the network remains unknown.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.115,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 0.0,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.325,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
