@@ -1,9 +1,9 @@
 {
   "date": "2026-08-08",
   "stats": {
-    "raw_candidates": 207,
-    "deduplicated_candidates": 142,
-    "filtered_candidates": 142,
+    "raw_candidates": 235,
+    "deduplicated_candidates": 167,
+    "filtered_candidates": 167,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -30,6 +30,58 @@
   "candidates": [
     {
       "rank": 1,
+      "title": "AI-guided De Novo design of DHPS inhibitors",
+      "authors": [
+        "Hongchul Shin",
+        "Kyuhyeon Bang",
+        "박인교",
+        "Hong-Rae Kim",
+        "Kwang Yeon Hwang"
+      ],
+      "date": "2026-08-05",
+      "source": "openalex",
+      "link": "https://doi.org/10.1186/s13321-026-01277-4",
+      "pdf_url": "",
+      "doi": "10.1186/s13321-026-01277-4",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172417938",
+      "semantic_scholar_id": "",
+      "abstract": "Hypusine modification of eIF5A by Deoxyhypusine Synthase (DHPS) is essential for the replication of a broad range of viruses, making DHPS an attractive host-directed therapy (HDT) target for antiviral drug discovery. AI-based drug design methods spanning binding affinity prediction and de novo molecular generation are rapidly proliferating, yet systematic benchmarking of diverse algorithmic paradigms under identical conditions on a shared target, with experimental validation, remains scarce. Here, we present an integrated AI benchmarking pipeline targeting DHPS and evaluate the full process from computational prediction to experimental validation. We compared 13 MM-GBSA score estimation models and 10 de novo molecular generation methods under 5-seed repeated experiments. For the prediction task, we propose an Out-of-Fold stacking ensemble integrating gradient boosting, graph neural networks, and chemical language models, achieving the highest Spearman rank correlation of 0.861 among all compared models. For the generation task, we propose RL-Design, a reinforcement learning-based framework using the ensemble predictor as a scoring oracle. RL-Design achieved the highest hit rate of 92.02% and maintained drug-like physicochemical properties across generated molecules, outperforming all nine competing methods. Moreover, experimental dose–response assays confirmed inhibitory activity in all three predicted-active compounds, with two highly active compounds showing IC 50 values of 31.2 and 49.1 µM. Predicted and experimental activity showed complete concordance across all six tested compounds, providing oracle-independent validation of the pipeline. This pipeline provides a reproducible framework for AI-guided, target-specific inhibitor design and demonstrates the feasibility of HDT-focused antiviral drug discovery through systematic AI benchmarking. Scientific contribution This work proposes two methods for inhibitor discovery against DHPS, a host-directed antiviral target. A predictive model for MM-GBSA binding-score estimation and a generative model that designs candidate hit compounds both ranked first among previous prediction and generation models under identical benchmarking. The predicted activities were experimentally confirmed by dose–response enzymatic assays.",
+      "venue": "Journal of Cheminformatics",
+      "code_url": "",
+      "topic_tags": [
+        "generative_modeling_core",
+        "ai_drug_discovery",
+        "small_molecule_design",
+        "protein_ligand_affinity",
+        "medicinal_and_synthetic_chemistry",
+        "transferable_insights"
+      ],
+      "deterministic_score": 30.008,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 18.0,
+        "novelty": 2.8,
+        "methodological_insight": 0.0,
+        "transferable_insight": 1.118,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Must Read",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core, ai_drug_discovery, small_molecule_design, protein_ligand_affinity.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 2,
       "title": "Artificial Intelligence based identification of druggability of essential hypothetical proteins in Plasmodium falciparum.",
       "authors": [
         "Muskan Ray",
@@ -76,7 +128,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "MolX: A Geometric Foundation Model for Protein-Ligand Modelling",
       "authors": [
         "Liu, J.",
@@ -131,7 +183,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Artificial Intelligence-Driven Natural Product Drug Discovery: From Computational Genome Mining to Clinical Translation.",
       "authors": [
         "Antonio Lavecchia"
@@ -176,7 +228,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Accessing pore-blocker bound and alternative conductive conformations of TMEM16A using PIP2-assisted adaptive sampling",
       "authors": [
         "Pipatpolkai, T.",
@@ -221,7 +273,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "AI-driven computational drug design: tools, workflow and challenges.",
       "authors": [
         "Ryena Dhir",
@@ -268,7 +320,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
       "authors": [
         "Farzana Nasrin"
@@ -313,7 +365,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
       "authors": [
         "Robin Trombetta",
@@ -358,7 +410,57 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "HRL-NAS: An Adaptive hierarchical framework with Pareto dominance for Rolling Bearings Remaining Useful Life Prediction",
+      "authors": [
+        "Jingsong Xie",
+        "Siyu Jiang",
+        "Yuntian Ta",
+        "Tongyang Pan",
+        "Jinglong Chen",
+        "Tiantian Wang",
+        "Buyao Yang"
+      ],
+      "date": "2026-08-05",
+      "source": "openalex",
+      "link": "https://doi.org/10.1088/1361-6501/ae9572",
+      "pdf_url": "",
+      "doi": "10.1088/1361-6501/ae9572",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172499341",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract In the development of lifespan prediction models, existing manual design methods are inefficient. Furthermore, the stringent lightweighting requirements for edge deployment often lead to resource constraints or performance degradation, making it difficult to meet practical engineering demands. To address this, this paper proposes a Hierarchical Reinforcement Learning Neural Architecture Search (HRL-NAS) method for rotating machinery lifespan prediction. This method utilizes a hierarchical decision-making search space to reduce complexity, using a macro-controller for layer types and a micro-controller for specific parameters. Secondly, a multi-objective reward function, combining prediction accuracy and computational complexity, guides the agent toward lightweight models that satisfy hardware resource constraints. Pareto dominance is then employed to obtain an optimal solution set, allowing for the selection of deployment models for different hardware configurations to achieve edge-side remaining useful life prediction.. Experiments on the XJTU‑SY bearing dataset and the PHM2012 dataset validate the method. On the XJTU‑SY dataset, the searched model achieves a mean squared error of 1.6×10⁻⁴ and reduces floating‑point operations by over 97% compared to the ENAS baseline. On the PHM2012 dataset, the model achieves a mean squared error of 3.1×10⁻⁴ and reduces floating‑point operations by over 98%. Moreover, the hierarchical search strategy improves search efficiency by more than 20 times on both datasets compared to single‑layer reinforcement learning. Results demonstrate that the searched models outperform comparison models in prediction accuracy, floating-point operations (FLOPs), and parameter count, successfully achieving a balanced optimization of performance and efficiency.",
+      "venue": "Measurement Science and Technology",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization",
+        "transferable_insights"
+      ],
+      "deterministic_score": 15.827,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 6.75,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.911,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to multi_objective_optimization, transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 10,
       "title": "PRISM: Distribution-Gated Flow Matching for Controllable Unpaired Image Translation",
       "authors": [
         "Elad Yoshai",
@@ -402,7 +504,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 11,
       "title": "Mechanistic and machine learning models design human gut consortia that robustly inhibit Clostridioides difficile",
       "authors": [
         "Im, H.",
@@ -455,7 +557,52 @@
       "possible_concerns": "classified as weak_match"
     },
     {
-      "rank": 10,
+      "rank": 12,
+      "title": "GAESA-iFormer: a graph attention-enhanced scale-aware inverted transformer for performance characterization of aircraft engine compressors",
+      "authors": [
+        "Xiang Gao",
+        "Zhanxue Wang",
+        "Zhenyu Tao"
+      ],
+      "date": "2026-08-05",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fmech.2026.1893961",
+      "pdf_url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2026.1893961/pdf",
+      "doi": "10.3389/fmech.2026.1893961",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172517884",
+      "semantic_scholar_id": "",
+      "abstract": "Introduction Accurate determination of aircraft engine compressor characteristics is vital for stability and performance optimization. However, experimental data acquisition is often hindered by high costs, resulting in a strong reliance on limited test data. Methods To address this challenge, this paper proposes the Graph Attention Enhanced Scale-Aware Inverted Transformer (GAESA-iFormer), a novel surrogate modeling framework integrating a Graph Attention Network (GAT) encoder, a Multi-scale Feature Enhancement (MSFE) module, and a cross-attention decoder based on the inverted Transformer architecture. The GAT encoder explicitly models relational dependencies among neighboring operating points along each speed line, capturing local continuity while reducing computational complexity. The MSFE module employs parallel convolutional kernels of sizes 1, 3, and 5 to extract multi-granularity features, effectively broadening the receptive field. Furthermore, the cross-attention decoder enables explicit knowledge transfer across different speed lines, leveraging structural similarities between well-sampled and sparsely sampled speeds—a critical advantage when data is scarce. Results Comprehensive evaluations demonstrate that GAESA-iFormer achieves optimal performance with a feature dimension of 64 and four encoder layers. When trained on transformed secondary data, the proposed model significantly outperforms state-of-the-art baselines, reducing the RMSE by 27.03% and MAE by 31.78%. Discussion The results indicate that the proposed GAESA-iFormer model achieves improved prediction accuracy on the current compressor dataset under limited experimental data.",
+      "venue": "Frontiers in Mechanical Engineering",
+      "code_url": "",
+      "topic_tags": [
+        "graph_algorithms_and_discrete_structures"
+      ],
+      "deterministic_score": 7.801,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 3.375,
+        "novelty": 2.6599999999999997,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to graph_algorithms_and_discrete_structures.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 13,
       "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
       "authors": [
         "Chenglong Wang",
@@ -509,7 +656,55 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 14,
+      "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
+      "authors": [
+        "Abdelrahman Mewafy",
+        "Islam Ismael",
+        "Sahar S. Kaddah",
+        "Adam Sulaiman",
+        "Fujin Deng",
+        "Sayed Abulanwar"
+      ],
+      "date": "2026-09-15",
+      "source": "openalex",
+      "link": "https://strathprints.strath.ac.uk/view/author/1676952.html>",
+      "pdf_url": "",
+      "doi": "",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7162220708",
+      "semantic_scholar_id": "",
+      "abstract": "In standalone applications, hybrid microgrids are showing promise as a means of satisfying consumers’ combined needs for gas, heat, and power. While green hydrogen and green ammonia have been studied separately as energy carriers in earlier research, blended hydrogen-ammonia fuels that can directly feed gas loads or indirectly assist in the generation of electricity have received less attention. In order to achieve technical, economic, reliability, and environmental goals, this study proposes a novel demand response strategy for the optimal sizing and operation of a multiuse hybrid microgrid. The proposed strategy increases the viability of employing renewable resources to cover all energy demands by extending participation beyond electrical loads to include gas and heat loads. To address hourly variations in generation and demand, the 24-hour operation is divided into dynamic intervals in which selected power, gas, and heat loads are shifted from periods of low renewable generation to periods of surplus production, supported by customer incentives. In terms of the environment, the system collects oxygen that is generated as a byproduct of several energy conversion processes, making it suitable for use in industrial and medical settings. To fully substitute natural gas in meeting gas demand, a blended ammonia-hydrogen fuel is also introduced as a decarbonization approach. To reduce overall cost, unmet load, curtailed energy, and emissions, the optimization framework uses a multi-objective function that is weighted using the Analytical Hierarchy Process (AHP). Two optimization techniques, teaching-learning-based optimization and particle swarm optimization, are used to assess the efficacy of the proposed methodology under various circumstances.",
+      "venue": "Strathprints: The University of Strathclyde institutional repository (University of Strathclyde)",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 6.842,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.118,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 15,
       "title": "Diversity Beats Size Scaling for Chemical Language Models.",
       "authors": [
         "Borja Medina",
@@ -556,7 +751,54 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 16,
+      "title": "Unsupervised Domain Adaptation For Enhanced Radiometer Image Precipitation Estimation Using Conditional Flow Matching",
+      "authors": [
+        "Victor Enescu",
+        "Assaad Zeghina",
+        "Matthieu Meignin",
+        "Nicolas Viltard",
+        "Cécile Mallet"
+      ],
+      "date": "2026-09-13",
+      "source": "openalex",
+      "link": "https://hal.science/hal-05650358",
+      "pdf_url": "",
+      "doi": "",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7164710863",
+      "semantic_scholar_id": "",
+      "abstract": "International audience",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "code_url": "",
+      "topic_tags": [
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 6.386,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.725,
+        "novelty": 0.0,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -3.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "possible_concerns": "abstract is missing or too short to judge novelty well"
+    },
+    {
+      "rank": 17,
       "title": "HERMES: Holographic Equivariant neuRal network model for Mutational Effect and Stability prediction",
       "authors": [
         "Visani, G. M.",
@@ -606,7 +848,50 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 18,
+      "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
+      "authors": [
+        "Hsu Feng"
+      ],
+      "date": "2026-12-31",
+      "source": "openalex",
+      "link": "https://refuture.respai.de/articles/1-1/fast-solution-methods-for-the-classical-01-knapsack-problem-20260722-e6b499.html",
+      "pdf_url": "",
+      "doi": "10.17613/ttrnk-0vc38",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7170062128",
+      "semantic_scholar_id": "",
+      "abstract": "The classical 0--1 knapsack problem is among the simplest integer programs to state and among the most instructive problems for understanding why algorithm selection must follow instance structure. An input contains items with positive integer weights and profits, and the task is to choose a maximum-profit subset whose total weight does not exceed a capacity. The problem is weakly NP-hard, yet many large instances are solved quickly because exact algorithms exploit moderate numeric parameters, strong linear relaxations, dominance relations, or a small set of uncertain variables near the fractional break item. This review develops a theory-guided account of the principal fast solution methods for the classical problem. It proves the correctness and complexity of weight-indexed and profit-indexed dynamic programming, explains sparse Pareto-frontier implementations and reconstruction, derives the fractional-knapsack upper bound used by branch-and-bound methods, and establishes the correctness of meet-in-the-middle search. It then presents the core concept that underlies influential practical solvers and gives a detailed proof of the standard profit-scaling fully polynomial-time approximation scheme. Modern advances based on structured min-plus convolution are placed within this classical landscape rather than treated as isolated results. The central conclusion is that there is no universally fastest knapsack algorithm. Small item counts favor meet-in-the-middle search, moderate capacities or total profits favor dynamic programming, favorable density structure favors core-based exact methods, and very large numeric coefficients favor approximation. A final decision framework translates these theoretical distinctions into an implementable solver-selection policy while identifying open questions concerning adaptivity, certified switching among methods, memory efficiency, and realistic hard-instance generation.",
+      "venue": "Open MIND",
+      "code_url": "",
+      "topic_tags": [
+        "graph_algorithms_and_discrete_structures"
+      ],
+      "deterministic_score": 6.029,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 3.375,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to graph_algorithms_and_discrete_structures, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 19,
       "title": "Learning When to Trust via Selective Context Preference Optimization",
       "authors": [
         "Xian Sun",
@@ -653,7 +938,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 20,
       "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
       "authors": [
         "Zhe Li",
@@ -704,7 +989,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 21,
       "title": "Scalable estimation of VARMA models",
       "authors": [
         "Daniel Paulin",
@@ -746,7 +1031,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 22,
       "title": "Depth-Guided Video Object Counting in Crowded Scenes",
       "authors": [
         "Yuanjing Xu",
@@ -794,7 +1079,93 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 23,
+      "title": "Integrating Petri net heuristics within MILP for optimizing energy-efficient scheduling of flexible manufacturing systems",
+      "authors": [
+        "Mei Chen",
+        "Luca Pinciroli",
+        "Enrico Zio"
+      ],
+      "date": "2026-08-05",
+      "source": "openalex",
+      "link": "https://doi.org/10.1007/s00170-026-18845-5",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00170-026-18845-5.pdf",
+      "doi": "10.1007/s00170-026-18845-5",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172439625",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract Flexible Manufacturing Systems (FMSs) increasingly need to reconcile flexibility, high productivity and energy efficiency. This paper addresses the energy-efficient scheduling of routing-flexible FMSs with multiple job instances, shared machines and route-level Work-in-Process (WIP) constraints, where makespan and production energy consumption are jointly optimized. A Petri Net–Mixed-Integer Linear Programming (PN–MILP) hybrid framework is proposed, in which a Timed and Energy-aware Transition Petri Net (TETPN) models the discrete-event scheduling logic of the FMS, including routing alternatives, operation precedence, machine sharing and route-level WIP limits. Based on the TETPN representation and simulation, feasible timed schedules are generated by a Hybrid Filtered Beam Search Algorithm (HFBSA) and its Randomized Beam-Retention extension (RBR-HFBSA). These schedules are then translated into feasible warm starts for a time-indexed MILP formulation, which enforces the same scheduling constraints in optimization form and refines the final solution through exact search. The resulting PN–MILP hybrid schemes, HFBSA+MILP and RBR-HFBSA+MILP, therefore, connect PN-based feasible-schedule generation with MILP-based exact optimization. Computational experiments on a 60-scenario benchmark show that PN-based warm starts substantially improve the robustness of the exact solution process relative to solving the MILP model without any PN-derived warm start, particularly in large-scale and unbalanced production settings, by increasing the probability of attaining a feasible incumbent within the imposed time limit. The proposed framework thus enables more reliable and effective exact optimization for complex routing-flexible FMS scheduling problems.",
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.426,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 2.6599999999999997,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 24,
+      "title": "Adaptive Portfolio Rebalancing for NASDAQ-100 Stocks with Hippopotamus Optimization Algorithm under Transaction Costs",
+      "authors": [
+        "Safrizal Ardana Ardiyansa",
+        "Mohamad Muslikh",
+        "Syaiful Anam"
+      ],
+      "date": "2026-11-30",
+      "source": "openalex",
+      "link": "http://ejournal.uin-malang.ac.id/index.php/Math/article/view/43876",
+      "pdf_url": "https://ejournal.uin-malang.ac.id/index.php/Math/article/download/43876/pdf",
+      "doi": "10.18860/cauchy.v11i2.43876",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7172380412",
+      "semantic_scholar_id": "",
+      "abstract": "This study proposes a transaction cost-aware portfolio optimization framework for NASDAQ-100 stocks based on the Hippopotamus Optimization Algorithm (HOA). The mathematical model extends the classical mean-variance framework by incorporating transaction costs into a Net Sharpe Ratio (NSR) objective function. Daily adjusted closing prices of NASDAQ-100 constituent stocks from 2021 to 2025 are employed, with the twenty highest-ranked stocks according to the Sharpe Ratio (SR) selected as the candidate investment universe. Each optimization experiment is independently repeated 25 times to evaluate robustness and solution stability. The results indicate that the proposed HOA consistently achieves competitive optimization performance with very small variability across repeated runs throughout the investment horizon. Although several competing algorithms attain comparable or slightly better objective values during particular rebalancing periods, HOA remains among the strongest-performing methods while exhibiting stable convergence behavior. Throughout the investment horizon, the proposed algorithm produces the highest average cumulative portfolio value of \\$5,307.87 \\$125.71 from an initial investment of \\$1,000, corresponding to an average annual return of 40.03% 0.68%, together with the highest average SR and NSR of 1.5736 0.0151, while maintaining competitive maximum drawdown and transaction costs. These findings demonstrate that incorporating transaction costs directly into the optimization objective enables HOA to achieve a favorable balance between portfolio growth, risk-adjusted performance, and trading efficiency under dynamic market conditions.",
+      "venue": "CAUCHY - Journal of Pure Mathematics and Applications (Universitas Islam Negeri Maulana Malik Ibrahim)",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.538,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 25,
       "title": "The Tamed Subgradient Unadjusted Langevin Algorithm beyond Convexity",
       "authors": [
         "Iosif Lytras",
@@ -837,7 +1208,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 26,
       "title": "Toward Deployable Bangla Sign Language Recognition with Expert-Validated Data and a Lightweight Attention-Based Model",
       "authors": [
         "Saad Ahmed",
@@ -879,7 +1250,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 27,
       "title": "A Physics-Inspired Classical Digital Twin of the Cell: A Composite Multi-Clock Port-Hamiltonian Neural Network Learned from Multi-Omic Circadian Data",
       "authors": [
         "Sigdel, D.",
@@ -921,7 +1292,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 28,
       "title": "Parameter identification for predator-prey system with sparse data",
       "authors": [
         "Eduard Campillo-Funollet",
@@ -963,7 +1334,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 29,
       "title": "LOCALE: Local-Alignment Embeddings for Noise-Robust DNA Search at SRA Scale",
       "authors": [
         "Synk, R.",
@@ -1007,7 +1378,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 30,
       "title": "A Robust and Generalizable Low-Input Spatial Proteomics Workflow Enabling Deep Proteome Coverage",
       "authors": [
         "Courtellemont, T.",
@@ -1050,397 +1421,6 @@
       "priority": "Archive",
       "paper_type": "benchmark_dataset",
       "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 23,
-      "title": "Structural basis for alpha-actinin inhibition of cooperative cofilin binding to actin filaments",
-      "authors": [
-        "Ngo, K. X.",
-        "Sumikama, T.",
-        "Uyeda, T. Q.",
-        "Le, N. T. P.",
-        "Nguyen, H. G.",
-        "Vuillemot, R.",
-        "Grudinin, S."
-      ],
-      "date": "2026-08-05",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/05/2025.11.16.688667.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/05/2025.11.16.688667.source.xml",
-      "doi": "10.1101/2025.11.16.688667",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Actin is a conserved cytoskeletal protein essential for morphogenesis, motility, and division. Its versatility arises from filament assembly and regulation by actin binding proteins. Among these, alpha-actinin organizes filaments into bipolar or unipolar networks, whereas cofilin binds preferentially to ADP-actin regions and forms clusters to shorten the half helical pitch (HHP). Here, we investigated the molecular mechanism of how alpha-actinin alters filament and protomer conformations and influences cofilin binding. Using all-atom molecular dynamics simulations, principal component analysis, and high-speed atomic force microscopy, we show that alpha-actinin crosslinking stabilizes actin filaments in the canonical helical state, thereby preventing the cofilin-induced helical shortening required for cooperative filament decoration. Stabilization occurs without significant changes in protomer twist and rise and subdomain geometry and maintains a flattened protomer conformation that restricts twisting needed for cofilin cooperative binding. By contrast, the isolated alpha-actinin-1 actin binding domain mutant (ABD-E235K), comprising two calponin homology domains (CH1-CH2), transiently binds to actin filaments and induces local transitions from the canonical double-helical filament to the single- and parallel-helical protofilament states, weakly affecting cofilin binding and cluster formation through a distinct structural and binding mechanism. Together, these findings reveal a mechanistically distinct function of full-length alpha-actinin and its isolated ABD and support a stepwise mechanism in which cooperative cofilin binding to double-helical actin filaments requires initial binding to actin regions with shortened HHP, followed by protomer twisting and further helical shortening. By stabilizing the canonical filament architecture or perturbing filament organization, alpha-actinin suppresses these structural transitions and thereby perturbs cofilin cooperativity. TeaserAlpha-actinin stabilizes actin helices, suppressing cofilin cooperative binding through distinct structural mechanisms.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "molecular_glue_and_tpd",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 2.49,
-      "score_breakdown": {
-        "paper_type": "routine_application",
-        "direct_relevance": 10.8,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -12.0
-      },
-      "priority": "Archive",
-      "paper_type": "routine_application",
-      "why_selected": "Selected only as a lower-priority candidate: it matches molecular_glue_and_tpd, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
-      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
-    },
-    {
-      "rank": 24,
-      "title": "Reward-Based Equilibrium Propagation",
-      "authors": [
-        "Kubo, Y."
-      ],
-      "date": "2026-08-05",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/05/2026.07.30.741817.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/05/2026.07.30.741817.source.xml",
-      "doi": "10.64898/2026.07.30.741817",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Equilibrium propagation (EP) is a biologically plausible alternative to backpropagation for training neural networks. EP typically relies on free and nudged dynamical phases: during the free phase, the network relaxes toward an equilibrium state, whereas during nudging, the output state is perturbed toward a target using a teaching signal. However, it remains unclear whether the brain has access to such explicit target signals. Inspired by Attention-Gated Brain Propagation (BrainProp), a reward-based learning framework proposed by Pozzi et al. (2020), we introduce a reward-based variant of EP that replaces full target-based nudging with a selected-output binary reward signal. The proposed method updates the network using only the chosen class and whether that choice is correct, without directly revealing the full target vector. We evaluate the method on MNIST, Fashion-MNIST, and CIFAR-10 using both multilayer perceptrons and convolutional neural networks. The proposed reward-based EP achieves performance close to that of conventional EP across all three datasets, although it generally converges more slowly during the early stages of training. Generalization-gap analyses show similar behavior for the two methods on MNIST and Fashion-MNIST, while reward-based EP exhibits a smaller training-test accuracy gap during later training on CIFAR-10. We further investigate the effect of the exploration probability used during stochastic class selection and find that moderate exploration can provide small performance improvements, although its effect is dataset-dependent. These results demonstrate that EP can learn effectively from sparse, action-specific reward feedback rather than a complete supervised target.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.47,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.9359999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
-      "title": "Distributed coordination for transmission-distribution systems with nonlinear flexibility aggregation",
-      "authors": [
-        "Xinliang Dai",
-        "Yanlin Jiang",
-        "Frederik Zahn",
-        "Yi Guo",
-        "Veit Hagenmeyer"
-      ],
-      "date": "2026-08-06",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.06341v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06341v1",
-      "doi": "",
-      "arxiv_id": "2608.06341v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "High shares of distributed energy resources (DERs) transform distribution systems into active participants in integrated transmission and distribution (ITD) operations. Linear models enable scalable distribution-level flexibility aggregation but can misclassify AC feasible operating points, whereas direct nonlinear aggregation becomes costly, especially in multiperiod ITD coordination. This paper reformulates transmission-distribution coordination within a hierarchical optimization framework and introduces a non-iterative predictor-corrector aggregation method. By leveraging path-following techniques from real-time optimal control, the approach achieves tractable computation with guaranteed error bounds. Across 24 radial distribution-network cases and seven meshed variants, including the real KIT Campus North grid, the proposed method yields substantially lower sampled false- and lost-flexibility rates than linear surrogates and a convex relaxation. On two 24-period ITD testcases, the formulation reduces end-to-end wall-clock time by factors of 6 relative to the corresponding centralized formulation, primarily through dimensionality reduction.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.117,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.84,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 26,
-      "title": "Homology-Based Variant-Effect Predictors Break Down on Cytochrome P450 Pharmacogenes",
-      "authors": [
-        "Xu, H.",
-        "Samori, I.",
-        "Nayar, G.",
-        "Altman, R. B."
-      ],
-      "date": "2026-08-05",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/05/2026.07.30.741616.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/05/2026.07.30.741616.source.xml",
-      "doi": "10.64898/2026.07.30.741616",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Cytochrome P450 (CYP) enzymes metabolize roughly three-quarters of clinically used drugs; genetic variation in these enzymes is a leading source of interindividual differences in drug response. Predicting a variant's functional effect is therefore critical, yet the consequences of most CYP variants remain unknown. Many state-of-the-art variant-effect predictors rest on a homology-based paradigm that scores variants by evolutionary conservation -- an assumption that pharmacogenes including CYPs violate. Indeed, focusing on human CYPs, we show that homology-based models fail systematically. AlphaMissense (AM) assigns variants to its \"ambiguous\" class at nearly twice the proteome-wide rate across six CYPs, and within that class the scores are essentially uncorrelated with CYP2C9 DMS activity (Spearman's {rho} = 0.069); Evolutionary Scale Modeling~2 (ESM-2) shows the same pattern. We further hypothesized that non-homology-based features (sequence position, substitution chemistry, binding-site distance, and secondary structure) might help resolve the ambiguous calls, but their explanatory power is weak. Using CYP2C9 DMS activity as ground truth, we built a k-nearest-neighbors model over ESM-2 embeddings and ensembled it with AM and ESM-2 masked marginal probability, improving the ambiguous-class correlation roughly ten-fold, from {rho} = 0.069 to 0.715 (overall {rho} from 0.638 to 0.825). However, this markedly improved accuracy does not translate into agreement with clinical annotations. Drawing on evidence that a variant's effect can depend on the drug, we hypothesize that substrate identity is the key missing feature in current models, and that predicting function for these multi-substrate enzymes may require redefining function as substrate-conditioned.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.79,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 0.0,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
-      "title": "TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN",
-      "authors": [
-        "Arash Nedaei",
-        "Henna Tiensuu",
-        "Elina Väyrynen",
-        "Saujanya Karki",
-        "Jaakko Suutala"
-      ],
-      "date": "2026-08-06",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.06275v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06275v1",
-      "doi": "",
-      "arxiv_id": "2608.06275v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Oral health issues affect billions globally, but the cost and limited access to professional dental care hinder preventive oral healthcare. Research relies on clinical-grade radiographs or intraoral camera images, unavailable for public self-screening. This study introduces a tooth localisation and numbering model for smartphone photographs. We developed a customised Mask Region-based Convolutional Neural Network (Mask R-CNN) pipeline trained on 1,272 annotated smartphone images. To address variability in patient-generated health data, the pipeline incorporates two domain-informed mechanisms: a masked gray-world white-balancing algorithm to mitigate artificial colour casts and an anatomically constrained detection layer to enforce structural validity and suppress false positives. Evaluation comprised four stages: internal held-out testing, independent external testing, a descriptive ablation study, and fold-based training stability analysis using the same internal test set. On the internal test set, the model achieved an instance-mask AP@50 of 0.818, class-aware PQ of 0.780, and operational F1 of 0.884. Training stability showed limited between-model variation: across ten runs, instance-mask AP@50 had a standard deviation of 0.009. On the external dataset, the model achieved an instance-mask AP@50 of 0.901, class-aware PQ of 0.832, and operational F1 of 0.928 despite differences in population, sensors, and acquisition protocols. The inference pipeline is available as an open-source, containerised API. These results demonstrate that consumer-grade smartphone imagery can support automated tooth-level anatomical mapping, offering a scalable, potentially low-cost foundation for remote screening and tele-dentistry in resource-constrained environments.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.652,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 1.536,
-        "transferable_insight": 0.9359999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 28,
-      "title": "A Universal Control Budget for First-Passage Kinetics",
-      "authors": [
-        "Shiling Liang",
-        "Ruicheng Bao"
-      ],
-      "date": "2026-08-06",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.06368v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06368v1",
-      "doi": "",
-      "arxiv_id": "2608.06368v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "The first-passage time is the natural observable of reaction completion, yet how its mean responds to a rate change has lacked a general constraint. We show that the logarithmic sensitivity of the mean first-passage time of any finite Markov chain to any rate is bounded by one in magnitude, and that these sensitivities sum to -1. Together the two laws form a conserved control budget: speeding completion through some transitions must be paid for by others, and a coordinated change shifts the completion time only as far as the budget allows. Raising an activation barrier or shifting the depth of a well moves many rates at once, yet neither can shift the completion time further than a single rate could. The budget caps kinetic-proofreading discrimination at the checkpoint count, and prices it in sensitivity to substrate concentration.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "stochastic_processes_probability_statistical_physics"
-      ],
-      "deterministic_score": 1.41,
-      "score_breakdown": {
-        "paper_type": "weak_match",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.0,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "weak_match",
-      "why_selected": "Selected as a possible match to stochastic_processes_probability_statistical_physics, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as weak_match"
-    },
-    {
-      "rank": 29,
-      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
-      "authors": [
-        "Junfeng Li",
-        "Junjie He",
-        "Zhide Zhong",
-        "Yangyang Zheng",
-        "Pingyue Sheng",
-        "Jiayu Dong",
-        "Ruixin Li",
-        "Haodong Yan",
-        "Jiaguan Zhu",
-        "Tianran Zhang",
-        "Runze Yu",
-        "Wen Chen",
-        "Liuqing Yang",
-        "Yuxiang Gao",
-        "Haoang Li"
-      ],
-      "date": "2026-08-06",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.06374v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06374v1",
-      "doi": "",
-      "arxiv_id": "2608.06374v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitations, we propose DyPES-VLA, a cross-embodiment VLA that learns shared Dynamics Priors and Embodiment-Specific control. First, we learn shared dynamics priors by training the vision-language model (VLM) with a future-prediction objective on cross-embodiment data, driving the shared query representation to capture object motion, contact, and interaction-induced scene changes. Second, an embodiment-specific Mixture-of-Experts (MoE) action head translates these shared dynamics priors into executable controls directly in each embodiment's native action space, without manually pre-aligning heterogeneous actions into a common format. This head shares attention layers to capture common temporal action structures, while its embodiment-specific feed-forward experts resolve the unique kinematic constraints and control semantics of distinct embodiments. As a generalist policy, our \\ourmethod achieves state-of-the-art performance across simulation and real-world evaluations, reaching 98.0% success on LIBERO, 59.25% on RoboCasa-GR1, and 89.02% on RoboTwin~2.0.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.231,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Evolutionary genomics predicts probiotic persistence in corals",
-      "authors": [
-        "Xie, M.",
-        "Xiang, N.",
-        "Liao, T.",
-        "Cheung, C. T.",
-        "Xian, Z.",
-        "Li, P.",
-        "Lee, C. H.",
-        "Tse, W. Y.",
-        "Tsang, K. K.",
-        "Xu, C.",
-        "Ho, K. E.",
-        "He, Q.",
-        "Dörr, M.",
-        "Manns, H.",
-        "Wang, X.",
-        "Luo, D.",
-        "Hayden, R.",
-        "Chei, E.",
-        "Wan, Z.",
-        "Thompson, P.",
-        "Brennan, J.",
-        "Peixoto, R. S.",
-        "Cui, G.",
-        "Mcllroy, S. E.",
-        "Chui, A. P. Y.",
-        "Voolstra, C. R.",
-        "Luo, H."
-      ],
-      "date": "2026-08-05",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/05/2025.06.16.659728.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/05/2025.06.16.659728.source.xml",
-      "doi": "10.1101/2025.06.16.659728",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "A universal bottleneck limiting probiotic efficacy in medicine, aquaculture, agriculture, and wildlife conservation is uncertain long-term colonization, necessitating repeated administration. We present an evolution-guided framework for probiotic identification based on genomic hallmarks of emerging host dependency, including widespread pseudogenization and insertion sequence proliferation driving genomic restructuring. Applied to coral reefs, we screened over 1,200 coral-associated bacterial isolates and identified Ruegeria MC10 as exhibiting these signatures. Its presence was associated with increased thermal tolerance of a model cnidarian. Following nursery application, MC10 persisted in reef corals for an 8-month monitoring period through a natural bleaching event, improving color retention and retaining algal photosynthesis performance. This work establishes a predictive, scalable pipeline for selecting persistent probiotics, directly addressing a central constraint on microbiome-based interventions across host systems.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.024,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.4,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
