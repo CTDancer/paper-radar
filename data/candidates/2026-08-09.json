@@ -1,9 +1,9 @@
 {
   "date": "2026-08-09",
   "stats": {
-    "raw_candidates": 275,
-    "deduplicated_candidates": 197,
-    "filtered_candidates": 197,
+    "raw_candidates": 279,
+    "deduplicated_candidates": 202,
+    "filtered_candidates": 202,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -834,6 +834,50 @@
     },
     {
       "rank": 18,
+      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
+      "authors": [
+        "Wei Guo",
+        "Yaqiong Dong"
+      ],
+      "date": "2028-09-22",
+      "source": "crossref",
+      "link": "https://doi.org/10.24425/ace.2025.155084",
+      "pdf_url": "",
+      "doi": "10.24425/ace.2025.155084",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
+      "venue": "Archives of Civil Engineering",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 7.844,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.84,
+        "methodological_insight": 2.048,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.42,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 19,
       "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
       "authors": [
         "Chenglong Wang",
@@ -887,7 +931,51 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
+      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
+      "authors": [
+        "Eghbal Sekhavati",
+        "Reza Jalilzadeh Yengejeh"
+      ],
+      "date": "2121-10-01",
+      "source": "crossref",
+      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
+      "pdf_url": "",
+      "doi": "10.32598/jaehr.9.4.1229",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
+      "venue": "Journal of Advances in Environmental Health Research",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 6.949,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.42,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.27092699609758303,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 21,
       "title": "SCOPE: Cost-Efficient Model Selection for Compound AI Systems under Quality Constraints",
       "authors": [
         "Yiqian Huang",
@@ -931,7 +1019,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 22,
       "title": "Design, Synthesis and Molecular Docking-Based Evaluation of Piperazine-Linked Triazine Derivatives as Antioxidant Agents",
       "authors": [
         "Nitesh Diyora",
@@ -977,7 +1065,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 21,
+      "rank": 23,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1020,7 +1108,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 22,
+      "rank": 24,
       "title": "Beyond Holistic Models: Systematic Component-level Benchmarking of Deep Multivariate Time-Series Forecasting",
       "authors": [
         "Shuang Liang",
@@ -1067,7 +1155,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 25,
       "title": "RVQ-Alpha: Bridging Single-Cell Transcriptomics and Large Language Models via Hierarchical Discrete Tokenization and Fact-Aware Reinforcement Learning",
       "authors": [
         "Li, G.",
@@ -1116,7 +1204,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 26,
       "title": "Learning When to Trust via Selective Context Preference Optimization",
       "authors": [
         "Xian Sun",
@@ -1163,7 +1251,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 27,
       "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
       "authors": [
         "Zhe Li",
@@ -1214,7 +1302,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 28,
       "title": "Scalable estimation of VARMA models",
       "authors": [
         "Daniel Paulin",
@@ -1256,7 +1344,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 29,
       "title": "Hardware-validated hybrid super-twisting, fuzzy logic, and deep reinforcement learning framework for spacecraft attitude control",
       "authors": [
         "Mostafa Sarjoughian",
@@ -1302,7 +1390,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 30,
       "title": "An integrated human forebrain organoid reveals microglia-mediated CD8⁺ T cell recruitment and neuroimmune dysfunction in Alzheimer's disease pathology",
       "authors": [
         "MA, S."
@@ -1342,96 +1430,6 @@
       "priority": "Archive",
       "paper_type": "application",
       "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "Depth-Guided Video Object Counting in Crowded Scenes",
-      "authors": [
-        "Yuanjing Xu",
-        "Xinyan Liu",
-        "Weidong Chen",
-        "Zixuan Zou",
-        "Linhao Zhang",
-        "Zhuangzhe Meng",
-        "Antoni B. Chan",
-        "Weigang Zhang"
-      ],
-      "date": "2026-08-06",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.06236v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06236v1",
-      "doi": "10.1145/3767308.3835482",
-      "arxiv_id": "2608.06236v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Our primary objective is to advance video object counting in crowded scenes, aiming to robustly count all instances of a target category based on given text or visual prompts. Existing methods rely on RGB information, limiting their discriminative ability in crowded and occluded conditions. To address this, we propose a Depth-Guided Detector (DG-Det) along with a general post-processing pipeline. By integrating depth cues with multi-scale RGB-D cross-attention and explicit occlusion prediction, our method enhances spatial understanding and achieves robust detection in crowded and occluded scenes. Furthermore, we introduce a unified de-duplication framework to eliminate cross-frame redundant counting. To facilitate future research, we also release a new RGB-D Video Object Counting dataset featuring depth information and multiple object categories persequence. Extensive experiments demonstrate that our method achieves a 62.01\\% reduction in MAE compared to existing baselines, and also produces consistent improvements in RMSE. We provide the source code at https://github.com/streamer-AP/DG-Net and the dataset at https://huggingface.co/datasets/aerospace123/RGBD-VideoCount.",
-      "venue": "",
-      "code_url": "https://github.com/streamer-AP/DG-Net",
-      "topic_tags": [],
-      "deterministic_score": 4.579,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 4.199999999999999,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.4949999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Schema-Grounded Multitask Instruction Fine-tuning for Joint Biomedical Named Entity Recognition and Relation Extraction in Pharmacovigilance",
-      "authors": [
-        "Rehana, H.",
-        "Hur, J."
-      ],
-      "date": "2026-08-06",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/06/2026.07.30.741807.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/06/2026.07.30.741807.source.xml",
-      "doi": "10.64898/2026.07.30.741807",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "MotivationPharmacovigilance relies on accurate extraction of structured biomedical entities and their semantic relationships from scientific literature. However, most biomedical information extraction systems address named entity recognition (NER) and relation extraction as separate tasks trained on corpus-specific architectures, limiting scalability and cross-task knowledge sharing. Recent developments in instruction-tuned Large Language Models (LLMs) offer a promising alternative through unified generative extraction, but robust schema-grounded multitask adaptation for biomedical extraction is still understudied. MethodsThis study proposes a unified multitask instruction-tuned LLM framework that jointly performs biomedical NER and relation extraction across three benchmark corpora to identify chemical, disease, drug entities, as well as chemical-disease relations, drug-adverse event relations, and drug-drug interactions. Two general LLMs, Llama-3.2-3B-Instruct and Qwen3-8B, were fine-tuned using Low-Rank Adaptation (LoRA) under a shared generation interface that extracts both entity pairs and their underlying relation. Zero-shot and fine-tuned configurations were evaluated across all the tasks on their respective held-out test sets. ResultsParameter-efficient fine-tuning substantially improved both entity and relation extraction performance across all tasks and model families. Fine-tuned Qwen3-8B achieved the strongest overall performance with 89.42% micro-averaged entity F1 and 62.32% micro-averaged relation F1. Fine-tuned Llama-3.2-3B achieved 87.63% entity F1 and 58.42% relation F1 despite its substantially smaller parameter count, outperforming the zero-shot 8B model on both tasks. Fine-tuning also reduced structured JSON parse failures from 23.5% to 0.11%, demonstrating stable schema internalization during supervised adaptation. ConclusionSchema-grounded multitask instruction tuning with LoRA provides a robust and computationally feasible framework for unified biomedical information extraction across heterogeneous benchmark corpora. The findings further demonstrate that schema-grounded adaptation is substantially more important than model scale alone for reliable extraction of structured biomedical relations. The gap between NER and relation extraction performance motivates future research on explicit negative-relation supervision and ontology-guided relation extraction.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.369,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
