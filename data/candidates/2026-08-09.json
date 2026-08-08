@@ -1,9 +1,9 @@
 {
   "date": "2026-08-09",
   "stats": {
-    "raw_candidates": 279,
-    "deduplicated_candidates": 202,
-    "filtered_candidates": 202,
+    "raw_candidates": 274,
+    "deduplicated_candidates": 194,
+    "filtered_candidates": 194,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -77,53 +77,6 @@
     },
     {
       "rank": 2,
-      "title": "Artificial Intelligence based identification of druggability of essential hypothetical proteins in Plasmodium falciparum.",
-      "authors": [
-        "Muskan Ray",
-        "Satya Ranjan Dash",
-        "Rajani Kanta Mahapatra"
-      ],
-      "date": "2026-08-05",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556607/",
-      "pdf_url": "",
-      "doi": "10.1016/j.exppara.2026.109182",
-      "arxiv_id": "",
-      "pubmed_id": "42556607",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Malaria, caused by Plasmodium falciparum is a deadly disease and remains a global health concern. With the emergence of resistance to artemisinin; it is pivotal to identify potential therapeutic drug targets against malaria. This study employs the use of machine learning and computational approaches to predict the druggable protein among the ∼1000 essential hypothetical genes of P. falciparum. While traditional target prioritization strategies rely on either manual curation or single-parameter thresholds, neither approach is conducive to working with literally thousands of essential proteins nor can they capture non-linear relationships between several features influencing druggability. In contrast, machine learning can integrate heterogeneous descriptors such as sequence, structure, interaction, and annotation features and learn complex patterns associated with known druggable proteins, enabling scalable and more objective prediction of druggable essential hypothetical proteins. The screening criteria involved five point classification as EC number, molecular weight, PPI, orthology, and GO annotation, for which several web tools were employed. Machine learning algorithms like Decision Tree, Random Forest, SVM, Perceptron, and Logistic Regression were imputed to train the system and predict the druggable proteins using training and test data set accordingly, in the ratio of 70:30. Along with accuracy scores, ROC-AUC curve was generated for better visual representation. The study reported nine proteins as druggable. Furthermore, assignment of a normalized weighted score for each criterion to prepare a ranked list of putative drug targets identified PfCERLI1 as prioritized drug target. Additionally, the target protein structure obtained from AlphaFold was refined and underwent quality checking using Galaxy WEB and SAVES meta-server respectively. Schrödinger Glide was employed for molecular docking of the target protein with phytochemical ligand dataset, reported AD34 (Anthraquinone) as the best inhibitor with a binding affinity score of -13.05 kcal/mol. Molecular Dynamics(MD) simulation study of the protein-ligand complex for 100ns revealed the presence of hydrogen bond between the inhibitor and the active site residues Leu147 and Thr224 throughput the simulation time- frame. The above study proposed, PfCERLI1, as the novel essential hypothetical protein of P. falciparum for therapeutic intervention study in future.",
-      "venue": "Experimental parasitology",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 25.951,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 18.0,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_ligand_affinity, structure_based_drug_design, computational_chemistry_biophysics_structural_biology.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 3,
       "title": "AI-enhanced virtual screening identifies a potent small-molecule modulator of ClC-3 for cervical cancer drug discovery",
       "authors": [
         "Chao Liu",
@@ -171,7 +124,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Artificial Intelligence-Driven Natural Product Drug Discovery: From Computational Genome Mining to Clinical Translation.",
       "authors": [
         "Antonio Lavecchia"
@@ -216,7 +169,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Spectral analysis and AI/ML-based data-driven approaches for enhanced protein conformation selection and prediction in drug discovery",
       "authors": [
         "Shivangi Gupta",
@@ -264,7 +217,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "AGDN: Learning to Solve Traveling Salesman Problem with Anisotropic Graph Diffusion Network",
       "authors": [
         "Bolin Shen",
@@ -311,7 +264,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Evolution-inspired multi-objective Bayesian optimization for protein engineering",
       "authors": [
         "Wen, K.",
@@ -363,7 +316,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "The Precision Tetrahedron: Loss Landscape Topology Across Number Formats and Multi-Target Drug Discovery",
       "authors": [
         "John Goodman"
@@ -407,7 +360,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Unlocking Your Programmable and Creative RNA Sequence Designer with RDiffusion",
       "authors": [
         "Wang, J.",
@@ -459,7 +412,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "AI-driven computational drug design: tools, workflow and challenges.",
       "authors": [
         "Ryena Dhir",
@@ -506,7 +459,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 10,
       "title": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
       "authors": [
         "Farzana Nasrin"
@@ -551,7 +504,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 11,
       "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
       "authors": [
         "Robin Trombetta",
@@ -596,7 +549,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "title": "From Uniform to Learned Graph Priors: Diffusion for Structure Discovery",
       "authors": [
         "Qi Shao",
@@ -643,7 +596,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 13,
       "title": "PRISM: Distribution-Gated Flow Matching for Controllable Unpaired Image Translation",
       "authors": [
         "Elad Yoshai",
@@ -687,7 +640,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 14,
       "title": "Ligand-based pharmacophore modeling for the discovery of NaV1.7 inhibitors",
       "authors": [
         "Martina Piga",
@@ -739,7 +692,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising",
       "authors": [
         "Ji Wu",
@@ -789,7 +742,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "title": "Multi-objective optimization of seismic upgrading interventions in existing RC buildings",
       "authors": [
         "Giulia Angelucci",
@@ -833,51 +786,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
-      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
-      "authors": [
-        "Wei Guo",
-        "Yaqiong Dong"
-      ],
-      "date": "2028-09-22",
-      "source": "crossref",
-      "link": "https://doi.org/10.24425/ace.2025.155084",
-      "pdf_url": "",
-      "doi": "10.24425/ace.2025.155084",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
-      "venue": "Archives of Civil Engineering",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 7.844,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.84,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.586,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 19,
+      "rank": 17,
       "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
       "authors": [
         "Chenglong Wang",
@@ -931,51 +840,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 21,
+      "rank": 18,
       "title": "SCOPE: Cost-Efficient Model Selection for Compound AI Systems under Quality Constraints",
       "authors": [
         "Yiqian Huang",
@@ -1019,7 +884,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 19,
       "title": "Design, Synthesis and Molecular Docking-Based Evaluation of Piperazine-Linked Triazine Derivatives as Antioxidant Agents",
       "authors": [
         "Nitesh Diyora",
@@ -1065,7 +930,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 23,
+      "rank": 20,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1108,7 +973,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 24,
+      "rank": 21,
       "title": "Beyond Holistic Models: Systematic Component-level Benchmarking of Deep Multivariate Time-Series Forecasting",
       "authors": [
         "Shuang Liang",
@@ -1155,7 +1020,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 22,
       "title": "RVQ-Alpha: Bridging Single-Cell Transcriptomics and Large Language Models via Hierarchical Discrete Tokenization and Fact-Aware Reinforcement Learning",
       "authors": [
         "Li, G.",
@@ -1204,7 +1069,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 23,
       "title": "Learning When to Trust via Selective Context Preference Optimization",
       "authors": [
         "Xian Sun",
@@ -1251,7 +1116,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 24,
       "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
       "authors": [
         "Zhe Li",
@@ -1302,7 +1167,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 25,
       "title": "Scalable estimation of VARMA models",
       "authors": [
         "Daniel Paulin",
@@ -1344,7 +1209,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 26,
       "title": "Hardware-validated hybrid super-twisting, fuzzy logic, and deep reinforcement learning framework for spacecraft attitude control",
       "authors": [
         "Mostafa Sarjoughian",
@@ -1390,7 +1255,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 27,
       "title": "An integrated human forebrain organoid reveals microglia-mediated CD8⁺ T cell recruitment and neuroimmune dysfunction in Alzheimer's disease pathology",
       "authors": [
         "MA, S."
@@ -1430,6 +1295,153 @@
       "priority": "Archive",
       "paper_type": "application",
       "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "Depth-Guided Video Object Counting in Crowded Scenes",
+      "authors": [
+        "Yuanjing Xu",
+        "Xinyan Liu",
+        "Weidong Chen",
+        "Zixuan Zou",
+        "Linhao Zhang",
+        "Zhuangzhe Meng",
+        "Antoni B. Chan",
+        "Weigang Zhang"
+      ],
+      "date": "2026-08-06",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2608.06236v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06236v1",
+      "doi": "10.1145/3767308.3835482",
+      "arxiv_id": "2608.06236v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Our primary objective is to advance video object counting in crowded scenes, aiming to robustly count all instances of a target category based on given text or visual prompts. Existing methods rely on RGB information, limiting their discriminative ability in crowded and occluded conditions. To address this, we propose a Depth-Guided Detector (DG-Det) along with a general post-processing pipeline. By integrating depth cues with multi-scale RGB-D cross-attention and explicit occlusion prediction, our method enhances spatial understanding and achieves robust detection in crowded and occluded scenes. Furthermore, we introduce a unified de-duplication framework to eliminate cross-frame redundant counting. To facilitate future research, we also release a new RGB-D Video Object Counting dataset featuring depth information and multiple object categories persequence. Extensive experiments demonstrate that our method achieves a 62.01\\% reduction in MAE compared to existing baselines, and also produces consistent improvements in RMSE. We provide the source code at https://github.com/streamer-AP/DG-Net and the dataset at https://huggingface.co/datasets/aerospace123/RGBD-VideoCount.",
+      "venue": "",
+      "code_url": "https://github.com/streamer-AP/DG-Net",
+      "topic_tags": [],
+      "deterministic_score": 4.579,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 4.199999999999999,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.4949999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.5,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "Schema-Grounded Multitask Instruction Fine-tuning for Joint Biomedical Named Entity Recognition and Relation Extraction in Pharmacovigilance",
+      "authors": [
+        "Rehana, H.",
+        "Hur, J."
+      ],
+      "date": "2026-08-06",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/06/2026.07.30.741807.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/06/2026.07.30.741807.source.xml",
+      "doi": "10.64898/2026.07.30.741807",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "MotivationPharmacovigilance relies on accurate extraction of structured biomedical entities and their semantic relationships from scientific literature. However, most biomedical information extraction systems address named entity recognition (NER) and relation extraction as separate tasks trained on corpus-specific architectures, limiting scalability and cross-task knowledge sharing. Recent developments in instruction-tuned Large Language Models (LLMs) offer a promising alternative through unified generative extraction, but robust schema-grounded multitask adaptation for biomedical extraction is still understudied. MethodsThis study proposes a unified multitask instruction-tuned LLM framework that jointly performs biomedical NER and relation extraction across three benchmark corpora to identify chemical, disease, drug entities, as well as chemical-disease relations, drug-adverse event relations, and drug-drug interactions. Two general LLMs, Llama-3.2-3B-Instruct and Qwen3-8B, were fine-tuned using Low-Rank Adaptation (LoRA) under a shared generation interface that extracts both entity pairs and their underlying relation. Zero-shot and fine-tuned configurations were evaluated across all the tasks on their respective held-out test sets. ResultsParameter-efficient fine-tuning substantially improved both entity and relation extraction performance across all tasks and model families. Fine-tuned Qwen3-8B achieved the strongest overall performance with 89.42% micro-averaged entity F1 and 62.32% micro-averaged relation F1. Fine-tuned Llama-3.2-3B achieved 87.63% entity F1 and 58.42% relation F1 despite its substantially smaller parameter count, outperforming the zero-shot 8B model on both tasks. Fine-tuning also reduced structured JSON parse failures from 23.5% to 0.11%, demonstrating stable schema internalization during supervised adaptation. ConclusionSchema-grounded multitask instruction tuning with LoRA provides a robust and computationally feasible framework for unified biomedical information extraction across heterogeneous benchmark corpora. The findings further demonstrate that schema-grounded adaptation is substantially more important than model scale alone for reliable extraction of structured biomedical relations. The gap between NER and relation extraction performance motivates future research on explicit negative-relation supervision and ontology-guided relation extraction.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.369,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Charting the small-molecule universe from mass spectra with neuro-symbolic AI",
+      "authors": [
+        "Acikalin, U. U.",
+        "Feng, D.",
+        "Ferber, A. M.",
+        "Gouveia, G. J.",
+        "Schwertfeger, T. J.",
+        "Chen, D.",
+        "Qu, D.",
+        "Fontaine, M. A.",
+        "Wang, Y.",
+        "Bernstein, R. A.",
+        "Wang, H.",
+        "Won, T.-H.",
+        "Parkhurst, C. N.",
+        "Selman, B.",
+        "Artis, D.",
+        "Schroeder, F. C.",
+        "Gomes, C. P."
+      ],
+      "date": "2026-08-06",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/06/2026.08.05.743095.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/06/2026.08.05.743095.source.xml",
+      "doi": "10.64898/2026.08.05.743095",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Mass spectrometry (MS) has revealed millions of small organic molecules across organisms, yet most remain uncharacterized, limiting progress in biology and medicine. Despite computational advances, MS workflows rely heavily on expert input and reference libraries that cover only a fraction of known chemical space. Here, we introduce AIMe (AI Molecule Explorer), a multi-agent neuro-symbolic AI framework that transforms the interpretation of unknown spectra into an omics-scale exploration across the known structural space, providing chemically interpretable annotations. At its core, AIMe combines chemical reasoning with structure-informed learning to predict MS2 spectra by modeling fragmentation as a sequence of actions, outperforming existing methods. AIMe dynamically constructs fragmentation pathways by assigning likelihoods to individual fragmentation actions, linking spectral peaks to explicit fragment molecular formulas and structures. At scale, AIMe predicted MS2 spectra for over 100 million small organic molecules in PubChem and organized them into MS2KOSMOS, a substructure-informed community resource comprising over 800 million predicted spectra that expands the searchable small-molecule universe by roughly three orders of magnitude relative to experimental libraries. Analogous to sequence homology-based searches in genomics and proteomics, AIMe maps unknown spectra to molecular neighborhoods in MS2KOSMOS. Exact-formula indexing enables ranked retrieval of candidates and related structures, with peak-level structural and fragmentation-pathway annotations. Applied to mouse microbiota-dependent metabolites, AIMe enabled putative annotation of knowns and guided structure elucidation of unknowns, revealing previously unreported types of microbiota-dependent polyamines that also occur in humans. At repository scale, AIMe enabled putative annotation of roughly a third of 7 million spectral clusters representing most of the unknowns in the GNPS database. By extending MS2 annotation beyond curated-library matching to interpretable search across the known small-molecule universe, AIMe accelerates discovery and large-scale exploration of small molecules across biomedicine, agriculture, and ecology.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.169,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
