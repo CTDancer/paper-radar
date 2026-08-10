@@ -1,9 +1,9 @@
 {
   "date": "2026-08-11",
   "stats": {
-    "raw_candidates": 154,
-    "deduplicated_candidates": 138,
-    "filtered_candidates": 138,
+    "raw_candidates": 149,
+    "deduplicated_candidates": 133,
+    "filtered_candidates": 133,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -493,94 +493,6 @@
     },
     {
       "rank": 11,
-      "title": "Analysis of building energy efficiency optimization design effectiveness based on multi-objective optimization algorithm",
-      "authors": [
-        "Wei Guo",
-        "Yaqiong Dong"
-      ],
-      "date": "2028-09-22",
-      "source": "crossref",
-      "link": "https://doi.org/10.24425/ace.2025.155084",
-      "pdf_url": "",
-      "doi": "10.24425/ace.2025.155084",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "With the increasing attention of society to sustainable development and environmental friendly design, building energy saving design has become a research hotspot. In this paper, a method combining multi-objective optimization algorithm and neural network backpropagation strategy is proposed to solve the problem that traditional design methods are difficult to balance multi-objective. By dividing the architectural design problem into multiple sub-problems, each sub-problem corresponds to a design objective, and applying multi-objective optimization technology, the global optimization is realized. The experimental results show that the error of energy consumption prediction model is almost 0, while the error of daylighting prediction model is between 0 and 5, and the average error is about 3. The correlation coefficients of all models exceeded 0.9845, highlighting the excellent performance of neural networks in forecasting accuracy. The BP neural network showed good convergence in 2800 to 3000 iterations, further demonstrating the high efficiency of the method in energy consumption and daylighting prediction. The research not only provides a scientific and feasible strategy for building energy efficiency optimization design, but also enhances its scientific value and practicability through the display of quantitative results.",
-      "venue": "Archives of Civil Engineering",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 7.844,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.84,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.586,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 12,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 13,
       "title": "A systematic review and comparative assessment of optimization algorithms in geotechnical engineering with a benchmark foundation design case study",
       "authors": [
         "Kaveh Dehghanian"
@@ -624,7 +536,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 14,
+      "rank": 12,
       "title": "Identification of hypertension-associated bacterial key genes as potential targets and therapeutic agents through integrated bioinformatics approach",
       "authors": [
         "S Sumi",
@@ -675,7 +587,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 15,
+      "rank": 13,
       "title": "A Curated Flow Imaging Microscopy Dataset of Subvisible Protein Aggregates from Stressed Monoclonal Antibodies",
       "authors": [
         "Utku Özbulak",
@@ -721,7 +633,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -764,7 +676,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 17,
+      "rank": 15,
       "title": "PrivMDC: leveraging multi-dimensional correlations to answer differentially private range queries",
       "authors": [
         "José Silveira Filho",
@@ -810,7 +722,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 16,
       "title": "Scalable Extraction of Information on Protein-Protein Interactions using Topological Data Analysis",
       "authors": [
         "Mukherjee, A.",
@@ -856,7 +768,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 17,
       "title": "Assessing Computational Models for Pharmacogenomic Variant Interpretation",
       "authors": [
         "Pucci, F.",
@@ -901,7 +813,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 18,
       "title": "Advanced Algorithms for the Three-Dimensional Beacon Placement Problem Based on Constraint Programming, Large Neighborhood Search, and Evolutionary Methods",
       "authors": [
         "Sven Löffler",
@@ -945,7 +857,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 19,
       "title": "XSSDense: Time-resolved X-ray Solution Scattering Density Reconstruction Using a Variational Autoencoder",
       "authors": [
         "Monrroy, L.",
@@ -988,7 +900,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 20,
       "title": "Continual learning for autoregressive PDE surrogates under evolving physical regimes",
       "authors": [
         "Hamed Hemati",
@@ -1031,7 +943,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 21,
       "title": "Continuous attractor circuits for decision making with Laplace-domain neural representations",
       "authors": [
         "Wang, C.",
@@ -1074,7 +986,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 22,
       "title": "ABC1K7: A 350-Myr chloroplast rheostat fine-tuned during coconut domestication",
       "authors": [
         "You, N.",
@@ -1121,7 +1033,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 23,
       "title": "ProtJEPA: A Multimodal Joint-Embedding Predictive Architecture for Protein Biological World Modeling with Multi-TeacherModality-Attentive Fusion",
       "authors": [
         "Ravideshik, V. L.",
@@ -1164,7 +1076,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 24,
       "title": "Beyond optimization: structural redundancy and the governance of human potential in the age of AI",
       "authors": [
         "Kohta Suzuki"
@@ -1205,7 +1117,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 25,
       "title": "Filter-Free Two-Stage Reconstruction for Low-Dose CT Across Regular and Irregular Sparse-Angle Sampling",
       "authors": [
         "Tim Selig",
@@ -1251,7 +1163,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 26,
       "title": "Electronic structure, reactivity, topological features, and computational pharmacology of Pallensin: An underexplored eudesmanolide-type sesquiterpene lactone",
       "authors": [
         "Mohammad Talib",
@@ -1298,7 +1210,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 29,
+      "rank": 27,
       "title": "Optimal Battery Storage Sizing and Strategic Operation in Renewable Energy Integrated Grid using Roulette Chaotic Pelican Optimisation Algorithm",
       "authors": [
         "Ifeoluwa Titilayo Akinola",
@@ -1342,7 +1254,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 28,
       "title": "Identification and Antibiogram Assay of Escherichia coli Isolated from Chicken Eggs",
       "authors": [
         "Khatun, R.",
@@ -1375,6 +1287,96 @@
         "transferable_insight": 0.793,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "High occurrence of plasmid-mediated quinolone and ESBL resistance genes among multidrug resistant Escherichia coli from clinical samples in two healthcare facilities in Yaounde, Cameroon.",
+      "authors": [
+        "Koubissak Mbende, P.",
+        "Noumedem, J. K.",
+        "Founou, L. L.",
+        "Zobou, A. A.",
+        "Meli, J.-V.",
+        "Founou, R. C."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.07.743442.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.07.743442.source.xml",
+      "doi": "10.64898/2026.08.07.743442",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Introduction In sub-Saharan Africa, and more specifically in Cameroon, antimicrobial resistance (AMR) represents a major public health threat. This is underlined by the increasing appearance of multidrug-resistant bacteria. Extended-spectrum {beta}-lactamase producing Escherichia coli (ESBL-Ec), a critical priority bacterium, is increasingly implicated in life-threatening infections in hospital and community settings in Cameroon. Data on the genetic composition of ciprofloxacin-resistant Escherichia coli are limited in Cameroon. This study aimed to investigate the prevalence, genetic diversity, resistance mechanisms in multidrug-resistant Escherichia coli organisms isolated from clinical samples in two hospitals in Yaounde, Cameroon. Method A cross-sectional study was conducted from February to June 2025 in two healthcare facilities in Yaounde, Cameroon. All clinical samples from in- and out-patients were analysed. After culturing, identification was performed using API20E as per the manufacturers instructions and ESBL production was screened in CHROMagarTM ESBL. Antimicrobial susceptibility testing was performed using the Kirby-Bauer disc diffusion method. Polymerase chain reaction (PCR) was used to detect ESBL and plasmid mediated quinolone resistance (PMQR)genes, as well as mutations in quinolone resistance-determining region (QRDR) (gyrA/parC) Horizontal. plasmid transfer was also investigated. Finally, phylogroup analysis was assessed. Result The prevalence of MDR E. coli was 50.7% (n=33/65), all of which (100%) were ESBL producers and 91% were ciprofloxacin-resistant. Highest resistance rates were observed for cefotaxime (100%), ceftriaxone (100%), and ciprofloxacin (91%). The most frequent ESBL genes were blaTEM (36.3%; n=12/33). Among PMQR genes, qnrB was detected in 16.6% (n=5/30) of isolates. Only the ESBL genes were carried by plasmids; the most prevalent plasmid-borne gene was blaTEM (40%), followed by blaCTX-M (26.7%). Mutations within the topoisomerase QRDR (parC gene) were identified in 36.6% (n=11/30) of ciprofloxacin-resistant strains. Phylogroup analysis revealed a predominance of phylogroup A, followed by group B. Conclusion This study reveals a high prevalence of multidrug-resistance, ESBL (blaTEMdominant) and fluoroquinolone resistance in E. coli in Yaounde, with plasmid dissemination of ESBL genes and chromosomal stabilization of PMQR determinants. The predominance of commensal phylogroups in clinical samples underlines the role of the community reservoir. It is urgent to reinforce \" real-time One Health\" genomic surveillance in Cameroon.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 1.407,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 0.0,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "A foundational in vivo platform for predicting human health outcomes",
+      "authors": [
+        "Roseberry, T.",
+        "Krausz, T.",
+        "Williams, G.",
+        "Tingley, D."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742611.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742611.source.xml",
+      "doi": "10.64898/2026.08.03.742611",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Rodents remain the workhorse of preclinical drug development, yet often fail to predict human clinical outcomes. Existing alternatives are similarly constrained. Cells in culture cannot recapitulate whole-organism physiology, and larger mammals cannot be studied at comparable throughput. Here we present a scalable, information-dense platform that can predict a drug's long-term human clinical outcomes from 24 hours of rodent behavior. A novel home-cage system continuously records behavior, generating thousands of features per hour. Models are trained on human clinical trial data to map these features onto outcomes including gastrointestinal adverse events, cardiac toxicity, neuropsychiatric side effects, and long-term weight loss. In addition to being an order of magnitude faster, the platform provides more accurate clinical predictions than standard long-term preclinical experiments. The approach readily extends to other outcomes, enabling rodents to serve as quantitative models for human clinical prediction.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 1.324,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.23399999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
         "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
         "source_credibility": 0.48999999999999994,
