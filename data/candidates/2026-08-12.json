@@ -1,9 +1,9 @@
 {
   "date": "2026-08-12",
   "stats": {
-    "raw_candidates": 178,
-    "deduplicated_candidates": 96,
-    "filtered_candidates": 96,
+    "raw_candidates": 259,
+    "deduplicated_candidates": 177,
+    "filtered_candidates": 177,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -314,6 +314,52 @@
     },
     {
       "rank": 7,
+      "title": "Assessing the Stability of Molecular Glues with Weighted Ensemble Simulations.",
+      "authors": [
+        "Seref Berk Atik",
+        "Alex Dickson"
+      ],
+      "date": "2026-08-11",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42481387/",
+      "pdf_url": "",
+      "doi": "10.1021/acs.jctc.6c00319",
+      "arxiv_id": "",
+      "pubmed_id": "42481387",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Targeted protein degradation is an emerging approach that utilizes cellular degradation pathways to inhibit a target protein. Small molecules such as molecular glues or PROTACs can be used to mediate the formation of a ternary complex with an E3 ligase and the target protein, which can dramatically enhance the degradation process. This approach is promising for cancer therapy, where degradation of oncogenic proteins can lead to cancer cell toxicity. To design new molecular glues, it is important to develop methods that predict how well a given molecule stabilizes a protein-protein interaction. However, conventional molecular dynamics simulations face challenges in capturing the long-time scale binding and unbinding events that would be used to evaluate this stabilization. In this study, we developed a strategy that allows us to evaluate the stability of protein-protein interactions in the presence of a glue molecule using weighted ensemble simulations in combination with weakened protein-protein interactions. Using this strategy, we generated unbinding trajectories of the DCAF15-RBM39 system with small molecules E7820, Indisulam, and several other Indisulam analogs. We were able to observe distinctly different behaviors between systems with different glues, which was in agreement with their reported EC50 values. We believe this approach could aid drug discovery efforts by expanding the set of druggable targets and improving the success rate of molecular glue development.",
+      "venue": "Journal of chemical theory and computation",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "molecular_glue_and_tpd",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 12.82,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 18.0,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 2.5,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Skim",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, molecular_glue_and_tpd, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 8,
       "title": "A Systems Biology and Generative Artificial Intelligence Framework for Rational Multi-Target Drug Design in Metabolic Dysfunction-Associated Steatotic Liver Disease: Proof-of-Concept Identification of HPM-001",
       "authors": [
         "Luis Jesuino de Oliveira Andrade",
@@ -358,7 +404,143 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "Move BeTween modAlities (MBTA) employs flow matching to predict single cell data modalities",
+      "authors": [
+        "Xu, B.",
+        "Zhang, Y.",
+        "Michor, F."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.05.743110.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.05.743110.source.xml",
+      "doi": "10.64898/2026.08.05.743110",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Integrating diverse molecular modalities to obtain a comprehensive view of cellular identity remains a major challenge in single-cell biology. A fundamental but underappreciated obstacle is structural mismatch -- the phenomenon in which the neighborhood structure of a cell differs depending on which molecular modality is used to define it. Existing approaches typically embed modalities into a shared latent space, which actively erases the structural differences between modalities that make multimodal measurements scientifically valuable. Here we introduce Move BeTween modAlities (MBTA), the first framework explicitly designed to address structural mismatch. Rather than forcing modalities into a shared representation, MBTA maintains modality-specific latent spaces and connects them via flow matching, preserving the structural integrity of each modality while enabling accurate cross-modal translation. Across extensive benchmarks on multi-modal single-cell datasets, MBTA consistently outperformed existing methods, with the largest gains observed in datasets with pronounced structural mismatch. Applied to joint genomic and transcriptomic profiles of breast cancer patients, MBTA identified transcriptomic lineage relationships corroborated by genomic variation and outperformed state-of-the-art transcriptomics-based copy number inference methods. Extending this framework to mouse embryonic development, we reconstructed temporal trajectories jointly defined by gene expression and seven complementary epigenetic modalities. MBTA can connect any number of molecular readouts without erasing their individual character, serving as the computational foundation for assembling multi-layered portraits of cells.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 12.186,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.725,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 10,
+      "title": "A Reduced Mechanobiological Framework for Platelet Priming: From Hemodynamic Shear to Mechanosensitive Calcium Entry",
+      "authors": [
+        "Chen, Y.",
+        "Liu, X.",
+        "Vigolo, D.",
+        "Zhuang-Hall, M. S.",
+        "Yong, K.-T."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742655.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742655.source.xml",
+      "doi": "10.64898/2026.08.03.742655",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "BackgroundPlatelet activation in flowing blood is a multiscale process in which vessel-scale hemodynamics, red blood cell (RBC) mechanics, adhesive receptor interactions, and intracellular signalling jointly determine thrombotic risk. Individual components are well studied, but a single reduced description that carries each explicitly from vessel-scale flow to mechanosensitive calcium entry, with dimensionally consistent couplings, remains uncommon. ObjectivesWe develop and analyse a reduced, six-module mechanobiological framework for platelet priming spanning the cascade from hemodynamic shear to mechanosensitive calcium entry, and we delineate which elements are supported by existing evidence and which are new, testable hypotheses. MethodsThe framework comprises six coupled modules: (I) hemodynamic forcing from the incompressible Navier-Stokes equations, with an objective principal-strain-rate measure for extensional flow; (II) RBC-mediated platelet margination and near-wall delivery, closed by a near-wall arrival flux; (III) von Willebrand factor (VWF) activation with a bounded kernel and glycoprotein Ib (GPIb) catch-slip capture, resolved through an explicit contact area and a bond-dependent mobility that progressively immobilises wall-interacting platelets; (IV) a single-load membrane-stimulus formulation; (V) mechanosensitive gating and a dimensionally consistent cytosol-store calcium model with extracellular influx; and (VI) a phenomenological mechanical-memory state. We formally derive that the single-platelet stochastic dynamics and the continuum population balance form a Fokker-Planck pair, with the spatially varying diffusivity handled by an explicit drift correction. ResultsThe framework yields a family of mechanochemical dimensionless groups delineating priming regimes. Its central prediction is reformulated as a falsifiable, history-sensitive signature: in a conditioning-test protocol, a low-tension conditioning block charges the memory state, and a fixed sub-threshold test pulse then reports a delay-dependent calcium facilitation that decays on the memory time{tau} m and is distinguishable from no-memory gating, channel adaptation, and residual-calcium priming. We show explicitly that the previously proposed pulsatile-versus-monotone contrast is a nonlinear convexity/thresholding effect of the gating nonlinearity--its difference-in-differences is approximately zero-- and is therefore not a valid test of memory; the conditioning-test signature is. A second prediction links RBC stiffening to reduced near-wall delivery and captured-platelet calcium response, upstream of intrinsic platelet signalling. ConclusionsThe framework provides a dimensionally consistent, mechanistically grounded and hypothesis-generating description linking hemodynamic forcing to mechanosensitive calcium entry. It demonstrates how history-dependent platelet priming may arise from a phenomenological sensitisation state and proposes a conditioning-test protocol for comparison against adhesive, channel and intracellular-store persistence. The framework is calibratable rather than validated, and the quantitative outputs shown use representative uncalibrated parameters.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "stochastic_processes_probability_statistical_physics"
+      ],
+      "deterministic_score": 12.141,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 8.100000000000001,
+        "novelty": 1.68,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to stochastic_processes_probability_statistical_physics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 11,
+      "title": "Biasing Conformational Sampling in AlphaFold 3 and Boltz-2 via Pair Representation Scaling",
+      "authors": [
+        "Suzuki, S.",
+        "Amagasa, T."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.01.23.701250.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.01.23.701250.source.xml",
+      "doi": "10.64898/2026.01.23.701250",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Deep learning has transformed protein structure prediction, yet most systems return a single dominant conformation with little control over alternative functional states. We introduce pair representation scaling, an inference-time method that biases conformational sampling in diffusion-based structure predictors by multiplying the latent pair representation by a single scalar before the Pairformer trunk, without retraining, an auxiliary model, or a second forward pass. On 86 two-state targets spanning domain motions and membrane transporters, scaling broadens the conformational ensembles of both AlphaFold 3 and Boltz-2 and recovers alternative states that default inference misses, most strongly in AlphaFold 3, where the gains extend even to targets deposited after the training cutoff. It approaches the alternative-state recovery of alignment-based sampling methods, and the benefit persists even without a multiple sequence alignment. The predicted distance distributions show that scaling shifts the encoded two-state distribution toward the experimentally observed alternative state, a directed modulation rather than arbitrary perturbation. Pair representation scaling is an interpretable, low-cost handle on the conformational ensembles of deep learning structure predictors. O_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=62 SRC=\"FIGDIR/small/701250v3_ufig1.gif\" ALT=\"Figure 1\"> View larger version (16K): org.highwire.dtl.DTLVardef@1be002eorg.highwire.dtl.DTLVardef@fdf3e1org.highwire.dtl.DTLVardef@9674c8org.highwire.dtl.DTLVardef@1cd1dc0_HPS_FORMAT_FIGEXP M_FIG C_FIG Pair representation scalingA query sequence and its multiple sequence alignment enter the Pairformer trunk, where the latent pair representation z is rescaled by a single global scalar to (1 + {beta}) z and the diffusion module then generates a structure. The alignment and the trained weights are unchanged, and the same operation applies in AlphaFold 3 and Boltz-2. The scalar {beta} is a single explicit handle: sweeping it broadens the sampled ensemble toward alternative states, and its effect can be read out directly inside the network.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "protein_design"
+      ],
+      "deterministic_score": 10.578,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 3.6450000000000005,
+        "novelty": 1.4,
+        "methodological_insight": 2.048,
+        "transferable_insight": 1.4949999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to protein_design.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 12,
       "title": "Immunoinformatics-guided in silico design of a multi-epitope peptide vaccine against Mycobacterium tuberculosis",
       "authors": [
         "Abebe Tesfaye Gessese",
@@ -407,7 +589,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 9,
+      "rank": 13,
       "title": "CPDA: Class-Conditional Path Distribution Alignment for Unsupervised Time-Series Domain Adaptation",
       "authors": [
         "Felix Ott",
@@ -451,7 +633,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 14,
       "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
       "authors": [
         "Björn Engdahl",
@@ -502,7 +684,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 15,
       "title": "Symmetry-Guided Neural Approximation and Convolutional Non-Dominated Sorting on Synthetic Two-Objective Benchmarks Toward Option-Pricing Model Research in Financial Mathematics and Quantitative Economic Analysis",
       "authors": [
         "Xinle Gu"
@@ -543,7 +725,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 16,
       "title": "Idea Search: Guiding Tree Search with Ideas to Explore Diverse Scientific Methods",
       "authors": [
         "Xuefei Julie Wang",
@@ -589,7 +771,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 17,
       "title": "Flow-based conditional cardiac anatomy generation for virtual cohorts",
       "authors": [
         "Konstantinos Kevopoulos",
@@ -638,7 +820,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 18,
       "title": "Entropic Partial Optimal Transport and Partial Gromov--Wasserstein Distance between Gaussian Mixtures",
       "authors": [
         "Toshiaki Yachimura",
@@ -682,7 +864,7 @@
       "possible_concerns": "classified as weak_match"
     },
     {
-      "rank": 15,
+      "rank": 19,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -725,7 +907,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 16,
+      "rank": 20,
       "title": "Langevin dynamics along the zero set of real-analytic potentials",
       "authors": [
         "Martin Larsson"
@@ -768,7 +950,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 21,
       "title": "SR-OPSD: Self-Referenced On-Policy Self-Distillation",
       "authors": [
         "Zhuo Sun",
@@ -820,7 +1002,53 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 22,
+      "title": "Scalable Extraction of Information on Protein-Protein Interactions using Topological Data Analysis",
+      "authors": [
+        "Mukherjee, A.",
+        "Park, B.",
+        "Malmstrom, A.",
+        "Cisewski-Kehe, J.",
+        "Van Lehn, R. C.",
+        "Zavala, V. M."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.06.743405.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.06.743405.source.xml",
+      "doi": "10.64898/2026.08.06.743405",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Protein-protein interactions (PPIs) govern a wide range of cellular functions. The ability to predict PPI interfaces from protein molecular surfaces is important for understanding protein function and enabling therapeutic discovery. While recent advances in structure-based learning, particularly molecular-surface geometric deep learning frameworks, have demonstrated that protein surfaces encode rich geometric and physicochemical information, such approaches often remain computationally intensive and data-hungry. Alternatively, topological data analysis (TDA) has emerged as a mathematically rigorous framework for extracting robust, multiscale shape information from complex data. In this work, we introduce a scalable TDA framework for extracting information on PPIs directly from localized protein surface patches. Our approach leverages multiscale topological descriptors, evaluated from patch-wise point cloud representations of protein mesh surfaces, combined with supervised machine learning models for interface prediction. On a full dataset of 3,362 proteins, the proposed approach substantially reduced computational cost relative to an established geometric deep learning method, MaSIF-site, decreasing preprocessing time from approximately 27 s/protein to 5-8 s/protein and total training time from approximately 6 h to 1-1.3 h. Importantly, this computational reduction is achieved while maintaining mean test area under the receiver operating characteristic curve (AUC) values of 0.76 and 0.77 for patch radii of 9 [A] and 12 [A], respectively, thus approaching the MaSIF-site test AUC of 0.84. Our results suggest that topology offers a scalable and computationally efficient approach for high-throughput extraction of information from complex biomolecular interfaces.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.87,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.9359999999999999,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 23,
       "title": "Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning",
       "authors": [
         "Haodong Li",
@@ -870,7 +1098,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 24,
       "title": "Multiphysics surrogate-based model updating of a jacket-supported offshore wind turbine using measured vibration and SCADA data",
       "authors": [
         "Nasim Partovi-Mehr",
@@ -916,7 +1144,52 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 25,
+      "title": "Assessing Computational Models for Pharmacogenomic Variant Interpretation",
+      "authors": [
+        "Pucci, F.",
+        "Hermans, P.",
+        "Tsishyn, M.",
+        "Cusato, J.",
+        "Rooman, M."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742561.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742561.source.xml",
+      "doi": "10.64898/2026.08.03.742561",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Accurately predicting the effects of pharmacogenomic variants is essential for the development of personalized therapeutic strategies, as genetic variability can influence drug response differently across patients. Here, we assessed several computational approaches using a dataset of pharmacogenomic variants with either clinical annotations or functional characterization by deep mutational scanning, compiled from the literature, with an additional focus on CYP2C9, a clinically relevant drug-metabolizing enzyme. Our results show that, despite recent methodological advances, substantial room for improvement remains. In particular, current methods struggle to distinguish gain-of-function variants associated with increased drug clearance and fast-metabolizer phenotypes from neutral variants, whereas loss-of-function variants that reduce drug clearance are predicted more accurately. The integration of structural and evolutionary information appears to be a key strategy for improving performance, with the coevolution-based StructureDCA method achieving the highest accuracy compared with classical genetic variant-effect predictors and recent deep learning approaches, including the pathogenic-variant predictor AlphaMissense and general protein language model-based methods. Finally, our results indicate that computational models can complement in vitro experiments in clinical variant interpretation, as StructureDCA predictions showed better agreement with clinically annotated phenotypes than large-scale deep mutational scanning data in several cases.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.17,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 26,
       "title": "Approximate Analytical Protein Distributions for the Three-stage Model of Stochastic Gene Expression",
       "authors": [
         "Kenny Wong",
@@ -963,7 +1236,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 27,
       "title": "An interpretable metaheuristic-optimized RVFL architecture for robust CO₂ emissions prediction in decarbonizing energy systems",
       "authors": [
         "Wgde Abdulhakim Salih Arbei",
@@ -1005,7 +1278,50 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 28,
+      "title": "XSSDense: Time-resolved X-ray Solution Scattering Density Reconstruction Using a Variational Autoencoder",
+      "authors": [
+        "Monrroy, L.",
+        "Cardoch, S.",
+        "Westenhoff, S."
+      ],
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.07.743437.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.07.743437.source.xml",
+      "doi": "10.64898/2026.08.07.743437",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Solution X-ray scattering provides unique structural information on biomolecules under biological conditions, resolving conformational heterogeneity and time-resolved structural changes. The scattering profiles contain limited information, and interpretation largely relies on fitting candidate structures guided by priors. Direct reconstruction of electron density maps is desirable, but so far has been prevented by the difficulty of incorporating such prior knowledge. Here we propose XSSDense, a framework that couples a variational autoencoder trained on electron densities from predicted or simulated protein ensembles with a genetic algorithm to refine densities against scattering data. We validate XSSDense on synthetic data for crambin, recover the conformational heterogeneity of the unfolded state of Avena sativa light-oxygen-voltage sensing domain 2, resolve a de-novo density for the pre-unfolding state of the same protein, and provide a new structural description of the signalling-state ensemble of photoactive yellow protein. XSSDense enables structurally grounded electron density reconstructions that intrinsically capture conformational heterogeneity.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.33,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.6599999999999997,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
       "title": "Digital Twin-Driven Multi-Objective Optimization of Milling Parameters Under Small-Sample Conditions",
       "authors": [
         "Boheng Shen",
@@ -1053,198 +1369,31 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 23,
-      "title": "DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning",
+      "rank": 30,
+      "title": "Continuous attractor circuits for decision making with Laplace-domain neural representations",
       "authors": [
-        "Mainak Singha",
-        "Niccolò Biondi",
-        "Elisa Ricci",
-        "Subhankar Roy"
+        "Wang, C.",
+        "Cao, R.",
+        "Howard, M."
       ],
-      "date": "2026-08-10",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.09907v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09907v1",
-      "doi": "",
-      "arxiv_id": "2608.09907v1",
+      "date": "2026-08-09",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742594.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/09/2026.08.03.742594.source.xml",
+      "doi": "10.64898/2026.08.03.742594",
+      "arxiv_id": "",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Multimodal Large Language Models (MLLMs) have shown strong multimodal instruction-following ability, but adapting them to diverse visual-language domains typically assumes centralized data access and costly joint training. This is restrictive when data is distributed across private, domain-specific, or permission-limited clients. To this end, we propose DistMoE, a mixture-of-experts (MoE) approach for distributed visual instruction tuning. In each layer of the language decoder it augments the public feedforward network (FFN) with a client-specific private FFN expert, with the goal to acquire domain-specific knowledge. However, independent expert training causes the private FFNs to learn representation of different scale and magnitudes, making merging the experts difficult. To reduce client-specific drift, we introduce a public-anchored expert composition stage that updates only routers and lightweight private projection adapters on a mix of local client data and public data, via an isotropic regularization loss, therefore making it cross-client rehearsal-free composition. During inference, DistMoE performs modular routing over public and private experts, enabling token-wise domain composition without explicit domain labels. Experiments across diverse visual-language benchmarks show that DistMoE enables flexible expert reuse, effective domain adaptation, and competitive performance while preserving modular control over client-specific knowledge. Codes are available at https://github.com/mainaksingha01/DistMoE.",
-      "venue": "",
-      "code_url": "https://github.com/mainaksingha01/DistMoE",
+      "abstract": "Decision formation is commonly described as the accumulation of noisy evidence in a low-dimensional decision variable, but it remains unclear how this latent computation is implemented by heterogeneous neural responses. Here, we propose that ramping and sequentially firing neurons form complementary population codes for the same decision variable. Inspired by Laplace-domain neural representations of time, exponential receptive fields in a ramping population give rise to a translatable edge-like activity profile; localized receptive fields in a sequential population give rise to an aligned bump-like profile. We construct a continuous attractor neural network that dynamically maintains these complementary representations while implementing evidence accumulation along a shared latent manifold. At the behavioral level, simulations show that the circuit closely reproduces the single-trial trajectories, choice probabilities, and reaction-time statistics of a standard diffusion decision model while generating heterogeneous ramping and sequential neural responses. Our framework connects latent behavioral dynamics, population geometry, and recurrent circuit mechanisms. More broadly, it provides a circuit-level realization of computation in the Laplace domain that may support the representation and updating of continuous cognitive variables across decision making, timing, memory, and spatial cognition.",
+      "venue": "biorxiv",
+      "code_url": "",
       "topic_tags": [],
-      "deterministic_score": 2.62,
+      "deterministic_score": 2.715,
       "score_breakdown": {
         "paper_type": "method",
         "direct_relevance": 0.0,
-        "novelty": 2.8,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.9359999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
-      "title": "A Systematic Taxonomy of Large Language Model Inference Optimization: Bridging Model-Level and API-Layer Latency Reduction Strategies",
-      "authors": [
-        "Yao-Liang Chung"
-      ],
-      "date": "2026-08-10",
-      "source": "openalex",
-      "link": "https://doi.org/10.6025/pca/2026/15/2/82-103",
-      "pdf_url": "https://doi.org/10.6025/pca/2026/15/2/82-103",
-      "doi": "10.6025/pca/2026/15/2/82-103",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7202099266",
-      "semantic_scholar_id": "",
-      "abstract": "The deployment of Large Language Models (LLMs) as autonomous agents in next generation infrastructures, such as Agentic AI-Native 6G networks, introduces severe latency, memory, and operational cost bottlenecks.Existing optimization approaches frequently treat model compression and system orchestration in isolation, failing to adequately address the multidimensional constraints of modern production environments.This paper presents a systematic, multi criteria taxonomy of LLM inference optimization, bridging granular model level compression techniques with macro level API-layer orchestration strategies.We conduct a rigorous comparative analysis of post training quantization algorithms specifically highlighting activationaware methods like AWQ alongside GPTQ and GGUF evaluating their trade offs across memory efficiency, inference throughput, and predictive quality.Our findings reveal that deployment efficiency is not solely dictated by numerical precision but is fundamentally a co-design problem requiring optimized hardware kernels and adaptive, importance aware parameter protection.Furthermore, we demonstrate that systemlevel interventions, such as intelligent model routing, prompt caching, and deterministic decoupling, yield immediate latency reductions without altering underlying model weights.Ultimately, this study provides a comprehensive, scenario based decision framework for matching specific quantization algorithms and APIlayer strategies to distinct deployment environments, ranging from high throughput GPU serving to resourceconstrained edge devices and safety critical autonomous systems.By unifying these perspectives, we establish a foundational guide for practitioners aiming to build reliable, high performance inference pipelines that ensure scalable and economically sustainable AI integration across diverse industrial domains.",
-      "venue": "Progress in Computing Applications",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.373,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
-      "title": "A Comparative Analysis of Starling Swarm Algorithm for Optimisation in Dynamic Environment",
-      "authors": [
-        "Karatu Musa Tanimu",
-        "Wei Pang",
-        "George M. Coghill"
-      ],
-      "date": "2026-08-10",
-      "source": "openalex",
-      "link": "https://doi.org/10.17148/ijarcce.2026.15821",
-      "pdf_url": "https://doi.org/10.17148/ijarcce.2026.15821",
-      "doi": "10.17148/ijarcce.2026.15821",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7202094756",
-      "semantic_scholar_id": "",
-      "abstract": "Many real-world phenomena can be modelled as dynamic optimisation problems, where the environment of a problem is dynamic and therefore, conventional methods are not capable of dealing with such situations.In this paper, a novel starlings swarm algorithm is proposed for dealing with such dynamic environments.The proposed starlings algorithm consists of a swarm, which has two distinct behaviours to change in their environment that is mutually exclusive, namely: collective response in terms of communication within the seven nearest neighbours and murmuration in terms of patrolling the search space.This way a diverse population is created while the seven nearest neighbours progressively track the dynamic changes.We established that in problems with a moderate shift severity the best variants are those with topology similar to starlings and results confirmed a significant improvement in those cases that used starlings swarm algorithm, which eliminates the use of independent multi-swarm in the search space.",
-      "venue": "IJARCCE",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.372,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.84,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.118,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 26,
-      "title": "Analysis of DAG Structure and HEFT Scheduling Efficiency Across Graph Sets",
-      "authors": [
-        "Hathairat Ketmaneechairat"
-      ],
-      "date": "2026-08-10",
-      "source": "openalex",
-      "link": "https://doi.org/10.6025/jic/2026/17/3/141-170",
-      "pdf_url": "https://doi.org/10.6025/jic/2026/17/3/141-170",
-      "doi": "10.6025/jic/2026/17/3/141-170",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7202072231",
-      "semantic_scholar_id": "",
-      "abstract": "This study investigates the relationship between Directed Acyclic Graph (DAG) structural properties and scheduling efficiency under the Heterogeneous Earliest Finish Time (HEFT) algorithm in heterogeneous computing environments.Despite HEFT's widespread adoption as a benchmark scheduling heuristic, systematic characterization of how graph topology influences its performance across diverse workload regimes remains limited.Using a comprehensive benchmark of 300 DAG workflows spanning three complexity classes (9, 23, and 29 tasks), we employ multivariate statistical techniques including Principal Component Analysis, K-means clustering, hierarchical clustering, multiple regression, and Random Forest modeling to identify latent structural dimensions governing execution behavior.Results reveal three dominant variance components that explain 97.6% of the total variability: graph scale and computational complexity (PC1: 47.7%), communication intensity (PC2: 22.9%), and execution heterogeneity (PC3: 18.1%).Clustering analysis validates three distinct workload regimes with strong statistical separation (Silhouette score = 0.612).Critically, regression and feature importance analyses demonstrate that critical path length overwhelmingly dominates execution time (importance = 0.974), while total workload and graph size contribute secondarily.HEFT efficiency varies substantially across clusters, ranging from 0.771 (small graphs) to 0.408 (large graphs), with communication heavy and deep dependency structures exhibiting significant performance degradation.These findings support the development of Cluster Aware HEFT (CA-HEFT), an adaptive scheduling architecture that pre classifies incoming workflows and applies tailored prioritization and processor selection strategies.This research contributes an empirical taxonomy of DAG workloads, identifies critical path as the principal performance bottleneck, and provides a foundation for structure aware, adaptive scheduling in heterogeneous distributed systems.",
-      "venue": "Journal of Intelligent Computing",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.05,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 2.8,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.9359999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
-      "title": "Data platform openness and corporate greenwashing: empirical evidence from listed companies in China",
-      "authors": [
-        "Yike Zhang"
-      ],
-      "date": "2026-08-10",
-      "source": "openalex",
-      "link": "https://doi.org/10.3389/frsus.2026.1854273",
-      "pdf_url": "https://www.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2026.1854273/pdf",
-      "doi": "10.3389/frsus.2026.1854273",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7202039231",
-      "semantic_scholar_id": "",
-      "abstract": "Given the global low-carbon transition, the rapid diffusion of ESG practices has been accompanied by growing concerns about corporate greenwashing and the credibility of sustainability disclosures. This study examines whether public government data platform openness constrains measured greenwashing. I exploit the staggered rollout of city-level platforms in China and construct a panel of A-share listed firms from 2009 to 2023. The empirical design combines two-way fixed effects with event study diagnostics, a Borusyak-Jaravel-Spiess imputation estimator, a stacked event study estimator, placebo tests, alternative greenwashing measures, matching, city-specific trends, and controls for concurrent policies. Although the coefficient becomes less precise under the saturated province-by-year and industry-by-year fixed effects, the estimates are consistently negative in the baseline and the most robust specifications. Therefore, the evidence supports a governance effect conditional on identifying assumptions, rather than unconditional policy exogeneity. Theoretical analysis bridges the individual-level Fraud Triangle to organizational disclosure strategy. Managers translate pressure, opportunity, and rationalization into firm-level reporting routines, while public data raise detection risk, improve cross-checkability, and weaken shared justifications for symbolic disclosure. Channel-consistent heterogeneity is stronger when government coordination, data infrastructure, and regulatory conditions are more developed. However, these subgroup patterns are not interpreted as formal mediation. Additional tests show no material differences in regional economic development, and the effect is concentrated in non-resource-based cities. This study provides evidence that public data transparency complements environmental governance and improves the credibility of corporate sustainability claims.",
-      "venue": "Frontiers in Sustainability",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.875,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.9799999999999999,
+        "novelty": 1.8199999999999996,
         "methodological_insight": 0.512,
         "transferable_insight": 0.793,
         "drug_discovery_relevance": 0.0,
@@ -1260,157 +1409,6 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 28,
-      "title": "Algebraic formulas for first-passage times of Markov processes in the linear framework: generalising the work of Hill and Kac",
-      "authors": [
-        "Kee-Myoung Nam",
-        "Jeremy Gunawardena"
-      ],
-      "date": "2026-08-09",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.08375v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.08375v1",
-      "doi": "",
-      "arxiv_id": "2608.08375v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "In a preceding paper, we used the graph-theoretic linear framework to show how transient properties of continuous-time Markov processes -- splitting probabilities and the moments of first-passage time (FPT) distributions -- could be expressed as rational algebraic functions of the transition rates, by using spanning forests of the underlying graph. This contrasts with the related rational formulas for steady-state (s.s.) probabilities, which use only spanning trees. The biophysicist Terrell Hill sketched a procedure for calculating mean FPTs and splitting probabilities in terms of the s.s. probabilities of a modified Markov process, thereby converting calculations using ensembles of trajectories to those using a single trajectory. Similarly, Mark Kac showed that the mean recurrence time to a state of a Markov process could be expressed in terms of the s.s. probability of that state. Here, we explore further the relationships between transient and s.s. properties, forests and trees, and ensemble and single-trajectory calculations. We formalise Hill's procedure by introducing a Hill operator, $H_u[G]$, on a graph, $G$, and use it to calculate all moments of the conditional and unconditional FPTs from $u$ as rational functions of the s.s. probabilities of $H_u[G]$, which arise from trees and \"exchange factors\" which arise from forests. We then combine this with an unravelling operator, $U_v[G]$, to calculate all moments of the recurrence time distribution as rational functions of the s.s. probabilities of $G$ and related exchange factors. Surprisingly, the Hill operator turns out to be a left-inverse to the unravelling operator, suggesting that the algebra of operators on linear framework graphs may be of broader interest. Our results integrate and generalise previously disparate findings into a common repertoire of rational algebraic formulas for FPTs of Markov processes.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "stochastic_processes_probability_statistical_physics"
-      ],
-      "deterministic_score": 1.83,
-      "score_breakdown": {
-        "paper_type": "weak_match",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "weak_match",
-      "why_selected": "Selected as a possible match to stochastic_processes_probability_statistical_physics, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as weak_match"
-    },
-    {
-      "rank": 29,
-      "title": "GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis",
-      "authors": [
-        "Alban Puech",
-        "Matteo Mazzonelli",
-        "Tamara R. Govindasamy",
-        "Mangaliso Mngomezulu",
-        "Héctor Maeso-García",
-        "Thomas Tolhurst",
-        "Javad Bayazi",
-        "Ali Moeini",
-        "Naomi Simumba",
-        "Celia Cintas",
-        "David Nelischer",
-        "Romeo Kienzler",
-        "Jonas Weiss",
-        "Anna Varbella",
-        "Florian Dörfler",
-        "Gabriela Hug",
-        "Martin Mevissen",
-        "Juan Bernabé-Moreno",
-        "François Mirallès",
-        "Hendrik F. Hamann",
-        "Etienne Vos",
-        "Thomas Brunschwiler"
-      ],
-      "date": "2026-08-10",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.09921v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09921v1",
-      "doi": "",
-      "arxiv_id": "2608.09921v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Foundation models are transforming business workflows and boosting productivity, yet they remain largely absent from engineering domains such as power system analysis, where strict physical consistency must be enforced. We present GENCO (GEometric Neural Corrective Optimizer), a unified neural solver for steady-state transmission grid analysis that handles power flow (PF), optimal power flow (OPF), and state estimation (SE) within a single architecture and shared network representation. To support advances in neural power system solvers, we introduce the open-source GridFM Development Framework, which standardizes synthetic data generation and training in a low-code environment. We also release large-scale datasets with millions of PF and OPF scenarios across diverse grid topologies to support reproducible benchmarking. We evaluate GENCO on the PFDelta and OPFData benchmarks against state-of-the-art neural solvers and classical solvers, including Newton-Raphson and IPOPT, as well as on real-world Hydro-Québec SCADA data. For large-scale PF, GENCO recovers the full AC operating state, including voltage magnitudes and reactive power that DC-PF cannot provide, while matching DC-PF-level active power-balance residuals. It achieves up to 30x speedups over Newton-Raphson at only 2x the runtime of DC-PF. For OPF, it achieves up to 85x speedups over IPOPT while improving feasibility, optimality, and runtime over DC-OPF. For SE, GENCO is more robust than classical weighted least squares to noisy measurements and network parameter errors, and always returns a high-quality estimate even when weighted least squares fails to converge. Together, the unified architecture and development framework provide a new approach to large-scale steady-state grid analysis, lowering the barrier to entry for power system engineers and marking a step toward Grid Foundation Models.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.794,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
-      "authors": [
-        "Tadanobu Chuyo Kamijo",
-        "Ori Rottenstreich",
-        "Javier Conde",
-        "Gonzalo Martínez",
-        "Pedro Reviriego"
-      ],
-      "date": "2026-08-10",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.09900v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09900v1",
-      "doi": "",
-      "arxiv_id": "2608.09900v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural constraints continuously force models off this nominal path, driving a divergence between benchmark scores and deployment performance. To address this issue, we introduce Decoding-Level Taboo, a zero-prompt diagnostic stress test that intervenes directly in logit space at runtime, forcing models out of their nominal paths. By dynamically masking primary candidate tokens at word boundaries, Taboo forces machine circumlocution. Evaluating Taboo across several open-weight model families reveals that off-path robustness is heavily influenced by both parameter scale and post-training instruction alignment, with robustness generally improving with model size and alignment. Beyond the results presented in this paper, Taboo provides a novel primitive for generating diverse synthetic datasets, stress-testing runtime safety guardrails, and auditing model reliability prior to real-world deployment.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 1.794,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.7020000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
