@@ -1,9 +1,9 @@
 {
   "date": "2026-08-14",
   "stats": {
-    "raw_candidates": 283,
-    "deduplicated_candidates": 199,
-    "filtered_candidates": 199,
+    "raw_candidates": 274,
+    "deduplicated_candidates": 193,
+    "filtered_candidates": 193,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -583,6 +583,52 @@
     },
     {
       "rank": 12,
+      "title": "Assessing the Stability of Molecular Glues with Weighted Ensemble Simulations.",
+      "authors": [
+        "Seref Berk Atik",
+        "Alex Dickson"
+      ],
+      "date": "2026-08-11",
+      "source": "pubmed",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42481387/",
+      "pdf_url": "",
+      "doi": "10.1021/acs.jctc.6c00319",
+      "arxiv_id": "",
+      "pubmed_id": "42481387",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Targeted protein degradation is an emerging approach that utilizes cellular degradation pathways to inhibit a target protein. Small molecules such as molecular glues or PROTACs can be used to mediate the formation of a ternary complex with an E3 ligase and the target protein, which can dramatically enhance the degradation process. This approach is promising for cancer therapy, where degradation of oncogenic proteins can lead to cancer cell toxicity. To design new molecular glues, it is important to develop methods that predict how well a given molecule stabilizes a protein-protein interaction. However, conventional molecular dynamics simulations face challenges in capturing the long-time scale binding and unbinding events that would be used to evaluate this stabilization. In this study, we developed a strategy that allows us to evaluate the stability of protein-protein interactions in the presence of a glue molecule using weighted ensemble simulations in combination with weakened protein-protein interactions. Using this strategy, we generated unbinding trajectories of the DCAF15-RBM39 system with small molecules E7820, Indisulam, and several other Indisulam analogs. We were able to observe distinctly different behaviors between systems with different glues, which was in agreement with their reported EC50 values. We believe this approach could aid drug discovery efforts by expanding the set of druggable targets and improving the success rate of molecular glue development.",
+      "venue": "Journal of chemical theory and computation",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "molecular_glue_and_tpd",
+        "computational_chemistry_biophysics_structural_biology"
+      ],
+      "deterministic_score": 12.82,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 18.0,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 2.5,
+        "source_credibility": 0.7,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Skim",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches ai_drug_discovery, molecular_glue_and_tpd, computational_chemistry_biophysics_structural_biology, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 13,
       "title": "How representative are MNI152-derived montages for temporalinterference stimulation?",
       "authors": [
         "Ivanov, B.",
@@ -629,7 +675,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "Volumetric Inverse Rendering via Neural Radiative Transfer",
       "authors": [
         "Ntumba Elie Nsampi",
@@ -676,7 +722,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "Artificial intelligence and molecular modelling-assisted drug discovery pipeline for natural inhibitors against DNA gyrase B subunit of Pseudomonas aeruginosa",
       "authors": [
         "Lokender Kumar"
@@ -723,7 +769,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "title": "Fine-Tuning Generative Models for Extreme Events via CVaR-Penalized Wasserstein Gradient Flows",
       "authors": [
         "Thejani Gamage",
@@ -771,7 +817,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "FED-XML-GA++: FEDerated eXplainable Adaptable Genetic Algorithm for Multi-Objectival Optimization (GA++) and SHAP-Mutated Surrogates (XML) to Oversee QoS in Wireless Dynamic Heterogeneous Networks",
       "authors": [
         "N. Akhila",
@@ -816,7 +862,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "MOON: Multi-Objective OrthoNormalized Updates for Multitask Learning",
       "authors": [
         "Shiji Zhou",
@@ -863,7 +909,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "Reimagining productive chemical space for RNA recognition beyond aromaticity",
       "authors": [
         "Batey, R. T.",
@@ -910,7 +956,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "Single-base substitutions switch RNA tertiary allostery between positive and negative coupling.",
       "authors": [
         "Oladeji, A.",
@@ -956,7 +1002,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 21,
       "title": "Brain2VLM: Hierarchical Alignment Between Cortical Representations and Vision-Language Latent Spaces",
       "authors": [
         "Pritam, N. A. A.",
@@ -1001,7 +1047,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "Optimizing real-time rescheduling mechanism for flexible manufacturing systems considering equipment fault disturbances using HGNN-PPO cooperative policy learning algorithm",
       "authors": [
         "Ruoxin Lyu",
@@ -1044,7 +1090,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Link-adaptive edge-cloud inference for UAV-based plastic mulch residue assessment",
       "authors": [
         "Xinmiao Zhao",
@@ -1091,7 +1137,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
       "authors": [
         "Chuyue Li",
@@ -1141,7 +1187,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1184,7 +1230,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "Solving High-Dimensional Population Balance Equations via Dynamics-Preserving Autoencoders",
       "authors": [
         "Gupta, P.",
@@ -1228,7 +1274,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "Identifying memory gene expression from single sample scRNA-seq data using power law signatures",
       "authors": [
         "Ghosh, S.",
@@ -1271,7 +1317,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "Large-scale AI-Ready Data for Anti-Cancer Drug Response Modeling",
       "authors": [
         "Vincent Lavelle",
@@ -1316,7 +1362,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "Rapid Assessment of Size, Shape, and Chemical Complementarity of Ligands for Computational Protein Design",
       "authors": [
         "Petrenas, R.",
@@ -1368,7 +1414,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
       "authors": [
         "Simon Yu",
@@ -1417,48 +1463,6 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
-      "authors": [
-        "Yan Deng",
-        "Fei Xu"
-      ],
-      "date": "2026-08-12",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.12308v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12308v1",
-      "doi": "",
-      "arxiv_id": "2608.12308v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them to aerial navigation remains challenging due to limited historical context, short planning horizons, and unreliable implicit termination. To address these challenges, we propose DreamFly, a diffusion-based aerial VLN framework built on Dream-VLA. DreamFly introduces a causally aligned historical memory that augments the current visual representation using only observations preceding the current decision step, enabling temporal reasoning without future information leakage. We further formulate navigation as receding-horizon diffusion planning, where the policy predicts a $K$-step action chunk but executes only the first action before replanning. This plan-$K$, execute-one strategy uses future actions as auxiliary planning targets while preserving closed-loop visual feedback. Finally, LiteStop estimates the stop probability directly from action logits at the initial all-mask state, decoupling explicit termination from action generation. Experiments on the OpenFly benchmark demonstrate consistent improvements in seen and unseen environments. DreamFly achieves 32.04%/29.46% SR and 28.22%/23.54% SPL on the test-seen/test-unseen splits, respectively, outperforming all compared methods on both metrics while attaining the lowest navigation error. These results demonstrate the effectiveness of jointly modeling historical context, future action structure, and explicit termination for aerial VLN.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.419,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
