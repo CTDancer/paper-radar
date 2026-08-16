@@ -1,9 +1,9 @@
 {
   "date": "2026-08-17",
   "stats": {
-    "raw_candidates": 167,
-    "deduplicated_candidates": 151,
-    "filtered_candidates": 151,
+    "raw_candidates": 105,
+    "deduplicated_candidates": 92,
+    "filtered_candidates": 92,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -77,118 +77,6 @@
     },
     {
       "rank": 2,
-      "title": "Reprogramming VHL with molecular glues enables selective degradation of caspase-2",
-      "authors": [
-        "Hu, J.",
-        "Deng, W.",
-        "Ou, S.-C.",
-        "Golkar, A.",
-        "Inglis, A.",
-        "Smither, K.",
-        "Li, S.",
-        "Chen, K.",
-        "Cho, K.",
-        "Bae, S. J.",
-        "Zech, S.",
-        "Choi, K.",
-        "den Besten, W.",
-        "Voss, S.",
-        "Bedel, O.",
-        "Zhou, B.",
-        "Potts, P. R.",
-        "Sadok, A.",
-        "Min, J."
-      ],
-      "date": "2026-08-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.12.744529.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.12.744529.source.xml",
-      "doi": "10.64898/2026.08.12.744529",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Molecular glue degraders (MGDs) reprogram E3 ligases to eliminate neosubstrates, yet their application has largely been confined to CRBN. Here, we identify caspase-2 as a new neosubstrate for von Hippel-Lindau (VHL), expanding the scope of VHL-based MGDs. Guided by a focused VHL ligand library design, we employed TurboID-based proximity labeling to discover stereoisomeric compounds (dCASP2-1 and dCASP2-2) that selectively recruit caspase-2 to VHL and promote its ubiquitin-proteasome system-dependent degradation. Further structure-activity relationship (SAR) studies yielded dCASP2-3 and dCASP2-4, which enhanced degradation potency (by 622-fold relative to dCASP2-1) and abolished enantioselectivity. Mechanistic mapping localized the degrader-induced interface to a two-helix region of the caspase-2 CARD domain, with residues H33, P34, and D100 essential for VHL engagement. Degron-guided computational modeling of the VHL/MGD/caspase-2 ternary complex provided structural insight into neosubstrate recognition. Together, we report the development of VHL molecular glues that selectively and potently degrade caspase-2, offering chemical probes to interrogate its functions in apoptosis and stress responses, while broadening the substrate landscape of VHL-based MGDs.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "molecular_glue_and_tpd",
-        "medicinal_and_synthetic_chemistry",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 24.61,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 18.0,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 2.5,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to molecular_glue_and_tpd, medicinal_and_synthetic_chemistry, computational_chemistry_biophysics_structural_biology, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 3,
-      "title": "DQHTFI: Dynamic-Query Hypergraph Transformer for Fine-Grained Drug-Target Interaction and Affinity Prediction",
-      "authors": [
-        "Tao, K.",
-        "Chai, H.",
-        "Chen, Z.",
-        "Gao, X.",
-        "Yu, B."
-      ],
-      "date": "2026-08-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.08.743505.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.08.743505.source.xml",
-      "doi": "10.64898/2026.08.08.743505",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Drug-target interaction prediction and binding affinity prediction are two key tasks in drug discovery and drug repurposing. Although deep learning methods have made significant progress, existing models typically rely on global representations of drugs and proteins, making it difficult to adequately model fine-grained interactions between their local units. Fixed multimodal fusion strategies also struggle to dynamically adjust the contributions of different modalities for different drug-target combinations. To address these issues, we propose DQHTFI, a fine-grained interaction prediction framework for drug-target interaction classification and binding affinity regression. DQHTFI employs BRICS fragments and Pfam functional domains as the basic interaction units and jointly learns semantic and structural representations. We design a dynamic-query hypergraph Transformer framework in which hyperedges are constructed among the multimodal features of fragment-domain pairs. Dynamic queries are generated from the cross-conditioned features of fragment-domain pairs to adaptively adjust the contribution of each modality, thereby modeling higher-order interactions between local units. Our proposed model achieves competitive results on multiple benchmark datasets.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity",
-        "graph_algorithms_and_discrete_structures"
-      ],
-      "deterministic_score": 22.958,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 15.254999999999999,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery, protein_ligand_affinity, graph_algorithms_and_discrete_structures.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 4,
       "title": "A Computational Framework for Erythropoietin Protein Synthesis and Optimization: Integrating Protein Language Models, AlphaFold3 Structural Prediction, and Bayesian Optimization",
       "authors": [
         "Gaurav Nandagawli"
@@ -232,7 +120,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "Advancing cancer drug discovery through the integration of machine learning and high-throughput screening.",
       "authors": [
         "Kamil Herbetko",
@@ -282,7 +170,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "Vibrational power spectra as a tool to benchmark universal machine-learning interatomic potentials for molecular systems: the OMOL-1k-MD data set",
       "authors": [
         "Maximilian Bechtel",
@@ -327,7 +215,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Integrating experimental biology, computational methods, and artificial intelligence in anticancer drug discovery: Bridging the translational gap.",
       "authors": [
         "Cromwel Tepap Zemnou",
@@ -378,7 +266,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Model Gateway: Management platform for model-driven drug discovery.",
       "authors": [
         "Yan-Shiun Wu",
@@ -424,7 +312,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Generative AI-Assisted Discovery of HPK1 Inhibitors.",
       "authors": [
         "Kathryn A Giblin",
@@ -492,7 +380,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "From data to decisions: how neural network input structures propagate to air quality policies",
       "authors": [
         "Laura Zecchi",
@@ -540,7 +428,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "MLAC: MicroED-assisted ligand structure analysis in complexes and its application to hERG-ligand complexes",
       "authors": [
         "Tanaka Keita",
@@ -590,7 +478,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "Deciphering the evolutionary origin of the enantioselectivity of short-chain dehydrogenases from plants toward 1-borneol",
       "authors": [
         "Jasmin Zuson",
@@ -647,54 +535,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
-      "title": "FP8 Inference in Genomic Foundation Models: Theoretical vs. Realized Speedups on GenomeOcean",
-      "authors": [
-        "Yu, M.",
-        "Egan, R.",
-        "Liu, F.",
-        "Wang, Z.",
-        "Shi, L."
-      ],
-      "date": "2026-08-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.09.743676.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.09.743676.source.xml",
-      "doi": "10.64898/2026.08.09.743676",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Genomic Foundation Models (GFMs) are increasingly used for large-scale sequence analysis and generation. Compared with frontier language models, GFMs are typically smaller and frequently operate on long genomic sequences, with evaluation often requiring preservation of biologically meaningful structure and sequence-level relationships. Although low-precision post-training quantization (PTQ) has shown substantial memory and throughput benefits for general-purpose language models, it remains unclear whether these benefits transfer to GFMs given their distinct model scales, sequence characteristics, and evaluation requirements. We present an empirical case study of FP8 post-training quantization applied to GenomeOcean, a computationally efficient genomic foundation model with strong reported performance across diverse genomics tasks. Its range of model scales, from 100M to 4B parameters, provides a useful setting for examining how quantization effects vary with model size. We evaluate FP8 across two primary GFM inference regimes - embedding extraction and autoregressive generation - and assess its impact along two dimensions: biological fidelity relative to BF16 baselines and system-level efficiency in terms of throughput, memory usage, and energy efficiency. We find that FP8 largely preserves biological fidelity across the evaluated scales and inference regimes, while reducing GPU memory footprint at 4B scale and improving energy efficiency during autoregressive generation. However, realized throughput gains remain substantially below FP8's theoretical 2x hardware ceiling, with a best-case improvement of 19.3% in autoregressive generation and benefits varying strongly by model scale and workload. Autoregressive generation shows the clearest gains, driven largely by KV-cache compression, whereas embedding extraction provides limited or negative throughput benefits at smaller model scales. We attribute this theory-practice gap to the interaction of model-scale effects, memory-system bottlenecks, and software-stack limitations. These findings highlight the need for workload-specific empirical evaluation before adopting low-precision inference in scientific foundation models.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "discrete_generative_modeling"
-      ],
-      "deterministic_score": 12.52,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.59,
-        "novelty": 2.38,
-        "methodological_insight": 1.024,
-        "transferable_insight": 0.9359999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to discrete_generative_modeling.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 14,
+      "rank": 11,
       "title": "Research progress of diffusion model in crowd activity analysis",
       "authors": [
         "Fengmin Wu",
@@ -739,7 +580,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 15,
+      "rank": 12,
       "title": "Transcranial ultrasound stimulation of the medial frontal cortex transiently improves performance by modulating conflict monitoring dynamics",
       "authors": [
         "Agostino, C. S.",
@@ -787,7 +628,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 13,
       "title": "GESTURE: Unsupervised Genotype-specific Behavioral Phenotyping in Rodents via Graph-based Representation Learning",
       "authors": [
         "Qiu, R.",
@@ -838,7 +679,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 14,
       "title": "Automated synthetic cell-based screening for designed proteins with emergent functions",
       "authors": [
         "Kareem Al Nahas",
@@ -885,7 +726,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 15,
       "title": "Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.",
       "authors": [
         "Momar Toure",
@@ -945,65 +786,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
-      "title": "Learning from human and chemical languages to predict biological function",
-      "authors": [
-        "Kosonocky, C. W.",
-        "Kaderabkova, N.",
-        "Kim, K.",
-        "Mahmood, A. J. S.",
-        "Dunmyre, A.",
-        "Woolley, P.",
-        "Xing, K.",
-        "Winkler, D.",
-        "Babu, T.",
-        "Kaderabek, F.",
-        "Sessler, J. L.",
-        "Anslyn, E. V.",
-        "Marcotte, E. M.",
-        "Zhang, Y. J.",
-        "Ellington, A. D.",
-        "Mavridou, D. A. I."
-      ],
-      "date": "2026-08-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.09.743788.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.09.743788.source.xml",
-      "doi": "10.64898/2026.08.09.743788",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Understanding how molecular structure encodes biological function remains a grand challenge in drug discovery. Here, we present PubCheF-1, a deep learning model that predicts literature-derived biological function directly from chemical structure. PubCheF-1 was trained on a dataset linking molecules to labels derived from the scientific articles in which they appear, a strategy that connects disparate compounds through the language used to describe their functionalities. When tasked with identifying inhibitors of {beta}-lactamases, including enzymes considered largely refractory to inhibition, PubCheF-1 predicted structurally distinct compounds that collectively have activity against all {beta}-lactamase classes. Furthermore, hit compounds directly bind the enzyme active site, restore antibiotic efficacy in multidrug-resistant high-priority pathogens, and demonstrate potent activity in animal infection models. Together, these findings establish that machine learning-based prediction of biological function derived from the language of scientific literature allows the identification of bioactive molecules at high hit rates, thereby accelerating therapeutic discovery.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery"
-      ],
-      "deterministic_score": 7.183,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 4.32,
-        "novelty": 2.38,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 20,
+      "rank": 16,
       "title": "Parallel Heuristic Search as Inference for Actor-Critic Reinforcement Learning Models (Extended Abstract)",
       "authors": [
         "Itamar Mishani",
@@ -1050,7 +833,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 17,
       "title": "Cognitively-Inspired Two-Stage Diffusion Policy for Adaptive Resource Scheduling in Sustainable UAV-Assisted Mobile Edge Computing Systems",
       "authors": [
         "Xiuxia Lin",
@@ -1096,7 +879,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 18,
       "title": "Safe and adaptive control of non-stationary stochastic systems via Lyapunov-constrained distributional reinforcement learning",
       "authors": [
         "Mohammad Ali Labbaf Khaniki",
@@ -1141,7 +924,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 19,
       "title": "Lattice random walk discretisations of stochastic differential equations",
       "authors": [
         "Samuel Duffield",
@@ -1188,7 +971,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 20,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1231,69 +1014,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 25,
-      "title": "Protein design to broadly reprogram engineered T cell function",
-      "authors": [
-        "Boyken, S. E.",
-        "Merillat, S.",
-        "Langan, R. A.",
-        "Moffett, H. F.",
-        "Coventry, B.",
-        "Haeseleer, F.",
-        "Haworth, K. G.",
-        "Goreshnik, I.",
-        "DeSautelle, J.",
-        "Chukinas, J.",
-        "Hammerson, B.",
-        "Davenport, T. M.",
-        "Nguyen, D.",
-        "Amin, R.",
-        "Yuan, S.",
-        "Foight, G. W.",
-        "Weitzner, B. D.",
-        "Foster, A. E.",
-        "Baker, D.",
-        "Lajoie, M. J."
-      ],
-      "date": "2026-08-14",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.13.742806.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/08/14/2026.08.13.742806.source.xml",
-      "doi": "10.64898/2026.08.13.742806",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "The efficacy of engineered T cell therapies in solid tumors remains limited by T cell dysfunction, driven by complex processes that cannot be easily manipulated via genetic knockouts or overexpression of individual genes. Protein design can create new biological functions that can rewire these consequential cell fate decisions. Here, we introduce OUTLAST Regulators, designed proteins that reprogram critical T cell signaling pathways to enhance functional persistence. These proteins are capable of regulating diverse groups of proteins such as the NR4A family of pro-exhaustion transcription factors, E3 ligases Cbl-b and c-Cbl, and SOCS family proteins. Our designs markedly improve CAR-T and TCR-T performance in vitro and in vivo in stringent solid tumor preclinical models. OUTLAST Regulators are implemented as compact genetic modules compatible with standard viral vectors and cell therapy manufacturing processes, creating a powerful platform for programming new functions into enhanced cell and gene therapies.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "protein_design"
-      ],
-      "deterministic_score": 5.389,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 3.6450000000000005,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to protein_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 26,
+      "rank": 21,
       "title": "Petri Net Induced Heuristic Search for Resource Constrained Scheduling",
       "authors": [
         "Ido Lublin",
@@ -1338,7 +1059,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 22,
       "title": "Balancing fairness and efficiency in order allocation for quick-commerce applications",
       "authors": [
         "Milon Bhattacharya",
@@ -1380,7 +1101,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 23,
       "title": "A dynamical circuit model for C. elegans chemotaxis with emergent sharp turns",
       "authors": [
         "Squires, A.",
@@ -1423,7 +1144,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 24,
       "title": "Polynomial-Augmented Neural Networks (PANNs) with Weak Orthogonality Constraints for Enhanced Function and PDE Approximation",
       "authors": [
         "Madison Cooley",
@@ -1467,7 +1188,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 25,
       "title": "Optimization strategies for antimicrobial peptides in dental caries prevention and management: from emerging mechanisms of action to clinical translation",
       "authors": [
         "Hongzhao Ding",
@@ -1513,6 +1234,230 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to medicinal_and_synthetic_chemistry, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 26,
+      "title": "PepXPro: a framework for curating, generating, and optimizing structure-affinity protein-peptide datasets",
+      "authors": [
+        "L. America Chi",
+        "F. Marty Ytreberg"
+      ],
+      "date": "2026-08-14",
+      "source": "openalex",
+      "link": "https://doi.org/10.64898/2026.08.09.743757",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/14/2026.08.09.743757.full.pdf",
+      "doi": "10.64898/2026.08.09.743757",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7203494550",
+      "semantic_scholar_id": "",
+      "abstract": "Protein-peptide interactions are central to cellular signaling and to a growing class of peptide therapeutics, yet the datasets used to develop and benchmark computational methods for protein-peptide modeling remain poorly standardized. Available databases prioritize comprehensive coverage but require task-specific curation, while published benchmarks are typically distributed as static collections built with heterogeneous curation, quality-filtering, redundancy-reduction, and sampling strategies, limiting reproducibility and cross-study comparison. We present PepXPro, a modular framework that transforms publicly available protein-peptide structure-affinity resources into curated datasets and reproducible benchmark collections generated under user-defined criteria. PepXPro is organized into three components: Scrape, for deterministic curation of protein-peptide complex entries from public resources; GenSample, for constructing configurable subsets under explicit quality, redundancy, and sampling constraints; and Benchmark, for evaluating candidate subsets and selecting a non-redundant, representative, general-purpose benchmark for distribution. Starting from PDBbind and complementary resources, the curation pipeline yields a pool of protein-peptide complex entries that retains chemically complex cases, including disulfide-linked cyclic peptides, which are commonly excluded from existing benchmarks. We release PepXPro Benchmark v1, a benchmark comprising 70 non-redundant protein-peptide complexes with experimentally determined structures and binding affinities. The underlying framework provides an extensible foundation for reproducible protein-peptide benchmark construction.",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.958,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 2.8,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 27,
+      "title": "A Comprehensive Dataset for Job Allocation in Internet of Things Networks",
+      "authors": [
+        "Murilo Táparo",
+        "Bianca de Almeida Dantas",
+        "Ricardo Santos"
+      ],
+      "date": "2026-08-14",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41597-026-08056-8",
+      "pdf_url": "https://www.nature.com/articles/s41597-026-08056-8_reference.pdf",
+      "doi": "10.1038/s41597-026-08056-8",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7127284347",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract This paper presents the Network and Application Dataset for Internet of Things (NADIoT), a dataset built to support research on job allocation in large-scale IoT networks. The dataset provides instances containing between 10 (101) and 1,000,000,000 (109) network nodes, each associated with multiple jobs that represent application demands. Nodes and jobs of the dataset have essential attributes such as processing capacity, bandwidth, and latency, allowing researchers to explore performance under a wide range of operating conditions. NAD-IoT is organized into scenarios defined by the ratio between jobs and nodes: lightweight scenarios, where jobs represent up to 20% of the nodes, and heavyweight scenarios, where jobs correspond to 70% of the nodes. It enables systematic assessments of heuristics, metaheuristics, and optimization strategies, supporting analyzes of scalability, efficiency, and runtime. It provides a reliable foundation for benchmarking algorithmic behavior, examining job-distribution patterns, and evaluating resource-management techniques.Beyond optimization studies, NAD-IoT can be used for experiments, simulation design, model training, and validation in investigations involving large-scale, heterogeneous, and resource-constrained IoT environments.",
+      "venue": "Scientific Data",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.841,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 1.4,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "MatUQ: a benchmark for uncertainty-aware out-of-distribution materials property prediction with graph neural networks",
+      "authors": [
+        "Liqin Tan",
+        "Xiean Wang",
+        "Yuexin Zou",
+        "Pin Chen",
+        "Qingsong Zou"
+      ],
+      "date": "2026-08-15",
+      "source": "openalex",
+      "link": "https://doi.org/10.1038/s41524-026-02272-x",
+      "pdf_url": "https://www.nature.com/articles/s41524-026-02272-x_reference.pdf",
+      "doi": "10.1038/s41524-026-02272-x",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7203528524",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract Reliable uncertainty quantification (UQ) for graph neural networks (GNNs) under out-of-distribution (OOD) shifts remains insufficiently characterized in materials discovery. Existing benchmarks based on random splits can overestimate model reliability by underrepresenting structural extrapolation challenges. Here we introduce MatUQ, a benchmark built on structure-aware Smooth Overlap of Atomic Positions Leave-One-Cluster-Out (SOAP-LOCO) splitting, together with a training protocol that combines Deep Evidential Regression (DER) with dropout regularization, for evaluating GNN reliability under structural distribution shifts. Through systematic experiments spanning six materials datasets, twelve GNN architectures, and eight UQ strategies, we find that predictive accuracy and uncertainty quality are distinct capabilities that tend to decouple under OOD evaluation, and that uncertainty-metric leadership is largely non-transferable across datasets and target properties. We further find that as training data become scarce, the optimal strategy shifts from evidential-containing hybrids toward pure ensemble variance across all evaluated architectures, with the architecture holding the distributional optimum shifting correspondingly. Standalone evidential regression rarely attains per-model optima and benefits from hybrid pairing only under specific combinations of data density, inductive bias, and target metric. Monte Carlo dropout is less effective as a standalone uncertainty estimator under the tested configurations but can contribute within hybrid schemes. Overall, MatUQ provides a more rigorous benchmark for assessing uncertainty-aware GNNs in OOD materials discovery.",
+      "venue": "npj Computational Materials",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.375,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 2.8,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "Bioactive Compounds of Sungkai (Peronema canescens Jack) as Natural Antiallergen: In Silico Study",
+      "authors": [
+        "Muhammad Marsha Azzami Hasibuan",
+        "Farel Immanuel W. Purba",
+        "Laila Rahmah Maulidyani",
+        "Syahida Zulfa Raihani"
+      ],
+      "date": "2026-08-14",
+      "source": "openalex",
+      "link": "https://doi.org/10.33263/briac164.118",
+      "pdf_url": "https://doi.org/10.33263/briac164.118",
+      "doi": "10.33263/briac164.118",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7203496532",
+      "semantic_scholar_id": "",
+      "abstract": "Allergies represent a significant global health concern, manifesting when allergens cross-link immunoglobulin E (IgE) bound to high-affinity FcεRI receptors on mast cells, triggering the release of the inflammatory mediators responsible for allergic symptoms. Synthetic antihistamines have been shown to be effective in reducing allergy symptoms, but they are associated with potent side effects. Natural antihistamines derived from plant secondary metabolites have attracted attention for their potential efficacy and fewer side effects. Sungkai (Peronema canescens) leaves contain bioactive compounds that can act as natural antihistamines. The study is supplemented by consideration of reports on additional properties with potential application in structure-activity relationships (SAR) research for the development of therapeutic drugs, as well as bioactivity radars related to the drug-like behavior of the studied compounds. Based on the results of Lipinski’s rule of 5 and ADMET pharmacokinetic screening, followed by molecular screening of the histamine 1 receptor, two compounds with potential antihistamine activity were obtained. The compounds were DTXSID80244086 and Genkwanin. DTXSID80244086 has a strong binding energy of 8.36 kcal/mol but does not interact with key sites on the H1 Receptor. The second compound, Genkwanin, has more potential as an antihistamine due to its binding energy, which is competitive with Loratadine (8.35 vs 6.31 kcal/mol) but lower than Doxepin (8.35 vs 11.53 kcal/mol). DFT results showed that both DTXSID80244086 and Genkwanin have potential as drug-like molecules. Based on these results, it can be concluded that genkwanin can serve as an alternative histamine H1 receptor inhibitor, replacing Doxepin and Loratadine, the latest generation of antihistamine drugs.",
+      "venue": "Biointerface Research in Applied Chemistry",
+      "code_url": "",
+      "topic_tags": [
+        "medicinal_and_synthetic_chemistry"
+      ],
+      "deterministic_score": 1.41,
+      "score_breakdown": {
+        "paper_type": "routine_application",
+        "direct_relevance": 9.72,
+        "novelty": 0.0,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -12.0
+      },
+      "priority": "Archive",
+      "paper_type": "routine_application",
+      "why_selected": "Selected only as a lower-priority candidate: it matches medicinal_and_synthetic_chemistry, but appears application-driven.",
+      "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
+    },
+    {
+      "rank": 30,
+      "title": "Band-engineering in area-dependent InGaZnO(IGZO)-based memristive devices",
+      "authors": [
+        "Peijia Yuan",
+        "Clemens Wittberg",
+        "Jonas Deuermeier",
+        "Maria Elias Pereira",
+        "Yen-Po Liu",
+        "David N. Mueller",
+        "Asal Kiazadeh",
+        "Regina Dittmann"
+      ],
+      "date": "2026-08-14",
+      "source": "openalex",
+      "link": "https://doi.org/10.3389/fnano.2026.1870683",
+      "pdf_url": "https://www.frontiersin.org/journals/nanotechnology/articles/10.3389/fnano.2026.1870683/pdf",
+      "doi": "10.3389/fnano.2026.1870683",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7203460027",
+      "semantic_scholar_id": "",
+      "abstract": "Area-dependent memristive devices based on the valence change mechanism are promising candidates for emerging analog and neuromorphic computing due to their intrinsic analog switching behavior and reduced variability. Among these, IGZO-based devices are particularly attractive owing to their potential for multifunctional applications, including optoelectronics and flexible electronics. However, systematic design strategies that directly link the material and interface properties to their device performance remain unexplored. In this work, we demonstrate that the switching polarity and electrical characteristics of IGZO-based memristive devices can be systematically tuned by modifying the top electrode. This control is shown to originate from changes in the band alignment and the resulting spatial electric field distribution across the device. To identify the governing interface and underlying transport mechanisms, we combine energy band diagram simulations with XPS-based band alignment measurements. Using this experimentally validated framework, the measured I–V characteristics are quantitatively reproduced within the Tsu–Esaki tunneling model. These results establish a consistent physical understanding of switching in IGZO-based devices and demonstrate that band engineering provides a powerful route to control both transport and switching behavior, enabling targeted optimization for large-scale analog and neuromorphic systems.",
+      "venue": "Frontiers in Nanotechnology",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 0.881,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
 }
