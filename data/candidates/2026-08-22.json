@@ -1,9 +1,9 @@
 {
   "date": "2026-08-22",
   "stats": {
-    "raw_candidates": 170,
-    "deduplicated_candidates": 98,
-    "filtered_candidates": 98,
+    "raw_candidates": 166,
+    "deduplicated_candidates": 96,
+    "filtered_candidates": 96,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -543,6 +543,52 @@
     },
     {
       "rank": 12,
+      "title": "Using MR-chordless circuits for efficient enumeration of autocatalytic cores in large chemical reaction networks",
+      "authors": [
+        "Richard Golnik",
+        "Nicola Vassena",
+        "Thomas Gatter",
+        "Peter F. Stadler"
+      ],
+      "date": "2026-08-20",
+      "source": "openalex",
+      "link": "https://doi.org/10.1186/s13321-026-01240-3",
+      "pdf_url": "",
+      "doi": "10.1186/s13321-026-01240-3",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7127323262",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract Autocatalysis is an important property of chemical reaction networks (CRNs) that is particularly prevalent in metabolic networks. A set of well-defined autocatalytic cores prominently features minimal subsystems that determine the autocatalytic capabilities. Recently, a graph-theoretic characterization has become available that enabled the enumeration of moderate size autocatalytic cores in real-life metabolic networks. Here, we improve on this approach in two ways: (1) We elaborate on algorithms for the enumeration of elementary circuits restricted to so-called MR-chordless circuits relevant for autocatalysis detection. (2) We interleave our new algorithm with tests for autocatalysis to further limit the number of circuits that need to be stored for the construction of autocatalytic cores more complex than elementary MR-chordless circuits. Combined, these innovations achieve a performance gain of several orders of magnitude and make it possible to exhaustively enumerate all autocatalytic cores in real-life metabolic reaction networks comprising several hundreds of metabolites and reactions. Importantly, we find that reaction networks with irreversible reactions contain complex autocatalytic cores comprising more than a single \"cycle with an ear\". Such structures exceed the established classification of autocatalytic cores for fully reversible networks into five types. Scientific contribution We developed a graph-theoretic algorithm to enumerate autocatalytic cores that is efficient enough to handle genome-scale metabolic models of various species exhaustively. To this end, we devised a novel method to enumerate elementary circuits in bipartite digraphs free of one particular type of chord, which outperforms efficient standard enumeration algorithms of elementary circuits by up to 4 orders of magnitude. We show that for CRNs comprising both reducible and irreducible reactions more complex autocatalytic cores exist than envisioned by the established classification schemes for reversible CRNs.",
+      "venue": "Journal of Cheminformatics",
+      "code_url": "",
+      "topic_tags": [
+        "graph_algorithms_and_discrete_structures"
+      ],
+      "deterministic_score": 6.26,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 3.375,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.09030899869919436,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to graph_algorithms_and_discrete_structures.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 13,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -585,7 +631,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "Automated Inference of Graph Transformation Rules",
       "authors": [
         "Jakob L. Andersen",
@@ -634,7 +680,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers",
       "authors": [
         "MD Saifur Rahman Mazumder",
@@ -676,7 +722,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 16,
       "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
       "authors": [
         "Yudong Jin",
@@ -725,7 +771,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "Online learning guided quasi-Newton methods with global non-asymptotic convergence",
       "authors": [
         "Ruichen Jiang",
@@ -767,7 +813,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis",
       "authors": [
         "Liang Xu",
@@ -816,7 +862,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models",
       "authors": [
         "Taihang Hu",
@@ -879,7 +925,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
       "authors": [
         "Fengqing Jiang",
@@ -929,7 +975,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 21,
       "title": "An in silico antifouling potential of fengycin, a cyclic lipopeptide produced by marine bacteria",
       "authors": [
         "Nadarajan Viju",
@@ -975,7 +1021,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "Emergence of cooperation: A reputation-modulated reinforcement learning",
       "authors": [
         "Chenyang Zhao",
@@ -1021,7 +1067,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "A graphical framework for global optimization of mixed-integer nonlinear programs",
       "authors": [
         "Danial Davarnia",
@@ -1064,7 +1110,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
       "authors": [
         "Yizhe Chi",
@@ -1114,7 +1160,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
       "authors": [
         "Hengyuan Xu",
@@ -1162,7 +1208,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "Maximum linear arrangement: exact algorithms for specific classes of graphs and approximation algorithms for wide classes of graphs",
       "authors": [
         "Lluís Alemany-Puig",
@@ -1205,7 +1251,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery",
       "authors": [
         "Yufei Liu",
@@ -1256,7 +1302,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "CPMS-Net: A lightweight cooperative perception multi-scale network for crowd counting",
       "authors": [
         "Gufeng Shang",
@@ -1299,7 +1345,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "Group-theoretic treatment of strong light-matter coupling with an arbitrary number of excitations",
       "authors": [
         "Antti Peltola",
@@ -1345,7 +1391,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "GENIE: Generative Neural Inference for Epidemics",
       "authors": [
         "Laura M. Guzmán-Rincón",
@@ -1367,59 +1413,6 @@
       "openalex_id": "",
       "semantic_scholar_id": "",
       "abstract": "The SARS-CoV-2 pandemic highlighted the ongoing risk infectious diseases pose to society and the value of reliable information on the likely future burden. When forecasting an epidemic at fine spatial resolution, traditionally used mechanistic compartmental model struggle to capture highly complex granular transmission dynamics, resulting in inaccurate and overconfident forecasts. However, detailed Agent-Based Models (ABMs), are challenging to calibrate and are too computationally expensive to use in real-time. Amortized simulation-based inference promises to overcome this difficulty by exploiting the power of machine learning (ML) to perform approximate forecasting at near-real-time using arbitrarily complex models of epidemics. In this work we introduce Generative Neural Inference for Epidemics (GENIE), a spatio-temporal ML-based framework for high-resolution forecasting of the burden of respiratory pathogens. GENIE is designed to reflect two key characteristics of outbreaks: (i) shared biological mechanisms across locations and (ii) location-specific characteristics affecting transmission dynamics. This results in the model architecture having two modules: (i) a Local Infection Encoder - which learns to represent disease dynamics shared across all locations and (ii) a Local Profile Encoder - which learns location-specific representations. Using simulations from a high-resolution spatio-temporal ABM, GENIE is trained to generate samples from an approximate posterior predictive distribution of future epidemic trajectories. Benchmarked against established statistical and ML models, GENIE demonstrates superior performance across a range of measures including the timing and magnitude of peak hospitalisations.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.785,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "Longitudinal Bayesian Learning of Continuous Disease Position across the Alzheimer's Disease Continuum",
-      "authors": [
-        "Yingying Zhang",
-        "Kun Zhao",
-        "Guodong Liu",
-        "Qi Huang",
-        "Pengfei Gu",
-        "Dongchul Kim",
-        "Erik Enriquez",
-        "Alex D. Leow",
-        "Paul M. Thompson",
-        "Heng Huang",
-        "Hongchang Gao",
-        "Liang Zhan",
-        "Haoteng Tang"
-      ],
-      "date": "2026-08-19",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2608.19436v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19436v1",
-      "doi": "",
-      "arxiv_id": "2608.19436v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Alzheimer's disease (AD) progresses as a continuous biological process, whereas most existing neuroimaging-based artificial intelligence methods remain limited to discrete diagnosis or clinical score prediction from cross-sectional imaging. In this work, we propose Disease Continuum Positioning (DCP), a longitudinal Bayesian Learning framework that continuously estimates disease severity from longitudinal diffusion tensor imaging (DTI). Specifically, DCP models disease severity as a low-dimensional probabilistic latent variable by jointly integrating longitudinal observations with weak clinical supervision, from which the proposed Disease Continuum Score (DCS) is derived to quantify an individual's position along the Alzheimer's disease continuum together with its associated uncertainty. Extensive experiments on the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort demonstrate that DCP consistently outperforms representative disease progression methods. More importantly, comprehensive validation analyses show that DCS accurately characterizes disease severity, exhibits strong clinical relevance, preserves longitudinal disease evolution, and predicts future disease conversion. These results suggest that DCS provides a quantitative imaging-derived representation for continuous assessment of Alzheimer's disease progression beyond conventional diagnostic labels and clinical scores.",
       "venue": "",
       "code_url": "",
       "topic_tags": [],
