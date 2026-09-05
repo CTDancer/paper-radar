@@ -1,9 +1,9 @@
 {
   "date": "2026-09-05",
   "stats": {
-    "raw_candidates": 304,
-    "deduplicated_candidates": 207,
-    "filtered_candidates": 207,
+    "raw_candidates": 287,
+    "deduplicated_candidates": 194,
+    "filtered_candidates": 194,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -77,53 +77,6 @@
     },
     {
       "rank": 2,
-      "title": "Artificial Intelligence based identification of druggability of essential hypothetical proteins in Plasmodium falciparum.",
-      "authors": [
-        "Muskan Ray",
-        "Satya Ranjan Dash",
-        "Rajani Kanta Mahapatra"
-      ],
-      "date": "2026-09-01",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556607/",
-      "pdf_url": "",
-      "doi": "10.1016/j.exppara.2026.109182",
-      "arxiv_id": "",
-      "pubmed_id": "42556607",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Malaria, caused by Plasmodium falciparum is a deadly disease and remains a global health concern. With the emergence of resistance to artemisinin; it is pivotal to identify potential therapeutic drug targets against malaria. This study employs the use of machine learning and computational approaches to predict the druggable protein among the ∼1000 essential hypothetical genes of P. falciparum. While traditional target prioritization strategies rely on either manual curation or single-parameter thresholds, neither approach is conducive to working with literally thousands of essential proteins nor can they capture non-linear relationships between several features influencing druggability. In contrast, machine learning can integrate heterogeneous descriptors such as sequence, structure, interaction, and annotation features and learn complex patterns associated with known druggable proteins, enabling scalable and more objective prediction of druggable essential hypothetical proteins. The screening criteria involved five point classification as EC number, molecular weight, PPI, orthology, and GO annotation, for which several web tools were employed. Machine learning algorithms like Decision Tree, Random Forest, SVM, Perceptron, and Logistic Regression were imputed to train the system and predict the druggable proteins using training and test data set accordingly, in the ratio of 70:30. Along with accuracy scores, ROC-AUC curve was generated for better visual representation. The study reported nine proteins as druggable. Furthermore, assignment of a normalized weighted score for each criterion to prepare a ranked list of putative drug targets identified PfCERLI1 as prioritized drug target. Additionally, the target protein structure obtained from AlphaFold was refined and underwent quality checking using Galaxy WEB and SAVES meta-server respectively. Schrödinger Glide was employed for molecular docking of the target protein with phytochemical ligand dataset, reported AD34 (Anthraquinone) as the best inhibitor with a binding affinity score of -13.05 kcal/mol. Molecular Dynamics(MD) simulation study of the protein-ligand complex for 100ns revealed the presence of hydrogen bond between the inhibitor and the active site residues Leu147 and Thr224 throughput the simulation time-frame. The above study proposed, PfCERLI1, as the novel essential hypothetical protein of P. falciparum for therapeutic intervention study in future.",
-      "venue": "Experimental parasitology",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design",
-        "computational_chemistry_biophysics_structural_biology"
-      ],
-      "deterministic_score": 25.951,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 18.0,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.5599999999999999,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to protein_ligand_affinity, structure_based_drug_design, computational_chemistry_biophysics_structural_biology.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 3,
       "title": "TRIZ-guided computational innovation framework for the automated generation and prioritization of novel azole-like antifungal candidates targeting Candida auris CYP51.",
       "authors": [
         "Jamal M Khaled",
@@ -170,7 +123,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SurfSpec: Enhancing Off-Target-Agnostic Specificity by Bounding Pocket-Ligand Geometric Mismatch",
       "authors": [
         "Minyeong Hwang",
@@ -222,7 +175,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Can Artificial intelligence meaningfully shorten drug discovery timelines? Current evidence, roadblocks and future directions.",
       "authors": [
         "Juan Luis Fernández-Martínez"
@@ -266,7 +219,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "CROWN: Curated Repository Of Well-resolved Noncovalent interactions",
       "authors": [
         "Poelmans, R.",
@@ -317,7 +270,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Configuration-space Bayesian optimisation for stress-critical pose identification on a hyper-redundant robot",
       "authors": [
         "Ardit Poka",
@@ -367,7 +320,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "DESPOT: Direction-Enhanced Scoring POTentials",
       "authors": [
         "Poelmans, R.",
@@ -417,7 +370,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Convergence of cryo-electron microscopy and artificial intelligence in integrative structural biology: A critical review of advances, synergies, and implications for molecular biophysics and drug discovery.",
       "authors": [
         "Abinawanto",
@@ -465,7 +418,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Advancing cancer drug discovery through the integration of machine learning and high-throughput screening.",
       "authors": [
         "Kamil Herbetko",
@@ -515,7 +468,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "title": "A Reference Landscape of Regulatory T Cell States in Mice",
       "authors": [
         "Freuchet, A.",
@@ -571,7 +524,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 11,
       "title": "Non-standard proteins in the lens of AlphaFold 3: a case study of amyloids",
       "authors": [
         "Alicja W. Wojciechowska",
@@ -618,7 +571,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "title": "Strategy and efficiency-redefined discovery of novel nanomolar tyrosinase inhibitors: AI de novo molecular generation + expert-guided structural optimization.",
       "authors": [
         "Yinyan Sun",
@@ -680,7 +633,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "title": "From PROTACs to Clinical Reality: A Narrative Review of Targeted Protein Degradation Therapies",
       "authors": [
         "Doha Mohamed",
@@ -730,7 +683,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "title": "Sequence-free landscape inference for directed evolution",
       "authors": [
         "Sebastian Towers",
@@ -776,7 +729,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 15,
       "title": "Bayesian Descriptions are not Mechanisms: Predictive Processing and the Realisation Gap in Embodied Neural Dynamics",
       "authors": [
         "Ian Todd"
@@ -820,7 +773,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "title": "Evolving transition-state search with agentic large language models",
       "authors": [
         "Jan A Meissner",
@@ -865,7 +818,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 17,
       "title": "OT-knn: a neighborhood-aware optimal transport framework for aligning spatial transcriptomics data",
       "authors": [
         "Song, J.",
@@ -909,7 +862,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 18,
       "title": "HSSynergy: scale-aware hierarchical attention for interpretable drug synergy prediction",
       "authors": [
         "Yue-Hua Feng",
@@ -955,7 +908,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 19,
       "title": "A curated benchmark for cofolding models on kinase conformational states",
       "authors": [
         "Kunyang Sun",
@@ -999,7 +952,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 20,
       "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
       "authors": [
         "Adeela Islam",
@@ -1045,51 +998,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 23,
+      "rank": 21,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -1137,7 +1046,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 22,
       "title": "Machine Learning-Assisted Optimization of CMOS VLSI Circuits for Low-Power and High-Speed Applications",
       "authors": [
         "Ankit Soni"
@@ -1180,7 +1089,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 23,
       "title": "Iterated Agent for Symbolic Regression",
       "authors": [
         "Zhida Song",
@@ -1232,7 +1141,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 24,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1275,7 +1184,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 27,
+      "rank": 25,
       "title": "Robust PAC Learning of Concurrent Stochastic Games",
       "authors": [
         "Angel Y. He",
@@ -1319,7 +1228,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 26,
       "title": "Molecules to market: A probabilistic artificial intelligence framework for predicting managed care adoption at the level of drug discovery.",
       "authors": [
         "Rishi Sharma"
@@ -1362,7 +1271,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 27,
       "title": "Q-Edge: Symmetry-Reduced Quantum Simulation of Structured Extreme Dependence",
       "authors": [
         "Hongrui Zhang",
@@ -1407,7 +1316,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 28,
       "title": "New thinking for the next generation of antimalarials",
       "authors": [
         "Hannah Asiki",
@@ -1452,6 +1361,104 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 29,
+      "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
+      "authors": [
+        "Lihao Liu",
+        "Peng Tang",
+        "Kunwar Yashraj Singh",
+        "Shabnam Ghadar"
+      ],
+      "date": "2026-09-03",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2609.04197v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04197v1",
+      "doi": "",
+      "arxiv_id": "2609.04197v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and propose ESPO (Error-Structured Prompt Optimization), which decomposes prompt optimization into three phases: Diagnose clusters all training errors into structural patterns in one round; Propose generates candidates via four complementary strategies with independent biases; Select applies bootstrap stability selection. On seven public NLP benchmarks - Tweet, MMLU, GSM8K, HotpotQA, ScoNe, HoVer, and PUPA - ESPO improves average accuracy by $+$3.76 pp over the state-of-the-art (74.67% vs 70.91% for GEPA), matching or exceeding GEPA on every dataset while producing prompts 47% shorter (1,004 vs 1,878 chars) and faster at inference. Cross-model experiments across four additional student models (Gemma 3 12B, Mistral 14B, Qwen3 32B, Claude Haiku 4.5) show ESPO yields the best average accuracy on every model tested, with the largest gap on Qwen3 GSM8K (15.00% $\\to$ 91.40%). A generalization bound (Appendix) grounds each phase in a corresponding term of the test-time gap, and the ablation confirms a key prediction: adding diversity without bootstrap selection actually hurts performance ($-$1.20%).",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.402,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "High-Throughput Screening Identifies Small-Molecule Inhibitors of the Tau-LRP1 Interaction",
+      "authors": [
+        "Wang, C.",
+        "Ma, C.-T.",
+        "Crotty, C.",
+        "Zeng, F.-Y.",
+        "Bobkov, A.",
+        "Covel, J. A.",
+        "Keane Rivera, E.",
+        "Sergienko, E.",
+        "Kosik, K. S.",
+        "Olson, S. H.",
+        "Jackson, M. R.",
+        "Rauch, J. N."
+      ],
+      "date": "2026-09-02",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/09/02/2026.06.24.733881.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/09/02/2026.06.24.733881.source.xml",
+      "doi": "10.64898/2026.06.24.733881",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The cellular uptake and propagation of tau are central features of tauopathies, including Alzheimers disease, and are mediated by the endocytic receptor low-density lipoprotein receptor-related protein 1 (LRP1). While prior studies have implicated LRP1 in tau binding and internalization, the biochemical features of this interaction and its suitability for therapeutic targeting remain incompletely defined. Here, we establish a quantitative and scalable framework to interrogate the tau-LRP1 interaction and identify small-molecule modulators. We engineered and purified the LRP1 ligand-binding domain 4 (BD4), a key region mediating tau interaction, and developed multiple orthogonal assays, including fluorescence polarization, split luciferase complementation, and time-resolved FRET, to measure LRP1-BD4 interactions with tau and a known peptide ligand. Across assay formats, we observe consistent binding affinities in the nanomolar range and demonstrate competitive displacement by tau, receptor-associated protein (RAP), and a peptide ligand, supporting overlapping binding interfaces. Leveraging these platforms, we performed small molecule high-throughput screening and identified a set of candidate inhibitors of the LRP1-BD4-tau interaction. Selected compounds reduced tau uptake in a cellular assay, phenocopying competitive inhibition by tau and a peptide ligand. Together, these studies define the LRP1-BD4-tau interaction as a biochemically tractable and druggable interface and establish an integrated discovery pipeline linking mechanistic characterization to functional cellular outcomes. This work provides a foundation for the development of therapeutic strategies targeting LRP1-mediated tau uptake.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [
+        "small_molecule_design"
+      ],
+      "deterministic_score": 4.16,
+      "score_breakdown": {
+        "paper_type": "application",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "application",
+      "why_selected": "Selected as a possible match to small_molecule_design, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
 }
