@@ -1,9 +1,9 @@
 {
   "date": "2026-09-06",
   "stats": {
-    "raw_candidates": 299,
-    "deduplicated_candidates": 199,
-    "filtered_candidates": 199,
+    "raw_candidates": 263,
+    "deduplicated_candidates": 185,
+    "filtered_candidates": 185,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -167,62 +167,6 @@
     },
     {
       "rank": 4,
-      "title": "PRISM: A structure-guided computational approach for identifying RNA-targeting small molecules by integrating 3D conformational and chemical information.",
-      "authors": [
-        "Xingyu Liu",
-        "Yunfeng Li",
-        "Yijia Liu",
-        "Jun Yuan",
-        "Tianhao Liu",
-        "Maoyuan Zhou",
-        "Jiaxing Li",
-        "Zhiwei Zhang",
-        "Xiaoqing Wang",
-        "Tiantian Ma",
-        "Nasrollah Moghadam",
-        "Hossein Ganjidoust",
-        "Qianjin Guo"
-      ],
-      "date": "2026-09-05",
-      "source": "pubmed",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42035667/",
-      "pdf_url": "",
-      "doi": "10.1016/j.ejmech.2026.118795",
-      "arxiv_id": "",
-      "pubmed_id": "42035667",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Targeting RNA with small molecules represents a promising frontier for therapeutic intervention, offering new opportunities for \"undruggable\" targets. However, accurately predicting the interaction between small molecules and RNA remains challenging, primarily due to the highly dynamic 3D conformations of RNA which are often overlooked by methods relying solely on linear sequences. While recent advancements demonstrate that RSIs can be predicted using secondary structures to bypass 3D folding inaccuracies, it is essential to note that such models are still fundamentally trained on labels derived from experimental 3D structures in the Protein Data Bank (PDB). Here, we present PRISM, a structure-guided computational framework designed to predict RNA-small molecule binding by integrating four complementary chemical and biological representations: the predicted 3D atomic structure of the RNA, its nucleotide sequence, the 2D topological graph of the ligand, and its chemical composition (SMILES). To capture the complex spatial arrangement of RNA binding pockets, PRISM utilizes a geometry-aware modeling approach that respects the 3D spatial orientation of atoms. This structural information is combined with the ligand's chemical topology and sequence data through a dynamic weighting mechanism. This mechanism mimics a rational drug design process by automatically determining whether 3D structural constraints or sequence motifs are more critical for a specific interaction. Extensive evaluations across diverse benchmarks and a large-scale High-Throughput Screenin dataset demonstrate PRISM's robustness. Notably, PRISM maintains high predictive performance even when relying on predicted 3D structures, effectively distinguishing rare active hits from vast non-binding decoys in realistic, imbalanced screening scenarios. By effectively leveraging predicted 3D conformational data alongside chemical topology, PRISM provides an interpretable and powerful tool to support structure-based drug discovery (SBDD) for novel RNA therapeutics.",
-      "venue": "European journal of medicinal chemistry",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "small_molecule_design"
-      ],
-      "deterministic_score": 21.023,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 12.690000000000001,
-        "novelty": 3.6399999999999992,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.7,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Must Read",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery, small_molecule_design.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 5,
       "title": "Configuration-space Bayesian optimisation for stress-critical pose identification on a hyper-redundant robot",
       "authors": [
         "Ardit Poka",
@@ -272,7 +216,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "An integrated machine learning and computational framework with experimental validation for the identification of novel CXCR4 inhibitors.",
       "authors": [
         "Mushtaq Ahmad Wani",
@@ -325,7 +269,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Estimation of System Parameters Including Repeated Cross-Sectional Data through Emulator-Informed Deep Generative Model",
       "authors": [
         "Hyunwoo Cho",
@@ -371,7 +315,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Second-generation N,N′-disubstituted aliphatic diamines: discovery of potent hits for multi-species leishmaniasis treatment",
       "authors": [
         "Alejandro Recio-Balsells",
@@ -422,7 +366,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Persistent Local Laplacian Prediction of Protein–Ligand Binding Affinities",
       "authors": [
         "Jian Liu",
@@ -467,7 +411,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "From PROTACs to Clinical Reality: A Narrative Review of Targeted Protein Degradation Therapies",
       "authors": [
         "Doha Mohamed",
@@ -517,7 +461,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "title": "De novo design of CR2 binder as vaccine scaffold",
       "authors": [
         "Liu, Y.-T.",
@@ -574,7 +518,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 11,
       "title": "Evolving transition-state search with agentic large language models",
       "authors": [
         "Jan A Meissner",
@@ -619,7 +563,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "title": "Retrieval of binding sites across the AlphaFold human proteome using protein language model representations",
       "authors": [
         "Keshav Mohan",
@@ -663,7 +607,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 14,
+      "rank": 13,
       "title": "QRL-FP: a quantum-inspired reinforcement learning framework for multi-objective system-on-chip floorplanning",
       "authors": [
         "Ramzi Ayadi"
@@ -707,7 +651,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "title": "Maritime search and rescue operations planning: A hybrid approach for multi-asset deconfliction and efficient resource allocation",
       "authors": [
         "Amirhossein Esmaeilpour",
@@ -752,7 +696,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 15,
       "title": "HSSynergy: scale-aware hierarchical attention for interpretable drug synergy prediction",
       "authors": [
         "Yue-Hua Feng",
@@ -798,7 +742,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
       "authors": [
         "Adeela Islam",
@@ -844,51 +788,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
-      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
-      "authors": [
-        "Eghbal Sekhavati",
-        "Reza Jalilzadeh Yengejeh"
-      ],
-      "date": "2121-10-01",
-      "source": "crossref",
-      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
-      "pdf_url": "",
-      "doi": "10.32598/jaehr.9.4.1229",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
-      "venue": "Journal of Advances in Environmental Health Research",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 6.949,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 1.536,
-        "transferable_insight": 1.352,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.42,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.27092699609758303,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 19,
+      "rank": 17,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -936,7 +836,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 18,
       "title": "Three-dimensional magnetotelluric Bayesian inversion based on Stein variational gradient descent",
       "authors": [
         "Zehan Liao",
@@ -983,7 +883,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 19,
       "title": "Machine Learning-Assisted Optimization of CMOS VLSI Circuits for Low-Power and High-Speed Applications",
       "authors": [
         "Ankit Soni"
@@ -1026,7 +926,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 20,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1069,7 +969,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 23,
+      "rank": 21,
       "title": "Robust PAC Learning of Concurrent Stochastic Games",
       "authors": [
         "Angel Y. He",
@@ -1113,7 +1013,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 22,
       "title": "Integrating R&D space projects into aerospace engineering master's education at MCAST",
       "authors": [
         "Leonardo Barilaro",
@@ -1157,7 +1057,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 25,
+      "rank": 23,
       "title": "A hawk-inspired metaheuristic for trajectory optimization of UAVs in precision agriculture",
       "authors": [
         "Gigin Durai Chelladurai",
@@ -1199,7 +1099,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 24,
       "title": "Q-Edge: Symmetry-Reduced Quantum Simulation of Structured Extreme Dependence",
       "authors": [
         "Hongrui Zhang",
@@ -1244,7 +1144,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 25,
       "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
       "authors": [
         "Lihao Liu",
@@ -1288,7 +1188,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 26,
       "title": "Background proteome correction promotes confident identification of dynamic protein-protein interactions between different biological contexts",
       "authors": [
         "Brunelli, M. A.",
@@ -1335,7 +1235,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 27,
       "title": "ALRA: Adaptive Local Relational Alignment for Logit-Based Pre-training Distillation of Autoregressive Language Models",
       "authors": [
         "Quang Hoang Trung",
@@ -1379,7 +1279,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 28,
       "title": "Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations",
       "authors": [
         "Denis M. Akola",
@@ -1419,6 +1319,95 @@
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "A multiscale analysis of liver lobule fibrosis and its impact on drug propagation and metabolism - a DLA approach",
+      "authors": [
+        "Coombe, D.",
+        "Rezania, V.",
+        "Tuszynski, J."
+      ],
+      "date": "2026-09-03",
+      "source": "biorxiv",
+      "link": "https://www.biorxiv.org/content/early/2026/09/03/2026.08.28.747748.source.xml",
+      "pdf_url": "https://www.biorxiv.org/content/early/2026/09/03/2026.08.28.747748.source.xml",
+      "doi": "10.64898/2026.08.28.747748",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Employing DLA methods, this paper explores the self-assembly of collagen fibers and resulting fibrosis at three scales up to the scale of regular lobule models. This allows a mechanistic exploration of the effects of collagen on drug transport (flow and diffusion) and metabolism. In addition, this method permits an analysis of fiber growth characteristics. First, variations of the DLA method of Parkinson et al (1994) will be used to generate multiple explicit collagen microfibril self-assembly using DLA particles in one dimension using cubic grid blocks of (4 mm)3 in a 240 x 20 x 20 grid model. The second stage will be to assess the consequences of various densities of these fibers in three dimensions on flow reductions at a higher scale. Here we utilize DLA methods in cubic grid blocks of (80 nm)3 to mimic 3D collagen self-assembly of fibrils. We then apply a pressure gradient or specified flow rates across a spatially gridded version of these models to quantify flow effects. This region represents a local zone of liver tissue affected by fibrosis. Analytic models of fibrotic effects on flow are employed for comparison. A third stage explores the implications of fibrosis in a liver lobule model using multiple grid blocks of size 3200 mm to represent the lobule tissue. Here, a continuum model of fiber density is employed, based on the previous two scales. The model also includes the effects of additional grid blocks representing sinusoidal flow paths found in the lobule. We contrast and quantify drug propagation and metabolism of molecular dissolved versus nanoparticle delivery vehicles in fibrotic media, achieved by upscaling explicit collagen distributions to appropriate average values.",
+      "venue": "biorxiv",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.807,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 0.0,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "A survey of world models for physical AI with uncertainty representation and control",
+      "authors": [
+        "Sven Kirchner",
+        "Nils Purschke",
+        "Alois Knoll"
+      ],
+      "date": "2026-09-03",
+      "source": "openalex",
+      "link": "https://doi.org/10.1007/s44163-026-02122-1",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44163-026-02122-1.pdf",
+      "doi": "10.1007/s44163-026-02122-1",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7207535478",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract Physical AI systems must reason about real-world dynamics in order to perceive, predict, and act safely under partial observability and uncertainty. World models–learned predictive representations of environment dynamics and action consequences–have emerged as a unifying framework for integrating perception, prediction, planning, and control in embodied agents. This survey provides a comprehensive and technically grounded review of learning-based world models for Physical AI, with particular emphasis on closed-loop decision-making. We organize existing approaches along six compositional design dimensions: state abstraction, temporal dynamics, uncertainty source and treatment, structural prior, observation modality, and decision coupling. Beyond this design-oriented taxonomy, we analyze how world models interact with optimization–highlighting compounding error, planner exploitation, rollout horizon management, and uncertainty calibration as central design tensions. We further examine evaluation methodologies, benchmark ecosystems, and sim-to-real transfer challenges, and synthesize open problems in long-horizon consistency, physical constraint enforcement, data efficiency, and safety. By clarifying recurring trade-offs across robotics and model-based reinforcement learning, this survey outlines principled directions for building reliable and scalable Physical AI systems.",
+      "venue": "Discover Artificial Intelligence",
+      "code_url": "",
+      "topic_tags": [
+        "graph_algorithms_and_discrete_structures",
+        "transferable_insights"
+      ],
+      "deterministic_score": 3.797,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 6.074999999999999,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -8.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to graph_algorithms_and_discrete_structures, transferable_insights, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
     }
   ]
 }
