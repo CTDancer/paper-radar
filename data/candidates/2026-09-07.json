@@ -1,9 +1,9 @@
 {
   "date": "2026-09-07",
   "stats": {
-    "raw_candidates": 171,
-    "deduplicated_candidates": 158,
-    "filtered_candidates": 158,
+    "raw_candidates": 138,
+    "deduplicated_candidates": 124,
+    "filtered_candidates": 124,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -614,58 +614,6 @@
     },
     {
       "rank": 13,
-      "title": "How many crystal structures do you need to trust your docking results?",
-      "authors": [
-        "Payne, A. M.",
-        "Kaminow, B.",
-        "MacDermott-Opeskin, H.",
-        "Pulido, I.",
-        "Scheen, J.",
-        "Castellanos, M. A.",
-        "Fearon, D.",
-        "Chodera, J. D.",
-        "Singh, S."
-      ],
-      "date": "2026-09-04",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/09/04/2025.09.19.677428.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/09/04/2025.09.19.677428.source.xml",
-      "doi": "10.1101/2025.09.19.677428",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Structure-based drug discovery relies on the prediction of protein-bound poses of new molecule designs, the accuracy of which can impact downstream prioritization. While it is expected that crystal structures of similar molecules would provide the best template for predicting the poses of new designs, the time and cost required motivates identifying a point of diminishing returns for collecting new structures. Using 403 crystal structures of SARS-CoV-2 main protease from the open science COVID Moonshot project, we explore the tradeoff between the cost and utility of obtaining crystal structures for accurately predicting poses of designed molecules. We observe that similar reference ligands enable superior pose prediction and show that success plateaus after approximately five crystal structures per generic Bemis-Murcko scaffold, exceeding 95% for the campaign's lead series. This work provides practical recommendations for resource allocation in structure-enabled drug discovery campaigns.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 12.535,
-      "score_breakdown": {
-        "paper_type": "application",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.325,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Skim",
-      "paper_type": "application",
-      "why_selected": "Selected as a possible match to ai_drug_discovery, protein_ligand_affinity, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 14,
       "title": "Structural identification of the RY12 domain of RyR1 as an ADP sensor and the target of the malignant hyperthermia therapeutic dantrolene",
       "authors": [
         "Kookjoo Kim",
@@ -718,7 +666,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 14,
       "title": "QRL-FP: a quantum-inspired reinforcement learning framework for multi-objective system-on-chip floorplanning",
       "authors": [
         "Ramzi Ayadi"
@@ -762,7 +710,7 @@
       "possible_concerns": "abstract is missing or too short to judge novelty well"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "title": "Research on decoupling inversion analysis of rockfill dam parameters considering dam zoning and material uncertainty: the case study of a concrete face rockfill dam",
       "authors": [
         "Ran Li",
@@ -810,7 +758,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "title": "An explainable AI framework for crack width and crack spacing prediction with serviceability-oriented design optimization of reinforced and prestressed concrete members",
       "authors": [
         "Ahmed N. Elbelacy"
@@ -853,7 +801,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 17,
       "title": "A novel demand response framework for the optimal design of hydrogen–ammonia hybrid microgrids",
       "authors": [
         "Abdelrahman Mewafy",
@@ -901,7 +849,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 18,
       "title": "Experimental and In Silico Analysis of the Structural Dynamics of Dengue NS2B-NS3 Protease",
       "authors": [
         "Muthuvel, s. k.",
@@ -951,7 +899,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "title": "Seq2Seq2Seq: lossless data compression via discrete latent transformers and reinforcement learning",
       "authors": [
         "Mahdi Khodabandeh",
@@ -997,7 +945,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 20,
       "title": "QuickSeg: A fast, versatile and accurate algorithm for genomic copy number segmentation using dynamic programming",
       "authors": [
         "Schlotmann, B.",
@@ -1043,7 +991,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 21,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1086,7 +1034,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "title": "A review of artificial intelligence data-driven methods in building energy management: A comprehensive application-based of recent advances",
       "authors": [
         "Alireza Ahmadi",
@@ -1132,7 +1080,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 24,
+      "rank": 23,
       "title": "Higher-order epistasis drives evolutionary unpredictability toward new antibiotic resistance",
       "authors": [
         "Ilona K. Gaszek",
@@ -1181,7 +1129,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 24,
       "title": "A hawk-inspired metaheuristic for trajectory optimization of UAVs in precision agriculture",
       "authors": [
         "Gigin Durai Chelladurai",
@@ -1223,7 +1171,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 25,
       "title": "A Representation-Based Sum-Product Neural Network for Higgs Boson Event Classification",
       "authors": [
         "Şafak Yasun",
@@ -1265,7 +1213,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 26,
       "title": "On doubting image quality assessment metrics for microscopy virtual staining",
       "authors": [
         "Li, W.-s.",
@@ -1307,52 +1255,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
-      "title": "Prompting Beyond Pairs: Decoupled Semantic Supervision for Knowledge-Guided Multiplex Virtual Staining",
-      "authors": [
-        "Hu, Y.",
-        "Wang, J.",
-        "Zheng, K.",
-        "Jin, Y.",
-        "Yu, H."
-      ],
-      "date": "2026-09-04",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/09/04/2026.07.31.741995.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/09/04/2026.07.31.741995.source.xml",
-      "doi": "10.64898/2026.07.31.741995",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Virtual staining provides a non-invasive alternative to fluorescence microscopy, yet existing deep learning approaches fundamentally rely on pixel-aligned, multiplexed fluorescence targets for supervision. This dependence on rigidly paired data limits scalability, constrains flexibility in generating diverse subcellular structures, and becomes impractical in data-scarce biological settings. In this work, we introduce a semantic supervision paradigm for virtual staining, demonstrating that domain-knowledge prompts can effectively replace conventional pixel-level supervision. Unlike existing methods constrained by rigidly paired multiplex targets, our framework leverages biological prompts to decouple structural guidance from image translation. This decoupling enables high-fidelity, independent synthesis of multiple subcellular structures using only single-channel data. To ensure high-fidelity generation under weak supervision, we integrate self-supervised representation learning to mitigate data scarcity and incorporate direct preference optimization to suppress structural artifacts. Evaluations on the JUMP benchmark demonstrate that our approach effectively balances flexibility and fidelity, outperforming supervised baselines with a 43.3 % reduction in Average FID and an Average PCC of 0.912, while exhibiting high robustness in channel-deficient scenarios. Furthermore, the model generalizes across four in-house datasets to successfully multiplex six subcellular structures, overcoming the physical constraints of conventional fluorescent staining.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.149,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 3.2199999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
+      "rank": 27,
       "title": "From global optimization to transition state search: an automated workflow for surface reaction barriers",
       "authors": [
         "Hyunwook Jung",
@@ -1400,7 +1303,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 30,
+      "rank": 28,
       "title": "An Integrated Single-Nucleus Atlas Resolves Cell-Type-Specific Programs and Molecular Subtypes in Alzheimer's Disease",
       "authors": [
         "Rahimzadeh, N.",
@@ -1443,6 +1346,92 @@
       "priority": "Archive",
       "paper_type": "benchmark_dataset",
       "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
+      "title": "A novel model-based biclustering for ordinal data via a URV approach",
+      "authors": [
+        "Monia Ranalli",
+        "Francesca Martella"
+      ],
+      "date": "2026-09-04",
+      "source": "openalex",
+      "link": "https://doi.org/10.1007/s00180-026-01793-9",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00180-026-01793-9.pdf",
+      "doi": "10.1007/s00180-026-01793-9",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7208705212",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract We introduce a novel finite mixture model for biclustering ordinal data matrices, simultaneously clustering rows and columns within the Underlying Response Variable (URV) framework. Ordinal responses are modeled as discretizations of latent Gaussian variables, while component-specific covariance matrices are parsimoniously parameterized via a factor analytic structure to capture complex dependence patterns efficiently. To address computational challenges arising from the high-dimensional likelihood evaluation inherent to ordinal data, model parameters are estimated using a Composite Likelihood (CL) approach, which offers significant computational advantages with negligible loss of efficiency. Extensive simulation studies demonstrate the effectiveness of the proposed method in terms of accurate cluster recovery and reliable parameter estimation. We further illustrate the applicability of the methodology through an empirical analysis of two real-world ordinal datasets, highlighting its potential for uncovering meaningful latent bicluster structures.",
+      "venue": "Computational Statistics",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.681,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 2.2399999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Efficient Resource Management in 6G for Sustainable Spectrum Allocation Using Dual‐Channel Temporal Convolutional Frequency‐Separated Attention Network with Generation Rights Trading Blockchain",
+      "authors": [
+        "Manimaran Arjunan",
+        "Vivek Jain",
+        "Kalyan Kasturi",
+        "C. Kanmani Pappa"
+      ],
+      "date": "2026-09-04",
+      "source": "openalex",
+      "link": "https://doi.org/10.1002/dac.70603",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/dac.70603",
+      "doi": "10.1002/dac.70603",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7208706264",
+      "semantic_scholar_id": "",
+      "abstract": "ABSTRACT The need for effective spectrum allocation to guarantee highly reliable, minimal‐latency, and sustainable connections has increased due to the exponential expansion of wireless communications and the introduction of 6G technologies. In order to cope with these challenges, the proposed research is Efficient Resource Management in 6G to Sustainable Spectrum Allocation using a Dual‐Channel Temporal Convolutional Frequency‐Separated Attention Network with Generation Rights Trading Blockchain (ERMSA‐6G). This objective is achieved by means of a layered network model that combines spectrum sensing, dynamic allocation and security. The Communication Layer is based on a Generation Rights Trading Blockchain (GRT‐ BC ) with a smart contract algorithm to allocate resources transparently, and the Security Layer uses an Ultra‐Lightweight Encryption Algorithm (ULwEA). This is improved by the use of the Dual‐Channel Temporal Convolutional Network (DCTCN) of short‐ and long‐term demand trends, and Frequency‐Separated Attention Network (FSAN) of fine‐tuning attention modeling, collectively to create the Dual‐Channel Temporal Convolutional Frequency‐Separated Attention Network (DCTCN‐FSAN). Hyperparameters are further tuned using Cleaner Fish Optimization (CfO), and verified results are stored on GRT‐ BC . Experimental results demonstrate that ERMSA‐6G achieves a 99.18% spectrum efficiency, 99.44% blockchain security, a 29.8‐dB signal‐to‐interference‐plus‐noise ratio (SINR) margin, and an 85‐ms consensus delay, while reducing transaction and servicing latency to 2060 ms. Its statistical tests prove that it is significantly better than the current techniques. To sum up, ERMSA‐6G provides a secure, transparent, and sustainable framework of 6G spectrum allocation, which is more effective than the state‐of‐the‐art techniques and guarantees scalability, reliability, and efficiency in future wireless networks.",
+      "venue": "International Journal of Communication Systems",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 3.538,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.2599999999999998,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
