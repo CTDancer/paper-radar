@@ -1,9 +1,9 @@
 {
   "date": "2026-09-10",
   "stats": {
-    "raw_candidates": 205,
-    "deduplicated_candidates": 129,
-    "filtered_candidates": 129,
+    "raw_candidates": 206,
+    "deduplicated_candidates": 144,
+    "filtered_candidates": 144,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -267,6 +267,52 @@
     },
     {
       "rank": 6,
+      "title": "One Loop, Two Gains: Can Active Learning win the Lottery for Free?",
+      "authors": [
+        "Benedikt Tscheschner",
+        "Eduardo Veas",
+        "Marc Masana"
+      ],
+      "date": "2026-09-09",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2609.10311v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10311v1",
+      "doi": "",
+      "arxiv_id": "2609.10311v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "The lottery ticket hypothesis posits the existence of winning tickets: sparse subnetworks that, when trained in isolation from their original initialization, match the accuracy of the full dense network. The predominant method for discovering such tickets, iterative magnitude pruning, alternates pruning with full retraining from scratch until convergence over many cycles. Similarly, deep active learning also retrains a model from scratch after each acquisition round as new labels become available. Despite this shared reliance on iterative retraining with a substantial computational overhead, the two paradigms have been studied separately. We observe that the iterative training loop inherent to pool-based active learning already provides the exact computational structure that iterative magnitude pruning exploits, and propose Improve & Prune (I&P), a method that integrates magnitude pruning into each active learning retraining cycle at practically no additional cost. This raises a key empirical question: can iterative magnitude pruning produce winning tickets under the non-stationary data regime of active learning? We investigate this question across multiple acquisition functions, architecture families, and image classification datasets, including an active fine-tuning scenario. Our results demonstrate that I&P yields sparse, deployable models at each active learning iteration. Those match the accuracy of their dense counterparts at sparsities up to 95%, effectively obtaining winning tickets as a byproduct of the active learning pipeline. These per-iteration sparse models can address two computational bottlenecks - per-round model retraining and acquisition scoring over the unlabeled pool - that currently prevent the practical adoption of DAL on large architectures and large unlabeled pools.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "gflownet_related_methods",
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 11.117,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 7.425000000000001,
+        "novelty": 0.84,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to gflownet_related_methods, black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 7,
       "title": "A landscape-aware multi-objective ant colony optimization framework for urban waste collection vehicle routing",
       "authors": [
         "Shiyu Ma",
@@ -310,7 +356,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Quantum WTA: Deterministic Sanation Contour for Quantum Processors — An Architectural Hypothesis Based on Windowed Thermodynamic Approximation (WTA)",
       "authors": [
         "Yerzhan Baynazarov"
@@ -353,7 +399,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
       "authors": [
         "Zhuoran Zhao",
@@ -405,7 +451,55 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 10,
+      "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+      "authors": [
+        "Yuansheng Liu",
+        "Yufei Ye",
+        "Tao Tang",
+        "Jiawei Luo",
+        "Wen Tao",
+        "Xiao Luo"
+      ],
+      "date": "2026-09-09",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2609.09891v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09891v1",
+      "doi": "",
+      "arxiv_id": "2609.09891v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Proteolysis-targeting chimeras (PROTACs) have emerged as a transformative therapeutic strategy that selectively degrades historically ''undruggable'' targets via the ubiquitin-proteasome system. Despite growing efforts to develop computational predictors of PROTAC degradation activity, existing supervised approaches remain severely challenged by data scarcity and imbalance across E3 ligases, limiting their ability to generalize beyond well-studied ligase contexts. In practice, labeled data are heavily concentrated on a few ligases (e.g., CRBN and VHL), while the majority of E3 ligases remain underexplored yet are critical for expanding the design space of targeted degraders. Developing methods that enable robust cross-ligase generalization with minimal labeled data is therefore essential for improving the practical utility of computational PROTAC discovery. We reformulate PROTAC degradation activity prediction across E3 ligases as a few-shot meta-learning problem and present ProMeta, a prototype-based graph neural network trained through episodic meta-learning on source-E3 tasks and evaluated on held-out target-E3 tasks through support-conditioned inference. ProMeta performs inference without updating the encoder by dynamically estimating class prototypes from minimal target-ligase support samples. On the CRBN-to-VHL benchmark, ProMeta achieves AUROC values of 0.796 under K=2, Q=3 and 0.883 under K=2, Q=5, improving by 19.9% and 6.8%, respectively, over the corresponding supervised GNN baseline. Reverse VHL-to-CRBN transfer under the same protocol yielded AUROC values of 0.702 (K=2, Q=3) and 0.821 (K=2, Q=5), confirming bidirectional applicability while revealing direction and data-regime dependence. Together, these results support ProMeta as a practical framework for cross-ligase few-shot prediction under the evaluated support/query protocols.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "molecular_glue_and_tpd"
+      ],
+      "deterministic_score": 8.84,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 3.7800000000000002,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.46799999999999997,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 2.5,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to molecular_glue_and_tpd.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 11,
       "title": "High-Magnetization Sampling at Low Temperatures: Ising Models and Bayesian Sparse Linear Regression",
       "authors": [
         "Syamantak Kumar",
@@ -448,99 +542,6 @@
       "priority": "Skim",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to stochastic_processes_probability_statistical_physics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 10,
-      "title": "The Accuracy Paradox: Empirical Diagnostic of Default Decision Thresholds in Multi-Label Enzyme Commission Prediction [With Code]",
-      "authors": [
-        "Bilal Ahmad",
-        "Rajed Mehmood"
-      ],
-      "date": "2026-09-07",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2609.07897v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.07897v1",
-      "doi": "",
-      "arxiv_id": "2609.07897v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Automated prediction of Enzyme Commission (EC) numbers plays a central role in functional annotation and computational drug discovery. However, standard multi-label machine learning pipelines frequently rely on default decision thresholds (t=0.50), assuming balanced prior distributions across target heads. In this study, we present a systematic empirical diagnostic of uncalibrated fixed decision boundaries operating under severe class imbalance across N = 14,096 annotated compounds categorized into six primary EC classes (EC1-EC6). Our results highlight a pronounced Accuracy Paradox: while the multi-label system achieves a deceivingly high mean accuracy of 77.16%, the macro F1-score (0.3976) and macro recall (0.3872) reveal severe predictive breakdown. Majority target classes suffer from hyper-sensitivity and over-prediction, whereas minority classes exhibit sharp recall decay, culminating in a total decision boundary collapse for EC6 (Recall = 0.00%) despite underlying discriminative power (ROC-AUC = 0.5857). Feature correlation analysis further reveals high linear redundancy among topological indices relative to fingerprint density metrics. Ultimately, this diagnostic study demonstrates that standard point predictions mask critical errors in bioinformatics workflows. We establish target-specific threshold optimization and post-hoc conformal calibration as essential, open-source post-processing safeguards for reliable applied machine learning and deep learning architectures.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery"
-      ],
-      "deterministic_score": 8.79,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.32,
-        "novelty": 0.9799999999999999,
-        "methodological_insight": 0.512,
-        "transferable_insight": 1.118,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 11,
-      "title": "ReCite: Agentic Reasoning for Faithful Citation",
-      "authors": [
-        "Yuyang Huang",
-        "Bobo Li",
-        "Jiajia Song",
-        "Yuzhe Ding",
-        "Chong Teng",
-        "Fei Li",
-        "Donghong Ji"
-      ],
-      "date": "2026-09-08",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2609.09156v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09156v1",
-      "doi": "",
-      "arxiv_id": "2609.09156v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-augmented architectures have largely mitigated the fabrication of non-existent papers, current systems relying on semantic similarity struggle with misattribution, often citing authentic papers that fail to logically support the author's claim. To address this challenge, we argue that accurate citation requires a shift from similarity-based search to active, claim-level reasoning. We propose ReCite, a decoupled agentic framework that orchestrates location perception, intent-aware query planning, and reflective verification. Trained on synthesized reasoning trajectories, our agent verifies claim-evidence consistency and triggers self-correction loops when retrieved candidates lack logical support. Experiments demonstrate that our lightweight framework outperforms state-of-the-art massive generative models in strict citation accuracy. By grounding literature matching in verifiable logic rather than semantic overlap, ReCite establishes a reliable foundation for automated academic writing.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [
-        "generative_modeling_core"
-      ],
-      "deterministic_score": 8.514,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.8839999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
@@ -776,6 +777,53 @@
     },
     {
       "rank": 17,
+      "title": "SceneHI: High-Resolution 3D-Consistent Scene Texturing with Controllable Illumination",
+      "authors": [
+        "Athanasios Tragakis",
+        "Marco Aversa",
+        "Daniela Ivanova",
+        "Chaitanya Kaul",
+        "Roderick Murray-Smith",
+        "Daniele Faccio",
+        "Paul Henderson"
+      ],
+      "date": "2026-09-09",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2609.10363v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10363v1",
+      "doi": "",
+      "arxiv_id": "2609.10363v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without model fine-tuning or optimization. Designed for complex, multi-object environments, SceneHI uniquely combines 3D-consistency, high-resolution fidelity, and physically plausible baked shadows within a single generative pipeline. To enforce strict geometric coherence, we introduce an exact analytical pixel-to-texel mapping that aligns diffusion trajectories across multiple viewpoints. We utilize High-Resolution Latent Textures (HRLTs) as a persistent canvas for gradually denoised textures, while camera views perform the denoising steps in latent pixel space. This ensures a shared base texture that can be subsequently refined to high resolution without compromising multi-view consistency. Finally, a light-aware generative pass embeds realistic geometry-consistent shadows directly into the atlases, bridging the gap to production workflows. SceneHI achieves high visual fidelity while reducing generation time by 80% compared to existing scene-level methods.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 6.281,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.677,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 18,
       "title": "PharmCast: rapid generation of three-dimensional pharmacophore fingerprints from two-dimensional structure without conformer generation",
       "authors": [
         "Muskal, S. M.",
@@ -821,7 +869,7 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
       "authors": [
         "Jiacheng Xu",
@@ -867,7 +915,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -908,50 +956,6 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to graph_algorithms_and_discrete_structures, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 20,
-      "title": "Proxy Policy Steering",
-      "authors": [
-        "Chuanruo Ning",
-        "Tianrui Wang",
-        "Wei-Chiu Ma",
-        "Kuan Fang"
-      ],
-      "date": "2026-09-08",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2609.09148v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09148v1",
-      "doi": "",
-      "arxiv_id": "2609.09148v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Generalist robot policies carry broad manipulation priors from large-scale data, but specializing them to a new task remains the deployment bottleneck. This requires eliciting task-specific behavior from limited demonstrations without degrading their broad capabilities. We introduce Proxy Policy Steering (PPS), an inference-time adaptation method that resolves this challenge by training two lightweight proxy policies whose calibrated velocity-space difference steers the frozen base sampler. A reference proxy models the frozen base's behavior on target-task observations, and a task proxy, initialized from the reference, captures how this behavior changes under task supervision. Their difference forms a calibrated velocity-space residual that steers the frozen base sampler at every denoising step. We identify the conditions under which this residual isolates the change induced by task supervision, and validate them empirically. Because the base is never directly modified, its broad capabilities remain available at inference, including behaviors such as recovery from failure that the demonstrations themselves do not exercise. Adaptation requires only forward velocity predictions from the base, making PPS lightweight to train and applicable even without access to the base's parameters. On 8 real-world and 4 simulation manipulation tasks, PPS lifts the state-of-the-art pi 0.5 base policy by 53% absolute success rate on average, with zero-to-one gains on tasks the base never solves, while preserving the base's broad capabilities. PPS outperforms LoRA fine-tuning, from-scratch specialists, residual policies, and prior inference-time steering methods.",
-      "venue": "",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 5.443,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 2.048,
-        "transferable_insight": 1.4949999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
       "rank": 21,
@@ -1047,58 +1051,6 @@
     },
     {
       "rank": 23,
-      "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
-      "authors": [
-        "Leitian Tao",
-        "Baolin Peng",
-        "Haorui Wang",
-        "Hang Wang",
-        "Hao Cheng",
-        "Wenlin Yao",
-        "Qianhui Wu",
-        "Tao Ge",
-        "Sharon Li",
-        "Jianfeng Gao"
-      ],
-      "date": "2026-09-08",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2609.09133v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09133v1",
-      "doi": "",
-      "arxiv_id": "2609.09133v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral targets; when the same trajectory writes both the patch and the test, their errors can agree and create false confidence. We introduce ExecCritic, combining a test--verify--revise scaffold with a role-specific reinforcement learning recipe for training agents within it. The scaffold separates test construction from source-code repair: a Test agent independently generates repository-native tests, a fail-closed harness qualifies and freezes them, and a Repair agent revises source code from their execution feedback without changing the tests. Both roles use Qwen-3.5-35B-A3B as the backbone and are trained separately. In Learn to Test, the Test agent learns to produce behaviorally valid tests that distinguish correct from incorrect patches. In Test to Improve, the Repair agent learns both direct task resolution and feedback-guided revision. On SWE-bench Verified, test quality determines whether feedback helps: holding the base Repair agent fixed, tests from the base Test agent reduce resolved rate from a no-test baseline of 61.2% to 57.3%, whereas tests from GPT-5.6-sol raise it to 65.3%. Role-specific post-training raises the Qwen Test agent's Base-to-Gold success from 22.2% to 62.2%; composing the two post-trained Qwen agents reaches 72.6%, an 11.4-point gain over the original no-test baseline without stronger-model or Oracle feedback at evaluation time. Code is publicly available at https://github.com/MSR-Orchard/execcritic.",
-      "venue": "",
-      "code_url": "https://github.com/MSR-Orchard/execcritic",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 5.04,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 2.7,
-        "novelty": 1.4,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.46799999999999997,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
       "title": "Learning Universal Representations of Intermolecular Interactions with ATOMICA",
       "authors": [
         "Fang, A.",
@@ -1147,7 +1099,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 24,
       "title": "Gradient-based versus gradient-free optimization in hybrid quantum machine learning: a systematic benchmark",
       "authors": [
         "Stefan Klug",
@@ -1189,7 +1141,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 25,
       "title": "Motif-based model of transcription predicts effects of sequence variants in AR enhancers and reveals distinct functions for AR-associated transcription factors",
       "authors": [
         "Taeb, H.",
@@ -1238,7 +1190,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 26,
       "title": "Architectural good practices for reproducible benchmarking in protein machine learning",
       "authors": [
         "Julián García-Vinuesa",
@@ -1287,7 +1239,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "title": "Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling",
       "authors": [
         "Arman Adibi",
@@ -1331,7 +1283,97 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
+      "rank": 28,
+      "title": "TRACE: Training Reasoning Agents for Causal Exploration with Synthesized Rewards",
+      "authors": [
+        "Rui Sun",
+        "Zhan Shi",
+        "Bing He"
+      ],
+      "date": "2026-09-09",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2609.10315v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10315v1",
+      "doi": "",
+      "arxiv_id": "2609.10315v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has advanced language-model reasoning in domains such as mathematics and code, where objective answers are inexpensive to check. Diagnostic reasoning over complex data lacks this advantage: establishing the true cause of an anomaly often requires costly expert investigation and may remain ambiguous after the fact. We ask whether this asymmetry of verification can instead be engineered. We sample an intervention, inject it into a controlled simulator, and generate the observations it would produce. The hidden intervention provides an oracle label and objective reward, while the agent must still investigate noisy, confounded, and distributed evidence. We instantiate this approach in TRACE, a digital-advertising diagnostic environment with 12 root causes and fine-grained segment attribution. Agents investigate each episode using Python and SQL and must identify both the root cause and, when applicable, the affected segment assignment. On a held-out 235-episode test set, the strongest prompted baseline, Claude Opus 5, reaches 0.686 FullAttr@1. Supervised fine-tuning raises Qwen3.5-35B-A3B from 0.159 to 0.637, and subsequent RL with synthesized rewards reaches 0.757, outperforming all evaluated prompted baselines, including frontier closed-source models and a prompted Qwen3.5-122B-A10B model. The resulting policy also uses substantially fewer tool calls than the prompted 35B base. These results provide evidence that access to a scalable, objective training signal can be a more important constraint than model scale alone. More broadly, simulation-based verification can make otherwise ambiguous diagnostic reasoning tasks amenable to scalable reinforcement learning.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "transferable_insights"
+      ],
+      "deterministic_score": 4.397,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 2.7,
+        "novelty": 0.42,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
       "rank": 29,
+      "title": "Multi-Task Bacterial Colony Detection and Classification Using YOLOv8 with Edge Optimization for Resource-Constrained Deployment",
+      "authors": [
+        "Belaguppa Manjunath Ashwin Desai",
+        "Rohan Rajesh",
+        "Shreyas Murthy",
+        "Pronama Biswas",
+        "Revathi Vaithiyanathan"
+      ],
+      "date": "2026-09-09",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2609.09818v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09818v1",
+      "doi": "",
+      "arxiv_id": "2609.09818v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Manual counting and classification of bacterial colonies are critical yet labor-intensive tasks in microbiology, prone to human error particularly on densely populated plates. This work proposes a multi-task deep learning framework trained on the Annotated Germs for Automated Recognition (AGAR) dataset (18,000 images; 9,202 training / 3,067 testing) to automate Colony Forming Unit (CFU) enumeration and species classification. A custom multi-task CNN employing global regression served as the baseline, but demonstrated limited performance in clustered colony environments due to the absence of spatial localization. To address this, a YOLOv8 object detection architecture was adopted with high-resolution 1024x1024 inputs, enabling instance-level colony detection and label assignment. The model achieved a classification accuracy of 98.13% and a counting accuracy of 98.27% (within a 10-colony margin), demonstrating strong predictive capability. To bridge the gap between model performance and practical deployability, the trained model was optimized through unstructured and structured pruning, ONNX conversion, and reduced-precision inference (FP32, FP16, INT8). On a Raspberry Pi 4B, ONNX FP32 and FP16 variants offered the best balance between inference speed (~6.4s) and accuracy (MAE ~2.20). Unstructured pruning preserved predictive accuracy (MAE ~2.01) without runtime gains, while structured pruning resulted in significant accuracy degradation (MAE ~6.3), revealing the sensitivity of instance-level colony detection to architectural compression. These findings provide practical guidance for selecting optimization strategies in resource-constrained laboratory deployments.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 4.077,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
       "title": "100,599 unique viable up/down-exclusive two-flavon Froggatt-Nielsen models obtained from a multi-objective genetic algorithm scan",
       "authors": [
         "Miguel Crispim Romão",
@@ -1372,52 +1414,6 @@
       "priority": "Archive",
       "paper_type": "method",
       "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
-      "authors": [
-        "Yuqiao Tan",
-        "Shizhu He",
-        "Jun Zhao",
-        "Kang Liu"
-      ],
-      "date": "2026-09-08",
-      "source": "arxiv",
-      "link": "http://arxiv.org/abs/2609.09113v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09113v1",
-      "doi": "",
-      "arxiv_id": "2609.09113v1",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (SAEs) serve as a cornerstone by isolating interpretable features for model inspection and steering. In this paper, we introduce SAEScientist-Bench to evaluate whether AI agents can act as scientists utilizing SAE tools for autonomous mechanistic discovery. Given a target concept, an agent designs contrastive probes and navigates a Gemma Scope dictionary of 131K+ features in Gemma-2-9B-IT to discover the optimal feature, evaluated against curated expert reference features anchored on Neuronpedia across activation rank, concept selectivity on contrastive texts, and causal steering. Across 10 agent configurations and 20 tasks, frontier agents demonstrate genuine discovery capabilities and lead different evaluation dimensions, but remain well behind the expert baseline, approaching expert levels on separating target concepts from contrastive controls while lagging substantially in causal generation steering. Further analysis reveals that although agents can design contrasts to rule out spurious candidates, they frequently misinterpret experimental measurements. These results establish experimental model understanding as a measurable capability for closed-loop autonomous AI R&D. Our code is available at https://github.com/Trae1ounG/SAEScientist.",
-      "venue": "",
-      "code_url": "https://github.com/Trae1ounG/SAEScientist",
-      "topic_tags": [
-        "medicinal_and_synthetic_chemistry"
-      ],
-      "deterministic_score": 3.48,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 3.24,
-        "novelty": 1.4,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.46799999999999997,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.5599999999999999,
-        "code_availability": 0.5,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to medicinal_and_synthetic_chemistry.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
