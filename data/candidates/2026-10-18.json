@@ -1,9 +1,9 @@
 {
   "date": "2026-10-18",
   "stats": {
-    "raw_candidates": 192,
-    "deduplicated_candidates": 168,
-    "filtered_candidates": 168,
+    "raw_candidates": 304,
+    "deduplicated_candidates": 208,
+    "filtered_candidates": 208,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -221,6 +221,62 @@
     },
     {
       "rank": 5,
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "authors": [
+        "Bowei Liu",
+        "Xinchen Zhang",
+        "Xuhuan Li",
+        "Tianlin Zhang",
+        "Kaian Jiang",
+        "Jingwei Liu",
+        "Congyang Zhao",
+        "Yifei Qian",
+        "Junhong Liu",
+        "Zhiheng Li",
+        "Yujiu Yang",
+        "Yang Cai",
+        "Ling Yang"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22355v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22355v1",
+      "doi": "",
+      "arxiv_id": "2610.22355v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-grained components and assigns pointwise scores to provide a continuous and more informative critique signal. Our experiments further demonstrate that these structured and interpretable outputs improve the verifier's generalization to out-of-domain multimodal critic tasks. To train this verifier, we introduce a Decoupled RL training strategy that jointly optimizes sub-question-level binary judgment and global alignment scoring, using precise local feedback to develop fine-grained verification capabilities that provide a foundation for reliable continuous scoring at the global level. Under a general reinforcement learning framework, we first empirically demonstrate that the proposed pointwise graded verifier significantly outperforms binary verifiers in traditional text-to-image scenarios. We then extend our investigation to rule-governed generative world modeling where generative models are leveraged for world simulation and world reasoning under explicit rules. From a theoretical standpoint, we further show that a pairwise verification paradigm yields more accurate critiques than the pointwise formulation when ground-truth images are available, with empirical results on diverse structured world-modeling tasks such as Maze and Sudoku further validating the effectiveness of our approach. Overall, our findings suggest a key insight: the transition from generative models to structured world-modeling agents critically hinges on the availability of accurate pairwise graded visual verifiers.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "generative_modeling_core",
+        "transferable_insights"
+      ],
+      "deterministic_score": 17.269,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 6.75,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 0.512,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to generative_modeling_core, transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 6,
       "title": "Converting FGFR inhibitors into selective covalent molecular glue degraders via transposable gluing handles.",
       "authors": [
         "Xiansheng Cao",
@@ -271,7 +327,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Generative modeling of topological and spatiotemporal data",
       "authors": [
         "Qi Yan"
@@ -315,7 +371,55 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "Poisoning the corpora of protein design systems during pre-training and retrieval",
+      "authors": [
+        "Charalampos Koilakos",
+        "Kimon-Antonios Provatas",
+        "Michail Patsakis",
+        "Candace SY Chan",
+        "Georgios A. Pavlopoulos",
+        "Ilias Georgakopoulos-Soares"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.21200v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21200v1",
+      "doi": "",
+      "arxiv_id": "2610.21200v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Protein foundation models increasingly support the generation of novel biological sequences, yet their reliance on large public datasets creates opportunities for adversarial manipulation of the material they learn from and retrieve. We investigate two data-only poisoning attacks against protein design systems, targeting the pre-training corpus of autoregressive protein language models and the retrieval corpus of a text-guided protein generator. For the first, we pre-trained ProtGPT2 and ProGen2 variants of 300 million parameters, introducing poisoned protein sequences containing one of two triggers followed by one of three payloads. Across all poisoned runs, both architectures acquired highly reliable trigger-dependent generation under uniform and ramped poisoning schedules. Under ramped exposure, the earliest majority activation occurred after only 200 contaminated examples, while for the uniform schedule earliest activation occurred around 5000 poisoned samples. For the second attack, we inserted records into a retrieval corpus system without modifying its weights or decoding procedure. A single query-aware record captured a top-16 retrieval position for 58\\% of templated requests and 97\\% of free-text requests. Conditional on successful poisoned retrieval, 62\\% of requests produced altered sequences, while 19-21% acquired the inserted domain by profile-HMM homology. A universal query-unaware attack using 1,500 records also achieved substantial retrieval capture and domain transfer. Together, these findings demonstrate that adversarial protein sequence contributions can establish persistent, sequence-specific behaviour during pre-training or redirect protein generation at inference, while leaving ordinary model behaviour largely preserved. Our work establishes the integrity and biological provenance of protein sequence data as critical safeguards for generative protein design systems.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "protein_design"
+      ],
+      "deterministic_score": 15.587,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 7.290000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.793,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to protein_design.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 9,
       "title": "Conditional diffusion-based inverse kinematics for redundant 7-DOF manipulators with differentiable refinement",
       "authors": [
         "Lesia Hentosh",
@@ -360,7 +464,103 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 8,
+      "rank": 10,
+      "title": "Query-Efficient Rejection Sampling for Parallel Masked Diffusion",
+      "authors": [
+        "Shiyuan Zhang",
+        "Xuheng Li",
+        "Qiwei Di",
+        "Quanquan Gu"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22238v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22238v1",
+      "doi": "",
+      "arxiv_id": "2610.22238v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Masked diffusion models (MDMs) accelerate generation by unmasking multiple tokens in parallel, but sampling these tokens independently ignores their correlations and biases the output. Anari et al. (2026) corrected this bias with rejection sampling, decomposing the log acceptance probability into a sum of token-level terms, but the evaluation requires one score query per unmasked token. We propose the Single-Increment Rejection Sampler (SIRS), which provides an estimate of the log acceptance probability from a single randomly sampled increment at the cost of one query. SIRS then converts a Poisson number of clipped estimates into accept/reject decisions through a Bernoulli factory adapted from Chen et al. (2026). Since each query returns the conditionals of all remaining tokens in the block, we further Rao-Blackwellize each increment by averaging over these tokens at no extra cost, thereby reducing clipping. We show that the KL-divergence between the data distribution and the SIRS output is bounded by a clipping term plus the model's training error. With exact scores, parallel decoding pays the full within-block dependence, whereas SIRS pays only the part beyond the clipping range.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "discrete_generative_modeling"
+      ],
+      "deterministic_score": 13.192,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.59,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to discrete_generative_modeling.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 11,
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "authors": [
+        "Jiachen Yao",
+        "Xiyuan Zhang",
+        "Annan Yu",
+        "Boran Han",
+        "Abdul Fatir Ansari",
+        "Shuai Zhang",
+        "Michael Bohlke-Schneider",
+        "Bernie Wang"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22358v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22358v1",
+      "doi": "",
+      "arxiv_id": "2610.22358v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing, yet point and marginal scores do not reveal it. To model this dependence, we introduce PathFM, a trajectory-based forecasting model that uses flow matching to generate complete future paths. We further distill the model to one or two steps and share history attention cache across draws. Together, these enable PathFM to generate multiple paths for a single series in roughly the time needed for one query to a quantile model. The distilled sampler also makes it practical to optimize a calibration loss directly. PathFM achieves competitive marginal accuracy on the established forecasting benchmarks fev-bench and TIME. To complement these evaluations, we introduce Forecast Path Score Bench (fps-bench), which augments fev-bench tasks with energy and variogram scores and downstream metrics. PathFM achieves a higher aggregate path score on fps-bench than all evaluated external baselines. Experiments on chaotic systems further show that our flow model sustains long-run variability, while strong baselines rapidly collapse. PathFM makes generative time series forecasting both competitive and practical, enabling diverse downstream applications.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "flow_matching_and_diffusion"
+      ],
+      "deterministic_score": 12.906,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.725,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.677,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to flow_matching_and_diffusion.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 12,
       "title": "LLM‐Assisted Design of Ultralow‐κ Chalcogenides",
       "authors": [
         "YuJie Liu",
@@ -413,7 +613,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 9,
+      "rank": 13,
       "title": "A potent macrocyclic peptide binder enables effector-free crystallization of the GTPase RAB27A",
       "authors": [
         "Petracca, R.",
@@ -466,7 +666,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 10,
+      "rank": 14,
       "title": "Performance Analysis of Ensemble and Hybrid Deep Learning Models in Predicting Agricultural Chemical Residues and Crop Outcome",
       "authors": [
         "Jayram Dwivedi",
@@ -515,7 +715,51 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 11,
+      "rank": 15,
+      "title": "Rethinking Successive Rejects Algorithms",
+      "authors": [
+        "Mohamed Khair",
+        "Junpei Komiyama"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22051v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22051v1",
+      "doi": "",
+      "arxiv_id": "2610.22051v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "In the best-arm identification problem, an algorithm adaptively selects arms to find the arm of the largest mean reward. Successive Rejects (SR) is a simple fixed-budget best-arm identification algorithm that eliminates one candidate arm at each phase. At first glance, SR seems to have limited adaptivity, since it follows predetermined phase lengths. However, for Gaussian arms with common variance, SR's worst-instance error exponent normalized by the popular complexity measure $H_1(P)$ is optimal up to a constant factor, which partly explains why SR's performance is competitive compared with state-of-the-art adaptive sampling algorithms. In this paper, we extend the framework of SR by optimizing its predefined schedule of phase lengths. We formulate phase-schedule design as an optimization problem for the normalized error exponent. Then, we introduce a version of SR with the optimized schedule, which we call $H_1$-balanced Successive Rejects ($H_1$-SR). This schedule is optimal within the class of SR-type algorithms with deterministic equal-count schedules. For Gaussian arms with common variance, $H_1$-SR achieves at least $11/12$ of the optimal normalized rate over all adaptive algorithms for every $K\\ge2$, and this approximation ratio converges to one as $1-O(1/\\log K)$ as $K\\to\\infty$. This is a significant improvement over original SR, whose corresponding fraction of the optimal normalized rate converges to $1/4$. Finally, experiments on ten synthetic instances and two dataset-derived Gaussian benchmarks compare the optimized schedule with original SR at finite horizons. They show substantial gains on many instances while also exposing a regime in which more aggressive early elimination is costly.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "black_box_combinatorial_and_expensive_optimization"
+      ],
+      "deterministic_score": 9.57,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 4.1850000000000005,
+        "novelty": 3.6399999999999992,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.261,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to black_box_combinatorial_and_expensive_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 16,
       "title": "Inverse materials design via joint generation of crystal structures and local electronic descriptors",
       "authors": [
         "Ibuki Okuda",
@@ -560,7 +804,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 12,
+      "rank": 17,
       "title": "Bayesian Inverse Optimisation under Uncertainty Posterior Inference for Hidden Decision Objectives",
       "authors": [
         "Janardan Behera"
@@ -603,7 +847,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 13,
+      "rank": 18,
       "title": "Molecular Docking an In Vitro Anticonvulsant evaluation of Newly Synthesized Substituted Phthalimide Schiff bases derivatives targeting GABAA receptor",
       "authors": [
         "Anil Manohar Kambale",
@@ -653,7 +897,59 @@
       "possible_concerns": "appears to use standard docking/MD/ADMET/QSAR or virtual-screening tools"
     },
     {
-      "rank": 14,
+      "rank": 19,
+      "title": "Lean Graph Search for Formal Theorem Proving",
+      "authors": [
+        "Yihan Xu",
+        "Jia-Chen Gu",
+        "Junyi Zhang",
+        "Di Wu",
+        "Haikang Deng",
+        "Po-Nien Kung",
+        "Kai-Wei Chang",
+        "Amit Sahai",
+        "Wei Wang",
+        "Nanyun Peng"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22339v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22339v1",
+      "doi": "",
+      "arxiv_id": "2610.22339v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Retrieving relevant lemmas is crucial for formal theorem proving, enabling provers to build machine-checkable proofs from established mathematical results. Recent retrieval systems match library declarations to a target theorem or its intermediate proof steps, but make limited use of multi-hop dependencies among declarations. These dependencies can reveal supporting lemmas that are not necessarily lexically similar to the target theorem but recur in proofs of related problems. To this end, we propose LeanGraphSearch, a graph-based retrieval method for Lean 4 that constructs a graph from Mathlib's forward dependencies and traverses it to uncover supporting lemmas through multi-hop dependency chains. Specifically, LeanGraphSearch links each declaration to the premises it depends on, uses a graph-based ranking algorithm to propagate relevance from semantically matched declarations to their dependencies, and reranks the expanded candidates against the original query. Across two mathematical retrieval benchmarks, LeanGraphSearch improves recall by up to 12% over the strongest baseline, LeanSearch v2, on MathlibQR and increases coverage of complete annotated proof routes on MathlibMPR, covering up to 3.7% of extra groups. More importantly, we evaluate whether these retrieval gains translate into improved end-to-end theorem proving by integrating LeanGraphSearch into an iterative proving loop guided by Lean feedback. Across three theorem proving benchmarks, LeanGraphSearch improves pass rate at {8, 16, 32} reflection turns by as much as 40% compared to vanilla prover and at most 10% compared to LeanSearch v2, showing higher accuracy-cost efficiency. These findings highlight the value of dependency graph search for theorem proving and motivate further research on structure-aware search for proof discovery.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "graph_algorithms_and_discrete_structures"
+      ],
+      "deterministic_score": 6.706,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 3.375,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to graph_algorithms_and_discrete_structures.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 20,
       "title": "Deterministic, branch-selective optimization of peptidomimetic scaffolds reveals design principles for targeting TNF-α.",
       "authors": [
         "Hao Chen",
@@ -701,7 +997,50 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 15,
+      "rank": 21,
+      "title": "Grounding Generative Verification in 3D Content",
+      "authors": [
+        "Shuanglin Li",
+        "Jiaying Lin",
+        "Shuquan Ye"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22360v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22360v1",
+      "doi": "",
+      "arxiv_id": "2610.22360v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Recent advances in multimodal large language models (MLLMs) and 3D generation have expanded 3D understanding and synthesis. However, beyond visual fidelity, task-specific correctness grounded in 3D evidence remains a major challenge. We argue that building reliable 3D systems requires not only stronger generation and reasoning, but also verification feedback that identifies unmet requirements and explains their violations, allowing systems to reflect on and refine their outputs. Such feedback must integrate multi-view observations and distinguish genuine inconsistencies from projection-dependent appearances. We make three contributions. First, we introduce 3DVerifierBench, a benchmark spanning 10 tasks that evaluates decisions, rejection explanations, and responses to controlled changes in specifications and candidates. A human study reveals a 21.6 percentage-point gap between humans and the strongest tested model, GPT-6 Astra, while explanation-aware analysis exposes weaknesses in rejection reliability. Second, we analyze verification across fine-grained factual categories, exposing errors in values and target binding. We develop a scalable pipeline combining multi-view fact extraction, controlled 3D editing, and native annotations to produce 14,126 training examples with contradiction explanations and linked counterfactuals. Third, we examine how verification could support 3D generation through candidate selection and recursive refinement. In human-labeled sixteen-candidate pools, oracle selection improves complete factual success from 26.7% to 90.0%. In a separate eight-input study, human-guided recursive refinement satisfies all seven requirements for every input, compared with three under parallel Oracle@8. Together, our benchmark, analysis, and data pipeline establish a foundation for models to reflect on 3D content through reliable verification feedback.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 6.399,
+      "score_breakdown": {
+        "paper_type": "benchmark_dataset",
+        "direct_relevance": 0.0,
+        "novelty": 2.8,
+        "methodological_insight": 0.512,
+        "transferable_insight": 1.0270000000000001,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 0.0,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "benchmark_dataset",
+      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 22,
       "title": "Sequence-based artificial intelligence-guided inhibitory peptides to counteract AAV neutralizing antibodies in gene therapy.",
       "authors": [
         "Bingqi Xu",
@@ -761,7 +1100,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 23,
       "title": "MAOMAO: an ontology-guided FAIR resource for harmonized peptide toxicity data",
       "authors": [
         "Nicole Soto-García",
@@ -810,7 +1149,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 17,
+      "rank": 24,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -853,7 +1192,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 18,
+      "rank": 25,
       "title": "Tipping point forecasting in nonstationary dynamics on function spaces",
       "authors": [
         "Miguel Liu-Schiaffini",
@@ -902,7 +1241,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 26,
       "title": "Content-adaptive Multi-channel Hybrid Quantum-classical Block-wise Optimization for Robust Image Watermarking",
       "authors": [
         "Nova Rijati",
@@ -950,7 +1289,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 20,
+      "rank": 27,
       "title": "Reinforcement learning to disentangle multiqubit quantum states from partial observations",
       "authors": [
         "Pavel Tashev",
@@ -999,7 +1338,51 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 28,
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "authors": [
+        "Andi Gu",
+        "Alek H. Kemeny",
+        "Susanne F. Yelin",
+        "Mikhail D. Lukin"
+      ],
+      "date": "2026-10-15",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22367v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22367v1",
+      "doi": "",
+      "arxiv_id": "2610.22367v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here we introduce an evolutionary framework in which large language models (LLMs) propose circuit designs and an independent evaluator verifies and scores them. We apply this framework to tasks spanning numerical computation, chemistry, optimization, quantum simulation, and number theory. In seven of the eight tasks, the discovered circuits significantly reduce both Toffoli and qubit counts relative to the state of the art. In the eighth, the search discovers a new reversible architecture for prime-field modular inversion. By handling reversibility differently, the architecture makes divsteps -- a classical algorithm previously impractical for reversible integer arithmetic -- viable and substantially improves the Toffoli-qubit trade-off for modular inversion. These results open the door for evaluator-guided LLM co-design of new algorithmic structures for quantum computation.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 5.336,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 3.5,
+        "methodological_insight": 1.024,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 29,
       "title": "Rational Design of a Photoactivated Fluorescent Probe for Thiol-ene Mediated Protein Labelling",
       "authors": [
         "McLoughlin, B. H.",
@@ -1053,400 +1436,53 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
-      "title": "Functional characterization of a MatE transporter in Methermicoccus shengliensis and evolutionary diversity of archaeal MatE transporters",
-      "authors": [
-        "Huan Leng"
-      ],
-      "date": "2026-10-23",
-      "source": "openalex",
-      "link": "https://orbi.uliege.be/handle/2268/349522",
-      "pdf_url": "https://orbi.uliege.be/bitstream/2268/349522/1/_Final%20Thesis_Huan%20Leng.pdf",
-      "doi": "",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7221304018",
-      "semantic_scholar_id": "",
-      "abstract": "Archaea, one of the three domains of life, exhibit remarkable physiological diversity and occupy a wide spectrum of ecological niches, ranging from extreme environments such as hypersaline lakes, hot springs, and acidic or alkaline habitats to moderate ecosystems including marine, freshwater, terrestrial, oilfield and host-associated environments. Among them, methanogenic archaea are obligate anaerobes that produce methane through distinct methanogenic pathways, traditionally utilizing simple substrates such as H2/CO2, acetate, methanol, and methylated compounds. The recent discovery that Methermicoccus shengliensis can metabolize methoxylated aromatic compounds (MACs) has expanded the known substrate spectrum of methanogens. However, the molecular mechanisms underlying the transport of these structurally complex compounds into archaeal cells remain unknown. In this study, we investigated the substrate transport system of M. shengliensis ZC-1 cultivated with methanol and 2-methoxybenzoate. Transcriptomic analysis identified two highly expressed genes, matE and tlp, potentially involved in substrate uptake. Integrating bioinformatic analyses, protein-protein interaction, and structural modeling assays, we propose a transport model comprising three sequential steps: the transduction like protein Tlp first recognizes the 2-methoxybenzoate extracellularly, then interacts with the transmembrane MATE family transporter MatE, and finally MatE mediates the translocation of the substrate into the cell. Deletion of MatE markedly impairs cell growth and methane production under methoxylated aromatic conditions, underscoring its critical role in methoxydotrophic methanogenesis. To further elucidate the diversity and habitat adaptation of archaeal MatE transporters, we performed large-scale comparative genomic phylogenetic analyses, combined with structural classification and molecular docking. Our results reveal that MatE transporters are widely distributed but unevenly represented across archaeal lineages, exhibiting structural diversity that can be classified into four major classes. Class I MatE is the most conserved and phylogenetically prevalent, whereas Classes II, III, and IV are comparatively rare. Notably, compared with MatE-negative genomes, MatE-positive archaeal genomes are significantly enriched in host-associated and hypersaline environments, as well as in heterotrophic lineages. Furthermore, specific MatE transporters exhibit strong associations with particular habitats, and their copy numbers are positively correlated with genome size. This non-random distribution indicates that the presence of MatE transporters is closely linked to specific ecological niches and metabolic strategies. Overall, this work uncovers a previously uncharacterized transport mechanism for methoxylated aromatic compounds in methanogenic archaea and provides a comprehensive framework for understanding the diversity and habitat adaptation of the archaeal MATE transporter family. These findings advance our understanding of substrate acquisition strategies and methane metabolism in archaea, provide new insights into their ecological distribution, and elucidate their adaptation to extreme environments, highlighting their biological importance and deepening our understanding of life on Earth.",
-      "venue": "ORBi (University of Liège)",
-      "code_url": "",
-      "topic_tags": [
-        "protein_ligand_affinity",
-        "structure_based_drug_design"
-      ],
-      "deterministic_score": 4.185,
-      "score_breakdown": {
-        "paper_type": "review",
-        "direct_relevance": 7.154999999999999,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.0,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -11.0
-      },
-      "priority": "Archive",
-      "paper_type": "review",
-      "why_selected": "Selected as a possible match to protein_ligand_affinity, structure_based_drug_design, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 23,
-      "title": "Autoencoder-based anomaly mapping and visualization of white matter deformation with application to glioma cases",
-      "authors": [
-        "Shams, B.",
-        "Fekonja, L.",
-        "Vajkoczy, P.",
-        "Picht, T.",
-        "Aydogan, D. B."
-      ],
-      "date": "2026-10-15",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/15/2026.10.08.757575.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/15/2026.10.08.757575.source.xml",
-      "doi": "10.64898/2026.10.08.757575",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Introduction: Gliomas can alter white matter pathways, causing structural deformation and functional impairments. However, there is no method to map these structural alterations across the whole brain to support diagnosis, prognosis, and treatment planning. To address this gap, we propose a novel framework based on a convolutional autoencoder that learns geometry-preserving streamline embeddings for mapping structural connectivity anomalies. Methods: We trained and validated the autoencoder on 100 million synthetic streamlines and evaluated the anomaly-mapping pipeline using data from 118 healthy subjects. We analyzed how different tractography algorithms affect anomaly scores and demonstrated its feasibility in five glioma patients using multi-shell and single-shell diffusion MRI. Results: Latent-space distances strongly associated with native-space geometric distances (R2 = 0.82-0.98), supporting preserved streamline geometry in the learned embeddings. Anomaly scores varied with both the input and reference tractography methods. Patient anomaly maps showed elevated scores near gliomas and extending distally along affected pathways. These whole-brain anomaly maps were generated within minutes. Conclusion: The framework offers a practical way to quantify and visualize geometric deviations in whole-brain tractograms, providing novel insights beyond current network and microstructural analyses, with relevance to clinical applications where white matter deformation is pertinent.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 3.881,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 2.2399999999999998,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 24,
-      "title": "Subcellular spatial proteomics of the heterotrophic nanoflagellate, Cafeteria roenbergensis",
-      "authors": [
-        "Jirsova, D.",
-        "Poh, Y.-P.",
-        "Dabrowska, K.",
-        "Pirrotte, P. G.",
-        "Sharma, R.",
-        "Wideman, J. G."
-      ],
-      "date": "2026-10-15",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/15/2026.10.13.758971.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/15/2026.10.13.758971.source.xml",
-      "doi": "10.64898/2026.10.13.758971",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Cafeteria roenbergensis is the best-studied free-living heterotrophic nanoflagellate, an abundant marine bacterivore and the host of the giant virus CroV, yet almost nothing is known about how its cell is organized. To provide broad insight into the localization of its proteome, we used subcellular spatial proteomics (SSP), based on a label-free version of LOPIT-DC (Localisation of Organelle Proteins by Isotope Tagging after Differential ultraCentrifugation), in which organelles are separated by differential centrifugation and each protein is assigned to a compartment from its abundance profile across fractions. We detected 5,948 proteins (5,889 protein groups), corresponding to 69.7% of the predicted C. roenbergensis proteome, and assigned high-confidence localizations to 2,945 proteins across 14 subcellular compartments, including basal body/cilia, cytosol, ER, Golgi, lysosome, membrane-trafficking, mitochondria, nucleoplasm, nucleus, peroxisome, plasma membrane, proteasome, ribosome, and spliceosome. This study serves as a proteomic dataset to resolve protein compartmentalization in a free-living heterotrophic stramenopile, enabling evolutionary, biological and functional insight and analysis. Investigators interested in using these data prior to publication are encouraged to contact us to avoid overlap and to facilitate coordinated and collaborative use of this resource.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 3.424,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 1.4,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
-      "title": "Predictive Multi-Objective Energy--Latency Optimization in Cloud Environments Using Ensemble Learning",
-      "authors": [
-        "Ahmed A. M. Warad",
-        "Snaa A. ElSawy",
-        "Rana Mostafa",
-        "Miral Adel",
-        "Abdelrahman Farouk",
-        "Kareem Kamal A. Ghany"
-      ],
-      "date": "2026-10-16",
-      "source": "openalex",
-      "link": "https://doi.org/10.21203/rs.3.rs-11381470/v1",
-      "pdf_url": "https://www.researchsquare.com/article/rs-11381470/latest.pdf",
-      "doi": "10.21203/rs.3.rs-11381470/v1",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7222513812",
-      "semantic_scholar_id": "",
-      "abstract": "",
-      "venue": "Research Square",
-      "code_url": "",
-      "topic_tags": [
-        "multi_objective_optimization"
-      ],
-      "deterministic_score": 3.422,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 4.050000000000001,
-        "novelty": 0.84,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.118,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -7.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
-      "possible_concerns": "abstract is missing or too short to judge novelty well"
-    },
-    {
-      "rank": 26,
-      "title": "An exact solution algorithm for the bi-level optimization problem of electric vehicles charging station placement",
-      "authors": [
-        "Mobina Nankali",
-        "Michael W. Levin"
-      ],
-      "date": "2026-10-16",
-      "source": "openalex",
-      "link": "https://doi.org/10.1016/j.trb.2026.103620",
-      "pdf_url": "",
-      "doi": "10.1016/j.trb.2026.103620",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7106819897",
-      "semantic_scholar_id": "",
-      "abstract": "This work addresses electric vehicle (EV) charging station placement through a bi-level optimization model, where the upper-level planner maximizes charging revenue by selecting station locations under budget constraints, while EV users at the lower level choose routes and charging stations to minimize travel and charging costs. To account for battery range limitation, we construct a battery-expanded network and apply a shortest path algorithm with Frank-Wolfe traffic assignment. Our primary contribution is developing the first global solution algorithm for large scale EV charging station placement problems. We propose a Branch-and-Price-and-Cut algorithm enhanced with value function cuts and column generation. Our exact algorithm delivers solutions provably within the reported optimality gap of the global optimum with mathematical certainty. Computational experiments on the Eastern Massachusetts network (74 nodes, 248 links), the Anaheim network (416 nodes, 914 links), and the Barcelona network (110 zones, 1020 nodes, and 2512 links) demonstrate exceptional performance. Our algorithm terminates in a reasonable runtime while achieving optimality gaps below 1% across all instances. Controlled benchmarks against two genetic algorithms on identical instances confirm that the proposed algorithm finds equal or better solutions in less computation time across all tested networks. The algorithm successfully handles problems with over 300,000 feasible combinations, transforming EV charging infrastructure planning into a tractable optimization suitable for practical decision making on real-world networks with optimality guaranteed.",
-      "venue": "Transportation Research Part B Methodological",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 3.261,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 1.024,
-        "transferable_insight": 1.0270000000000001,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 27,
-      "title": "AI-driven whole-life costing for decision-ready UK public building retrofits",
-      "authors": [
-        "Ziru Tao",
-        "Paul Baguley",
-        "Rashid; id_orcid 0000-0001-9983-5929 Maqbool",
-        "Obuks Ejohwomu"
-      ],
-      "date": "2026-10-16",
-      "source": "openalex",
-      "link": "https://doi.org/10.1007/s40747-026-02516-9",
-      "pdf_url": "",
-      "doi": "10.1007/s40747-026-02516-9",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W7210603173",
-      "semantic_scholar_id": "",
-      "abstract": "Abstract Public-sector building retrofits in the United Kingdom require decisions that balance whole-life cost, carbon reduction, service continuity and auditability under limited data and constrained capital budgets. This paper develops a decision-ready whole-life costing (WLC) workflow that integrates environmental, social and governance (ESG) priorities with uncertainty-aware artificial intelligence (AI) for public-building retrofit appraisal. The workflow combines national non-domestic Energy Performance Certificate (EPC) and Display Energy Certificate (DEC) data, Public Sector Decarbonisation Scheme (PSDS) delivery evidence and stakeholder inputs to construct a scenario library of public-building archetypes, retrofit actions and appraisal constraints. Stakeholder priorities from interviews, a questionnaire and a co-design workshop are translated into transparent weights using fuzzy analytic hierarchy process (F-AHP). These weights parameterise a reinforcement learning (RL) planner, while a Bayesian convolutional neural network–long short-term memory (BCNN–LSTM) surrogate provides uncertainty-bounded energy, carbon and cost trajectories for repeated policy evaluation. Results show that the workflow supports auditable retrofit sequencing across archetype and budget conditions and improves composite ESG performance relative to conventional WLC-only, £/tCO 2 e and static multi-criteria decision analysis (MCDA) baselines. For 1000 matched archetype–budget cases, the trained deep Q-network (DQN) decision-search stage achieves a 30.03-fold speedup over traditional scalar feasible-sequence enumeration. The contribution is an integrated and explainable WLC–ESG–AI workflow for early-stage public retrofit decision support. The current validation remains based on public datasets and scenario-level evidence so future work should extend the framework using project-specific metered data, digital twins and live portfolio deployment.",
-      "venue": "Complex & Intelligent Systems",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 2.835,
-      "score_breakdown": {
-        "paper_type": "transferable_method",
-        "direct_relevance": 2.7,
-        "novelty": 0.42,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.325,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "transferable_method",
-      "why_selected": "Selected because it may contain a transferable modeling or optimization idea related to transferable_insights.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 28,
-      "title": "Competition and Diversity in Generative AI",
-      "authors": [
-        "Manish Raghavan"
-      ],
-      "date": "2026-10-16",
-      "source": "openalex",
-      "link": "https://doi.org/10.1287/mnsc.2025.02761",
-      "pdf_url": "",
-      "doi": "10.1287/mnsc.2025.02761",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W4405311690",
-      "semantic_scholar_id": "",
-      "abstract": "Recent evidence, both in the laboratory and in the wild, suggests that the use of generative artificial intelligence reduces the diversity of content produced. As generative AI penetrates more markets and reaches widespread adoption, should we still expect to see content homogenization? Our work begins with a simple observation: content producers do not act in isolation. Instead, they compete with one another (e.g., for customers or attention). We explore the impact competition has on both content diversity and overall social welfare when producers use generative AI. Through a formal game-theoretic model, we show that competitive markets select for diverse AI models, mitigating monoculture. We further show that a generative AI model that performs well in isolation (i.e., according to a benchmark) may fail to provide value in a competitive market. Our results highlight the importance of evaluating generative AI models across the breadth of their output distributions, particularly when they will be deployed in competitive environments. We validate our theoretical results with a series of experiments involving generative text and image models. Overall, our results suggest that homogenization due to generative AI is unlikely to persist under strong competition. This paper was accepted by Itai Ashlagi, market design, platform, and demand analytics. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02761 .",
-      "venue": "Management Science",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.763,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 0.0,
-        "novelty": 2.38,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "Phylogenetic estimation of diversity-dependent biogeographic rates using deep learning",
-      "authors": [
-        "Soewongsono, A. C.",
-        "Landis, M. J."
-      ],
-      "date": "2026-10-15",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/15/2026.02.17.706216.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/15/2026.02.17.706216.source.xml",
-      "doi": "10.64898/2026.02.17.706216",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Ecological theory predicts that local species richness can influence biogeographic rates of speciation, extinction, and dispersal. For instance, increasing the number of competing species within a region may cause local speciation and dispersal rates to decrease but local extinction rates to increase, inducing a carrying capacity for local species richness. In this article, we introduce a fully generative, event-based phylogenetic diversification model, called DDGeoSSE, that allows diversity-dependent effects of local species richness to modulate biogeographic rates of diversification and range evolution. DDGeoSSE can accommodate and test a variety of alternative diversification scenarios that involve positive, negative, and neutral interactions among sympatric species for speciation, extinction, and dispersal. We derive mathematical and statistical properties of biogeographic outcomes generated by this model, such as the carrying capacity for a clade at equilibrium, which we validate through simulation. Because diversity-dependent phylogenetic models typically do not have tractable likelihood functions, we use deep learning with \\texttt{phyddle} to perform parameter inference and model selection. Separately applying DDGeoSSE to Caribbean \\textit{Anolis} lizards and cloud forest-dwelling \\textit{Viburnum} plants, we find evidence that local species richness plays a significant role in shaping diversification dynamics for both clades.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.715,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.793,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
       "rank": 30,
-      "title": "Open Dataset of Developmental Timelines for Corresponding Milestones in Mice, Rats, and Humans",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
       "authors": [
-        "Amici, E.",
-        "Grimson, R.",
-        "Vazquez-Borsetti, P."
+        "Shangheng Du",
+        "Jinxin Shi",
+        "Shuaiyu Zhang",
+        "Yiming Wu",
+        "Junpeng Zhao",
+        "Shiyang Feng",
+        "Xin Li",
+        "Liang He",
+        "Xiangchao Yan",
+        "Bo Zhang"
       ],
       "date": "2026-10-15",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/15/2026.10.09.757751.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/15/2026.10.09.757751.source.xml",
-      "doi": "10.64898/2026.10.09.757751",
-      "arxiv_id": "",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.22344v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22344v1",
+      "doi": "",
+      "arxiv_id": "2610.22344v1",
       "pubmed_id": "",
       "openalex_id": "",
       "semantic_scholar_id": "",
-      "abstract": "Translating developmental time across species is essential for the appropriate design and interpretation of preclinical neurodevelopmental research, yet no open, unified resource currently integrates high-quality developmental milestone data for mouse, rat, and human. Here we present a curated, open-access dataset of general and neurodevelopmental milestones spanning these three species, expanding a previously published rat--human database with newly compiled mouse data. Following a systematic literature search, 783 records covering 371 unique developmental milestones were extracted, standardized to days after fertilization, and validated through a structured curation and quality-control process. Exploratory analyses indicated that the developmental relationship between humans and rodents is markedly non-linear, with milestones becoming increasingly dispersed as development progresses. The observed pattern is consistent with the quarter-power model with an additive constant identified in a companion modeling study. Accordingly, applying a quarter-power transformation to human DAF substantially improved the linearity of developmental trajectories across species. Comparison of body and brain milestone clusters showed no detectable differences in scaling relative to humans, in line with similar underlying rules for somatic and neural development between rodents and humans. The dataset, together with its documented curation methodology, provides a transparent and extensible resource for cross-species developmental translation and a useful tool for informing the generation of animal models.",
-      "venue": "biorxiv",
+      "abstract": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously organize experiments and adapt optimization strategies based on execution feedback. However, feedback from each experiment reflects several preceding decisions, and a long MLE run contains many such costly experiments. Training must therefore select useful supervision from long interaction trajectories and learn from intermediate outcomes. We propose a post-training method for autonomous long-horizon MLE optimization and apply it to train MLExpert, a 35B Mixture-of-Experts agentic model. We design the Kaggle-MLE Factory to construct executable tasks and an interaction harness for model-directed experimentation. Hierarchical agentic SFT transfers general tool-use and coding capabilities to MLE through outcome-guided supervision. Windowed Interaction RL (WIRL) treats the multi-turn decisions between successive experiment results as an execution window and assigns it a shared outcome-based reward. Asynchronous collection and policy correction support policy updates before the trajectory ends. On MLE-Bench Lite, MLExpert improves the average medal rate of the base model from 37.9% to 72.7%, achieving performance comparable to larger frontier models such as Kimi-K3 and GLM-5.3. Further experiments show that MLExpert improves performance on NatureBench Lite, agent scaffold optimization, and algorithm optimization, suggesting that the learned optimization capability generalizes to other tasks.",
+      "venue": "",
       "code_url": "",
       "topic_tags": [],
-      "deterministic_score": 2.563,
+      "deterministic_score": 4.823,
       "score_breakdown": {
-        "paper_type": "benchmark_dataset",
+        "paper_type": "method",
         "direct_relevance": 0.0,
-        "novelty": 2.38,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.793,
+        "novelty": 1.8199999999999996,
+        "methodological_insight": 2.048,
+        "transferable_insight": 1.4949999999999999,
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
         "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
+        "source_credibility": 0.5599999999999999,
         "code_availability": 0.0,
         "recency": 0.8,
         "citation_signal": 0.0,
         "penalties": -4.0
       },
       "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to configured topics.",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
