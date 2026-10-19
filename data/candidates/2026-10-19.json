@@ -1,9 +1,9 @@
 {
   "date": "2026-10-19",
   "stats": {
-    "raw_candidates": 201,
-    "deduplicated_candidates": 170,
-    "filtered_candidates": 170,
+    "raw_candidates": 287,
+    "deduplicated_candidates": 196,
+    "filtered_candidates": 196,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -740,6 +740,58 @@
     },
     {
       "rank": 15,
+      "title": "Language Models Learn to Improve Language Models",
+      "authors": [
+        "Minhua Lin",
+        "Zijun Wang",
+        "Zewen Liu",
+        "Zhaotian Weng",
+        "Bing He",
+        "Zhan Shi",
+        "Benoit Dumoulin",
+        "Xiang Zhang",
+        "Suhang Wang",
+        "Hanqing Lu"
+      ],
+      "date": "2026-10-16",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.23344v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23344v1",
+      "doi": "",
+      "arxiv_id": "2610.23344v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements across models faces two challenges. First, training such an ability with real feedback is expensive: reinforcement learning (RL) requires evaluating tens of thousands of proposals, each potentially requiring a full model-training run. Even at ten GPU-hours per run, reward collection alone would consume hundreds of thousands of GPU-hours, motivating a cheaper surrogate. Second, surrogate feedback can become unreliable as policy optimization favors overestimated proposals when the proposal distribution shifts. To address these challenges, we propose LM2LM, which trains LLMs with RL to generate effective LM improvement proposals. To provide scalable feedback, we use a research world model (RWM), a frozen LLM that predicts proposal gains from real experimental records provided in context, as the reward model for RL. To maintain feedback reliability, we periodically execute current-policy proposals ranked highly by the RWM and add their measured outcomes to its context. Across eight autoregressive and diffusion LM development environments, real-execution evaluations on held-out tasks show that LM2LM enables Qwen3.8-27B to outperform GPT-6-sol, even when GPT-6-sol is given 300 real experimental records in context, while requiring 33% lower data-generation cost. LM2LM also generalizes to a model family unseen during training.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "transferable_insights"
+      ],
+      "deterministic_score": 8.982,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 2.7,
+        "novelty": 1.4,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.586,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 2.3,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 16,
       "title": "Impact of matched samples on domain harmonization in cross-cohort NMR metabolomics",
       "authors": [
         "Aigar Ottas",
@@ -785,7 +837,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "Systematic comparison of color representations between humans and deep neural networks: towards predicting human color perception in a vast color space",
       "authors": [
         "Wickramanayaka, N. R.",
@@ -829,7 +881,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "A decomposable branch-and-price formulation for optimal classification trees",
       "authors": [
         "Elif Rana Yöner",
@@ -872,7 +924,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "Targeting TMPRSS2-ERG Fusion-Driven Prostate Cancer using Novel HBS-α-Helicomimics",
       "authors": [
         "Kundu, S.",
@@ -920,7 +972,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "Green Chemistry Strategies for the Synthesis of Fluorinated Bioactive Molecules: Recent Advances and Future Directions",
       "authors": [],
       "date": "2026-10-17",
@@ -961,7 +1013,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "title": "Deterministic, branch-selective optimization of peptidomimetic scaffolds reveals design principles for targeting TNF-α.",
       "authors": [
         "Hao Chen",
@@ -1009,7 +1061,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "Sequence-based artificial intelligence-guided inhibitory peptides to counteract AAV neutralizing antibodies in gene therapy.",
       "authors": [
         "Bingqi Xu",
@@ -1069,7 +1121,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -1112,7 +1164,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "Content-adaptive Multi-channel Hybrid Quantum-classical Block-wise Optimization for Robust Image Watermarking",
       "authors": [
         "Nova Rijati",
@@ -1160,7 +1212,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "Reinforcement learning to disentangle multiqubit quantum states from partial observations",
       "authors": [
         "Pavel Tashev",
@@ -1209,7 +1261,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "Sequential Sampling as a Computational Principle of Episodic Memory",
       "authors": [
         "Kerren, C.",
@@ -1254,7 +1306,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "Machine Learning Modeling of Drill Cuttings Transport Based on Computational Fluid Dynamics Simulation Data",
       "authors": [
         "Kathrin Susanne Skinder",
@@ -1300,7 +1352,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "Adaptive storage optimization for deep learning workloads in converged HPC-cloud environments: a reinforcement learning approach",
       "authors": [
         "Hovhannes Baghdasaryan",
@@ -1344,7 +1396,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "A reinforcement learning framework for goal-directed stimulation of engineered neuronal networks",
       "authors": [
         "Maurer, B.",
@@ -1394,7 +1446,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "The Genetic Discovery (GeDi) resource: Deep characterization of a multi-ancestry panel of human reference iPSCs for functional genomic studies",
       "authors": [
         "Melo-Carrillo, A.",
@@ -1447,52 +1499,6 @@
       "priority": "Archive",
       "paper_type": "application",
       "why_selected": "Selected as a possible match to ai_drug_discovery, but Codex should verify novelty before final inclusion.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
-      "title": "The hive mind is a single reinforcement learning agent",
-      "authors": [
-        "Karthik Soma",
-        "Yann Bouteiller",
-        "Heiko Hamann",
-        "Giovanni Beltrame"
-      ],
-      "date": "2026-10-17",
-      "source": "openalex",
-      "link": "https://doi.org/10.1007/s11721-026-00264-7",
-      "pdf_url": "",
-      "doi": "10.1007/s11721-026-00264-7",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "https://openalex.org/W4404305154",
-      "semantic_scholar_id": "",
-      "abstract": "Abstract Decision-making is an essential attribute of any intelligent agent or group. Natural systems are known to converge to effective strategies through at least two distinct mechanisms: collective decision-making via imitation of others, and trial-and-error by a single agent. This paper establishes an equivalence between these two paradigms. We show that the emergent distributed cognition (sometimes referred to as the hive mind ) arising from individuals following simple, local imitation-based rules is that of a single online reinforcement learning (RL) agent aggregating action-value samples from many parallel instances of a multi-armed bandit. More specifically, we show that, in the blindly imitative weighted voter model of honey bees’ waggle dance, the update rule through which this macro-agent learns is an RL algorithm that we coin Maynard-Cross Learning . Our analysis implies that a group of individuals following simple imitative strategies can be equivalent to a more complex learning entity, substantiating the idea that group-level intelligence may explain how seemingly irrational individual behaviors are selected in nature. Beyond biology, the framework offers new tools for analyzing economic and social systems where individuals imitate successful strategies, effectively participating in a collective learning process. Our findings may further inform the design of scalable RL-inspired collective systems in artificial domains.",
-      "venue": "Swarm Intelligence",
-      "code_url": "",
-      "topic_tags": [
-        "transferable_insights"
-      ],
-      "deterministic_score": 4.186,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 2.7,
-        "novelty": 1.2599999999999998,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.23399999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.09030899869919436,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to transferable_insights.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     }
   ]
