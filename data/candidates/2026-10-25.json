@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "stats": {
-    "raw_candidates": 295,
+    "raw_candidates": 291,
     "deduplicated_candidates": 203,
     "filtered_candidates": 203,
     "sources_checked": [
