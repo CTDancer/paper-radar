@@ -1,9 +1,9 @@
 {
   "date": "2026-10-26",
   "stats": {
-    "raw_candidates": 190,
-    "deduplicated_candidates": 173,
-    "filtered_candidates": 173,
+    "raw_candidates": 126,
+    "deduplicated_candidates": 109,
+    "filtered_candidates": 109,
     "sources_checked": [
       "arxiv",
       "openalex",
@@ -130,6 +130,54 @@
     },
     {
       "rank": 3,
+      "title": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
+      "authors": [
+        "Zaifei Yang",
+        "Weiyu Chen",
+        "Yaqing Wang",
+        "James Kwok"
+      ],
+      "date": "2026-10-23",
+      "source": "arxiv",
+      "link": "http://arxiv.org/abs/2610.32620v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32620v1",
+      "doi": "",
+      "arxiv_id": "2610.32620v1",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "LLM agents optimize a ligand in a protein pocket by editing it step by step and docking each edit. Recent agents first spend extra dockings probing the complex with controlled edits; guidance induced from these probes is reported to help more than the chemical knowledge the model already carries. The probes are then discarded with the instance that produced them, so the obvious next step is to keep them in an experience base, letting a new pocket inherit what earlier ones already paid for. Such a base is read through a \\emph{key}: the record properties under which past edits are pooled and a new one is looked up. Using the full log of one such run over the CrossDocked2020 test-set pockets, we ask whether its keys recur on a pocket the base has never seen and still separate improving from worsening edits. \\crchange{Using} the contacts at the site being edited, the action, and the round as \\crchange{a} key, the base separates them sharply. Within our analysis, this separation is largely explained by how much the edit changed the molecule's size, the action, and the round, none of which describes the target. That is not because the target is irrelevant: naming it outright separates them several times more sharply. For a pocket absent from the base, transfer must rely on a description rather than its identity. Among the exact-match descriptions we evaluate, the more specific ones rarely recur, whereas the coarser ones provide little separation; the signals that do transfer primarily describe the edit and the molecule it produced rather than the target. Under the representations and lookup scheme studied here, an experience base may be more useful for prioritizing an agent's own proposals for docking than for directly prescribing what to build.",
+      "venue": "",
+      "code_url": "",
+      "topic_tags": [
+        "ai_drug_discovery",
+        "protein_ligand_affinity",
+        "structure_based_drug_design"
+      ],
+      "deterministic_score": 22.201,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 14.850000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.559,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.5599999999999999,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -0.0
+      },
+      "priority": "Strong Skim",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, protein_ligand_affinity, structure_based_drug_design.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 4,
       "title": "Generative design of funicular shells via physics-guided diffusion",
       "authors": [
         "Pedro Martínez-Huertas",
@@ -178,7 +226,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Deciphering the Structure-Activity Relationships Underpinning the Linkerology of Bivalent EGFR Inhibitors.",
       "authors": [
         "Kishan B Patel",
@@ -238,7 +286,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Designing rigid protein fiducials to visualize GPCR conformational states",
       "authors": [
         "Alina Vo Vo",
@@ -285,7 +333,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Can DFT-Trained Neural Network Potentials Reproduce Structure, Solvation, and Water-Exchange Properties in Aqueous Magnesium Solutions?",
       "authors": [
         "Sebastian Falkner",
@@ -329,50 +377,6 @@
       "priority": "Strong Skim",
       "paper_type": "benchmark_dataset",
       "why_selected": "Selected because it may introduce a benchmark or dataset relevant to stochastic_processes_probability_statistical_physics, computational_chemistry_biophysics_structural_biology.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 7,
-      "title": "PROTFIG: one-command, publication-quality biomolecular figures",
-      "authors": [
-        "Chi, L. A."
-      ],
-      "date": "2026-10-23",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.20.760606.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.20.760606.source.xml",
-      "doi": "10.64898/2026.10.20.760606",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Molecular structures contain rich information about biomolecular interactions, but translating this information into clear, scientifically informative figures remains a largely manual process. Producing publication-quality illustrations requires decisions about molecular representations, colors, structural features, camera orientation, and annotations, often involving extensive user interaction, expertise and limiting reproducibility. Here, we introduce PROTFIG, an open-source, PyMOL-based command-line tool that transforms biomolecular structures into scientifically informative, reproducible, and editable figures with minimal manual intervention. Given a structure file, PDB identifier or PyMOL scene, PROTFIG automatically identifies relevant molecular components and structural features, selects appropriate visual representations, and generates publication-quality figures using sixteen customizable presets. These cover a broad range of structural contexts, including protein-ligand and protein-peptide interactions, binding pockets, electrostatic surfaces, protein-protein interfaces, oligomeric assemblies, and membrane proteins. Figures can be customized through command-line options or TOML configuration files, while saved PyMOL sessions preserve full editability. We demonstrate the versatility of PROTFIG using representative structures relevant to drug discovery and public health, including GLP-1 receptor agonists, targeted protein degraders, and H5N1 influenza hemagglutinin. By combining automated structural interpretation with reproducible visualization workflows, PROTFIG makes the generation of scientifically informative molecular figures more accessible, consistent, and efficient.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery",
-        "protein_ligand_affinity"
-      ],
-      "deterministic_score": 13.749,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 8.100000000000001,
-        "novelty": 1.4,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -0.0
-      },
-      "priority": "Strong Skim",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to ai_drug_discovery, protein_ligand_affinity.",
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
@@ -706,6 +710,50 @@
     },
     {
       "rank": 15,
+      "title": "Investigation and Optimization of Air Pollution Risk by a Multi-criteria Decision Making Method Using Fuzzy TOPSIS: A Case Study of Construction Workers",
+      "authors": [
+        "Eghbal Sekhavati",
+        "Reza Jalilzadeh Yengejeh"
+      ],
+      "date": "2121-10-01",
+      "source": "crossref",
+      "link": "https://doi.org/10.32598/jaehr.9.4.1229",
+      "pdf_url": "",
+      "doi": "10.32598/jaehr.9.4.1229",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "",
+      "semantic_scholar_id": "",
+      "abstract": "Background: Investigating human health during work importantly affect the safety and efficiency of the society. Different types of activity, including industrial, constructional, heavy duty ones, etc., affect the health of workers during their activities. In this study, the Multi-Objective Decision-Making (MODM) method was combined with fuzzy TOPSIS to investigate and optimize the air pollution risk affecting the health and safety of construction workers of Lar City, Fars Province, Iran. Methods: The comparison matrices (binary) and the Phillips–Perron test of different criteria and sub-criteria of health risk, including safety view, safety efficiency, understanding the risk, and risk investigation, were assessed to find the most influential factors for the optimization of the health risk of the workers. Results: Accordingly, the results indicated that “understanding the risk” followed by “safety efficiency” affected the health risk of the construction workers the most. However, among the sub-criteria, the most effective ones were “worker knowledge”, “manager knowledge”, “logistic specialized managers”, “modern facilities”, and “modern technology”. The selection of the linear and non-linear models was conducted according to the F values, and the model parameters were estimated using the Newton-Raphson test. Most coefficients were significant at P= 0.99. The model also has a high describing value of 0.97. The final estimated homogeneity coefficient was equal to 1.31, and it ranged from 0.86 to 2.72 for the critical risk investigation. The significance of the present research is to increase the health and safety of workers during work resulting in a more sustainable and healthier environment. Conclusion: Accordingly, the managers could handle the risks, determine the tolerable risks, indicate the risk of each process to control expenses, and take the essential measures for optimization.",
+      "venue": "Journal of Advances in Environmental Health Research",
+      "code_url": "",
+      "topic_tags": [
+        "multi_objective_optimization"
+      ],
+      "deterministic_score": 6.949,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 4.050000000000001,
+        "novelty": 0.42,
+        "methodological_insight": 1.536,
+        "transferable_insight": 1.352,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.42,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.27092699609758303,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to multi_objective_optimization.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 16,
       "title": "Optimizing Entanglement Distillation Policies via Markov Decision Process Formulation",
       "authors": [
         "Jigyen Bhavsar",
@@ -750,7 +798,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "Sequence-based artificial intelligence-guided inhibitory peptides to counteract AAV neutralizing antibodies in gene therapy.",
       "authors": [
         "Bingqi Xu",
@@ -810,7 +858,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "Fast Solution Methods for the Classical 0–1 Knapsack Problem",
       "authors": [
         "Hsu Feng"
@@ -851,57 +899,6 @@
       "paper_type": "review",
       "why_selected": "Selected as a possible match to graph_algorithms_and_discrete_structures, but Codex should verify novelty before final inclusion.",
       "possible_concerns": "classified as review"
-    },
-    {
-      "rank": 18,
-      "title": "Rapid Production and Cryo-EM Structure Determination of GPCR-Nanodisc Complexes via Cell-Free Synthesis",
-      "authors": [
-        "Guilliam, T. A.",
-        "Jakimowicz, A. K.",
-        "Manni, M. M.",
-        "Gaber, Z. B.",
-        "Paris, G.",
-        "Hardwick, S. W.",
-        "Cooper, L.",
-        "Chirgadze, D. Y.",
-        "Ost, T. W."
-      ],
-      "date": "2026-10-23",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.21.760646.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.21.760646.source.xml",
-      "doi": "10.64898/2026.10.21.760646",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "G protein-coupled receptors (GPCRs) represent major therapeutic targets, yet cryo-EM structure determination of unliganded or antagonist-bound GPCRs remains severely bottlenecked by small receptor mass, detergent-induced instability, and multi-week cell-based production pipelines. Here, we combine intracellular loop 3 (ICL3) rigid fiducial engineering with a high-throughput, cell-free protein synthesis workflow to rapidly generate cryo-EM-ready GPCR-nanodisc assemblies. Using the eProtein Discovery(TM) digital microfluidics system, we performed automated nanoliter-scale screening of construct fusions and nanodisc lipid compositions, establishing that co-translational insertion into nanodiscs is strictly required for receptor solubilization and affinity purification. Direct scale-up of screening conditions yielded structural-grade protein within four days from gene assembly to grid vitrification. We demonstrate this workflow with a 3.38 Angstrom cryo-EM structure of antagonist-bound human adenosine A2A receptor (A2AR)-beta-lactamase fusion in complex with beta-lactamase inhibitory protein II (BLIP-II). To demonstrate generalizability of protein quality, we extended this detergent-free co-translational pipeline to an expanded panel of 12 wild-type GPCRs spanning Classes A, B, and C, as well as six orphan receptors. All targets were purified with biophysical quality comparable to the A2AR benchmark. By removing the reliance on cellular expression or agonist/G-protein stabilization and compressing construct assembly, nanodisc screening, biophysical quality control, and grid vitrification into a four-day turnaround, this detergent-free cell-free pipeline provides a rapid Design-Build-Test-Learn (DBTL) engine to accelerate structure-based drug discovery for challenging and unliganded GPCR targets.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "ai_drug_discovery"
-      ],
-      "deterministic_score": 5.969,
-      "score_breakdown": {
-        "paper_type": "benchmark_dataset",
-        "direct_relevance": 4.32,
-        "novelty": 1.4,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "benchmark_dataset",
-      "why_selected": "Selected because it may introduce a benchmark or dataset relevant to ai_drug_discovery.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
       "rank": 19,
@@ -1124,49 +1121,6 @@
     },
     {
       "rank": 24,
-      "title": "Learning distributed representations with complementary components - A generative approximation framework for episodic memory encoding",
-      "authors": [
-        "Liu, H.",
-        "Mattar, M.",
-        "Michelmann, S."
-      ],
-      "date": "2026-10-23",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.18.759853.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.18.759853.source.xml",
-      "doi": "10.64898/2026.10.18.759853",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Episodic memory must preserve detail while storing memories efficiently. We propose a framework of memory encoding in which generative neural network models approximate input through their frozen weights, yielding starting points from which the same weights can reinstate the input. This removes the need for mutually invertible cortical-hippocampal mappings, realizes a tradeoff between computational effort and mnemonic precision, and uses statistical regularities of the stimulus space to find representations that are distributed across the network. We implement this principle with a toy model and with large image-generation AI models, operationalizing mnemonic precision as closer approximation. Our model reproduces key findings from the Mnemonic Similarity Task: shallow encoding selectively impairs lure rejection, as observed in aging populations. Encoding further benefits from expertise: domain-finetuned models need fewer approximation steps for images from their own domain than for images from other domains. Finally, the representational geometry of latent starting points resembles medial temporal lobe but reinstatement through the weights of the network traverses the visual hierarchy in reverse order. Our framework offers a parsimonious and flexible account of memory encoding, where a generative search for a reinstatement-capable starting point finds a path for retrieval directly.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 4.394,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 1.8199999999999996,
-        "methodological_insight": 0.0,
-        "transferable_insight": 0.8839999999999999,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 2.3,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 25,
       "title": "Functional characterization of a MatE transporter in Methermicoccus shengliensis and evolutionary diversity of archaeal MatE transporters",
       "authors": [
         "Huan Leng"
@@ -1210,7 +1164,7 @@
       "possible_concerns": "classified as review"
     },
     {
-      "rank": 26,
+      "rank": 25,
       "title": "Learning Dominant States in Elementary Resource Constrained Shortest Path Problems",
       "authors": [
         "Saverio Basso",
@@ -1255,7 +1209,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 27,
+      "rank": 26,
       "title": "Translating Between the Representations of an Acyclic Convex Geometry of Bounded Degree",
       "authors": [
         "Oscar Defrain",
@@ -1300,98 +1254,7 @@
       "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
     },
     {
-      "rank": 28,
-      "title": "Voltage versus concentration in ion channels: Physical signatures reveal rate-limiting steps",
-      "authors": [
-        "Weckel-Dahman, H.",
-        "Carlsen, R.",
-        "Harmon, O.",
-        "Daum, A. D.",
-        "Swanson, J. M."
-      ],
-      "date": "2026-10-23",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.22.760804.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.22.760804.source.xml",
-      "doi": "10.64898/2026.10.22.760804",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Within the field of electrophysiology, I-V curves are a primary experimental means of characterizing ion channel behavior. By directly measuring ionic currents across membranes, electrophysiological techniques quantify key properties, including conductance, ion selectivity, and voltage dependence. We demonstrate a method of linking experimentally observed ion flux with microscopic mechanistic properties of channels. Although voltage and chemical potential can provide the same net electrochemical driving force, they perturb ion transport differently: voltage modifies transition rates throughout the permeation pathway, whereas chemical potential primarily alters ion uptake probabilities. Consequently, uptake, transfer, and release respond differently to the two driving forces, producing distinct flux signatures and causing chemical potential-driven flux to plateau while voltage-driven flux continues to increase. These differences encode the rate-limiting step (RLS) in open-channel flux. We propose a protocol based on three standard I-V measurements obtained under symmetric and asymmetric ion concentrations for elucidating the RLS. Application of this analysis to experimental data from the KcsA potassium channel identifies release as the RLS for outward permeation, consistent with available structural and computational evidence. Together, these results reveal how the physics of the electrochemical driving force shapes ion transport and provide an experimentally accessible strategy for connecting macroscopic electrophysiology measurements to microscopic transport mechanisms.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [
-        "medicinal_and_synthetic_chemistry"
-      ],
-      "deterministic_score": 2.91,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 3.24,
-        "novelty": 1.4,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.46799999999999997,
-        "drug_discovery_relevance": 0.0,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 0.0,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to medicinal_and_synthetic_chemistry.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 29,
-      "title": "Purification of filamentous phage ssDNA genomes using Chaotropic salt/silica methods",
-      "authors": [
-        "Perez Rodriguez, S.",
-        "Khosravi, A.",
-        "Milla, C.",
-        "Bollyky, P."
-      ],
-      "date": "2026-10-23",
-      "source": "biorxiv",
-      "link": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.21.760820.source.xml",
-      "pdf_url": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.21.760820.source.xml",
-      "doi": "10.64898/2026.10.21.760820",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "openalex_id": "",
-      "semantic_scholar_id": "",
-      "abstract": "Filamentous phages play important roles in molecular biology and bacterial pathogenesis. There is therefore great interest in the genomes of the phages, including M13 and Pf, which infect Escherichia coli and Pseudomonas aeruginosa, respectively. However, efficient methods for purifying single-stranded DNA (ssDNA) from filamentous phages are scarce and rely mainly on repurposed commercial kits developed for dsDNA. These kits yield variable amounts of ssDNA, varying considerably from one phage to another, their solutions are proprietary and troubleshooting, and customizing the protocol to improve purification is not possible. Here, we developed and optimized two protocols based on ssDNA binding to silica columns in the presence of guanidine hydrochloride and potassium iodide chaotropic salts, for filamentous phages M13KO7 and Pf4. The protocols achieved 60 to 100% recovery, equal to or higher than the Monarch Spin gDNA Extraction and DNeasy Blood and Tissue kits, with similar A260/280 and A260/230 ratios, intact DNA in agarose gels, and no detectable host genomic DNA by PCR. Recovery depended critically on the chaotropic salts and on ethanol, and did not increase at lower pH, consistent with a water-exclusion model in which hydrophobic interactions and hydrogen bonding dominate over electrostatic repulsion. Phage-specific differences in recovery indicate that optimization may be needed for some phages, which the fully customizable nature of these protocols facilitates. Comparing the virion ssDNA with the double-stranded replicative form (RF) revealed genome variants in both phages, including a shorter M13KO7 form lacking the kanamycin resistance-p15A insert, and illustrates the value of analyzing both RF and ssDNA forms to study filamentous phage biology. Implementing these protocols in routine filamentous phage workflows should facilitate their characterization and engineering.",
-      "venue": "biorxiv",
-      "code_url": "",
-      "topic_tags": [],
-      "deterministic_score": 2.861,
-      "score_breakdown": {
-        "paper_type": "method",
-        "direct_relevance": 0.0,
-        "novelty": 0.0,
-        "methodological_insight": 0.512,
-        "transferable_insight": 0.559,
-        "drug_discovery_relevance": 2.4,
-        "generative_modeling_relevance": 0.0,
-        "optimization_relevance": 2.1,
-        "current_project_relevance": 0.0,
-        "source_credibility": 0.48999999999999994,
-        "code_availability": 0.0,
-        "recency": 0.8,
-        "citation_signal": 0.0,
-        "penalties": -4.0
-      },
-      "priority": "Archive",
-      "paper_type": "method",
-      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
-      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
-    },
-    {
-      "rank": 30,
+      "rank": 27,
       "title": "FARABI: fuzzy-assisted routing for adaptive blockage-resilient 6G IoV",
       "authors": [
         "Shahrzad Sedaghat"
@@ -1419,6 +1282,140 @@
         "drug_discovery_relevance": 0.0,
         "generative_modeling_relevance": 0.0,
         "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "method",
+      "why_selected": "Selected because it looks like a method paper connected to configured topics.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 28,
+      "title": "Pectinase-Based Bioprocesses for Circular Bioeconomy and Sustainable Industrial Development.",
+      "authors": [
+        "Nisha Sharma",
+        "Dimple Tanwar",
+        "Usha Grewal",
+        "Murugesan Mohana Keerthi",
+        "Yogesh K. Ahlawat",
+        "Nitin Pandey",
+        "Chirag G. Makvana"
+      ],
+      "date": "2026-11-01",
+      "source": "openalex",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42530034",
+      "pdf_url": "",
+      "doi": "10.1002/bit.70312",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7171789061",
+      "semantic_scholar_id": "",
+      "abstract": "Pectinases play a vital role in the degradation of pectic part of the plant cell wall and are considered in the group of hydrolytic enzymes. In the present scenario, demand of economically feasible and environment friendly techniques and approaches has significantly led the research on the microbial production, standardization of process parameters and improvements of pectinases. The development of pectinase-based bioprocesses has been found to promote sustainable industrial practices by reducing the use of chemicals, energy, and waste, thereby supporting eco-friendly production systems. The unique aspect of this review is that it explains traditional methods of pectinase production alongside novel methods, which include solid-state and submerged fermentation, recombinant DNA techniques, heterologous gene expression, protein engineering, CRISPR/Cas genome editing technologies, enzyme immobilization, and nanobiotechnological methods, which improve the production, stability, and performance of pectinases. It further demonstrates the increasing importance of the use of pectinases in sustainable manufacturing through decreasing the use of chemicals and energy, as well as reducing waste production from industry. It illustrates that innovations in microbial strain engineering, process optimization, and utilization of low-cost substrates have significantly increased the economic viability and efficiency of producing pectinases. Yet, some issues associated with commercialization, standardization of production processes, recovery, and stability of enzymes still exist. Overall, this review paper gives an overview of the recent advancements and limitations of next-generation pectinases.",
+      "venue": "PubMed",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.722,
+      "score_breakdown": {
+        "paper_type": "review",
+        "direct_relevance": 0.0,
+        "novelty": 0.42,
+        "methodological_insight": 0.512,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 2.4,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "review",
+      "why_selected": "Selected as a possible match to configured topics, but Codex should verify novelty before final inclusion.",
+      "possible_concerns": "classified as review"
+    },
+    {
+      "rank": 29,
+      "title": "Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives",
+      "authors": [
+        "Hongyu Xia"
+      ],
+      "date": "2026-12-31",
+      "source": "openalex",
+      "link": "https://philpapers.org/rec/XIADPM",
+      "pdf_url": "https://philpapers.org/archive/XIADPM.pdf",
+      "doi": "10.17613/765dw-e3t58",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7203455710",
+      "semantic_scholar_id": "",
+      "abstract": "Electrified agricultural machinery increasingly relies on permanent-magnet synchronous motor drives that must remain dependable under variable traction, terrain-induced vibration, thermal cycling, contamination, and intermittent duty. Existing work offers mature methods for motor fault diagnosis, digital twins, predictive maintenance, and distributed-drive fault-tolerant control, but their health information is often not shared across diagnosis, maintenance, and control. This article develops a multiphysics digital-twin framework in which electrical, thermal, mechanical, and vibrational evidence maintains a probabilistic health belief that constrains both supervisory maintenance decisions and torque redistribution. The framework formalizes observability, uncertainty-aware health factors, deterministic safety shielding, multi-rate fallback logic, and agriculture-specific traction constraints. Reproducible low-fidelity numerical studies provide preliminary support for context-conditioned residual diagnosis and the revised thermal-continuity trade-off underlying health-aware derating, including robustness and sensitivity analyses. They do not validate sim-to-real transfer or the reinforcement-learning policy itself; those hypotheses remain open for dynamometer and hardware-in-the-loop testing. The results are therefore interpreted as mechanism-level evidence rather than field-performance validation.",
+      "venue": "PhilPapers (PhilPapers Foundation)",
+      "code_url": "",
+      "topic_tags": [
+        "transferable_insights"
+      ],
+      "deterministic_score": 2.51,
+      "score_breakdown": {
+        "paper_type": "transferable_method",
+        "direct_relevance": 2.7,
+        "novelty": 0.42,
+        "methodological_insight": 0.0,
+        "transferable_insight": 0.0,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 2.1,
+        "current_project_relevance": 0.0,
+        "source_credibility": 0.48999999999999994,
+        "code_availability": 0.0,
+        "recency": 0.8,
+        "citation_signal": 0.0,
+        "penalties": -4.0
+      },
+      "priority": "Archive",
+      "paper_type": "transferable_method",
+      "why_selected": "Selected because it may contain a transferable modeling or optimization idea related to transferable_insights.",
+      "possible_concerns": "No obvious concern from metadata; still verify from the abstract."
+    },
+    {
+      "rank": 30,
+      "title": "Discontinuous Galerkin Finite Element Operator Network for Solving Non-Smooth PDEs",
+      "authors": [
+        "Kapil Chawla",
+        "Youngjoon Hong",
+        "Jae Yong Lee",
+        "Sanghyun Lee"
+      ],
+      "date": "2026-10-23",
+      "source": "openalex",
+      "link": "https://doi.org/10.1137/26m1839136",
+      "pdf_url": "",
+      "doi": "10.1137/26m1839136",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "openalex_id": "https://openalex.org/W7119519539",
+      "semantic_scholar_id": "",
+      "abstract": "Abstract. We introduce the Discontinuous Galerkin Finite Element Operator Network (DG–FEONet), a data-free operator learning framework that combines the strengths of the discontinuous Galerkin (DG) method with neural networks to solve parametric partial differential equations (PDEs) with discontinuous coefficients and non-smooth solutions. Unlike traditional operator learning models such as DeepONet and Fourier Neural Operator, which require large paired datasets and often struggle near sharp features, our approach minimizes the residual of a DG-based weak formulation using the symmetric interior penalty Galerkin (SIPG) scheme. DG-FEONet predicts elementwise solution coefficients via a neural network, enabling data-free training without the need for precomputed input-output pairs. We provide theoretical justification through convergence analysis and validate the model’s performance on a series of one- and two-dimensional PDE problems, demonstrating accurate resolution of discontinuous coefficients, sharp features, and interface-induced non-smoothness, strong generalization across parameter space, and reliable convergence rates. Our results highlight the potential of combining local discretization schemes with machine learning to achieve robust, non-smooth-feature-aware operator approximation in challenging PDE settings.",
+      "venue": "SIAM Journal on Scientific Computing",
+      "code_url": "",
+      "topic_tags": [],
+      "deterministic_score": 2.47,
+      "score_breakdown": {
+        "paper_type": "method",
+        "direct_relevance": 0.0,
+        "novelty": 3.2199999999999998,
+        "methodological_insight": 1.024,
+        "transferable_insight": 0.9359999999999999,
+        "drug_discovery_relevance": 0.0,
+        "generative_modeling_relevance": 0.0,
+        "optimization_relevance": 0.0,
         "current_project_relevance": 0.0,
         "source_credibility": 0.48999999999999994,
         "code_availability": 0.0,
